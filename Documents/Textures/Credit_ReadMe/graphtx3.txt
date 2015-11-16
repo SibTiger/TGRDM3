@@ -1,0 +1,49 @@
+http://www.doomworld.com/afterglow/textures/zips/graphtx3.zip
+
+
+===============================================================
+These textures were converted by Derek Mac Donald aka Afterglow.
+I can be contacted at derekmd@frad.org and you can get more
+textures for Doom2 at my site http://www.doomworld.com/afterglow/
+
+===============================================================
+Title                   : Graphtallica Texture Pack for Doom2 #3
+Filename                : graphtx3.zip - graphtx3.wad, graphtx3.txt
+Date Released           : September 18th, 1999
+Author                  : Sean Johnson
+Email Address           : sean@dpsoft.com
+Web Site                : http://www.3dpalette.com/graphtallica
+Description             : 25 textures converted to Doom 2. (Sorry, no flats)
+
+================================================================
+
+* Play Information *
+
+Game                    : DOOM II
+Episode and Level #     : N/A
+Single Player           : N/A
+Cooperative 2-4 Player  : N/A
+Deathmatch 2-4 Player   : N/A
+Difficulty Settings     : N/A
+New Sounds              : N/A
+New Graphics            : Yes
+New Music               : N/A
+Demos Replaced          : None
+
+* Construction *
+
+Base                    : Textures all created from scratch
+Editor(s) used          : Paint Shop Pro 5.01, Wintex 4.3
+Known Bugs              : Nope.
+
+* Copyright / Permissions *
+
+You can use these babies anyway you like, in a map, a TC, even in a
+commercial project... I don't care. Just maybe give me a little recognition
+somewhere or email me and show me what cool thing you're making with these
+textures.
+
+* Where to get this WAD *
+
+http://www.doomworld.com/afterglow/
+ftp://ftp.cdrom.com/pub/idgames/graphics/graphtx3.zip

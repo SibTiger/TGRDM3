@@ -1,0 +1,75 @@
+Actor TGRRailgun : DoomWeapon 5012
+{
+    Game Doom
+    Radius 20
+    Height 16
+    Weapon.Kickback 50
+    Weapon.SelectionOrder 4500
+    Inventory.PickupMessage "Picked Up: Railgun"
+    HitObituary "[%o] -->> Railgun -->> [%k]"
+    Tag "Railgun"
+    // Standards
+    // ===========
+        +Inventory.Untossable // Can not 'drop (CCMD)' the weapon
+        +Inventory.Undroppable // Weapon can never be taken away from the player's inventory.
+        +Weapon.NoAutoAim // Disallow AutoAim with this weapon.
+        +Weapon.No_Auto_Switch // When this weapon is picked up, do not switch to it.
+        Weapon.BobStyle InverseSmooth // Different taste of bobbing; use Doom Alpha's bobbing style - but smooth.
+
+        // Because some mods in Zandronum abuse the ConsoleCommand to change the user's settings; I found one that changes bobbing....
+            Weapon.BobRangeX 1.0
+            Weapon.BobRangeY 1.0
+            Weapon.BobSpeed  1.0
+            Weapon.YAdjust 10
+    // ------
+    // ======
+
+    // ----
+    // Flags, Switches, and Properties
+    // =================================
+    +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
+    -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
+    Weapon.PreferredSkin "Railgun-Marine" // Zandronum feature only; dependency required: MarineSkins
+    // ------
+    // ======
+
+    // ----
+    // Ammo Management
+    Weapon.AmmoUse 1
+    Weapon.AmmoGive 12
+    Weapon.AmmoType "Cell"
+    Decal RailScorch
+    // ----
+    Inventory.Icon "RAILA0"
+    // ------
+    States
+    {
+    Ready:
+        RLGG A 1 A_WeaponReady
+        Loop
+    Deselect:
+        RLGG A 1 A_Lower
+        Loop
+    Select:
+        RLGG A 1 A_Raise
+        Loop
+    Fire:
+        RLGG B 1 BRIGHT
+        RLGG C 1 BRIGHT
+        RLGG D 1 A_FireRailgun
+        Goto CoolDown
+    CoolDown: //Cool down state
+        RLGG D 12
+        RLGG C 6
+        RLGG B 6
+        Goto Ready
+    Flash:
+        TNT1 A 5 bright A_Light1
+        TNT1 A 5 bright A_Light2
+        TNT1 A 0 bright A_Light0
+        Goto LightDone
+    Spawn:
+        RAIL A -1
+        Stop
+    }
+}

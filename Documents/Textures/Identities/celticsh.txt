@@ -1,0 +1,95 @@
+=====================================================
+Afterglow
+http://www.doomworld.com/afterglow/textures.shtml
+=====================================================
+
+
+Base File: celticsh.zip
+Location: http://www.doomworld.com/afterglow/textures/zips/celticsh.zip
+
+
+Identity Textures:
+    BARK
+        TX0_13X
+    CARVING
+        TX0_13Y
+    CARVINGB
+        TX0_13Z
+    DECOR01
+        TX0_140
+    DIRT2
+        TX0_141
+    DIRT3
+        TX0_142
+    EMBERS
+        TX0_143
+    LIFETREE
+        TX0_144
+    MARBLE1
+        TX0_145
+    MARBLE1B
+        TX0_146
+    MARBLE2
+        TX0_147
+    MARBLE2B
+        TX0_148
+    ROCK1
+        TX0_149
+    ROCK2
+        TX0_14A
+    ROCK2A
+        TX0_14B
+    ROCK2B
+        TX0_14C
+    ROCK3
+        TX0_14D
+    SNOW
+        TX0_14E
+    SNOW3
+        TX0_14F
+    SNOW5
+        TX0_14G
+    SNOW6
+        TX0_14H
+    SNOW7
+        TX0_14I
+    SNOW8
+        TX0_14J
+    SNOW9
+        TX0_14K
+    STONE1
+        TX0_14L
+    STONE2
+        TX0_14M
+    STONE3
+        TX0_14N
+    STONE4
+        TX0_14O
+    WALL1
+        TX0_14P
+    WALL1B
+        TX0_14Q
+    WALL1C
+        TX0_14R
+    WALL2
+        TX0_14S
+    WALL2B
+        TX0_14T
+    WALL2C
+        TX0_14U
+    WALL3
+        TX0_14V
+    WOOD
+        TX0_14W
+    WOOD1
+        TX0_14X
+    WOOD2
+        TX0_14Y
+    WOODB
+        TX0_14Z
+    WOODC
+        TX0_150
+    WOODD
+        TX0_151
+    WOODE
+        TX0_152

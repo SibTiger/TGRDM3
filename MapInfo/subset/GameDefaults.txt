@@ -1,0 +1,18 @@
+GameDefaults
+{
+    UsePlayerStartZ //If the PlayerStart is on a 3D Object, the player will now spawn ontop of it (depending on Z-Height specified)
+    SpawnWithWeaponRaised
+    SmoothLighting
+    FallingDamage
+    AllowRespawn
+    AllowJump
+    AllowCrouch
+    AllowFreelook
+    CheckSwitchRange
+    Grinding_PolyObj
+    SkyStretch //Enforce Sky stretching regardless of users settings
+    LightMode = 0 //Standard Lighting - OpenGL
+    AirControl = 0.00390625 //Standard; this should _force_ child ports that differ in AirControl to use the ZDoom standard.
+    Gravity = 800 //Standard; this should _force_ child ports that differ in Gravity to use the ZDoom standard.
+    AirSupply = 20 //Standard; this should _force_ child ports that differ in AirSupply to use the ZDoom standard.
+}

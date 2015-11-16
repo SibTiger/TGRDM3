@@ -1,0 +1,10 @@
+//Clear _ALL_ of the episodes that is defined before this PWAD.
+ClearEpisodes
+
+
+//Main Stock
+Episode MAP01
+{
+    Name = "Morgenstern"
+    NoSkillMenu //Not needed in Deathmatch.
+}

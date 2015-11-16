@@ -1,0 +1,74 @@
+===========================================================================
+Archive Maintainer      : Suggest 'graphics/' as the section
+Update to               : None
+Advanced engine needed  : None
+Primary purpose         : No levels included
+===========================================================================
+Title                   : Doom Noir
+Filename                : doomnoir.wad
+Release date            : 2005-12-30
+Author                  : Jon Dowland
+Email Address           : jon@alcopop.org
+Other Files By Author   : 10sectors.wad; http://freedoom.sf.net/
+Misc. Author Info       : http://alcopop.org/me/
+
+Description             : This is just a PLAYPAL/COLORMAP
+                          replacement that changes DOOM into a
+                          *mostly* black and white game. The red
+                          range is left as-is.
+                          
+                          I originally put this together back in
+                          the late nineties and it languished on
+                          my hard drive afterwards. Sometime
+                          recently, I think it was the film "Sin
+                          City" that reminded me of this.
+
+                          I looked around and there is another
+                          B&W PWAD called "ww-nfoir.wad".
+                          However it doesn't leave the red range
+                          alone: That's made B&W too.
+
+                          I also threw in some new BSPLAT
+                          sprites taken from "gib.wad"; another
+                          PWAD sitting on my HD.
+
+===========================================================================
+* What is included *
+
+New levels              : None
+Sounds                  : No
+Music                   : No
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+
+
+* Play Information *
+
+Game                    : DOOM / DOOM2
+Map #                   : Any
+Single Player           : Yes
+Cooperative 2-4 Player  : Yes
+Deathmatch 2-4 Player   : Yes
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : Not long 
+Editor(s) used          : inkworks; wintex; paint shop pro 5 or 7
+Known Bugs              : Graphics using the pink range can look odd
+
+
+* Copyright / Permissions *
+
+Do whatever you want with this file.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.3dgamers.com/pub/idgames/ and mirrors
+Web sites: http://www.doomworld.com/idgames/; 
+           http://alcopop.org/games/doom/
+

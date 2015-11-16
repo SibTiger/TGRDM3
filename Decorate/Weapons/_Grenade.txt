@@ -1,0 +1,42 @@
+Actor TGRGrenade
+{
+    Obituary "[%o] -->> Grenade Launcher -->> [%k]"
+    Game Doom
+    Radius 8
+    Height 8
+    Speed 20 //Original was 25; test
+    Damage 35 //Original was 20; test
+    Gravity .7 //Original was .25
+    // ----
+    // Flags, Switches, and Properties
+    // =================================
+        Projectile
+        BounceType "Doom"
+        ProjectileKickBack 40
+        RadiusDamageFactor 2 //2x=y
+        -NoGravity
+        +DehExplosion
+        +GrenadeTrail
+        +ExplodeOnDeath
+        +ForceRadiusDMG
+        +CanBounceWater
+    // ----
+    SeeSound "Weapons/GrBnce"
+    DeathSound "Weapons/GrenLX"
+    DamageType Fire
+    States
+    {
+    Spawn:
+        SGRN A 0 Bright
+        SGRN A 0 Bright A_StopSound
+        SGRN A 0 Bright A_PlaySound("Weapons/GrenLF")
+        SGRN A 1 Bright 
+        Goto Spawn+3
+    Death:
+        MISL B 0 Bright A_ChangeFlag("NoGravity", 1)
+        MISL B 8 Bright A_Explode
+        MISL C 6 Bright
+        MISL D 4 Bright
+        stop
+    }
+}

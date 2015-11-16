@@ -1,0 +1,23 @@
+=====================================================
+Doomworld /IDGames
+http://www.doomworld.com/idgames/
+=====================================================
+
+
+Base File: pptex.zip
+Location: http://www.doomworld.com/idgames/index.php?file=graphics/pptex.zip
+
+
+Identity Textures:
+    GARGON
+        TX0_25O
+    GARGOFF
+        TX0_2RR
+    SATYRON
+        TX0_2UX
+    SATYROFF
+        TX0_2QG
+    LIONON
+        TX0_2T9
+    LIONOFF
+        TX0_26U

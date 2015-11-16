@@ -1,0 +1,75 @@
+=======================================
+---------------------------------------
+                Credits
+          Generalized Credits
+---------------------------------------
+=======================================
+
+Affliction
+----
+    Created a python script which helped to identify duplicated images by checking the data files hash against another file.
+    Requires Python 2.x; Windows
+    Link: http://pastebin.com/4Tv1mfxj
+
+
+
+Mazter
+----
+    Assisted with compressing textures with 'Image Catalyst'.
+    Requires Windows 7 and later (Batch Shell)
+    Link: Private
+
+
+
+Ghastly_dragon
+----
+    Submitted and made available the listed assets that this project utilizes:
+        Railgun
+            Link: http://www.realm667.com/index.php/en/armory-mainmenu-157-97317/doom-style-mainmenu-158-94349
+            Link Bkup: http://www.realm667.com/
+        Grenade Launcher
+            Sprites made by Eriance
+            Link: http://www.realm667.com/index.php/en/armory-mainmenu-157-97317/doom-style-mainmenu-158-94349
+            Link Bkup: http://www.realm667.com/
+        Marine Skins
+            Various contributers
+            Link: http://forum.zdoom.org/viewtopic.php?p=469284&sid=1ffa83f3dc90e4089384863e7073c531#p469284
+            Legal Remarks:
+                Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
+Tormentor667
+----
+    Submitted and made available the listed assets that this project utilizes:
+        Fog
+            Edited by Zrrion the insect
+            Link: http://www.realm667.com/index.php/en/sfx-shoppe-mainmenu-139-58855/51-elemental-effects/1437-fog
+            Link Bkup: http://www.realm667.com/
+            Legal Remarks:
+                Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
+Enjay
+----
+    Submitted and made available the listed assets that this project utilizes:
+        Splashes!
+            Link: http://forum.zdoom.org/viewtopic.php?p=670357#p670357
+            Legal Remarks:
+                Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
+Shane Strife (AKA: Shane)
+----
+    Made available 'High Quality' (not remixed) music of Doom and Doom 2.
+        Link: http://forum.zdoom.org/viewtopic.php?p=472461#p472461
+        ATTN: /idgames Archive Maintainers:
+            README.INCOMING:WAD RULES § 4: "Do not embed commercial MP3s as music in WADs"
+            As a precaution, these assets can be found at the specified link (under: Link) which the author of these songs explicitly states:
+                "If you use any tracks, please credit me, Shane Strife and don't forget the original composers somewhere in there. Enjoy."
+            These files can be accessed by anyone (provided they can access the ZDoom Forums) and use them free-of-charge with no strings attached as long as they meet with the author's wishes.
+        Legal Remarks:
+                Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+                Original music by id Software.

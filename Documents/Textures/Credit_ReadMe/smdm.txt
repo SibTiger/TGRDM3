@@ -1,0 +1,437 @@
+http://www.doomworld.com/idgames/?file=levels/doom2/deathmatch/Ports/megawads/smdm.zip
+
+
+===============================================================
+===========================================================================
+Advanced engine needed  : SkullTag version .97c3 or higher
+Primary purpose         : Deathmatch and Deathmatch Variants
+===========================================================================
+Title                   : Sabbat Martyr Deathmatch
+Filename                : SMDM.zip (SMDM.wad, SMDM_readme.txt, SMDM_changelog.txt)
+Release date            : March 22, 2007
+Author                  : Lead by Brett "Mechadon" Harrell.  See "Credits" for contributors.
+Email Address           : pyromechadon@gmail.com
+Other Files By Author   : See "Authors"
+Misc. Author Info       : Doom mapper and eater of nachoes.
+Additional Credits to   : - jimmy91
+			  - theshooter7
+			  - Rabbit Lord
+			  - Lord-Belial
+			  - doom-kid
+			  - Mastan
+			  - Th0r
+			  - Dread
+			  - Siliconwolf
+			  - The DOS Guy
+			  - StrikerMan780
+			  - sirtimberwolf
+			  - Crash Man
+			  - Cyberman (for hosting the test servers and testing)
+			  - Goblin (testing)
+			  - kuchikitaichou (testing)
+			  - Harbringer (testing)
+			  - Vulture (testing)
+			  - Edward850 (testing, DECORATE help)
+			  - Metalhead (hosting testing on a VP1 server)
+			  - everyone else I forgot (testing)
+			  - everyone in the CREDITS map
+
+General Description     : Sabbat Martyr is a large Deathmatch and Deathmatch-variant wad for Skulltag 97c2 [or above] that's similar to NDCP or Community 	
+		  	  Chest.  It contains 40 maps from various authors, all of which differ in theme, layout, detail-level, gameplay, and atmosphere.
+			  There's lots of new content besides the 40+ maps...some of which is a new color palette, new skins and bots, new sound effects
+			  for the Doom 2 weapons, and many many more cool effects and content.  I tend to think of it as a "add-on" wad for Skulltag.
+
+			  There are also 2 new weapons apart from Skulltag's; the NailGun and the Karasawa.
+
+			  NailGun:
+			    The NailGun is a diabolical weapon, feared by many demons and marines alike.  It propells a spread of 5 razor sharp nails at
+			  an incredible velocity towards the intended target.  Upon impact, the nails rip apart the flesh with ease, doing insane
+			  amounts of damage.  However, with its shotgun spread, range is limited in that the farther the nails have to travel 
+			  through the air, the bigger the spread, so it should be reserved for close range fighting to conserve ammo.
+
+			  Karasawa:
+			    The Karasawa High-Density Laser Rile [or just "Karasawa"] is a laser rife based off of the same technology used in the Plasma
+			  Rifle.  However, unlike the Plasma Rifle, the Karasawa fires large fusing plasma bolts at a high velocity, doing moderate damage
+			  to the receiveing end.  Due to the nature of the fusing plasma, it does not have a rapid fire capability like the Plasma Rifle, 
+			  but it does do a respectable amount of damage-per-shot to balance that out.  This weapon is best used in medium-to-long range
+			  battles.
+			    
+
+===========================================================================
+* What is included *
+
+New levels              : 40 +2 secret; +1 CREDIT Map
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : Yes (CREDIT Map)
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : SMDM01 thru SMDM42
+Single Player           : No
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : Definitly (that's what its designed for)
+Other game styles       : Other Deathmatch variants (LMS, Duel, etc). 
+Difficulty Settings     : Only implemented with bots.
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 8 Months
+Editor(s) used          : Doom Builder, SLADE, DeePSea, XWE, SLumpEd, GIMP 2.2, Gif Movie Gear, MSPaint, Audacity, ModTracker, Wad Cleaner
+Known Bugs              : - There are some OpenGL bugs which include fubar'd skyboxes, weird rendering, and the lack of any horizon line rendering.
+                            However, this is a Skulltag 97c2 bug, and not the fault of SMDM.  If a furture verison is released with the udpated 
+			    ZDoomGL code, they will be fixed.
+			  - If you have annoucners in your /announcer folder, they can [and will] mess with the new sounds effects.  Nothing can be done                                  about this on my behalf, unfortunately.
+			  - Some bots may not be very compatible with some of the maps...however, all of the maps will still function with the bots to the    
+                            point to where its playable.  One map in particular is SMDM42.
+			  - The SPREAD Rune does not with with the new weapons.  This is a Skulltag bug and not a SMDM bug, but I thought it was worth
+			    mentioning.
+May Not Run With...     : Anything lower then Skulltag v97c3, 8 Track, w/o legs, your face.
+
+==============================================================================
+Map Credits
+==============================================================================
+
+Title:                                Author(s)
+---------------------------------------------------------------------------
+SMDM01: Rozencratz                     Mechadon
+SMDM02: At The Sabbath                 The DOS Guy
+SMDM03: The Hypostyle                  theshooter7
+SMDM04: Holofernes                     Mechadon
+SMDM05: Digging Up The Corpses         Lord-Belial & Mechadon
+SMDM06: Martyr Courtyard II            The DOS Guy
+SMDM07: The Forgotten Ruins            theshooter7
+SMDM08: Weapons HQ Massacre            doom_kid
+SMDM09: Gunznbludd                     Th0r
+SMDM10: Van Duesn's Lair               The DOS Guy
+
+SMDM11: Pyrethrum II                   Mechadon
+SMDM12: E1M1337                        The DOS Guy
+SMDM13: MarbHell		       Crash Man
+SMDM14: Neon City                      Rabbit lord
+SMDM15: The Core                       Mastan (main decor by Mechadon)
+SMDM16: Liquid Metal                   jimmy91
+SMDM17: The Motherland                 The DOS Guy
+SMDM18: Cold Fusion                    Mechadon
+SMDM19: Sorrow Castle                  Siliconwolf
+SMDM20: Fortress of Doomkid            doom_kid
+
+SMDM21: Heavy Metal                    Dread
+SMDM22: Polished Chrome                The DOS Guy
+SMDM23: Jailhouse                      doom_kid
+SMDM24: Sector T7                      theshooter7
+SMDM25: Hang 'Em High                  Mechadon
+SMDM26: Doom II Arena                  jimmy91
+SMDM27: Toxicold                       The DOS Guy
+SMDM28: Mini-Mayhem                    doom_kid
+SMDM29: Destination Teleportation      Mastan
+SMDM30: The Dam			       sirtimberwolf
+
+SMDM31: Titanium Tide 1024             Mechadon
+SMDM32: Ad Infinitium                  jimmy91
+SMDM33: Construction Zone              doom_kid
+SMDM34: Damage Control                 jimmy91
+SMDM35: Spirit Cave                    StrikerMan780
+SMDM36: Enter the Void                 Mastan
+SMDM37: The Impregnable Domain         Siliconwolf
+SMDM38: Belphegor's FFA                Mechadon
+SMDM39: Heaven Torn Asunder            Lord-Belial & Mechadon
+SMDM40: Speed of Hell                  Mechadon
+
+SMDM41: ?????????                      Th0r
+SMDM42: ?????????                      Mastan 	
+
+CREDMAP: Sabbat Martyr Credits         Mechadon
+
+
+---------------------------------------------
+Recommended Map Rotation Lists (by gametype)|
+---------------------------------------------
+
+Regular DM, TDM, POS, TPOS:
+EXCLUDE (!!) maps SMDM28, SMDM31, SMDM32, and SMDM34.  These maps are not friendly to large DM matches.
+
+Duel:
+SMDM23, SMDM28, SMDM31, SMDM32, SMDM33, SMDM36, SMDM41, SMDM42
+
+LMS, TLMS:
+SMDM01, SMDM07, SMDM11, SMDM18, SMDM25, SMDM35, SMDM38
+
+==============================================================================
+Music Credits
+==============================================================================
+
+jimmy91:
+Opening Theme, Hang 'Em High (SMDM25)
+
+Revalvicate:
+SMDM04
+
+HH0D2:
+Alien: SMDM42
+
+Unknown:
+Mayhem (SMDM01), Forever in Hell (SMDM11), Retribution (SMDM13), Octane (SMDM18), UltraV8 (SMDM31)
+~ Please note that I've had these files on my computer for a very long time.  I've tried my best to
+  figure out the composers of these songs and give them the proper credit, but to no avial.  If you
+  know the composer of any of the above listed songs, please let me know that I can give them credit.
+
+==============================================================================
+Graphics and Sound f/x Credits
+==============================================================================
+
+Mechadon:
+Titlepic, Winner Pic, Loser Pic, Intermission Pic, plasma gun sounds, minigun sounds (wind-down sound), Mechadon Bot/skin sounds, RailGun sound, and various 
+flats and textures.
+
+jimmy91:
+All of the TITLEPATCHES, Small font, Status bar, Status bar font, Menu Font, M_DOOM pic.
+
+StrikerMan780:
+Large Font, the new color pallete, chaingun sounds, minigun sounds, rocket launcher sound, BFG firing sound, 
+pistol sounds, enviroment sounds, and other misc. things.
+
+Th0r:
+SSG sounds, grenade launcher sound.
+
+==============================================================================
+Sprite Credits
+==============================================================================
+
+Mechadon:
+Chaingun recolor, Minigun recolor, BFG10K recolor, BFG Plasma Recolor, Plasma Gun Recolor, NailGun Ammo Box,
+Rocket Ammo Recolor, Karasawa firing sprite and recolors, Grey Water Terrain Splash, Nails base (from Doom 64).
+
+jimmy91:
+Plasma Gun Bolt Recolor
+
+StrikerMan780:
+Enchanced SSG, Ceiling Candles, Sonic skin, Fluff Dude skin, BFG Recolor
+
+doom_kid:
+For the doom_kid skin, of course!!
+
+theshooter7:
+Provided base NailGun sprite.
+
+Xaser:
+Allowed us to use his grenade recolor from "Zen Dynamics".
+
+mawcor624:
+For the Cor Skin (Mechadon skin in SMDM).
+
+==============================================================================
+DECORATE/DEHACKED Credits
+==============================================================================
+
+Mechadon:
+Made very very minor tweaks to various parts of the finished code.  Also did the Karasawa.
+
+StrikerMan780:
+Hid a lot of DECORATE stuff (also helped me out with Karasawa).  Also he's responsible for all the DeHacked work.
+
+jimmy91:
+For the floating marine in the map "Damage Control".
+
+theshooter7:
+For taking the huge task of fixing the numerous Prox Launcher bugs (even though it didn't make the cut).  Oh, he also did the NailGun!!
+
+Arachnotron II:
+For giving us a screwed up DECORATE code that would have saved the project if I didn't drop the Prox Launcher.
+
+Crash Man:
+For attempting to fix the Prox Launcher ^_^.
+
+==============================================================================
+Testing Credits
+==============================================================================
+
+Mechadon
+jimmy91
+theshooter7
+Rabbit Lord
+Mastan
+Th0r
+Dread
+The DOS Guy
+StrikerMan780
+Cyberman
+Goblin
+Crash Man
+kuchikitaichou
+Harbringer
+EXWizard
+Vulture
+Edward850
+Tango (didn't test, but he hosted files for a while).
+Metalhead (didn't test, but hosted a test server for us).
+...and I'm sure many others, I can't remember all of you >.<
+
+==============================================================================
+Additional Credits
+==============================================================================
+
+Carnevil:
+For creating the most excellent Skulltag Doom sourceport!  We will miss you Carn!
+
+The Skulltag Team:
+For helping Carn provide us with the most awesome Doom sourceport in the known universe....and maybe even beyond.
+
+The Skulltag Community (teh forums):
+For all the support and interest they've showed my in my mapping.  Also for all of the support and hype they've displayed for this project!
+Thanks guys, I wouldn't have done it without your help!!
+
+Doomworld:
+For being Doomworld.
+
+ZDoom Forums:
+For help with various ZDoom things.
+
+ID Software:
+For creating the games we all know and love...
+
+WadInProgress:
+For the cool site to get SMDM out there for everyone to see.
+
+VGMusic.com:
+For giving me and other Doomer a nearly endless supply of music for out wads.
+
+Modarchive.com:
+Same as the above...except that is even more awesome because you get more bang for your buck (better quality at low file sizes!!).  The same goes
+for all of the composers there that I've used music from...thank you!!
+
+CodeImp:
+For creating Doom Builder.
+
+Everyone else:
+Thanks for all of the stuff that I forgot to mention to the people I'm forgetting to mention!!
+
+
+==============================================================================
+Authors
+==============================================================================
+
+
+Author                  : Brett "Mechadon" Harrell
+Email Address           : pyromechadon@gmail.com
+Home Page               : N/A (for the moment, anyways)
+Other Files By Author   : Salamandastron [Plutonia.wad SP/COOP], Vertigone [DM], Vertigone II, Pyrethrum [DM]
+			  Andormalius [COOP], Belphegor's Crucible [COOP], Neodymium [COOP], Velocity001, Map13 of STLMS3.
+Misc. Author Info       : Game Design Student, Doom Mapper, member of the mapping team Aspect Studios.  I've been mapping for about 5 to 6 years.
+
+
+Author                  : The Dos Guy [is fine enough]
+Email Address           : livestock_blues@gmail.com
+Home Page               : N/A
+Other Files By Author   : ???
+Misc. Author Info       : Helping making this>SEX
+
+
+Author                  : James "jimmy91" Paddock
+Email Address           : jamespaddock@tiscali.co.uk
+Home Page               : http://jimmy91.14.forumer.com/
+Other Files By Author   : j-monsters.wad, j-arcinv.wad, j-arcinv-v2.wad
+Misc. Author Info       : I'm 15 and I play Doom. Duh. :P
+
+
+Author                  : (ST)Theshooter7
+Email Address           : uaregonnago@gmail.com
+Home Page               : None Currently
+Other Files By Author   : DoomHell, 100GunsX
+Misc. Author Info       : Main DECORATE Coder.
+
+
+Author 			: Rickey 'Rabbit lord' esquibel
+Email Address 		: vcamnow@aol.com
+Home Page 		: www.freewebs.com/rabbitlord/
+Other Files By Author 	: Invasionoftheimps (no it's not an invasion map)
+Misc. Author Info 	: I like to play doom, edit and make my own levels, create weapons via decorate, run, and that sums it up.
+
+
+Author                  : StrikerMan780
+Email Address           : jordon_moss_6@hotmail.com
+Home Page               : http://www.freewebs.com/strikerman780
+Other Files By Author   : cdoom64.wad cd64lite.wad(Unreleased)
+Misc. Author Info       : Die-Hard Sonic and Doom Fan.
+Dark Secrets		: Fan of Dr. Comet's Artwork, and Some Sonic Hentai Like Furry Bomb ^_^(/me Hides.)
+
+
+Author 			: Matt Walker "Mastan"
+Email Address 		: mastan_@hotmail.com
+Home Page 		: www.myspace.com/mattw_
+Other Files By Author 	: n/a
+Misc. Author Info 	: n/a
+
+
+Author 			: th0r
+Email Address 		: cody1308@yahoo.com
+Home Page 		: n/a
+Other Files By Author 	: http://doomworld.com/idgames/index....der=desc&page=1
+Misc. Author Info 	: Noob mapper
+
+
+Author                  : doom_kid
+Email Address           : glock086@hotmail.com
+Home Page               : www.myspace.com/doomkid89
+Other Files By Author   : Doomkid Planet, Metal Mayhem
+Misc. Author Info       : Doomkid has been a mapper for over 5 years.
+
+
+Author            	: Mophonix aka. Siliconwolf
+Email Address           : Siliconwolf@hotmail.co.uk
+Home Page               : www.doomtag.webs.com
+Other Files By Author 	: fxdms1.wad, fxdms2.wad, skulldizzle.wad, torturedblood.wad
+Misc. Author Info     	: Hardcore will never die!!!!! XD 
+
+
+Author 			: Dread aka Dauntless
+Email Address 		: Th3edge@gmail.com
+Home Page 		: N/A
+Other Files By Author 	: DreadDM, BetandRed, TandemDM
+Misc. Author Info 	: I like wargames (airsoft, paintball)
+
+
+Author 			: Johnathan 'SirTimberWolf' Enright
+Email Address 		: Sirtimberwolf@gmail.com
+Home Page 		: None
+Other Files By Author 	: A few.
+Misc. Author Info 	: A 25 year old doomer, lost in the abyss (ooh, creepy)
+
+
+Author          	: Travis "Crash Man" Morgan
+Email Address       	: bassistofclosson@hotmail.com
+Home Page       	: google or some shit
+Other Files By Author   : Barrel o' Fun!, Velocity001, Obsess (soon, damnit)
+Misc. Author Info    	: Bass player and...yeah
+
+==============================================================================
+Change Log
+==============================================================================
+
+<SMDM V1.0>
+
+- Released on March 22nd, 2007.
+
+==============================================================================
+* Copyright / Permissions *
+==============================================================================
+
+Authors may NOT use the levels in this file as a base for modification or
+reuse.  You may modify and re-use graphics as you will, with proper credits
+given.  Contact the respective authors for permission to use the music tracks.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format
+(BBS, Diskette, CD, etc) as long as you include this file intact.
+
+* Where to get the file that this text file describes *
+
+http://www.skulltag.com/forums

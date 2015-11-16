@@ -1,0 +1,1 @@
+<Affliction> throw it in the dir you want to check and "python filename.py"

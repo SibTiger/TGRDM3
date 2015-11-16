@@ -1,0 +1,13 @@
+=====================================================
+Doomworld /IDGames
+http://www.doomworld.com/idgames/
+=====================================================
+
+
+Base File: stdom.zip
+Location: http://www.doomworld.com/idgames/?file=deathmatch/skulltag/stdom.zip
+
+
+Identity Textures:
+    TIGER
+        TIGER

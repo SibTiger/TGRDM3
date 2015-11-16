@@ -1,0 +1,32 @@
+// Include the following in sections:
+
+
+// Actors
+    #include "Decorate/_Player.txt"
+    #include "Decorate/_SGunner.txt"
+
+
+
+// Special Effects
+    #include "Decorate/Rain.txt"
+    #include "Decorate/Fog.txt"
+    #include "Decorate/Splashes.txt"
+
+
+
+// Weapons
+    #include "Decorate/_Shotgun.txt"
+    #include "Decorate/_SuperShotgun.txt"
+    #include "Decorate/_RocketLauncher.txt"
+    #include "Decorate/_Railgun.txt"
+    #include "Decorate/_Plasmagun.txt"
+    #include "Decorate/_GrenadeLauncher.txt"
+    #include "Decorate/_Chainsaw.txt"
+    #include "Decorate/_Chaingun.txt"
+
+
+
+// Weapon Projectiles
+    #include "Decorate/_Rocket.txt"
+    #include "Decorate/_Plasma.txt"
+    #include "Decorate/_Grenade.txt"

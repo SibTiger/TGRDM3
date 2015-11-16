@@ -1,0 +1,18 @@
+GameInfo
+{
+    DefaultDropStyle = 2 //Strife Style
+    Swapmenu = True //New Game, Load, Save, Options
+    DimAount = .5 //Half translucent
+    DimColor = "00 00 00" //Black; should be a bit easier on the eyes
+    QuitMessages = "Are you sure you want to quit?"
+    PlayerClasses = "TGRDoomPlayer" // This replaces the DoomPlayer for TGRDoomPlayer (this inheritance from DoomPlayer)
+
+    //Weapons
+        WeaponSlot = 1, "TGRChainsaw"
+        WeaponSlot = 2, "TGRChaingun"
+        WeaponSlot = 3, "TGRShotgun", "TGRSuperShotGun"
+        WeaponSlot = 4, "TGRRocketLauncher"
+        WeaponSlot = 5, "TGRGrenadeLauncher"
+        WeaponSlot = 6, "TGRRailgun"
+        WeaponSlot = 7, "TGRPlasmaRifle"
+}

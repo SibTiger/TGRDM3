@@ -1,0 +1,61 @@
+=====================================================
+Afterglow
+http://www.doomworld.com/afterglow/textures.shtml
+=====================================================
+
+
+Base File: graphtx3.zip
+Location: http://www.doomworld.com/afterglow/textures/zips/graphtx3.zip
+
+
+Identity Textures:
+    SBRIK1A
+        TX0_17D
+    SBRIK1B
+        TX0_17E
+    SBRIK1C
+        TX0_17F
+    SBRIK2A
+        TX0_17G
+    SBRIK2B
+        TX0_17H
+    SBRIK2C
+        TX0_17I
+    SBRIK3A
+        TX0_17J
+    SBRIK3B
+        TX0_17K
+    SBRIK3C
+        TX0_17L
+    SBRIK3D
+        TX0_17M
+    SBRIK3E
+        TX0_17N
+    SELITEP
+        TX0_17O
+    SELITEY
+        TX0_17P
+    SGLASS1
+        TX0_17Q
+    SGLASS2
+        TX0_17R
+    SGRAN1
+        TX0_17S
+    SGRAN2
+        TX0_17T
+    SGRAN3
+        TX0_17U
+    SSTONE1
+        TX0_17V
+    SSTONE2
+        TX0_17W
+    SSTONE3
+        TX0_17X
+    SSTONE4
+        TX0_17Y
+    SWOOD1
+        TX0_17Z
+    SWOOD2
+        TX0_180
+    SWOOD3
+        TX0_181

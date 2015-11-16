@@ -1,0 +1,84 @@
+===========================================================================
+Primary purpose         : No levels included
+===========================================================================
+Title                   : Parallel Phobos Texture Pack
+Filename                : pptex.zip
+Release date            : December 15th 2013
+Author                  : scifista42
+Email Address           : doomscifista@seznam.cz
+
+Description             : Here's a texture pack consisting of some modified
+                          Doom's E1 textures. The textures fits E1
+                          spirit yet looks and tiles a little differently.
+                          I aimed for an easy alignment with 64 grid and
+                          well vertical and horizontal tiling. All the
+                          edits were made by me, I used only Doom1
+                          resources as a base.
+                          
+                          The zip file contains two versions of the pack:
+                          One for Doom 1 (TEXTURE1+TEXTURE2) and one for
+                          Doom 2 (TEXTURE1 only). Contents are the same
+                          in both.
+                          
+                          This pack has some switches, too. I had to 'merge'
+                          them with Doom's stock switches, to retain vanilla
+                          compatibility. Don't worry, all of the stock
+                          switches are left as they were, only the new ones
+                          are 'attached' to them and visible with a use of
+                          X offset.
+                          
+                          By the way, I realize that metal supports and
+                          GARG/SATYR/LION switches aren't E1 textures. But
+                          they are definitely connected with Romero, as he
+                          used them a lot in D2 and E4 maps. So you can
+                          find some nice variations of these walls in this
+                          pack too. :)
+
+Additional Credits to   : idSoftware, obviously
+===========================================================================
+* What is included *
+
+New levels              : None
+Sounds                  : No
+Music                   : No
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom or Doom 2
+Single Player           : -
+Cooperative 2-4 Player  : -
+Deathmatch 2-4 Player   : -
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : Modified
+Build Time              : The main work was done within 4 days. Some of
+                          the textures were made previously.
+Editor(s) used          : SLADE 3, GIMP 2.0
+
+
+* Copyright / Permissions *
+
+Authors MAY use the contents of this file as a base for modification or
+reuse.  Permissions have been obtained from original authors for any of
+their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.  I have
+received permission from the original authors of any modified or included
+content in this file to allow further distribution.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.3dgamers.com/pub/idgames/ and mirrors
+

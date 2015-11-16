@@ -1,0 +1,52 @@
+ACTOR TGRChainsaw : Chainsaw REPLACES Chainsaw
+{
+    Inventory.PickupMessage "Picked Up: Chainsaw"
+    HitObituary "[%o] -->> Chainsaw -->> [%k]"
+    Tag "Chainsaw"
+    // Standards
+    // ===========
+        +Inventory.Untossable // Can not 'drop (CCMD)' the weapon
+        +Inventory.Undroppable // Weapon can never be taken away from the player's inventory.
+        +Weapon.NoAutoAim // Disallow AutoAim with this weapon.
+        +Weapon.No_Auto_Switch // When this weapon is picked up, do not switch to it.
+        Weapon.BobStyle InverseSmooth // Different taste of bobbing; use Doom Alpha's bobbing style - but smooth.
+
+        // Because some mods in Zandronum abuse the ConsoleCommand to change the user's settings; I found one that changes bobbing....
+            Weapon.BobRangeX 1.0
+            Weapon.BobRangeY 1.0
+            Weapon.BobSpeed  1.0
+            Weapon.YAdjust 10
+    // ------
+    // ======
+
+
+    // Flags, Switches, and Properties
+    // =================================
+        -Inventory.InvBar // Do not show the weapon icon in the HUD Inventory list
+        +Inventory.NeverRespawn // Do not respawn this weapon after being picked up.
+        +Inventory.NoScreenFlash // Do not flash the screen when picking this weapon up
+        +Weapon.Wimpy_Weapon // If the player picks up ammo, switch away from this weapon.
+        +Weapon.MeleeWeapon // Tell bots that this weapon is a melee weapon.
+        +Weapon.CheatNotWeapon // Weapon is not given with the give cheat.
+        -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
+        Weapon.PreferredSkin "Chainsaw-Marine" // Zandronum feature only; dependency required: MarineSkins
+    // ------
+    // ======
+    Inventory.Icon "CSAWA0"
+    // ------
+    // Sounds
+    // ========
+        Weapon.UpSound "weapons/sawup"
+        Weapon.ReadySound "weapons/sawidle"
+    // ------
+    States
+    {
+        Fire:
+            SAWG AB 4 A_Saw
+            SAWG B 0 A_ReFire
+            Goto Ready
+        Spawn:
+            CSAW A -1
+            Stop
+    }
+}

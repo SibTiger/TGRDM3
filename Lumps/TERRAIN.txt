@@ -1,0 +1,642 @@
+// ********************************************************************************
+//                         DEFINITIONS AND INITIALIZATIONS
+// ================================================================================
+
+
+// --------------------
+// Red Blood Splash
+// --------------------
+
+SPLASH Blood
+{
+    SmallClass          NJBloodBase
+    SmallClip           10
+    SmallSound          world/sludgegloopsmall
+
+    BaseClass           NJBloodBase
+    ChunkClass          NJBloodChunk
+    ChunkXVelShift      6
+    ChunkYVelShift      6
+    ChunkZVelShift      6
+    ChunkBaseZVel       2
+    Sound               world/sludgegloop
+    NoAlert
+}
+
+
+
+// --------------------
+// Lava Splash
+// --------------------
+
+
+SPLASH Lava
+{
+    SmallClass          NJLavaBase
+    SmallClip           12
+    SmallSound          world/lavasizzlesmall
+
+    BaseClass           NJLavaBase
+    ChunkClass          NJLavaSmoke
+    ChunkXVelShift      -1
+    ChunkYVelShift      -1
+    ChunkZVelShift      7
+    ChunkBaseZVel       1
+    Sound               world/lavasizzle
+    NoAlert
+}
+
+
+
+// --------------------
+// Lava Smoke Only Splash
+// --------------------
+
+
+SPLASH LavaSmoke
+{
+    SmallClass          NJLavaSmokeOnly
+    SmallClip           12
+    SmallSound          world/lavsiz2
+
+    BaseClass           NJLavaSmokeOnly
+    ChunkClass          NJLavaSmokeOnly
+    ChunkXVelShift      -1
+    ChunkYVelShift      -1
+    ChunkZVelShift      7
+    ChunkBaseZVel       1
+    Sound               world/lavsiz2
+    NoAlert
+}
+
+
+
+// --------------------
+// Nukage Green and Smokey
+// --------------------
+
+
+SPLASH Nuke
+{
+    SmallClass          NJNukageBase
+    SmallClip           6
+    SmallSound          world/lavasizzlesmall
+
+    BaseClass           NJNukageBase
+    ChunkClass          NJNukageSmoke
+    ChunkXVelShift      -1
+    ChunkYVelShift      -1
+    ChunkZVelShift      7
+    ChunkBaseZVel       1
+    Sound               world/lavasizzle
+    NoAlert
+}
+
+
+
+// --------------------
+// Slime Brown Splash
+// --------------------
+
+
+SPLASH SlimeBrown
+{
+    SmallClass          NJSlimeBrownBase
+    SmallClip           6
+    SmallSound          world/sludgegloopsmall
+
+    BaseClass           NJSlimeBrownBase
+    ChunkClass          NJSlimeBrownChunk
+    ChunkXVelShift      6
+    ChunkYVelShift      6
+    ChunkZVelShift      6
+    ChunkBaseZVel       2
+    Sound               world/sludgegloop
+    NoAlert
+}
+
+
+
+// --------------------
+// Sludge Greeny-Brown Splash
+// --------------------
+
+
+SPLASH SludgeGreenBrown
+{
+    SmallClass          NJSludgeBase
+    SmallClip           8
+    SmallSound          world/sludgegloopsmall
+
+    BaseClass           NJSludgeBase
+    ChunkClass          NJSludgeChunk
+    ChunkXVelShift      5
+    ChunkYVelShift      5
+    ChunkZVelShift      5
+    ChunkBaseZVel       2
+    Sound               world/sludgegloop
+    NoAlert
+}
+
+
+
+// --------------------
+// Water Splash
+// --------------------
+
+
+SPLASH Water
+{
+    SmallClass          NJWaterSplashBase
+    SmallClip           12
+    SmallSound          world/watersplashsmall
+
+    BaseClass           NJWaterSplashBase
+    ChunkClass          NJWaterSplashChunk
+    ChunkXVelShift      8
+    ChunkYVelShift      8
+    ChunkZVelShift      8
+    ChunkBaseZVel       2
+    Sound               world/watersplash
+    NoAlert
+}
+
+
+
+// --------------------
+// Orange Water Splash [NG]
+// --------------------
+
+
+SPLASH OrangeWater
+{
+    SmallClass          NJOrangeWaterSplashBase
+    SmallClip           12
+    SmallSound          world/watersplashsmall
+
+    BaseClass           NJOrangeWaterSplashBase
+    ChunkClass          NJOrangeWaterSplashChunk
+    ChunkXVelShift      8
+    ChunkYVelShift      8
+    ChunkZVelShift      8
+    ChunkBaseZVel       2
+    Sound               world/watersplash
+    NoAlert
+}
+
+
+
+// --------------------
+// Dark Water Splash [NG]
+// --------------------
+
+
+SPLASH DarkWater
+{
+    SmallClass          NJDarkWaterSplashBase
+    SmallClip           12
+    SmallSound          world/watersplashsmall
+
+    BaseClass           NJDarkWaterSplashBase
+    ChunkClass          NJDarkWaterSplashChunk
+    ChunkXVelShift      8
+    ChunkYVelShift      8
+    ChunkZVelShift      8
+    ChunkBaseZVel       2
+    Sound               world/watersplash
+    NoAlert
+}
+
+
+
+// --------------------
+// Purple Water Splash [NG]
+// --------------------
+
+
+SPLASH PurpleWater
+{
+    SmallClass          NJPurpleWaterSplashBase
+    SmallClip           12
+    SmallSound          world/watersplashsmall
+
+    BaseClass           NJPurpleWaterSplashBase
+    ChunkClass          NJPurpleWaterSplashChunk
+    ChunkXVelShift      8
+    ChunkYVelShift      8
+    ChunkZVelShift      8
+    ChunkBaseZVel       2
+    Sound               world/watersplash
+    NoAlert
+}
+
+
+
+// --------------------
+// Sludge - Dark bloop Splash [NG]
+// --------------------
+
+
+SPLASH SludgeDark
+{
+    SmallClass          NJDarkSludgeBase
+    SmallClip           8
+    SmallSound          world/sludgegloopsmall
+
+    BaseClass           NJDarkSludgeBase
+    ChunkClass          NJDarkSludgeChunk
+    ChunkXVelShift      5
+    ChunkYVelShift      5
+    ChunkZVelShift      5
+    ChunkBaseZVel       2
+    Sound               world/sludgegloop
+    NoAlert
+}
+
+
+
+// --------------------
+// Sludge - Yellow bloop Splash [NG]
+// --------------------
+
+
+SPLASH SludgeYellow
+{
+    SmallClass          NJYellowSludgeBase
+    SmallClip           8
+    SmallSound          world/sludgegloopsmall
+
+    BaseClass           NJYellowSludgeBase
+    ChunkClass          NJYellowSludgeChunk
+    ChunkXVelShift      5
+    ChunkYVelShift      5
+    ChunkZVelShift      5
+    ChunkBaseZVel       2
+    Sound               world/sludgegloop
+    NoAlert
+}
+
+
+
+
+// ********************************************************************************
+//                               TERRAIN ASSIGNMENTS
+// ================================================================================
+
+
+// --------------------
+// Dull Red Blood
+// --------------------
+TERRAIN Blood
+{
+    Splash              Blood
+    FootClip            10
+    Liquid
+}
+
+
+
+// --------------------
+// Smokey Lava
+// --------------------
+TERRAIN Lava
+{
+    Splash              Lava
+    FootClip            10
+    Liquid
+}
+
+
+
+// --------------------
+// Just Smoke
+// --------------------
+TERRAIN LavaSmoke
+{
+    Splash              LavaSmoke
+    FootClip            0
+    Liquid
+}
+
+
+
+// --------------------
+// Bright Green and Smoke
+// --------------------
+TERRAIN Nuke
+{
+    Splash              Nuke
+    FootClip            10
+    Liquid
+}
+
+
+
+// --------------------
+// Brown and Gloopy
+// --------------------
+TERRAIN SlimeBrown
+{
+    Splash              SlimeBrown
+    FootClip            10
+    Liquid
+}
+
+
+
+// --------------------
+// Greeny Brown and Gloopy
+// --------------------
+TERRAIN SludgeGreenBrown
+{
+    Splash              SludgeGreenBrown
+    FootClip            10
+    Liquid
+}
+
+
+
+// --------------------
+// Normal Water
+// --------------------
+TERRAIN Water
+{
+    Splash              Water
+    FootClip            10
+    Liquid
+}
+
+
+
+// --------------------
+// Orange Water [NG]
+// --------------------
+TERRAIN OrangeWater
+{
+    Splash              OrangeWater
+    FootClip            10
+    Liquid
+}
+
+
+
+// --------------------
+// Dark Water [NG]
+// --------------------
+TERRAIN DarkWater
+{
+    Splash              DarkWater
+    FootClip            10
+    Liquid
+}
+
+
+
+// --------------------
+// Purple Water [NG]
+// --------------------
+TERRAIN PurpleWater
+{
+    Splash              PurpleWater
+    FootClip            10
+    Liquid
+}
+
+
+
+// --------------------
+// Sludge - Dark bloop [NG]
+// --------------------
+TERRAIN DarkSludge
+{
+    Splash              SludgeDark
+    FootClip            10
+    Liquid
+}
+
+
+
+// --------------------
+// Sludge - Yellow bloop [NG]
+// --------------------
+TERRAIN YellowSludge
+{
+    Splash              SludgeYellow
+    FootClip            10
+    Liquid
+}
+
+
+
+
+// ********************************************************************************
+//                               TEXTURE ASSIGNMENTS
+// ================================================================================
+
+
+// --------------------
+// Blood
+// --------------------
+    floor BLOOD1 Blood
+    floor BLOOD2 Blood
+    floor BLOOD3 Blood
+    // --
+    floor TX1_0EZ Blood
+    floor TX1_0F0 Blood
+    floor TX1_0F1 Blood
+    floor TX1_0F6 Blood
+    floor TX1_0F7 Blood
+    floor TX1_0F8 Blood
+    floor TX1_0F9 Blood
+    floor TX2_002 Blood
+    floor TX2_004 Blood
+    floor TX2_00E Blood
+    floor TX2_00I Blood
+    floor TX2_00P Blood
+    floor TX2_00S Blood
+    floor TX2_00U Blood
+    floor TX2_00Y Blood
+    floor TX2_00Z Blood
+    floor TX2_011 Blood
+    floor TX3_002 Blood
+    floor TX3_004 Blood
+    floor TX3_00E Blood
+    floor TX3_00I Blood
+    floor TX3_00P Blood
+    floor TX3_00S Blood
+    floor TX3_00U Blood
+    floor TX3_00Y Blood
+    floor TX3_00Z Blood
+    floor TX3_011 Blood
+
+
+
+// --------------------
+// Water
+// --------------------
+    floor FWATER1 Water
+    floor FWATER2 Water
+    floor FWATER3 Water
+    floor FWATER4 Water
+    // --
+    floor TX1_0CE Water
+    floor TX1_0CF Water
+    floor TX1_0CG Water
+    floor TX1_0CH Water
+    floor TX1_0CI Water
+    floor TX1_0CJ Water
+    floor TX1_0CK Water
+    floor TX1_0CL Water
+    floor TX1_0DC Water
+    floor TX1_0DD Water
+    floor TX1_0DE Water
+    floor TX1_0DF Water
+    floor TX1_0ET Water
+    floor TX1_0EU Water
+    floor TX1_0EV Water
+    floor TX2_005 Water
+    floor TX2_007 Water
+    floor TX2_00C Water
+    floor TX2_00D Water
+    floor TX2_00G Water
+    floor TX2_00J Water
+    floor TX2_00N Water
+    floor TX2_00Q Water
+    floor TX2_00X Water
+    floor TX3_005 Water
+    floor TX3_007 Water
+    floor TX3_00C Water
+    floor TX3_00D Water
+    floor TX3_00G Water
+    floor TX3_00J Water
+    floor TX3_00N Water
+    floor TX3_00Q Water
+    floor TX3_00X Water
+
+
+
+// --------------------
+// Dark Water [NG]
+// --------------------
+    floor TX1_0AH DarkWater
+    floor TX1_0AI DarkWater
+    floor TX1_0AJ DarkWater
+    floor TX1_0AK DarkWater
+    floor TX2_008 DarkWater
+    floor TX2_009 DarkWater
+    floor TX2_00A DarkWater
+    floor TX2_00B DarkWater
+    floor TX3_008 DarkWater
+    floor TX3_009 DarkWater
+    floor TX3_00A DarkWater
+    floor TX3_00B DarkWater
+
+
+
+// --------------------
+// Orange Water [NG]
+// --------------------
+    floor TX1_0EW OrangeWater
+    floor TX1_0EX OrangeWater
+    floor TX1_0EY OrangeWater
+    floor TX1_0F2 OrangeWater
+    floor TX1_0F3 OrangeWater
+    floor TX1_0F4 OrangeWater
+    floor TX1_0F5 OrangeWater
+    floor TX2_00R OrangeWater
+    floor TX2_00T OrangeWater
+    floor TX3_00R OrangeWater
+    floor TX3_00T OrangeWater
+
+
+
+// --------------------
+// Purple Water [NG]
+// --------------------
+    floor TX2_00W PurpleWater
+    floor TX3_00W PurpleWater
+
+
+
+// --------------------
+// Lava
+// --------------------
+    floor LAVA1 Lava
+    floor LAVA2 Lava
+    floor LAVA3 Lava
+    floor LAVA4 Lava
+    // --
+    floor TX2_000 Lava
+    floor TX2_00V Lava
+    floor TX2_006 Lava
+    floor TX2_010 Lava
+    floor TX3_000 Lava
+    floor TX3_00V Lava
+    floor TX3_006 Lava
+    floor TX3_010 Lava
+
+
+
+// --------------------
+// Nuke
+// --------------------
+    floor NUKAGE1 Nuke
+    floor NUKAGE2 Nuke
+    floor NUKAGE3 Nuke
+    // --
+    floor TX2_00H Nuke
+    floor TX2_00M Nuke
+    floor TX2_001 Nuke
+    floor TX3_00H Nuke
+    floor TX3_00M Nuke
+    floor TX3_001 Nuke
+
+
+
+// --------------------
+// Lava Smoke
+// --------------------
+    floor RROCK01 LavaSmoke
+    floor RROCK02 LavaSmoke
+    floor RROCK05 LavaSmoke
+    floor RROCK06 LavaSmoke
+    floor RROCK07 LavaSmoke
+    floor RROCK08 LavaSmoke
+    floor SLIME09 LavaSmoke
+    floor SLIME10 LavaSmoke
+    floor SLIME11 LavaSmoke
+    floor SLIME12 LavaSmoke
+
+
+
+// --------------------
+// Slime Brown
+// --------------------
+    floor SLIME01 SlimeBrown
+    floor SLIME02 SlimeBrown
+    floor SLIME03 SlimeBrown
+    floor SLIME04 SlimeBrown
+    floor SLIME05 SlimeBrown
+    floor SLIME06 SlimeBrown
+    floor SLIME07 SlimeBrown
+    floor SLIME08 SlimeBrown
+
+
+
+// --------------------
+// Dark Sludge [NG]
+// --------------------
+    floor TX2_003 DarkSludge
+    floor TX3_003 DarkSludge
+
+
+
+// --------------------
+// Yellow Sludge [NG]
+// --------------------
+    floor TX2_00K YellowSludge
+    floor TX2_00L YellowSludge
+    floor TX2_00O YellowSludge
+    floor TX3_00K YellowSludge
+    floor TX3_00L YellowSludge
+    floor TX3_00O YellowSludge

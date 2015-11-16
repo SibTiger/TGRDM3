@@ -1,0 +1,13 @@
+=====================================================
+GZDoom Builder
+http://svn.code.sf.net/p/doombuilder/code/branches/GZDoomBuilder/
+=====================================================
+
+
+Base File: MissingTexture3D.png
+Location: http://svn.code.sf.net/p/doombuilder/code/branches/GZDoomBuilder/Source/Core/Resources/MissingTexture3D.png
+
+
+Identity Textures:
+    MissingTexture3D
+        _UNKNOWN

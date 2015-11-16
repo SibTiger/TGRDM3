@@ -1,0 +1,15 @@
+=====================================================
+Doomworld /IDGames
+http://www.doomworld.com/idgames/
+=====================================================
+
+
+Base File: doomnoir.zip
+Location: http://www.doomworld.com/idgames/index.php?file=graphics/doomnoir.zip
+
+
+Identity Textures:
+    BLUDB0
+        TX0_2VS
+    BLUDC0
+        TX0_2BZ

@@ -1,0 +1,32 @@
+ACTOR TGRRocket : Rocket REPLACES Rocket
+{
+    Game Doom
+    Obituary "[%o] -->> Rocket Launcher -->> [%k]"
+    Radius 11
+    Height 8
+    Speed 40
+    Damage 30 //TEST [Original == 20]
+    // ----
+    // Flags, Switches, and Properties
+    // =================================
+        Projectile
+        +SKYEXPLODE // When the projectile hits F_SKY1, the projectile will enter it's DEATH state.
+        +RANDOMIZE // Randomized timing
+        +DEHEXPLOSION // Draw the missile's state translucent
+        +ROCKETTRAIL // Rocket trails
+    // -----
+    Decal Scorch
+    SeeSound "weapons/rocklf"
+    DeathSound "weapons/rocklx"
+    States
+    {
+    Spawn:
+        MISL A 1 Bright
+        Loop
+    Death:
+        MISL B 8 Bright A_Explode
+        MISL C 6 Bright
+        MISL D 4 Bright
+        Stop
+    }
+}

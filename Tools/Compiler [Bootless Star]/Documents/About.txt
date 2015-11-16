@@ -1,0 +1,52 @@
+TGRDM3 Compiler
+==================
+------------------
+
+
+TGRDM3 Compiler is designed to generate the TGRDM3 project directly from the SVN local working copy.  As opposed to HotCompiler, TGRDM3 Compiler uses Bootless Star's unifying controlled environment and user settings.  This will allow the user to simply execute without having to go through abundance of settings.  The focus of the program is to have the end-user worry less on customizations but yet expeditiously compile the project with little user interaction.
+
+
+
+Differences between TGRDM3 Compiler and HotCompiler:
+-----------------------------------------------------
+Different Code Base Foundation
+    TGRDM3 Compiler is slightly slower, but HotCompiler is very dependable on Secondary Storage.
+Unified Settings and Structure
+    TGRDM3 Compiler uses Bootless Star's 1.2 base foundation and database migrations.
+    HotCompiler uses independent code structuring.
+Easier on Maintenance
+    TGRDM3 Compiler has a much easier code base to modify and maintain.
+    HotCompiler uses 'Spaghetti Code'; may be faster - but not easy to maintain and follow.
+Easier for Project Updates
+    TGRDM3 Compiler offers an external script 'Compiler_Map' which can be used for updating project compile instructions.
+    HotCompiler had to be updated within the core.
+Not Needed Superfluous Commands
+    TGRDM3 Compiler does what the project developer wants it to do.
+    HotCompiler demanded that [extCMD]Robocopy, [extCMD]XCopy, and [intCMD]COPY instructions were given.
+
+
+
+Both programs, HotCompiler and TGRDM3 Compiler can of course be used in other projects [not TGRDM3 related, of course] and can be modified as anyone sees fit.  However, do note that they will require modifications.  HotCompiler and TGRDM3 Compiler is designed to work with the TGRDM3 project, so they must be modified to work with other projects.  Furthermore, I would like _some_ credit for the work ;)
+
+
+
+Modifying:
+--------------
+Core:
+    InitializationVars.bat
+
+External Script:
+    Compiler_Map.bat
+
+
+
+TGRDM3 Compiler Project Detection:
+--------------
+The detection used in the compiler demands that the Compiler_Map must be in the project's root directory.  Thus, if the location of the core project is: "F:\SVNProjects\MyUltraCoolProject\Trunk\" then this is the directory that the script file must be in.
+
+
+
+Prerequisites:
+--------------
+    7Zip
+    Local Working Copy resources

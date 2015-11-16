@@ -1,0 +1,99 @@
+http://doomworld.com/idgames/?id=14675
+
+
+===============================================================
+===========================================================================
+Primary purpose         : No levels included
+===========================================================================
+Title                   : Recoloured Doom and Doom 2 textures v2
+
+Filename                : nb_recol.zip (nb_recol.txt and nb_recol.wad)
+
+Release Date:		: November 19th, 2006
+
+Author                  : Nick Baker, aka NiGHTMARE
+		  
+Email Address           : nick@frad.org
+
+Description             : These textures are all recoloured versions of
+			  textures from Doom and Doom 2.  They include
+			  different coloured lights, golden versions of
+			  the SHAWNx and related textures, water and
+			  lava falls, and so on.
+
+			  A few of these textures were included in
+			  previous texture packs, but most of them have
+			  since been improved.  They generally still
+			  have the same name, so you should be able to
+			  simply copy 'n' paste on top of the older
+			  versions.
+
+			  For the sake of completeness, I've also
+			  included all the original Doom 1 textures.
+			  Some of these have been 'improved', as have a
+			  few Doom 2 textures (such as CRATx, DOORSTOP,
+			  and SUPPORT2).
+
+			  Version 2 adds an additional 250 or so new
+			  textures (including several specifically
+			  intended for use in CTF maps), a couple of
+			  dozen new flats, and modifications to several
+			  textures from v1.
+
+			  Much effort has been put into making certain
+			  v1 textures bear a greater resemblance to the
+			  stock Doom (2) textures; for example, the red
+			  marble textures are now a closer match for
+			  SP_HOT.
+
+			  A word of warning: don't try adding new
+			  textures to this wad via WinTex.  WinTex is
+			  incapable of handling more than a certain
+			  number of texture entries, and will corrupt
+			  the TEXTURE1 and PNAMES lump if you add even
+			  one more to this particular wad.  You'll need
+			  to use another utility - such as SLumpEd, XWE,
+			  or DeePSea - instead.
+
+Additional Credits To	: ID Software for the original textures (from
+			  Doom 1, Doom 2, and the Doom Alpha).
+
+			  Michael Mesko for the lava fall.
+
+			  The author of neutered.wad for SUPPORT2,
+			  TTALL1_2 and a couple of others.
+
+================================================================
+
+* What is included *
+
+Graphics                : Yes (textures and flats)
+Anything else		: No
+
+
+* Construction *
+
+Base                    : Modified Doom (2) textures
+Build time		: Several hours
+Editor(s) used          : WinTex v5.0
+			  Paintshop Pro v6.00, v7.00, v7.04, v11.00
+Known Bugs              : None
+Tested With		: ZDoom v2.1.7, Skulltag v0.96f, GZDoom v1.0.21
+
+
+* Copyright / Permissions *
+
+Authors MAY use the contents of this file as a base for modification 
+or reuse.
+
+You MAY distribute this file, provided you include this text file, with
+no modifications.
+
+You may distribute this file in any electronic format (BBS, Diskette,
+CD, etc) as long as you include this file intact.
+
+
+* Where to get this WAD *
+
+The Usual: ftp://archives.3dgamers.com/pub/idgames/ and mirrors
+Web sites: http://www.doomworld.com/afterglow

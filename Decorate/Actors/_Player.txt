@@ -1,0 +1,14 @@
+ACTOR TGRDoomPlayer : DoomPlayer
+{
+    //Speed 0.85
+    Player.StartItem "TGRChaingun"
+    Player.StartItem "TGRChainsaw"
+    Player.StartItem "Clip", 60
+    Player.WeaponSlot 1, TGRChainsaw
+    Player.WeaponSlot 2, TGRChaingun
+    Player.WeaponSlot 3, TGRShotgun, TGRSuperShotgun
+    Player.WeaponSlot 4, TGRRocketLauncher
+    Player.WeaponSlot 5, TGRGrenadeLauncher
+    Player.WeaponSlot 6, TGRRailgun
+    Player.WeaponSlot 7, TGRPlasmaRifle
+}

@@ -1,0 +1,14 @@
+=======================================
+---------------------------------------
+           DECORATE ID Range
+          DoomEd Map Address
+---------------------------------------
+=======================================
+
+
+#-Address  |  Object
+-----------------------
+5011         TGRGrenadeLauncher
+5012         TGRRailgun
+15000        RainSpawner
+15001        FogCloud_Generator

@@ -1,0 +1,13 @@
+<!> WARNING <!>
+THIS IS A PLACE HOLDER FOR THE GZDoomBuilder.txt!
+
+
+This is a special case that I am using a image from a very popular piece of software, GZDoom Builder.  All credits go towards MaxED (created GZDoom Builder) and CodeImp (created Doom Builder 2, which GZDoom Builder is based on).
+
+Links:
+    Doom Builder [Home Page]
+        http://doombuilder.com/
+    GZDoom Builder [Home Page]
+        http://forum.zdoom.org/viewtopic.php?p=613830#p613830
+    Source Code
+        http://svn.code.sf.net/p/doombuilder/code/

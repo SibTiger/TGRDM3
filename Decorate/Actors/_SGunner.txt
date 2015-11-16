@@ -1,0 +1,5 @@
+//Replace the original ShotgunGuy with this ShotgunGuy that drops the new Shotgun.
+ACTOR TGRShotgunGuy : ShotgunGuy
+{
+    DropItem "TGRShotgun"
+}

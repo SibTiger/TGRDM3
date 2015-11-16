@@ -1,0 +1,17 @@
+=====================================================
+Zandronum Forums [Thread]
+http://zandronum.com/forum/showthread.php?tid=868&pid=10477#pid10477
+=====================================================
+
+
+Base File: duel32f.pk3
+Location: http://files.funcrusherplus.net/wads/duel32f.pk3
+
+
+Identity Textures:
+    N_BDSP06
+        TX0_49K
+    N_BDSP11
+        TX0_2UQ
+    S_BDRP01
+        TX0_0RD

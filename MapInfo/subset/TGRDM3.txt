@@ -1,0 +1,67 @@
+MAP MAP01 "Acerbus"
+{
+    Next = "MAP02"
+}
+
+
+MAP MAP02 "Unfaithful"
+{
+    Next = "MAP03"
+}
+
+
+MAP MAP03 "NoirLust"
+{
+    Next = "MAP04"
+}
+
+
+MAP MAP04 "Abandoned Misery"
+{
+    LevelNum = 04
+    Next = "MAP05"
+    Sky1 = "TX0_0DZ", 0.1
+    Music = "D_DEAD"
+}
+
+
+MAP MAP05 "Dark Stone"
+{
+    Next = "MAP06"
+}
+
+
+MAP MAP06 "Insomnium"
+{
+    Next = "MAP07"
+}
+
+
+MAP MAP07 "Malus"
+{
+    Next = "MAP08"
+}
+
+
+MAP MAP08 "Ailuropoda Melanoleuca"
+{
+    Next = "MAP09"
+}
+
+
+MAP MAP09 "Adios"
+{
+    Next = "MAP10"
+}
+
+
+MAP MAP10 "NO_MAP"
+{
+    Next = "MAP01"
+}
+
+
+MAP Artis "Artis"
+{
+    Next = "Artis"
+}

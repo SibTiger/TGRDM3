@@ -1,0 +1,29 @@
+ACTOR TGRPlasmaBall : PlasmaBall REPLACES PlasmaBall
+{
+    Obituary "[%o] -->> Plasma Rifle -->> [%k]"
+    Game Doom
+    Radius 13
+    Height 8
+    Speed 37 //Speed this up just a bit.
+    Damage 8
+    // ----
+    // Flags, Switches, and Properties
+    // =================================
+        Projectile
+        +RANDOMIZE
+        RenderStyle Add
+        Alpha 0.75
+    // ----
+    Decal PlasmaScorch
+    SeeSound "weapons/plasmaf"
+    DeathSound "weapons/plasmax"
+    States
+    {
+    Spawn:
+        PLSS AB 6 Bright
+        Loop
+    Death:
+        PLSE ABCDE 4 Bright
+        Stop
+    }
+}

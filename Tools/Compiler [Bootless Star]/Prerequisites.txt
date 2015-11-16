@@ -1,0 +1,15 @@
+Prerequisites
+======================
+
+
+Foundation Requirements:
+--------
+    Bootless Star 1.5 or later
+
+
+
+Necessary:
+--------
+     7Zip 9.20 preferred
+         http://7-zip.org/
+     Morgenstern resources [SVN Local Working Copy]

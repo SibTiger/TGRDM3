@@ -1,0 +1,124 @@
+===========================================================================
+Update to               : None
+Advanced engine needed  : Skulltag
+Primary purpose         : Domination
+===========================================================================
+Release date     : 31 March 2oo6
+Title            : Skulltag Community Domination Project
+Filename         : stdom.wad
+E-mail		 : rwilshere@hotmail.com
+Authors          : Team Lead - Ryan Wilshere aka Aabra
+		   Team Co-lead - Rivecoder
+
+   		   MAP01 - Friday Night Domination by Aabra
+		   MAP02 - Luna Domination by Rivecoder
+		   MAP03 - City of the Dominated by Zalewa
+		   MAP04 - Alice by Aabra
+		   MAP05 - Death Ridge by Rottking
+		   MAP06 - Voices of Agony by Zalewa
+		   MAP07 - Zillion by Maniac
+		   MAP08 - Alinealus by El Rodo
+		   MAP09 - Domination Demo 1 by Nestea
+		   MAP10 - Domination Demo 2 by Nestea
+		   MAP11 - Domination Demo 3 by Nestea
+
+
+Testers:	The entire Skulltag Community.  Way too many to mention them all.  
+		Special thanks to *everybody* who helped us develop this awesome new gamemode.
+
+Description: 
+
+This wad adds a new gamemode to Skulltag called "Domination".  (Although the idea had been tossed around for a long time and a small map or two was made to test it, the old maps unfortunately no longer work with the current incarnation of Skulltag and no proper project was ever done.)  
+
+Domination is a gamemode borrowed (or stolen!) from Unreal Tournament.  In each map there are several Domination points.  The object of the game is for your team to control these points.  Your team gains 1 point for every 5 seconds for every domination point that is controlled.  Frags do not matter whatsoever.  The team that reaches the server pointlimit first is the winner.  If you do not work as a team to properly attack and defend each of these points - you will lose.  MAP01, MAP02, MAP03, MAP04, AND MAP06 use bases.  Each team has a base where they spawn.  They then have to run from their base to the various domination points whenever they die.   MAP06, MAP07, and MAP08 are based on random spawning (like the original UT) where the players spawn randomly in various places on the map.  
+
+MAP02 also includes a special "base" domination point that will give a team big points if they manage to aquire it.  You 
+must stand on it for 3 full seconds in order to claim this point.
+
+
+*FEATURES*
+
+- New Gamemode... Domination!!!
+
+- 8 Incredible Levels.  Who says you can't have both great gameplay and detail?
+
+- New Music! Check out the jukebox in Map01 in the team selection room for some fun.
+
+- Autoselection Hallway! No more random team option - the middle hallway will automatically attempt to balance the teams instead of randomly selecting a team!  If the teams are balanced, it will put the player on the team that is losing, and if the teams are balanced both in players and score, then it will select a team at random.
+
+- Telefrag Protection!  No more being telefragged as everybody rushes to join a team!  
+
+- ACS like you've never seen in a multiplayer map before!
+
+- Lots of new textures as well as new sounds! (*note* the sounds do not replace anything)
+
+- Make your own Domination Map!  Demonstration Code and Maps included for different types of Domination that 
+  you are free to use! Check out MAP09, MAP10, AND MAP11!
+
+
+  	     
+===========================================================================
+* What is included *
+New levels              : 11
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+* Play Information *
+Game                    : DOOM2
+Map #                   : MAP01 to MAP11
+Single Player           : No
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : No
+Other game styles       : Domination! 2-16 players! (Some maps can support more than 16)
+Difficulty Settings     : Not implemented
+
+
+
+* Construction *
+Base         : Scratch.
+Build Time   : Around 8 months
+
+Editor(s) used : Doom Builder, XWE, Adobe Photoshop, Mptrim, GoldWave (possibly more.. I'd have to ask the other authors)
+
+Known bug    : It was originally intended in MAP04 to use Floor_Waggle and Ceiling_Waggle.  This code however was
+		removed (remmed out) due to various multiplayer bugs that it created.  When this bug is fixed we plan
+		to release a new version which includes this feature.
+
+
+* Copyright / Permissions *
+
+All the textures included in this wad that start with the letters AL
+were originally from the game American Mcgee's Alice.  Several have been
+highly modified, however the original source was from that game.  In addition
+the sound files CAT1 - CAT7, ALICE1-ALICE4, MHAT1, and QUEEN1 were also taken 
+from the game.  AL_MUSIC is an mp3 that was also taken from the game.  It has been
+downsampled significantly to make the file smaller.  (It was originally 2.4 megs
+it's now a mere 800k) We fully admit to taking and using these files for the
+betterment of the Doom 2 community and we believe that the original authors
+will not mind us using them.  If they do, please send me an e-mail at rwilshere@hotmail.com.
+As we can't claim to be the authors of these files, everybody else is obviously
+free to use them as they please.
+
+Authors MAY use the ACS code from all levels to help them create
+their own Domination levels. It is recommended you use MAP09, MAP10, and MAP11 as they are templates made for this purpose.
+
+For everything else not mentioned above the following applies:
+
+Authors MAY NOT use the contents of this file as a base for
+modification or reuse.  Permissions have been obtained from original 
+authors for any of their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with
+no modifications.  You may distribute this file in any electronic
+format (BBS, Diskette, CD, etc) as long as you include this file 
+intact.  I have received permission from the original authors of any
+modified or included content in this file to allow further distribution.
+
+* Where to get the file that this text file describes *
+http://www.doomworld.com
+http://www.chaoscentral.biz/

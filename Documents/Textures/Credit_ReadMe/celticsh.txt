@@ -1,0 +1,54 @@
+http://www.doomworld.com/afterglow/textures/zips/celticsh.zip
+
+
+===============================================================
+These textures were converted by Derek Mac Donald aka Afterglow.
+I can be contacted at derekmd@frad.org and you can get more
+textures for Doom2 at my site http://www.doomworld.com/afterglow/
+
+===============================================================
+Title                   : Celtic Shrine Texture Set for Doom2
+Filename                : celticsh.zip - celticsh.wad, celticsh.txt
+Date Released           : September 2nd, 1999
+Author                  : Crista Forest, aka "CD Warrior"
+Email Address           : cdwarrior@usa.net, csforest@planetunreal.com
+Web Pages               : http://www.planetunreal.com/forest
+                          http://www.planetquake.com/infinity
+                          http://www.foreststudios.com
+Description             : 44 textures converted to Doom 2. The set was
+                          originally designed for use in an Unreal level.
+                          The level was based on the theme of a Celtic shrine
+                          which had been burned and ransacked.
+
+================================================================
+
+* Play Information *
+
+Game                    : DOOM II
+Episode and Level #     : N/A
+Single Player           : N/A
+Cooperative 2-4 Player  : N/A
+Deathmatch 2-4 Player   : N/A
+Difficulty Settings     : N/A
+New Sounds              : N/A
+New Graphics            : Yes
+New Music               : N/A
+Demos Replaced          : None
+
+* Construction *
+
+Base                    : All new textures from scratch
+Editor(s) used          : Wintex 4.3, Paint Shop Pro 5.01
+Known Bugs              : Maybe a few bad pixels, but nothing major
+
+* Copyright / Permissions *
+
+All textures have been made from scratch and you may use these enjoyment
+only. You may NOT use any of this WAD file for commercial purposes without
+my written permission. When distributing these textures please distribute
+them together in their original form and with this text file. Thank you.
+
+* Where to get this WAD *
+
+http://www.doomworld.com/afterglow/
+ftp://ftp.cdrom.com/pub/idgames/graphics/celticsh.zip

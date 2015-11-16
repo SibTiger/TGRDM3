@@ -1,0 +1,7 @@
+MAP MAP00 "EXAMPLE"
+{
+    LevelNum = 00
+    Next = "MAP01"
+    Sky1 = "TX0_0DZ", 0.1
+    Music = "D_DEAD"
+}

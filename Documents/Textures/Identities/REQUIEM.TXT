@@ -1,0 +1,39 @@
+=====================================================
+Doomworld /IDGames
+http://www.doomworld.com/idgames/
+=====================================================
+
+
+Base File: requiem.zip
+Location: http://www.doomworld.com/idgames/index.php?file=levels/doom2/megawads/requiem.zip
+
+
+Identity Textures:
+    AD_M24_5
+        TX0_2V8
+    AD_M24_6
+        TX0_2PO
+    AD_M24_7
+        TX0_2TU
+    ADEL_P01
+        TX0_0DY
+    ADEL_P02
+        TX0_2RS
+    ADEL_S05
+        TX0_2V1
+    ADEL_S11
+        TX0_09B
+    ADEL_S12
+        TX0_2Q8
+    ADEL_S13
+        TX0_239
+    ADEL_S16
+        TX0_2U8
+    ADEL_S17
+        TX0_2W2
+    ADEL_S18
+        TX0_2T5
+    ADEL_W00
+        TX0_2UE
+    ADEL_W08
+        TX0_3D5

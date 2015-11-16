@@ -1,0 +1,53 @@
+=====================================================
+Afterglow
+http://www.doomworld.com/afterglow/textures.shtml
+=====================================================
+
+
+Base File: dgdbtxtr.zip
+Location: http://www.doomworld.com/afterglow/textures/zips/dgdbtxtr.zip
+
+
+Identity Textures:
+    ADELDG02
+        TX0_0NJ
+    D2_DOOR1
+        TX0_0NK
+    D2_DOOR2
+        TX0_0NL
+    D2_FLAT1
+        TX0_0NM
+    D2_FLAT2
+        TX0_0NN
+    D2_FLAT3
+        TX0_0NO
+    D2_FLAT4
+        TX0_0NP
+    D2_FLAT5
+        TX0_0NQ
+    D2_FLAT6
+        TX0_0NR
+    D2_FLAT7
+        TX0_0NS
+    D2_LIFT1
+        TX0_0NT
+    D2_WALL0
+        TX0_0NU
+    D2_WALL1
+        TX0_0NV
+    D2_WALL2
+        TX0_0NW
+    D2_WALL3
+        TX0_0NX
+    D2_WALL4
+        TX0_0NY
+    D2_WALL5
+        TX0_0NZ
+    D2_WALL6
+        TX0_0O0
+    D2_WALL7
+        TX0_0O1
+    D2_WALL8
+        TX0_0O2
+    D2_WALL9
+        TX0_0O3

@@ -1,0 +1,12 @@
+=====================================================
+Nicholas "Tiger" Gautier
+Self-made textures for TGRDM3
+=====================================================
+
+
+Base File: N/A
+Location: N/A
+
+
+Identity Textures:
+    TX0_2UV

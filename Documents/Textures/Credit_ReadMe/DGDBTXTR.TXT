@@ -1,0 +1,76 @@
+http://www.doomworld.com/afterglow/textures/zips/dgdbtxtr.zip
+
+
+================================================================
+Title                   : DarkBase Texture Wad (dgdbtxtr.wad)
+Date Finished           : 01 November 1998
+                          (le premier novembre :)
+Author                  : David Gevert
+Email Address           : dagger@doomworld.com
+Other Files By Author   : See http://members.xoom.com/DaggerDoom2
+Misc. Author Info       : 15 years old, moderator: SlaughterDM,
+                          involved in several Doom projects, has
+                          a webpage at http://dagger.quakecity.net
+
+Description             : About 12 textures and 7 flats suitable
+                          for dark-brown base levels similar to
+                          Quake 1.  All are mods of Doom2 textures,
+                          with the exception of one by Paul Fleschute.
+
+Additional Credits to   : id Software (of course)
+                          Olivier Montanuy for WinTex
+                          Jasc Software for Paint Shop Pro
+                          Paul Fleschute for one base texture
+
+================================================================
+* Type of DOOM or DOOM II file*
+
+New level WAD           : No
+Sound PWAD Only         : No
+Music PWAD Only         : No
+Graphic Addon Only      : Yes
+Dehack Patch Only       : No
+.LMP Only               : No
+Other                   : No
+Required To Have In Dir : Doom 1 or 2
+
+
+* Play Information *
+
+Game                    : Both
+Episode and Level #     : n/a
+Single Player           : n/a
+Cooperative 2-4 Player  : n/a
+Deathmatch 2-4 Player   : n/a
+Difficulty Settings     : n/a
+New Sounds              : No
+New Graphics            : Yes
+New Music               : No
+Demos Replaced          : n/a
+
+* Construction *
+
+Base                    : New texture wad from scratch
+Editor(s) used          : WinTex 4.2, Paint Shop Pro 5.0
+Known Bugs              : None known
+
+
+* Copyright / Permissions *
+
+Seeing as how these are all relatively simple modifications of DOOM 2
+textures, I don't see why I should get much (if any) credit for this.
+If you would like to use these textures, just mention that I compiled
+them, but don't go out of your way to credit me for making these
+textures, basically.  I do ask that you give id Software and Paul
+Fleschute credit, however.  Also, if you use these textures in a
+released level or megawad/TC, please let me know so I can see them
+in action! :)
+
+* Where to get this WAD *
+
+FTP sites: ftp.cdrom.com
+
+BBS numbers:
+
+Other: http://dagger.quakecity.net/dgdbtxtr.zip
+

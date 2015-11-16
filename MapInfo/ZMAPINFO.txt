@@ -1,0 +1,16 @@
+// ZDoom ZMAPINFO Standard Formatting
+// ZDOOM WIKI: http://zdoom.org/wiki/MAPINFO
+// ===================================================================
+
+
+//Episode Settings
+include "MapInfo/Episodes.txt"
+
+
+//Game and Default Settings
+include "MapInfo/GameInfo.txt"
+include "MapInfo/GameDefaults.txt"
+
+
+//Main Stock Maps
+include "MapInfo/GameMaps.txt"

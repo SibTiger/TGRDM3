@@ -1,0 +1,49 @@
+ACTOR TGRRocketLauncher : RocketLauncher REPLACES RocketLauncher
+{
+    Inventory.PickupMessage "Picked Up: Rocket Launcher"
+    HitObituary "[%o] -->> Rocket Launcher -->> [%k]"
+    Tag "Rocket Launcher"
+    // Standards
+    // ===========
+        +Inventory.Untossable // Can not 'drop (CCMD)' the weapon
+        +Inventory.Undroppable // Weapon can never be taken away from the player's inventory.
+        +Weapon.NoAutoAim // Disallow AutoAim with this weapon.
+        +Weapon.No_Auto_Switch // When this weapon is picked up, do not switch to it.
+        Weapon.BobStyle InverseSmooth // Different taste of bobbing; use Doom Alpha's bobbing style - but smooth.
+
+        // Because some mods in Zandronum abuse the ConsoleCommand to change the user's settings; I found one that changes bobbing....
+            Weapon.BobRangeX 1.0
+            Weapon.BobRangeY 1.0
+            Weapon.BobSpeed  1.0
+            Weapon.YAdjust 10
+    // ------
+    // ======
+
+    // ----
+    // Flags, Switches, and Properties
+    // =================================
+    +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
+    -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
+    Weapon.PreferredSkin "Rocket-Marine" // Zandronum feature only; dependency required: MarineSkins
+    // ------
+    // ======
+
+    // ----
+    // Ammo Management
+    Weapon.AmmoUse 1
+    Weapon.AmmoGive 8
+    Weapon.AmmoType "RocketAmmo"
+    // ----
+    Inventory.Icon "LAUNA0"
+    States
+    {
+    Fire:
+        MISG B 8 A_GunFlash
+        MISG B 15 A_FireCustomMissile ("TGRRocket")
+        MISG B 0 A_ReFire
+        Goto Ready
+    Spawn:
+        LAUN A -1
+        Stop
+    }
+}

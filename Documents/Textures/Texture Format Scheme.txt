@@ -1,0 +1,12 @@
+TXy_x
+    Addressing:
+        Y =  Integer value (base 10) in one character
+              0 = Static Texture
+              1 = Animated Texture
+              2 = Warp-1
+              3 = Warp-2
+              4 = Switch
+        X =  Integer value in Three Characters
+Max Possible Characters: 8.3 [DOS/FAT like]
+Max Possible Addressing: 150.094.635.296.999.121 addresses per-section
+Base Format: 36

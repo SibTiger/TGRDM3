@@ -1,0 +1,177 @@
+//======================
+//        Weapons
+//======================
+
+
+
+// GrenadeLauncher
+Weapons/GrenLF          DSGLAUNC
+Weapons/GrenLX          DSGRNEXP
+Weapons/GrBnce          DSBOUNCE
+
+
+// --
+
+
+// BFG
+Weapons/BFG10KF         DSBFG10K
+Weapons/BFG10KX         DSBAREXP
+Weapons/BFG10KCool      DS10KCDN
+Weapons/BFG10KIdle      DS10KIDL
+$Limit                  Weapons/BFG10KX     0
+
+
+
+
+//======================
+//    Special Effects
+//======================
+
+
+// RainSpawner
+Ambient/Rain        AMBRAIN
+$volume Ambient/Rain 0.2
+
+
+// --
+
+
+// Rain
+$ambient 1 Ambient/Rain point 1.0 continuous 0.5
+
+
+
+
+//======================
+//       Splashes
+//======================
+
+
+// Water Splash
+// ---------
+$random world/watersplash
+{
+    world/watersplash1
+    world/watersplash2
+}
+
+$volume world/watersplash 0.1 // Reduce the volume [NG]
+
+
+world/watersplash1      dssplash
+world/watersplash2      dsspla2
+// ---------
+
+
+// --
+
+
+// Water Splash [Small]
+// ---------
+$random world/watersplashsmall
+{
+    world/watersplashsmall1
+    world/watersplashsmall2
+}
+
+$volume world/watersplashsmall 0.1 // Reduce the volume [NG]
+
+
+world/watersplashsmall1     dssplsml
+world/watersplashsmall2     dssplsm2
+// ---------
+
+
+// --
+
+
+// Sludge Regloop
+// ---------
+$random world/sludgegloop
+{
+    world/sludgegloop1
+    world/sludgegloop2
+}
+
+$volume world/sludgegloop 0.1 // Reduce the volume [NG]
+
+
+world/sludgegloop1      dsploosh
+world/sludgegloop2      dsploo2
+// ---------
+
+
+// --
+
+
+// Sludge Regloop [Small]
+// ---------
+$random world/sludgegloopsmall
+{
+    world/sludgegloopsmall1
+    world/sludgegloopsmall2
+}
+
+$volume world/sludgegloopsmall 0.1 // Reduce the volume [NG]
+
+
+world/sludgegloopsmall1     dsplosml
+world/sludgegloopsmall2     dsplosm2
+// ---------
+
+
+// --
+
+
+// Lava Sizzle
+// ---------
+$random world/lavasizzle
+{
+    world/lavasizzle1
+    world/lavasizzle2
+}
+
+$volume world/lavasizzle 0.1 // Reduce the volume [NG]
+
+
+world/lavasizzle1       dslvsiz
+world/lavasizzle2       dslvsiz3
+// ---------
+
+
+// --
+
+
+// Lava Sizzle 2
+// ---------
+$random world/lavsiz2
+{
+    world/lavsiz21
+    world/lavsiz22
+}
+
+$volume world/lavsiz2 0.1 // Reduce the volume [NG]
+
+
+world/lavsiz21      dslvsiz2
+world/lavsiz22      dslvsiz4
+// ---------
+
+
+// --
+
+
+// Lava Sizzle [Small]
+// ---------
+$random world/lavasizzlesmall
+{
+    world/lavasizzlesmall1
+    world/lavasizzlesmall2
+}
+
+$volume world/lavasizzlesmall 0.1 // Reduce the volume [NG]
+
+
+world/lavasizzlesmall1      dslavsml
+world/lavasizzlesmall2      dslavsm2
+// ---------
