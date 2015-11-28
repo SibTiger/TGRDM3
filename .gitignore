@@ -8,6 +8,9 @@
 # Auto-Generated WAD Settings Configuration's
 *.dbs
 
+# Assets data file
+Morgenstern_assets.pk[3|7]
+
 
 
 
