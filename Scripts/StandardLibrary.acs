@@ -1,0 +1,28 @@
+//#library "StandardLibrary"
+//#include "zcommon.acs"
+
+
+
+// 3D Teleport
+// Specialized script to teleport the player while on a 3D plain
+// ----
+// Description
+//      This will allow teleports that are either above, below, or inbetween 3D Floors to behave exactly like
+//          the standard teleporters; the player will be able to walk on to and above the LineDef to activate it.
+//      This is the only way I can figure out how to make teleporters that are above, below, or in-between 3D floors to behave EXACTLY
+//          like the regular teleporters that we all know in Doom ;)
+// ----
+// Parameters
+//      heightCeiling <int>
+//          The real value of the nearest ceiling
+//      heightFloor <int>
+//          The real value of the nearest floor
+//      mapSpotTarget <int>
+//          Teleport destination
+SCRIPT "3DTeleport" (int heightCeiling, int heightFloor, int mapSpotTarget)
+{
+        // Check the player's 2D vector
+        if ( ((GetActorCeilingZ(0) >> 16) == heightCeiling) && ( (GetActorFloorZ(0) >> 16) == heightFloor) )
+            // If the player is between the heightCeiling and heightFloor of the 3D Plain, teleport the player
+            Teleport(mapSpotTarget, 0, 0);
+} // 3DTeleport()
