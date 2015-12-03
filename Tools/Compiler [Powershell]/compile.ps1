@@ -45,13 +45,19 @@ function Main()
 {
     # Initializations and Declarations
     # =====================================
-        [string] $outputFileName = "compiler.ps1";
-        [string] $searchDirPath = ".\Scripts\";
-        [string] $projectName = "Morgenstern";
-        [string[]] $filesArray = @("Help", "Header");
-        # LOCK THE ARRAY FROM CHANGING DURING EXECUTION
-            Set-Variable $filesArray -Option ReadOnly
-        [string[]] $cachedData = @();
+        # Output compiled filename
+            [string] $outputFileName = "compiler.ps1";
+        # Scan directory for scripts
+            [string] $searchDirPath = ".\Scripts\";
+        # Project name
+            [string] $projectName = "Morgenstern";
+        # Array of files\scripts
+            [string[]] $filesArray = @("Help", "Header");
+
+            # LOCK THE ARRAY FROM CHANGING DURING EXECUTION
+                Set-Variable $filesArray -Option ReadOnly
+        # Store the contents of each file into system memory
+            [string[]] $cachedData = @();
 
     # ====
     
@@ -63,7 +69,9 @@ function Main()
     # Tell the user that the program is executing
         DisplayCompilingMessage "$projectName";
     # How many indexes are in the files array
-        #CountArray $filesArray;
+        CountArray_OutputMessage $filesArray;
+    # What is listed within the array
+        DisplayArrayContents $filesArray;
     # Fetch scripts content
         $cachedData += CacheScriptsHostMemory $filesArray $searchDirPath;
     # ----
@@ -123,6 +131,40 @@ function ClearTerminalBuffer()
 function CountArray([string[]] $array)
 {
     return $array.Length;
+}
+
+
+
+# ========================================================================
+# ========================================================================
+# CountArray_OutputMessage
+# ----------------------------
+# Parameters:
+#     Array <string>
+# ----------------------------
+# Brief:
+#     Prints how many indexes are in the array
+# ========================================================================
+function CountArray_OutputMessage([string[]] $array)
+{
+    Write-Output "Number of files declared: $(CountArray $array)";
+}
+
+
+
+# ========================================================================
+# ========================================================================
+# DisplayArrayContents
+# ----------------------------
+# Parameters:
+#     Array <string>
+# ----------------------------
+# Brief:
+#     Prints all the contents within the array
+# ========================================================================
+function DisplayArrayContents([string[]] $array)
+{
+    Write-Output "List of files declared:" "$array";
 }
 
 
