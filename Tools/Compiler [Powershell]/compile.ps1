@@ -56,6 +56,7 @@ function Main()
 
             # LOCK THE ARRAY FROM CHANGING DURING EXECUTION
                 Set-Variable $filesArray -Option ReadOnly
+
         # Store the contents of each file into system memory
             [string[]] $cachedData = @();
 
@@ -64,7 +65,7 @@ function Main()
 
 
     # Clear the buffer
-        #ClearTerminalBuffer;
+        ClearTerminalBuffer;
     # ----
     # Tell the user that the program is executing
         DisplayCompilingMessage "$projectName";
