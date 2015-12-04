@@ -73,6 +73,8 @@ function Main()
         CountArray_OutputMessage $filesArray;
     # What is listed within the array
         DisplayArrayContents $filesArray;
+    # Draw the declared files in a table
+        DisplayArrayContents_TableFormat $filesArray;
     # Fetch scripts content
         $cachedData += CacheScriptsHostMemory $filesArray $searchDirPath;
     # ----
@@ -93,7 +95,7 @@ function Main()
 # ========================================================================
 function DisplayCompilingMessage([string]$project)
 {
-    Write-Output "Compiling $project's compiler"
+    Write-Host "Compiling $project's compiler"
         "Please wait..."
         "";
 }
@@ -148,7 +150,7 @@ function CountArray([string[]] $array)
 # ========================================================================
 function CountArray_OutputMessage([string[]] $array)
 {
-    Write-Output "Number of files declared: $(CountArray $array)";
+    Write-Host "Number of files declared: $(CountArray $array)";
 }
 
 
@@ -165,7 +167,52 @@ function CountArray_OutputMessage([string[]] $array)
 # ========================================================================
 function DisplayArrayContents([string[]] $array)
 {
-    Write-Output "List of files declared:" "$array";
+    Write-Host "List of files declared:" "$array";
+}
+
+
+
+# ========================================================================
+# ========================================================================
+# DisplayArrayContents_TableFormat
+# ----------------------------
+# Parameters:
+#     Array <string>
+# ----------------------------
+# Brief:
+#     Draws a table that displays the file names of the scripts with the
+#      respected index address.
+# ========================================================================
+function DisplayArrayContents_TableFormat([string[]] $array)
+{
+    # Create a new temporary table
+        [string] $drawTable_ParentName = "Array Declared Contents";
+        [Data.DataTable] $drawTable = New-Object system.Data.DataTable "$drawTable_ParentName";
+    
+    # Create the necessary columns
+        [Data.DataColumn] $column_1 = New-Object system.Data.DataColumn Index, ([int]);
+        [Data.DataColumn] $column_2 = New-Object system.Data.DataColumn FileName, ([string]);
+        $drawTable.Columns.add($column_1); # Add the column to the table object
+        $drawTable.Columns.add($column_2); # Add the column to the table object
+
+    # Create the rows as needed
+        for ([int] $i = 0; $i -lt $array.Length; $i++)
+        {
+            # Create a new instance of this scopped variable
+                $rowScopped = $drawTable.NewRow();
+
+            # Index
+                $rowScopped.Index = $i;
+
+            # File Name
+                $rowScopped.FileName = $array[$i];
+
+            # Push to the table
+                $drawTable.Rows.Add($rowScopped);
+        }
+
+    # Draw the table onto the terminal host
+        $drawTable | Format-Table -AutoSize;
 }
 
 
