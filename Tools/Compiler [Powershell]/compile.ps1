@@ -209,6 +209,9 @@ function DisplayArrayContents_TableFormat([string[]] $array)
 
             # Push to the table
                 $drawTable.Rows.Add($rowScopped);
+
+            # Flush the variable
+                Clear-Variable -Name rowScopped;
         }
 
     # Draw the table onto the terminal host
