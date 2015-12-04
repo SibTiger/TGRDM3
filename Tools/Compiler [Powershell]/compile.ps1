@@ -78,7 +78,7 @@ function Main()
     # Check for potential errors; check if the files exists in the host filesystem.
         if (CheckTargetStatus_ReportErrorSignal $filesArray $searchDirPath -eq True)
         {
-            Write-Error "Error occured";
+            Write-Error "Error occured:  Missing files";
         }
     # Fetch scripts content
         $cachedData += CacheScriptsHostMemory $filesArray $searchDirPath;
