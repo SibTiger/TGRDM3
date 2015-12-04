@@ -74,7 +74,7 @@ function Main()
     # What is listed within the array
         DisplayArrayContents $filesArray;
     # Draw the declared files in a table
-        DisplayArrayContents_TableFormat $filesArray;
+        DisplayArrayContents_TableFormat $filesArray $searchDirPath;
     # Fetch scripts content
         $cachedData += CacheScriptsHostMemory $filesArray $searchDirPath;
     # ----
@@ -178,12 +178,13 @@ function DisplayArrayContents([string[]] $array)
 # ----------------------------
 # Parameters:
 #     Array <string>
+#     Search Path <string>
 # ----------------------------
 # Brief:
 #     Draws a table that displays the file names of the scripts with the
 #      respected index address.
 # ========================================================================
-function DisplayArrayContents_TableFormat([string[]] $array)
+function DisplayArrayContents_TableFormat([string[]] $array, [string] $searchPath)
 {
     # Create a new temporary table
         [string] $drawTable_ParentName = "Array Declared Contents";
@@ -192,8 +193,10 @@ function DisplayArrayContents_TableFormat([string[]] $array)
     # Create the necessary columns
         [Data.DataColumn] $column_1 = New-Object system.Data.DataColumn Index, ([int]);
         [Data.DataColumn] $column_2 = New-Object system.Data.DataColumn FileName, ([string]);
+        [Data.DataColumn] $column_3 = New-Object System.Data.DataColumn Status, ([string]);
         $drawTable.Columns.add($column_1); # Add the column to the table object
         $drawTable.Columns.add($column_2); # Add the column to the table object
+        $drawTable.Columns.add($column_3); # Add the column to the table object
 
     # Create the rows as needed
         for ([int] $i = 0; $i -lt $array.Length; $i++)
@@ -207,6 +210,9 @@ function DisplayArrayContents_TableFormat([string[]] $array)
             # File Name
                 $rowScopped.FileName = $array[$i];
 
+            # Check file status
+                $rowScopped.Status = CheckTargetStatus "$searchPath$array[$i]";
+
             # Push to the table
                 $drawTable.Rows.Add($rowScopped);
 
@@ -216,6 +222,26 @@ function DisplayArrayContents_TableFormat([string[]] $array)
 
     # Draw the table onto the terminal host
         $drawTable | Format-Table -AutoSize;
+}
+
+
+
+# ========================================================================
+# ========================================================================
+# CheckTargetStatus
+# ----------------------------
+# Parameters:
+#     target <string>
+# ----------------------------
+# Output:
+#     Status <bool>
+# ----------------------------
+# Brief:
+#     Checks if the target exists within the filesystem.
+# ========================================================================
+function CheckTargetStatus([string] $target)
+{
+    return Test-Path "$target";
 }
 
 
