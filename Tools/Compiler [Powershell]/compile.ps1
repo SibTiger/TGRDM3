@@ -52,7 +52,7 @@ function Main()
         # Project name
             [string] $projectName = "Morgenstern";
         # Array of files\scripts
-            [string[]] $filesArray = @("Help", "Header");
+            [string[]] $filesArray = @("Help.ps1", "Header.ps1");
 
             # LOCK THE ARRAY FROM CHANGING DURING EXECUTION
                 Set-Variable $filesArray -Option ReadOnly
@@ -66,7 +66,6 @@ function Main()
 
     # Clear the buffer
         ClearTerminalBuffer;
-    # ----
     # Tell the user that the program is executing
         DisplayCompilingMessage "$projectName";
     # How many indexes are in the files array
@@ -85,7 +84,6 @@ function Main()
         $cachedData += CacheScriptsHostMemory $filesArray $searchDirPath;
     # ----
 }
-
 
 
 
@@ -217,7 +215,7 @@ function DisplayArrayContents_TableFormat([string[]] $array, [string] $searchPat
                 $rowScopped.FileName = $array[$i];
 
             # Check file status
-                $rowScopped.Status = CheckTargetStatus "$searchPath$array[$i]";
+                $rowScopped.Status = CheckTargetStatus $searchPath $array[$i];
 
             # Push to the table
                 $drawTable.Rows.Add($rowScopped);
@@ -254,7 +252,7 @@ function CheckTargetStatus_ReportErrorSignal([string[]] $array, [string] $search
     for ([int] $i = 0; $i -lt $array.Length; $i++)
     {
         # Does the file exist within the given path?
-        if (!(Test-Path "$searchPath$array[$i]"))
+        if (!(CheckTargetStatus $searchPath $array[$i]))
         {
             # Doesn't exist
             return "True";
@@ -272,7 +270,8 @@ function CheckTargetStatus_ReportErrorSignal([string[]] $array, [string] $search
 # CheckTargetStatus
 # ----------------------------
 # Parameters:
-#     target <string>
+#     target Directory <string>
+#     target File <string>
 # ----------------------------
 # Output:
 #     Status <bool>
@@ -280,9 +279,9 @@ function CheckTargetStatus_ReportErrorSignal([string[]] $array, [string] $search
 # Brief:
 #     Checks if the target exists within the filesystem.
 # ========================================================================
-function CheckTargetStatus([string] $target)
+function CheckTargetStatus([string] $targetDir, [string] $targetFile)
 {
-    return Test-Path "$target";
+    return Test-Path "$targetDir$targetFile";
 }
 
 
