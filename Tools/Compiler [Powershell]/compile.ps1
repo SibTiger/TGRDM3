@@ -80,10 +80,12 @@ function Main()
         if (CheckTargetStatus_ReportErrorSignal $filesArray $searchDirPath -eq True)
         {
             Write-Error "Error occured:  Missing files";
-            Exit 1; # Error out
+            return 1;
         }
     # Fetch scripts content
         $cachedData += CacheScriptsHostMemory $filesArray $searchDirPath;
+    # Terminate the script
+        return 0;
     # ----
 }
 
@@ -375,4 +377,10 @@ function GenerateScript([string[]] $array, [string] $output)
 
 # -------------------------------------------------------------------------
 # Once all the functions within this script have been defined; execute Main
-Main
+Main | Out-Null; # Hide the return value from the host terminal.
+# Retrive the exit\return code from Main
+[int] $exitCode = $LASTEXITCODE;
+# Restore the host's previous WD
+HostWorkingDirectory 0;
+# Stop the process
+Exit $exitCode;
