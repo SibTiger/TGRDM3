@@ -377,7 +377,7 @@ function GenerateScript([string[]] $array, [string] $output)
 
 # -------------------------------------------------------------------------
 # Once all the functions within this script have been defined; execute Main
-Main | Out-Null; # Hide the return value from the host terminal.
+Main;
 # Retrive the exit\return code from Main
 [int] $exitCode = $LASTEXITCODE;
 # Restore the host's previous WD
