@@ -66,6 +66,8 @@ function Main()
 
     # Clear the buffer
         ClearTerminalBuffer;
+    # Move the host WD to the script's root
+        HostWorkingDirectory 1;
     # Tell the user that the program is executing
         DisplayCompilingMessage "$projectName";
     # How many indexes are in the files array
@@ -83,6 +85,35 @@ function Main()
     # Fetch scripts content
         $cachedData += CacheScriptsHostMemory $filesArray $searchDirPath;
     # ----
+}
+
+
+
+# ========================================================================
+# ========================================================================
+# HostWorkingDirectory
+# ----------------------------
+# Parameters:
+#     mode <bool>
+# ----------------------------
+# Brief:
+#     Changes the host's working directory depending on the $mode parameter
+#       1 = Update the host's working directory to match with the root
+#               of the script file itself.
+#       0 = Restore the host's working directory to its pervious state.
+# ========================================================================
+function HostWorkingDirectory([bool] $mode)
+{
+    if ($mode -eq 1)
+    {
+        # Move WD to script root dir
+        Push-Location -LiteralPath "$PSScriptRoot";
+    }
+    else
+    {
+        # Restore the WD to previous state
+        Pop-Location;
+    }
 }
 
 
