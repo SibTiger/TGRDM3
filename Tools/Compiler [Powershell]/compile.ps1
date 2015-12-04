@@ -75,6 +75,11 @@ function Main()
         DisplayArrayContents $filesArray;
     # Draw the declared files in a table
         DisplayArrayContents_TableFormat $filesArray $searchDirPath;
+    # Check for potential errors; check if the files exists in the host filesystem.
+        if (CheckTargetStatus_ReportErrorSignal $filesArray $searchDirPath -eq True)
+        {
+            Write-Error "Error occured";
+        }
     # Fetch scripts content
         $cachedData += CacheScriptsHostMemory $filesArray $searchDirPath;
     # ----
@@ -222,6 +227,41 @@ function DisplayArrayContents_TableFormat([string[]] $array, [string] $searchPat
 
     # Draw the table onto the terminal host
         $drawTable | Format-Table -AutoSize;
+}
+
+
+
+# ========================================================================
+# ========================================================================
+# CheckTargetStatus_ReportErrorSignal
+# ----------------------------
+# Parameters:
+#     array <string>
+#     searchPath <string>
+# ----------------------------
+# Output:
+#     Status <bool>
+# ----------------------------
+# Brief:
+#     Checks if the target exists within the filesystem, but will return a
+#      a value depending if all of the files were found.
+#        True = Error was detected; a file didn't exist within the filesystem
+#        False = No error was detected.
+# ========================================================================
+function CheckTargetStatus_ReportErrorSignal([string[]] $array, [string] $searchPath)
+{
+    for ([int] $i = 0; $i -lt $array.Length; $i++)
+    {
+        # Does the file exist within the given path?
+        if (!(Test-Path "$searchPath$array[$i]"))
+        {
+            # Doesn't exist
+            return "True";
+        }
+    }
+
+    # No errors
+    return "False";
 }
 
 
