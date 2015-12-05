@@ -288,12 +288,12 @@ function CheckTargetStatus_ReportErrorSignal([string[]] $array, [string] $search
         if (!(CheckTargetStatus $searchPath $array[$i]))
         {
             # Doesn't exist
-            return "True";
+            return $True;
         }
     }
 
     # No errors
-    return "False";
+    return $False;
 }
 
 
