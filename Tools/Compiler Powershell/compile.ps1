@@ -337,6 +337,7 @@ function CacheScriptsHostMemory([string[]] $files, [string] $source)
 {
     # This will store the data from the ascii files.
     [string[]] $cachedData = @();
+    [string] $lineFeedSpacing = "`r`n`r`n`r`n";
 
 
     # Fill the array
@@ -345,6 +346,7 @@ function CacheScriptsHostMemory([string[]] $files, [string] $source)
         # Store the file array at index in cache variable
             [string] $cacheFile = $files[$i];
         $cachedData += Get-Content "$source$cacheFile";
+        $cachedData += Write-Output $lineFeedSpacing;
 
         # Clear the variable before the next iteration
             Clear-Variable cacheFile;
@@ -374,7 +376,7 @@ function GenerateScript([string[]] $array, [string] $output)
     for ([int] $i = 0; $i -lt $array.Length; $i++)
     {
         $cacheString = $array[$i];
-        Add-Content -LiteralPath ".\$output" -Value $cacheString;
+        Add-Content -LiteralPath ".\$output" -Value "$cacheString";
     }
 
     return 0;
