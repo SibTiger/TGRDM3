@@ -84,6 +84,9 @@ function Main()
         }
     # Fetch scripts content
         $cachedData += CacheScriptsHostMemory $filesArray $searchDirPath;
+
+    # Create the output file
+        GenerateScript $cachedData $outputFileName;
     # Terminate the script
         return 0;
     # ----
@@ -337,14 +340,15 @@ function CacheScriptsHostMemory([string[]] $files, [string] $source)
 
 
     # Fill the array
-    for([int] $i = 0; $i -le $files.Length; $i++)
+    for([int] $i = 0; $i -lt $files.Length; $i++)
     {
-        #$cachedData += Get-Content "$source$files[$i]";
-        Write-Output "$source$files[$i]";
-        Write-Output "$source";
-        Write-Output "$files[$i]";
-    }
+        # Store the file array at index in cache variable
+            [string] $cacheFile = $files[$i];
+        $cachedData += Get-Content "$source$cacheFile";
 
+        # Clear the variable before the next iteration
+            Clear-Variable cacheFile;
+    }
 
     # Return the array to the caller
     return $cachedData;
@@ -365,9 +369,11 @@ function CacheScriptsHostMemory([string[]] $files, [string] $source)
 # ========================================================================
 function GenerateScript([string[]] $array, [string] $output)
 {
-    for ([int] $i = 0; $i -le $array.Length; $i++)
+    [string] $cacheString;
+    for ([int] $i = 0; $i -lt $array.Length; $i++)
     {
-        Add-Content "$output" "$array[$i]";
+        $cacheString = $array[$i];
+        Add-Content -LiteralPath ".\$output" -Value $cacheString;
     }
 
     return 0;
