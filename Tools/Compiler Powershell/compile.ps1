@@ -391,5 +391,7 @@ Main;
 [int] $exitCode = $LASTEXITCODE;
 # Restore the host's previous WD
 HostWorkingDirectory 0;
+# Wait for the user
+Read-Host "Press the enter key to close this script" | Out-Null;
 # Stop the process
 Exit $exitCode;
