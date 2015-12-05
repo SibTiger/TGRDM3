@@ -370,6 +370,7 @@ function CacheScriptsHostMemory([string[]] $files, [string] $source)
 function GenerateScript([string[]] $array, [string] $output)
 {
     [string] $cacheString;
+    New-Item -Path ".\$output" -Force | Out-Null;
     for ([int] $i = 0; $i -lt $array.Length; $i++)
     {
         $cacheString = $array[$i];
