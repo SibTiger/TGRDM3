@@ -1,17 +1,18 @@
 Deathmatch
 ==================
 MAP[1-10]
-    MAP01 = ???
-    MAP02 = ???
-    MAP03 = ???
+    MAP01 = Acerbus
+    MAP02 = Unfaithful
+    MAP03 = Noir Lust
     MAP04 = Abandoned Misery
-    MAP05 = ???
-    MAP06 = ???
-    MAP07 = ???
-    MAP08 = ???
-    MAP09 = ???
+    MAP05 = Dark Stone
+    MAP06 = Insomnium
+    MAP07 = Malus
+    MAP08 = AiluropodaMelanoleuca
+    MAP09 = Adios
     MAP10 = ???
 
 Specials
 ==================
+Artis = Artis
 Abandoned Misery [Pretty] = AMISERY
