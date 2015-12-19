@@ -335,8 +335,70 @@ REM This variable is used to describe the drivers main purpose and present the v
 CALL :CompileProject_Display_IncomingTaskSubLevel "Renaming filenames for map data"
 REM ----
 REM Main Stock Maps
-::    SET TaskCaller_CallLong=RENAME "%~1Maps\EXAMPLE.wad" "MAP01.wad" || EXIT /B 1
-::    CALL :CompileProject_TaskOperation
+    REM Acerbus
+    SET TaskCaller_CallLong=RENAME "%~1Maps\Acerbus.wad" "MAP01.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM Unfaithful
+    SET TaskCaller_CallLong=RENAME "%~1Maps\Unfaithful.wad" "MAP02.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM NoirLust
+    SET TaskCaller_CallLong=RENAME "%~1Maps\NoirLust.wad" "MAP03.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM Abandoned Misery
+    SET TaskCaller_CallLong=RENAME "%~1Maps\AbandonedMisery.wad" "MAP04.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM DarkStone
+    SET TaskCaller_CallLong=RENAME "%~1Maps\DarkStone.wad" "MAP05.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM Insomnium
+    SET TaskCaller_CallLong=RENAME "%~1Maps\Insomnium.wad" "MAP06.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM Malus
+    SET TaskCaller_CallLong=RENAME "%~1Maps\Malus.wad" "MAP07.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM AiluropodaMelanoleuca
+    SET TaskCaller_CallLong=RENAME "%~1Maps\AiluropodaMelanoleuca.wad" "MAP08.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM Adios
+    SET TaskCaller_CallLong=RENAME "%~1Maps\Adios.wad" "MAP09.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+REM Special Stock Maps
+    REM Abandoned Misery [Pretty]
+    SET TaskCaller_CallLong=RENAME "%~1Maps\AbandonedMisery[Pretty].wad" "AMISERY.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM Artis
+    SET TaskCaller_CallLong=RENAME "%~1Maps\Artis.wad" "Artis.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
     REM ----
 REM =========================================================
 EXIT /B 0
