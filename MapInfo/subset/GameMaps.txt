@@ -2,7 +2,7 @@ MAP MAP01 "Acerbus"
 {
     LevelNum = 01
     Next = "MAP02"
-    Sky1 = "TX0_0E0", 0.1
+    Sky1 = "TX0_2UL", 0.1
     Music = "D_SHAWN"
 } // Acerbus
 
