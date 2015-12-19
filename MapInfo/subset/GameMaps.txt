@@ -1,7 +1,27 @@
-MAP MAP00 "EXAMPLE"
+MAP MAP01 "Acerbus"
 {
-    LevelNum = 00
+    LevelNum = 01
+    Next = "MAP02"
+    Sky1 = "TX0_0E0", 0.1
+    Music = "D_SHAWN"
+} // Acerbus
+
+
+
+MAP MAP04 "Abandoned Misery"
+{
+    LevelNum = 04
+    Next = "MAP05"
+    Sky1 = "TX0_0DZ", 0.1
+    Music = "D_DEAD"
+} // Abandoned Misery
+
+
+
+MAP AMISERY "Abandoned Misery [Pretty]"
+{
+    LevelNum = 99
     Next = "MAP01"
     Sky1 = "TX0_0DZ", 0.1
     Music = "D_DEAD"
-}
+}// Abandoned Misery [Pretty]
