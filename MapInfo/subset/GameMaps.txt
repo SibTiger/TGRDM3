@@ -25,3 +25,13 @@ MAP AMISERY "Abandoned Misery [Pretty]"
     Sky1 = "TX0_0DZ", 0.1
     Music = "D_DEAD"
 }// Abandoned Misery [Pretty]
+
+
+
+MAP ARTIS "Artis [Duel]"
+{
+    LevelNum = 98
+    Next = "Artis"
+    Sky1 = "TX0_2VT", 0.0
+    Music = "D_E3M3"
+} // Artis [Duel]
