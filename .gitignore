@@ -14,6 +14,16 @@ Morgenstern_assets.pk[3|7]
 
 
 
+# ================================
+#    WAD Editing Tool Specifics
+# ================================
+
+# [SLADE] Backup Files
+*.wad.bak
+
+
+
+
 # Standard GitIgnore:
 # ---------------------
 
