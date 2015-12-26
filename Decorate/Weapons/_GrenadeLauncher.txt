@@ -1,5 +1,14 @@
 Actor TGRGrenadeLauncher : DoomWeapon 5011
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Weapons"
+        //$Sprite GLAUA0
+        //$Title "Grenade Launcher"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Weapon.SelectionOrder 6000
     Radius 20

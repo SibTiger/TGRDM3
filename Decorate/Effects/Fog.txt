@@ -9,6 +9,22 @@
 
 Actor FogCloud_Generator 15001
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Title "Fog"
+        //$Category "Special Effects"
+        //$Color 9
+        //$Sprite AWCFA0B0
+        //$NotAngled
+        // ----
+        //$Arg0 "Radius"
+        //$Arg0Type 0
+        //$Arg0ToolTip "Radius of the circle"
+        //$Arg0Default 96
+    // ------------------------------
+    // ==============================
+
+
     +Missile
     +NoBlockmap
     +NoGravity

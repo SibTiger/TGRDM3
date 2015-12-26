@@ -1,5 +1,14 @@
 Actor TGRRailgun : DoomWeapon 5012
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Weapons"
+        //$Sprite RAILA0
+        //$Title "Railgun"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 20
     Height 16
