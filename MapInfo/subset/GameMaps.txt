@@ -2,7 +2,6 @@ MAP MAP01 "Acerbus"
 {
     LevelNum = 01
     Next = "MAP02"
-    Sky1 = "TX0_2UL", 0.1
     Music = "D_SHAWN"
 } // Acerbus
 
@@ -12,7 +11,6 @@ MAP MAP04 "Abandoned Misery"
 {
     LevelNum = 04
     Next = "MAP05"
-    Sky1 = "TX0_0DZ", 0.1
     Music = "D_DEAD"
 } // Abandoned Misery
 
@@ -22,7 +20,6 @@ MAP AMISERY "Abandoned Misery [Pretty]"
 {
     LevelNum = 99
     Next = "MAP01"
-    Sky1 = "TX0_0DZ", 0.1
     Music = "D_DEAD"
 }// Abandoned Misery [Pretty]
 
@@ -32,6 +29,5 @@ MAP ARTIS "Artis [Duel]"
 {
     LevelNum = 98
     Next = "Artis"
-    Sky1 = "TX0_2VT", 0.0
     Music = "D_E3M3"
 } // Artis [Duel]
