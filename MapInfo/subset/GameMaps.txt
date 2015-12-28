@@ -16,6 +16,15 @@ MAP MAP04 "Abandoned Misery"
 
 
 
+MAP MAP09 "Adios"
+{
+    LevelNum = 09
+    Next = "MAP10"
+    Music = "D_E2M3"
+} // Adios
+
+
+
 MAP AMISERY "Abandoned Misery [Pretty]"
 {
     LevelNum = 99
