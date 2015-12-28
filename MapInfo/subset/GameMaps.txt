@@ -1,6 +1,6 @@
 MAP MAP01 "Acerbus"
 {
-    LevelNum = 01
+    LevelNum = 1
     Next = "MAP02"
     Music = "D_SHAWN"
 } // Acerbus
@@ -9,7 +9,7 @@ MAP MAP01 "Acerbus"
 
 MAP MAP04 "Abandoned Misery"
 {
-    LevelNum = 04
+    LevelNum = 4
     Next = "MAP05"
     Music = "D_DEAD"
 } // Abandoned Misery
@@ -18,7 +18,7 @@ MAP MAP04 "Abandoned Misery"
 
 MAP MAP09 "Adios"
 {
-    LevelNum = 09
+    LevelNum = 9
     Next = "MAP10"
     Music = "D_E2M3"
 } // Adios
