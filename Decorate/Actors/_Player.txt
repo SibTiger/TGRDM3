@@ -1,6 +1,6 @@
 ACTOR TGRDoomPlayer : DoomPlayer
 {
-    //Speed 0.85
+    Speed 0.85 // Slow down the player a little
     Player.StartItem "TGRChaingun"
     Player.StartItem "TGRChainsaw"
     Player.StartItem "Clip", 60
