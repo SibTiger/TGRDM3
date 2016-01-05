@@ -16,6 +16,15 @@ MAP MAP04 "Abandoned Misery"
 
 
 
+MAP MAP08 "Ailuropoda Melanoleuca"
+{
+    LevelNum = 8
+    Next = "MAP09"
+    Music = "D_IN_CIT"
+} // Ailuropoda Melanoleuca
+
+
+
 MAP MAP09 "Adios"
 {
     LevelNum = 9
