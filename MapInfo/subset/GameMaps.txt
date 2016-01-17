@@ -16,6 +16,15 @@ MAP MAP04 "Abandoned Misery"
 
 
 
+MAP MAP05 "Dark Stone"
+{
+    LevelNum = 5
+    Next = "MAP06"
+    Music = "D_E2M6"
+} // Dark Stone
+
+
+
 MAP MAP08 "Ailuropoda Melanoleuca"
 {
     LevelNum = 8
