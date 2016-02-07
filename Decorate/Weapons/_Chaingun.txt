@@ -31,7 +31,7 @@ ACTOR TGRChaingun : Chaingun REPLACES Chaingun
     // ----
     // Ammo Management
     Weapon.AmmoUse 1
-    Weapon.AmmoGive 40
+    Weapon.AmmoGive 80
     Weapon.AmmoType "Clip"
     Decal BulletChip
     // ----
