@@ -1,2 +1,3 @@
 Deathmatch Player Starts
-    10
+    Minimum: 10
+    Maximum: 25
