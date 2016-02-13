@@ -34,6 +34,15 @@ MAP MAP06 "Insomnium"
 
 
 
+MAP MAP07 "Malus"
+{
+    LevelNum = 7
+    Next = "MAP08"
+    Music = "D_ROMERO"
+} // Malus
+
+
+
 MAP MAP08 "Ailuropoda Melanoleuca"
 {
     LevelNum = 8
