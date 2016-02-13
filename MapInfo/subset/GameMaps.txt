@@ -38,7 +38,7 @@ MAP MAP07 "Malus"
 {
     LevelNum = 7
     Next = "MAP08"
-    Music = "D_ROMERO"
+    Music = "D_TENSE"
 } // Malus
 
 
