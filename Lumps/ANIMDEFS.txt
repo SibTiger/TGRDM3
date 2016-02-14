@@ -2904,6 +2904,11 @@ TEXTURE TX1_0GI
     WARP2 FLAT TX3_011
 
 
+// Texture Base: Doom 2 [Defined in TEXTURES lump]
+// -----------------
+    WARP FLAT TX5_000
+
+
 
 
 // ==============================
