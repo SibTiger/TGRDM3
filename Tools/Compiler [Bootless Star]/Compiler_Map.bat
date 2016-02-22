@@ -243,6 +243,8 @@ REM Music
     CALL :CompileProject_TaskOperation
     REM ----
 REM Graphics
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Graphics\Fonts\*.*" "%~1Graphics\"
+    CALL :CompileProject_TaskOperation
 EXIT /B 0
 
 
@@ -312,6 +314,8 @@ REM Music
     CALL :CompileProject_TaskOperation
     REM ----
 REM Graphics
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Graphics\Fonts\*.*" "%~1Graphics\"
+    CALL :CompileProject_TaskOperation
 EXIT /B 0
 
 

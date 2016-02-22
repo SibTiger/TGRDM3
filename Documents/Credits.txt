@@ -67,6 +67,17 @@ Enjay
 
 
 
+Dancso
+----
+    Created High-Resolution Doom Fonts
+        Forum Topic: http://forum.zdoom.org/viewtopic.php?p=428998#p428998
+        Link: http://static.best-ever.org/wads/hiresdoomfont.wad
+        Bkup: http://devilhunter.rfc1337.net/wads/hiresdoomfont.wad
+        Bkup Txt: http://devilhunter.rfc1337.net/wads/hiresfonts.txt
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
 Shane Strife (AKA: Shane)
 ----
     Made available 'High Quality' (not remixed) music of Doom and Doom 2.
