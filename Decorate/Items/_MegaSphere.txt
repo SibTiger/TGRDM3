@@ -1,0 +1,13 @@
+//Inherits the original MegaSphere data from the existing Actor, but this Actor includes '+NoGravity' flag.
+ACTOR TGRMegaSphere : Megasphere 5013
+{
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Title "Megasphere (No Gravity)"
+        //$Category "Powerups/Custom"
+        //$Sprite MEGAA0
+        //$IgnoreRenderStyle
+        // ----
+
+    +NoGravity
+}

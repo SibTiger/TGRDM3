@@ -30,3 +30,8 @@
     #include "Decorate/_Rocket.txt"
     #include "Decorate/_Plasma.txt"
     #include "Decorate/_Grenade.txt"
+
+
+
+// Items
+    #include "Decorate/_MegaSphere.txt"

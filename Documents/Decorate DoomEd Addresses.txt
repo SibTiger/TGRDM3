@@ -10,5 +10,6 @@
 -----------------------
 5011         TGRGrenadeLauncher
 5012         TGRRailgun
+5013         TGRMegaSphere
 15000        RainSpawner
 15001        FogCloud_Generator
