@@ -7,6 +7,15 @@ MAP MAP01 "Acerbus"
 
 
 
+MAP MAP03 "Noir Lust"
+{
+    LevelNum = 3
+    Next = "MAP04"
+    Music = "D_MESSAG"
+} // Noir Lust
+
+
+
 MAP MAP04 "Abandoned Misery"
 {
     LevelNum = 4
