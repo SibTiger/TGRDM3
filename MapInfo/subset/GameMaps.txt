@@ -11,7 +11,7 @@ MAP MAP03 "Noir Lust"
 {
     LevelNum = 3
     Next = "MAP04"
-    Music = "D_MESSAG"
+    Music = "D_DOOM"
 } // Noir Lust
 
 
