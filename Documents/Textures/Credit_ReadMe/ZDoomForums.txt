@@ -1,0 +1,24 @@
+<!> WARNING <!>
+THIS IS A PLACE HOLDER FOR THE ZDoomForums.txt!
+
+
+This is a special case where resources has been used from other websites and forums where they are not compacted into a data file, but a raw image.  I will try to be sure that proper credit is given to the best of my ability.  If mistakes are made, please correct me by sending an e-mail.
+
+
+USER: Minigunner
+-------------------------------------
+Links:
+    Minigunner's Bucket of Hands (among other things)
+        http://forum.zdoom.org/viewtopic.php?f=37&t=35914
+    @ Post: http://forum.zdoom.org/viewtopic.php?p=720059#p720059
+-------------------------------------
+
+
+
+USER: printz
+-------------------------------------
+Links:
+    Custom Texture Thread.
+        http://forum.zdoom.org/viewtopic.php?f=37&t=31139
+    @ Post: http://forum.zdoom.org/viewtopic.php?p=825787#p825787
+-------------------------------------

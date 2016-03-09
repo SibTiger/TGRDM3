@@ -2,12 +2,6 @@ TX0_x
     TX0_000-TX0_4X7
     
     UNUSED [Free Addresses]
-        TX0_2VP
-        TX0_2VZ
-        TX0_2SH
-        TX0_48Q
-        TX0_2SL
-        TX0_2RJ
         TX0_2U4
         TX0_2Q3
         TX0_2UY

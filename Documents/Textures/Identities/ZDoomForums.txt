@@ -1,0 +1,42 @@
+=====================================================
+ZDoom Forums
+http://forum.zdoom.org/index.php
+=====================================================
+
+USER: Minigunner
+-------------------------------------
+Base File: Not Available
+Base Topic: http://forum.zdoom.org/viewtopic.php?f=37&t=35914
+    Topic Title: Minigunner's Bucket of Hands (among other things)
+User Posted: http://forum.zdoom.org/viewtopic.php?p=720059#p720059
+
+
+
+Identity Textures:
+    superblueclouds
+        TX0_2VP
+    supergoldenclouds
+        TX0_2VZ
+    superbruiserclouds
+        TX0_2SH
+    superclouds
+        TX0_48Q
+    superredsky_p
+        TX0_2SL
+-------------------------------------
+
+
+
+USER: printz
+-------------------------------------
+Base File: Not Available
+Base Topic: http://forum.zdoom.org/viewtopic.php?f=37&t=31139
+    Topic Title: Custom Texture Thread.
+User Posted: http://forum.zdoom.org/viewtopic.php?p=825787#p825787
+
+
+
+Identity Textures:
+    SKY2nomount.png
+        TX0_2RJ
+-------------------------------------
