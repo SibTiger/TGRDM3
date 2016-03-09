@@ -7,6 +7,15 @@ MAP MAP01 "Acerbus"
 
 
 
+MAP MAP02 "Unfaithful"
+{
+    LevelNum = 2
+    Next = "MAP03"
+    Music = "D_E3M5"
+} // Unfaithful
+
+
+
 MAP MAP03 "Noir Lust"
 {
     LevelNum = 3
