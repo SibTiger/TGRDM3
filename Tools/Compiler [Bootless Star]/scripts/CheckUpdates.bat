@@ -38,5 +38,5 @@ REM # ==========================================================================
 REM # Documentation: This function will call Windows Explorer - regardless of the CallExplorer variable from the core -, and go to an official website or forum that will contain information and resources of newer updates and recent changes.
 REM # =============================================================================================
 :ModuleUpdates_OpenWeb
-CALL :Call_WindowsExplorer "https://github.com/SibTiger/Morgenstern"
+CALL :Call_WindowsExplorer "https://github.com/SibTiger/TGRDM3"
 GOTO :EOF
