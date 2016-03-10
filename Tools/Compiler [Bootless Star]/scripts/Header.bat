@@ -5,7 +5,7 @@ REM Details: This program allows the user to compile a developmental or a releas
 REM Prerequisites:
 REM     Bootless Star 1.5 or later
 REM         http://forum.drdteam.org/viewtopic.php?p=53914#p53914
-REM     7Zip 9.20 preferred
+REM     7Zip 9.20 or later
 REM         http://7-zip.org/
 REM     TGRDM3 [Morgenstern] resources [Local Working Copy]
 REM ==========================================
