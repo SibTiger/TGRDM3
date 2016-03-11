@@ -46,14 +46,14 @@ REM # ==========================================================================
 REM Static Variables
 SET ProjectName=Morgenstern
 SET ProjectNameShort=Morgenstern
-SET ProjectVersion=4
-SET ReleaseDate=4.March.2015
-SET ProjectNameCompact=Morgenstern
+SET ProjectVersion=pre-5
+SET ReleaseDate=x.March.2016
+SET ProjectNameCompact=TGRDM3
 REM Used as the filename and directory when compiling the project.  This is built in the compiling protocol, just let it as 'UNKNOWN' here and change it later.
 SET FileName=UNKNOWN
 SET FileName_Archive=UNKNOWN
 REM Version of the initial project, not the program version.
-SET Version=0
+SET Version=1
 REM Error Signal for Operations; if the value is not null, there was a general issue with a function or functions in sequence.
 SET ErrorSignal=0
 REM Exit Code captures ErrorLevel - but retains the xid.
@@ -64,14 +64,8 @@ REM What internal or external CMD was called, this is going to be used primarily
 SET TaskCaller_NiceProgramName=NULL
 REM Compiled version of 'TaskCaller' into one string.
 SET TaskCaller_CallLong=NULL
-REM Static SVN revision number holders
-SET SVNRevisionOld=-1
-SET SVNRevisionNew=-1
-SET SVNRevisionRange=0
-REM A set hard limit for retrieving the SVN change log history
-SET SVNRevisionRangeHardLimit=50
-REM Can we update the cached revision that is stored in a small ASCII file?
-SET SVNRevisionUpdateCachedRevisionID=False
+REM A set hard limit for retrieving the git change log history
+SET DevelopmentChangeLog_HardLimit=50
 REM This houses the parameters for 7Zip, this gets filled when we need to invoke it.
 SET SevenZipCompactParameters=-
 REM Can we find the main project?
@@ -118,30 +112,26 @@ REM # ==========================================================================
 :Initialization_IdentifiersUserSettings
 REM --------------------------------
 REM ================================
-REM Subversion Settings
+REM Git Version Control Settings
 REM -------------------------------------
-IF %1 EQU 1 (ECHO REM Subversion Settings)>> "%~2"
+IF %1 EQU 1 (ECHO REM Git Version Control Settings)>> "%~2"
 IF %1 EQU 1 (ECHO REM --------------------)>> "%~2"
 REM ----
-REM Allow the program to use Subversion commandline?
-IF %1 EQU 0 (SET UserConfig.SVNMasterControl=False)
-IF %1 EQU 1 (ECHO REM Allow the program to use Subversion CUI)>> "%~2"
-IF %1 EQU 1 (ECHO SET UserConfig.SVNMasterControl=%UserConfig.SVNMasterControl%)>> "%~2"
+REM Allow the program to use Git commandline?
+IF %1 EQU 0 (SET UserConfig.GitMasterControl=False)
+IF %1 EQU 1 (ECHO REM Allow the program to use Git CUI)>> "%~2"
+IF %1 EQU 1 (ECHO SET UserConfig.GitMasterControl=%UserConfig.GitMasterControl%)>> "%~2"
 REM ----
 REM Allow the working copy to be updated?
-IF %1 EQU 0 (SET UserConfig.SVNAllowWorkingCopyUpdate=False)
+IF %1 EQU 0 (SET UserConfig.GitAllowWorkingCopyUpdate=False)
 IF %1 EQU 1 (ECHO REM Allow the program to update the Working Copy.)>> "%~2"
-IF %1 EQU 1 (ECHO SET UserConfig.SVNAllowWorkingCopyUpdate=%UserConfig.SVNAllowWorkingCopyUpdate%)>> "%~2"
+IF %1 EQU 1 (ECHO SET UserConfig.GitAllowWorkingCopyUpdate=%UserConfig.GitAllowWorkingCopyUpdate%)>> "%~2"
 REM ----
-REM Allow the program to fetch for the SVN revision log history?
-IF %1 EQU 0 (SET UserConfig.SVNAllowFetchRevisionLog=False)
-IF %1 EQU 1 (ECHO REM This allows the program to fetch the SVN revision log.)>> "%~2"
-IF %1 EQU 1 (ECHO SET UserConfig.SVNAllowFetchRevisionLog=%UserConfig.SVNAllowFetchRevisionLog%)>> "%~2"
-REM ----
-REM Allow the program to fetch for the SVN revision log history in XML format?
-IF %1 EQU 0 (SET UserConfig.SVNAllowFetchRevisionLogXML=False)
-IF %1 EQU 1 (ECHO REM This allows the program to fetch the SVN revision log in XML formatting.)>> "%~2"
-IF %1 EQU 1 (ECHO SET UserConfig.SVNAllowFetchRevisionLogXML=%UserConfig.SVNAllowFetchRevisionLogXML%)>> "%~2"
+REM Allow the program to fetch for the commit change log history?
+IF %1 EQU 0 (SET UserConfig.GitAllowFetchChangeLog=False)
+IF %1 EQU 1 (ECHO REM This allows the program to fetch commit change log.)>> "%~2"
+IF %1 EQU 1 (ECHO SET UserConfig.GitAllowFetchChangeLog=%UserConfig.GitAllowFetchChangeLog%)>> "%~2"
+
 
 
 IF %1 EQU 1 (ECHO.)>> "%~2"
@@ -151,7 +141,7 @@ IF %1 EQU 1 (ECHO REM Directory Management Settings)>> "%~2"
 IF %1 EQU 1 (ECHO REM --------------------)>> "%~2"
 REM ----
 REM Direct location of the project location [must be in the same path as the solution file]
-IF %1 EQU 0 (SET "UserConfig.DirProjectWorkingCopy=%UserProfile%\Morgenstern\")
+IF %1 EQU 0 (SET "UserConfig.DirProjectWorkingCopy=%UserProfile%\TGRDM3\")
 IF %1 EQU 1 (ECHO REM Path to the project.  This is crucially important for the program to have the correct path, otherwise this program will not properly work.)>> "%~2"
 IF %1 EQU 1 (ECHO SET "UserConfig.DirProjectWorkingCopy=%UserConfig.DirProjectWorkingCopy%")>> "%~2"
 
