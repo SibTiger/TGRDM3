@@ -28,9 +28,9 @@ IF %ERRORLEVEL% EQU 1 (
     SET "ProcessVarA=%ProcessVarA%Morgenstern Dir - Not Found!&ECHO."
     SET /A ProcessVarB=%ProcessVarB%+1
 )
-CALL :DashboardDetection_SVN
+CALL :DashboardDetection_Git
 IF %ERRORLEVEL% EQU 1 (
-    SET "ProcessVarA=%ProcessVarA%Subversion - Not Found!&ECHO."
+    SET "ProcessVarA=%ProcessVarA%Git - Not Found!&ECHO."
     SET /A ProcessVarB=%ProcessVarB%+1
 )
 CALL :DashboardDetection_7Zip
@@ -54,11 +54,11 @@ EXIT /B 0
 
 
 REM # =============================================================================================
-REM # Documentation: Was the Subversion Commandline tools detected from the core?
+REM # Documentation: Was the Git Commandline tools detected from the core?
 REM # =============================================================================================
-:DashboardDetection_SVN
-IF %UserConfig.SVNMasterControl% EQU True (
-    IF %Detect_SVN% EQU False EXIT /B 1
+:DashboardDetection_Git
+IF %UserConfig.GitMasterControl% EQU True (
+    IF %Detect_Git% EQU False EXIT /B 1
 )
 EXIT /B 0
 
