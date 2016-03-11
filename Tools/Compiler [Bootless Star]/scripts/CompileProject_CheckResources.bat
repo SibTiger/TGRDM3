@@ -19,8 +19,8 @@ REM ----
 REM Check if the 7Zip software can be detected
 CALL :CompileProject_CheckResources_7Zip || EXIT /B 1
 REM ----
-REM Check if the Subversion CUI tools can be detected
-CALL :CompileProject_CheckResources_SVN || EXIT /B 1
+REM Check if the Git CUI tools can be detected
+CALL :CompileProject_CheckResources_Git || EXIT /B 1
 REM ----
 REM Print the footer in the log.
 CALL :CompileProject_DriverLogFooter "%DriversNiceTask%"
@@ -95,24 +95,24 @@ GOTO :EOF
 
 
 REM # =============================================================================================
-REM # Documentation: Check to make sure that the SVN software was detected from the core.
+REM # Documentation: Check to make sure that the Git toolset software was detected from the core.
 REM # =============================================================================================
-:CompileProject_CheckResources_SVN
-REM Were we able to detect [from the core] that the SVN CUI tools exists?
-CALL :CompileProject_Display_IncomingTaskSubLevel "Checking if Subversion CLI Toolset was detected"
-REM Detected SVN
-IF %Detect_SVN% EQU True EXIT /B 0
-REM User wanted to allow the use of SVN?
-IF %UserConfig.SVNMasterControl% EQU False EXIT /B 0
-REM Couldn't find SVN
-CALL :CompileProject_CheckResources_SVN_ERR
+:CompileProject_CheckResources_Git
+REM Were we able to detect [from the core] that the Git CUI tools exists?
+CALL :CompileProject_Display_IncomingTaskSubLevel "Checking if Git CLI Toolset was detected"
+REM Detected Git
+IF %Detect_Git% EQU True EXIT /B 0
+REM User wanted to allow the use of Git?
+IF %UserConfig.GitMasterControl% EQU False EXIT /B 0
+REM Couldn't find Git
+CALL :CompileProject_CheckResources_Git_ERR
 EXIT /B 1
 
 
 
-:CompileProject_CheckResources_SVN_ERR
-IF %ToggleLog% EQU True CALL :CompileProject_CheckResources_SVN_ERRLog
-ECHO !ERR_CRIT!: Could not find Subversion CLI Toolset!
+:CompileProject_CheckResources_Git_ERR
+IF %ToggleLog% EQU True CALL :CompileProject_CheckResources_Git_ERRLog
+ECHO !ERR_CRIT!: Could not find Git CLI Toolset!
 ECHO This program can not continue until this issue has been resolved!
 ECHO.
 PAUSE
@@ -120,8 +120,8 @@ GOTO :EOF
 
 
 
-:CompileProject_CheckResources_SVN_ERRLog
-(ECHO !ERR_CRIT!: Could not find Subversion CLI Toolset!) >> %STDOUT%
+:CompileProject_CheckResources_Git_ERRLog
+(ECHO !ERR_CRIT!: Could not find Git CLI Toolset!) >> %STDOUT%
 (ECHO This program can not continue until this issue has been resolved!) >> %STDOUT%
 (ECHO.) >> %STDOUT%
 GOTO :EOF
