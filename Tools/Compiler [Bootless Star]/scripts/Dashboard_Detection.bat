@@ -25,7 +25,7 @@ SET ProcessVarB=0
 
 CALL :DashboardDetection_WorkingCopy
 IF %ERRORLEVEL% EQU 1 (
-    SET "ProcessVarA=%ProcessVarA%Morgenstern Dir - Not Found!&ECHO."
+    SET "ProcessVarA=%ProcessVarA%TGRDM3 Dir - Not Found!&ECHO."
     SET /A ProcessVarB=%ProcessVarB%+1
 )
 CALL :DashboardDetection_Git
