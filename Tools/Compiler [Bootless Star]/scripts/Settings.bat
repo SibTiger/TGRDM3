@@ -13,8 +13,8 @@ CALL :DashboardOrClassicalDisplay
 ECHO Control Panel
 ECHO %Separator%
 ECHO.
-::ECHO [1] SVN Settings
-ECHO [1] Directory Management
+ECHO [1] Git Version Control Settings
+ECHO [2] Directory Management
 ECHO [U] Update Saved Profile named: %UserConfigurationLoaded%
 ECHO [X] Exit
 CALL :UserInput
@@ -26,8 +26,8 @@ REM # ==========================================================================
 REM # Documentation: Inspect the users input.
 REM # =============================================================================================
 :Settings_UserInput
-::IF "%STDIN%" EQU "1" GOTO :SettingsChoice_SVN
-IF "%STDIN%" EQU "1" GOTO :SettingsChoice_DirectoryManagement
+IF "%STDIN%" EQU "1" GOTO :SettingsChoice_Git
+IF "%STDIN%" EQU "2" GOTO :SettingsChoice_DirectoryManagement
 IF /I "%STDIN%" EQU "U" GOTO :SettingsChoice_UpdateProfile
 IF /I "%STDIN%" EQU "X" GOTO :EOF
 IF /I "%STDIN%" EQU "Exit" GOTO :EOF
@@ -36,11 +36,11 @@ CALL :BadInput& GOTO :Settings
 
 
 REM # =============================================================================================
-REM # Documentation: Subversion Settings
+REM # Documentation: Git Version Control Settings
 REM # =============================================================================================
-:SettingsChoice_SVN
+:SettingsChoice_Git
 CALL :ClearBuffer
-CALL :SettingsSVN_Menu
+CALL :SettingsGit_Menu
 CALL :ClearBuffer
 GOTO :Settings
 
@@ -73,103 +73,84 @@ REM ============================================================
 
 
 REM # =============================================================================================
-REM # Documentation: Subversion Commandline Settings Menu
+REM # Documentation: Git Commandline Settings Menu
 REM # =============================================================================================
-:SettingsSVN_Menu
+:SettingsGit_Menu
 CALL :DashboardOrClassicalDisplay
-ECHO Subversion Control Panel
+ECHO Git Control Panel
 ECHO %Separator%
 ECHO.
-ECHO [1] SVN Master Control
-ECHO     When set to 'True', this will allow the program to utilize SVN features and functionality.
-ECHO     - Current Value: [%UserConfig.SVNMasterControl%]
-ECHO     - Detected: [%Detect_SVN%]
+ECHO [1] Git Master Control
+ECHO     When set to 'True', this will allow the program to utilize Git features and functionality.
+ECHO     - Current Value: [%UserConfig.GitMasterControl%]
+ECHO     - Detected: [%Detect_Git%]
 ECHO.
 ECHO [2] Allow Local Working Copy to be Updated
 ECHO     Allow the local working copy to be updated to that latest revision.
-ECHO     - Current Value: [%UserConfig.SVNAllowWorkingCopyUpdate%]
+ECHO     - Current Value: [%UserConfig.GitAllowWorkingCopyUpdate%]
 ECHO.
-ECHO [3] Allow finding changelog history
-ECHO     Allow the program to fetch a changelog ^(SVN Revision log^) history of the %ProjectName% project.
-ECHO     - Current Value: [%UserConfig.SVNAllowFetchRevisionLog%]
-ECHO.
-ECHO [4] Allow finding changelog history in XML format
-ECHO     Allow the program to fetch a changelog ^(SVN Revision log^) history of the %ProjectName% project in XML formatting.
-ECHO     - Current Value: [%UserConfig.SVNAllowFetchRevisionLogXML%]
+ECHO [3] Allow fetching changelog history
+ECHO     Allow the program to fetch a changelog history of the %ProjectName% project.
+ECHO     - Current Value: [%UserConfig.GitAllowFetchChangeLog%]
 ECHO.
 ECHO [X] Exit
 CALL :UserInput
-GOTO :SettingsSVN_UserInput
+GOTO :SettingsGit_UserInput
 
 
 
 REM # =============================================================================================
 REM # Documentation: Inspect the users input.
 REM # =============================================================================================
-:SettingsSVN_UserInput
-IF "%STDIN%" EQU "1" GOTO :SettingsSVN_ToggleMaster
-IF "%STDIN%" EQU "2" GOTO :SettingsSVN_ToggleWorkingCopyUpdate
-IF "%STDIN%" EQU "3" GOTO :SettingsSVN_ToggleFetchRevisionLog
-IF "%STDIN%" EQU "4" GOTO :SettingsSVN_ToggleFetchRevisionLogXML
+:SettingsGit_UserInput
+IF "%STDIN%" EQU "1" GOTO :SettingsGit_ToggleMaster
+IF "%STDIN%" EQU "2" GOTO :SettingsGit_ToggleWorkingCopyUpdate
+IF "%STDIN%" EQU "3" GOTO :SettingsGit_ToggleFetchChangelog
 IF /I "%STDIN%" EQU "X" GOTO :EOF
 IF /I "%STDIN%" EQU "Exit" GOTO :EOF
-CALL :BadInput& GOTO :SettingsSVN_Menu
+CALL :BadInput& GOTO :SettingsGit_Menu
 
 
 
 REM # =============================================================================================
-REM # Documentation: Allow the program to use Subversion?  If this is set to false, the program is _NOT_ allowed to use Subversion commandline utilities.
+REM # Documentation: Allow the program to use Git?  If this is set to false, the program is _NOT_ allowed to use Git commandline utilities.
 REM # =============================================================================================
-:SettingsSVN_ToggleMaster
-IF %UserConfig.SVNMasterControl% EQU True (
-    SET UserConfig.SVNMasterControl=False
+:SettingsGit_ToggleMaster
+IF %UserConfig.GitMasterControl% EQU True (
+    SET UserConfig.GitMasterControl=False
 ) ELSE (
-    SET UserConfig.SVNMasterControl=True
+    SET UserConfig.GitMasterControl=True
 )
 CALL :ClearBuffer
-GOTO :SettingsSVN_Menu
+GOTO :SettingsGit_Menu
 
 
 
 REM # =============================================================================================
 REM # Documentation: This allows the program to update the local working copy contents.
 REM # =============================================================================================
-:SettingsSVN_ToggleWorkingCopyUpdate
-IF %UserConfig.SVNAllowWorkingCopyUpdate% EQU True (
-    SET UserConfig.SVNAllowWorkingCopyUpdate=False
+:SettingsGit_ToggleWorkingCopyUpdate
+IF %UserConfig.GitAllowWorkingCopyUpdate% EQU True (
+    SET UserConfig.GitAllowWorkingCopyUpdate=False
 ) ELSE (
-    SET UserConfig.SVNAllowWorkingCopyUpdate=True
+    SET UserConfig.GitAllowWorkingCopyUpdate=True
 )
 CALL :ClearBuffer
-GOTO :SettingsSVN_Menu
+GOTO :SettingsGit_Menu
 
 
 
 REM # =============================================================================================
-REM # Documentation: This will allow the program to fetch the revision changelog history.
+REM # Documentation: This will allow the program to fetch the project's commit changelog history.
 REM # =============================================================================================
-:SettingsSVN_ToggleFetchRevisionLog
-IF %UserConfig.SVNAllowFetchRevisionLog% EQU True (
-    SET UserConfig.SVNAllowFetchRevisionLog=False
+:SettingsGit_ToggleFetchChangelog
+IF %UserConfig.GitAllowFetchChangeLog% EQU True (
+    SET UserConfig.GitAllowFetchChangeLog=False
 ) ELSE (
-    SET UserConfig.SVNAllowFetchRevisionLog=True
+    SET UserConfig.GitAllowFetchChangeLog=True
 )
 CALL :ClearBuffer
-GOTO :SettingsSVN_Menu
-
-
-
-REM # =============================================================================================
-REM # Documentation: This will allow the program to fetch the revision changelog history in an XML advanced formatting.
-REM # =============================================================================================
-:SettingsSVN_ToggleFetchRevisionLogXML
-IF %UserConfig.SVNAllowFetchRevisionLogXML% EQU True (
-    SET UserConfig.SVNAllowFetchRevisionLogXML=False
-) ELSE (
-    SET UserConfig.SVNAllowFetchRevisionLogXML=True
-)
-CALL :ClearBuffer
-GOTO :SettingsSVN_Menu
+GOTO :SettingsGit_Menu
 
 
 
