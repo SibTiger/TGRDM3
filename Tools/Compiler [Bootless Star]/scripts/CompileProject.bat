@@ -29,13 +29,13 @@ CALL :CompileProject_Prepare %1 || GOTO :CompileProject_TerminateWithError
 
 
 REM ----
-REM Update the local working copy to the latest revision
-CALL :CompileProject_SVNUpdateProject || GOTO :CompileProject_TerminateWithError
+REM Update the local working copy to the latest commit
+CALL :CompileProject_GitUpdateProject || GOTO :CompileProject_TerminateWithError
 
 
 REM ----
-REM Find the revision number
-CALL :CompileProject_FetchSVNRevisionID || GOTO :CompileProject_TerminateWithError
+REM Find the latest commit hash ID
+CALL :CompileProject_FetchGitCommitID || GOTO :CompileProject_TerminateWithError
 
 
 REM ----
@@ -60,12 +60,8 @@ CALL "%UserConfig.DirProjectWorkingCopy%\Compiler_Map.bat" Make "%LocalDirectory
 
 REM ----
 REM Fetch the revision log history
-CALL :CompileProject_FetchSVNRevisionLogHistory || GOTO :CompileProject_TerminateWithError
+CALL :CompileProject_FetchGitCommitLogHistory || GOTO :CompileProject_TerminateWithError
 
-
-REM ----
-REM Record the revision to the ASCII file
-CALL :CompileProject_SVNUpdateCachedRevision || GOTO :CompileProject_TerminateWithError
 
 
 REM ----
