@@ -44,8 +44,8 @@ REM # Documentation: This function sets the static environment for the module, a
 REM # =============================================================================================
 :Initialization_IdentifiersStatic
 REM Static Variables
-SET ProjectName=Morgenstern
-SET ProjectNameShort=Morgenstern
+SET ProjectName=TGRDM3
+SET ProjectNameShort=TGRDM3
 SET ProjectVersion=5
 SET ReleaseDate=12.March.2016
 SET ProjectNameCompact=TGRDM3
