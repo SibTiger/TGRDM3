@@ -24,7 +24,7 @@ REM # Documentation: Create a generalized name; it is possible for the user to n
 REM # =============================================================================================
 :CompileProject_GenerateProjectName_MakeName
 IF %1 EQU 1 (
-    CALL :CompileProject_GenerateProjectName_MakeName_NoRevision
+    CALL :CompileProject_GenerateProjectName_MakeName_NoCommitID
     GOTO :EOF
 )
 REM Resource build file name
@@ -32,11 +32,11 @@ IF %1 EQU 2 (
     CALL :CompileProject_GenerateProjectName_MakeName_AssetName
     GOTO :EOF
 )
-IF %SVNRevisionNew% EQU -1 (
-    CALL :CompileProject_GenerateProjectName_MakeName_NoRevision
+IF %ProjectCommitID% EQU "UNKNOWN" (
+    CALL :CompileProject_GenerateProjectName_MakeName_NoCommitID
     GOTO :EOF
 ) ELSE (
-    CALL :CompileProject_GenerateProjectName_MakeName_WithRevision
+    CALL :CompileProject_GenerateProjectName_MakeName_WithCommitID
     GOTO :EOF
 )
 
@@ -50,16 +50,16 @@ GOTO :EOF
 
 
 
-:CompileProject_GenerateProjectName_MakeName_NoRevision
+:CompileProject_GenerateProjectName_MakeName_NoCommitID
 REM If we can not get the newer revision - or we are not wanting the revision ID, then exclude the revision number in the name.
 SET FileName=%ProjectNameCompact%_v%Version%
-CALL :CompileProject_Display_IncomingTaskSubLevelMSG "The file naming scheme will not include a revision number."
+CALL :CompileProject_Display_IncomingTaskSubLevelMSG "The file naming scheme will not include a commit hash-ID."
 GOTO :EOF
 
 
 
-:CompileProject_GenerateProjectName_MakeName_WithRevision
+:CompileProject_GenerateProjectName_MakeName_WithCommitID
 REM include the revision in the filename.
-SET FileName=%ProjectNameCompact%_v%Version%-r%SVNRevisionNew%
-CALL :CompileProject_Display_IncomingTaskSubLevelMSG "The file naming scheme will include a revision number."
+SET FileName=%ProjectNameCompact%_v%Version%-%ProjectCommitID%
+CALL :CompileProject_Display_IncomingTaskSubLevelMSG "The file naming scheme will include a commit hash-ID."
 GOTO :EOF
