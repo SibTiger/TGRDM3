@@ -175,7 +175,7 @@ REM # Parameters: [{String} Project Build Path]
 REM # =============================================================================================
 :Make_DuplicateAssets
 REM This variable is used to describe the drivers main purpose and present the value in the log files.
-CALL :CompileProject_Display_IncomingTaskSubLevel "Duplicate the data from SVN into the local directory"
+CALL :CompileProject_Display_IncomingTaskSubLevel "Duplicate the data from local host repo into the local directory"
 REM ----
 REM Duplicate the following:
 REM Documentations
