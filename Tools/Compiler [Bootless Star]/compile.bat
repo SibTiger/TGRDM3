@@ -27,7 +27,7 @@ REM Variables
 REM Setup the variables we'll need for this program.
 REM --------------------------------------------
 :Variables
-SET Filename=Morgenstern.bat
+SET Filename=TGRDM3.bat
 SET SourcePath=.\Scripts\
 SET Output=.\%Filename%
 SET ExitCode=1
