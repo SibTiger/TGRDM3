@@ -101,8 +101,5 @@ REM Did the user wanted this log type?
 IF %UserConfig.GitAllowFetchChangeLog% EQU False EXIT /B 0
 CALL :CompileProject_Display_IncomingTaskSubLevel "Fetching a standard changelog [txt formatting]"
 REM Fetch the log
-::SET TaskCaller_CallLong=SVN log -l %SVNRevisionRange% -r HEAD:1 "%UserConfig.DirProjectWorkingCopy%" 1> "%LocalDirectory.Temp%\%FileName%\Changelog.txt"
-::SET TaskCaller_NiceProgramName=Subversion
-
 GIT --git-dir="%UserConfig.DirProjectWorkingCopy%\.git" log -%DevelopmentChangeLog_HardLimit% 1> "%LocalDirectory.Temp%\%FileName%\Changelog.txt"
 EXIT /B %ERRORLEVEL%
