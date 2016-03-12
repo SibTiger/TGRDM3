@@ -1,0 +1,149 @@
+===========================================================================
+Archive Maintainer      : ATT: THIS IS NOT TO BE UPLOADED: BETA BUILD ONLY
+Advanced engine needed  : GZDoom 2.1 Recommended, Zandronum 3.0 Tested
+Primary purpose         : Deathmatch
+===========================================================================
+Title                   : Morgenstern
+Filename                : TGRDM3
+Release date            : 12.March.2016
+Author                  : Nicholas "Tiger" Gautier
+Email Address           : SibTiger_And_Life@Hotmail.com
+Other Files By Author   : TGRDM1
+                            https://www.doomworld.com/idgames/levels/doom2/deathmatch/Ports/s-u/tgrdm1
+                          TGRDM2
+                            https://www.doomworld.com/idgames/levels/doom2/deathmatch/Ports/s-u/tgrdm2
+                          TGRCP1
+                            https://www.doomworld.com/idgames/levels/doom2/Ports/s-u/tgrcp1
+                          STFBall2
+                            https://www.doomworld.com/idgames/deathmatch/skulltag/stfball2
+                          Amisery
+                            https://www.doomworld.com/idgames/levels/doom2/deathmatch/Ports/a-c/amisery
+Misc. Author Info       : Ich liebe Siberian Tigers :)
+
+Description             : This project contains eleven deathmatch maps based
+                          on the New School genre that are inspired by Quake
+                          3.  The maps presented in this project does require
+                          GZDoom's OpenGL renderer, as the software renderer
+                          does not yet have the capabilities to render
+                          slopped 3D floors, as well as some visual
+                          discrepancies.
+                          
+                          
+                          Performance Notes:
+                            This map might be rather resource and rendering
+                            intensive on various systems abroad.  Here is a
+                            few Console Variables that could help a bit by
+                            disabling some special features based on the
+                            GZDoom engine:
+                                    Line Mirrors --> R_DrawMirrors
+                                    Sector Reflections --> GL_Plane_Reflection
+                                    Dynamic Lights --> GL_Lights
+
+Additional Credits to   : Ghastly_dragon - Submitted and made available the Railgun and
+                            Grenade Launcher.  In addition, created and compiled
+                            (with various authors submissions) Marine Skins.
+                            Railgun and Grenade Launcher: http://www.realm667.com/
+                            Marine Skins: http://forum.zdoom.org/viewtopic.php?p=469284&sid=1ffa83f3dc90e4089384863e7073c531#p469284
+                          Dancso - Created the 'High Resolution' Doom Fonts
+                            http://forum.zdoom.org/viewtopic.php?p=428998#p428998
+                          Affliction - Created a python script which helped
+                            to identify duplicated images.
+                            http://pastebin.com/4Tv1mfxj
+                          Mazter - Assisted and shared a tool that
+                            compresses images using 'Image Catalyst'
+                          Qent - Helping me with testing on the Zandronum
+                            engine.
+                          Tribeam - For being Tribeam
+                          Edward850 - Helped me fix a really odd bug in the
+                            map, and ideas on presentation.
+                          Eruanna - Giving me a forum section from the DRD Team
+                            site for the TGRDM3 project.
+                            project.
+                          MaxED - Making Doom Builder 2 even better with
+                            GZDoom Builder editor.  If it wasn't for GZDoom
+                            Builder, editing would feel like a horror'ish
+                            nightmare with managing over 600 3D Objects in
+                            one map and having to deal with (G)ZDoom specific
+                            features at the same time.
+                          CodeImp - Making Doom Builder 2 and what started
+                            it all (at least for me) Doom Builder.
+                          Graf Zahl - Continuing work on the GZDoom engine.
+                          Zandronum Dev. Team - Continuing work on making
+                            SkullTag better and with a new vision.
+                          DeathZ0r - Made a tutorial back in 2004 in
+                            regards to making Deathmatch maps; a copy of the
+                            tutorial can be found in the provided link:
+                            http://zandronum.com/forum/showthread.php?tid=5182&pid=76221#pid76221
+                          Enjay - Updated and yet made publicly available for everyone
+                            to use, Splashes.
+                            http://forum.zdoom.org/viewtopic.php?p=670357#p670357
+                          Tormentor667 (and Realm667 contributors) - Created
+                            and made publicly available for everyone to use,
+                            Fog and rain special effects.
+                            http://www.realm667.com/
+                          Shane Strife - Created and made publicly available for
+                            everyone to use, Doom 2 'High Definition' (NOT REMIXED) music.
+                            http://forum.zdoom.org/viewtopic.php?p=472461#p472461
+                                NOTE: Property of the contents belong to the respected
+                                    creators and maintainers.  Original music by id Software.
+                                    (see \Documents\Credits.txt for more details)
+                          ID Software - Do I need to add a description for
+                            the obvious? ;)
+                          
+                          And all the authors of the textures I used for
+                           making this map; though, since I had a huge 
+                           texture database, I placed all the documentation
+                           in the /documents/ section within the .pk3 archive.
+                           Please view that directory for more information.
+===========================================================================
+* What is included *
+
+New levels              : 11
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : No
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : MAP01-MAP09, Artis, AMISERY
+Single Player           : Player starts only
+Cooperative 2-4 Player  : No
+Deathmatch 2-4 Player   : Designed for
+Other game styles       : None
+Difficulty Settings     : Not implemented
+
+
+* Construction *
+
+Base                    : New from scratch
+Build Time              : 9 Years, ~1 Month
+Editor(s) used          : GZDoom Builder, SLADE, Notepad++, MSPaint, and a
+                          lot of Shell Scripts
+Known Bugs              : Zandronum 3.0 is advertised as 'tested', but that's
+                          as far as it goes.
+May Not Run With        : ZDoom (software renderer; slopped 3D Floors)
+Tested With             : GZDoom 2.1.1
+
+
+* Copyright / Permissions *
+
+Authors MAY use the contents of this file as a base for modification or
+reuse.  Permissions have been obtained from original authors for any of their
+resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.  I have received
+permission from the original authors of any modified or included content in
+this file to allow further distribution.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
+Web sites: http://tiger.rfc1337.net/downloads/zdoom/morgenstern/devbuilds/
