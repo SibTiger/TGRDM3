@@ -4,12 +4,16 @@ Prerequisites
 
 Foundation Requirements:
 --------
-    Bootless Star 1.5 or later
+    Bootless Star 1.5.4 or later
+        http://forum.drdteam.org/viewtopic.php?p=53914#p53914
 
 
 
 Necessary:
 --------
-     7Zip 9.20 preferred
-         http://7-zip.org/
-     Morgenstern resources [SVN Local Working Copy]
+Git Version Control CUI Toolset [OPTIONAL]
+    https://git-scm.com/
+7Zip 9.20 or later
+    http://7-zip.org/
+TGRDM3 [Morgenstern] resources [Local Working Copy]
+    https://github.com/SibTiger/TGRDM3
