@@ -36,8 +36,6 @@ REM Prepare the variables needed for the operation function.
 SET TaskCaller_CallLong=GIT --git-dir="%UserConfig.DirProjectWorkingCopy%\.git" pull origin master
 SET TaskCaller_NiceProgramName=Git Commandline
 CALL :CompileProject_TaskOperation
-REM Error Check
-CALL :CompileProject_GitErrorCheck %ExitCode%
 EXIT /B %ERRORLEVEL%
 
 
