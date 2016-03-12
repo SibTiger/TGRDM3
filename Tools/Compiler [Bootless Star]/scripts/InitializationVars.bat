@@ -69,7 +69,7 @@ SET DevelopmentChangeLog_HardLimit=50
 REM This houses the parameters for 7Zip, this gets filled when we need to invoke it.
 SET SevenZipCompactParameters=-
 REM This mutable variable will hold the project's commit ID.
-SET ProjectCommitID=UNKNOWN;
+SET ProjectCommitID=UNKNOWN
 REM Can we find the main project?
 SET Detect_ProjectCore=False
 REM This variable is used to describe the drivers main purpose and present the value in the log files.
