@@ -96,7 +96,7 @@ CALL :CompileLineFeeds
 TYPE %SourcePath%CompileProject_ManageDirectories.bat>> %Output%
 CALL :CompileLineFeeds
 
-TYPE %SourcePath%CompileProject_SubversionControl.bat>> %Output%
+TYPE %SourcePath%CompileProject_GitControl.bat>> %Output%
 CALL :CompileLineFeeds
 
 TYPE %SourcePath%CompileProject_7ZipControl.bat>> %Output%
