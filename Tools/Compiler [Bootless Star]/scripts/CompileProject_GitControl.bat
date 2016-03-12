@@ -48,18 +48,18 @@ REM Fetch the latest commit ID
 REM # =============================================================================================
 REM # Documentation: This function will try to retrieve the Git commit ID that the working copy is based off from.
 REM # =============================================================================================
-:CompileProject_FetchGitRevisionID
+:CompileProject_FetchGitCommitID
 REM This variable is used to describe the drivers main purpose and present the value in the log files.
 SET "DriversNiceTask=Fetching the project's commit ID"
 CALL :CompileProject_Display_IncomingTask "%DriversNiceTask%"
-CALL :CompileProject_FetchGitRevisionID_TaskFetchID || (CALL :CaughtErrorSignal& EXIT /B 1)
+CALL :CompileProject_FetchGitCommitID_TaskFetchID || (CALL :CaughtErrorSignal& EXIT /B 1)
 CALL :CompileProject_DriverLogFooter "%DriversNiceTask%"
 REM ----
 EXIT /B 0
 
 
 
-:CompileProject_FetchGitRevisionID_TaskFetchID
+:CompileProject_FetchGitCommitID_TaskFetchID
 CALL :CompileProject_Display_IncomingTaskSubLevel "Retriving commit ID"
 FOR /F %%a IN ('GIT --git-dir="%UserConfig.DirProjectWorkingCopy%\.git" rev-parse --short HEAD') DO SET ProjectCommitID=%%a
 EXIT /B %ERRORLEVEL%
@@ -74,7 +74,7 @@ REM Fetch the latest commit changelog history
 REM # =============================================================================================
 REM # Documentation: Fetch the git commit changelog history.
 REM # =============================================================================================
-:CompileProject_FetchGitChangelogHistory
+:CompileProject_FetchGitCommitLogHistory
 REM ----
 REM Run this function?
 IF %Detect_Git% EQU False EXIT /B 0
@@ -85,7 +85,7 @@ REM ----
 REM This variable is used to describe the drivers main purpose and present the value in the log files.
 SET "DriversNiceTask=Fetching project's changelog history"
 CALL :CompileProject_Display_IncomingTask "%DriversNiceTask%"
-CALL :CompileProject_FetchGitChangelogHistory_Task || (CALL :CaughtErrorSignal& EXIT /B 1)
+CALL :CompileProject_FetchGitCommitLogHistory_Task || (CALL :CaughtErrorSignal& EXIT /B 1)
 CALL :CompileProject_DriverLogFooter "%DriversNiceTask%"
 EXIT /B 0
 
@@ -94,7 +94,7 @@ EXIT /B 0
 REM # =============================================================================================
 REM # Documentation: Generate a changelog history in a regular text file.
 REM # =============================================================================================
-:CompileProject_FetchGitChangelogHistory_Task
+:CompileProject_FetchGitCommitLogHistory_Task
 REM Did the user wanted this log type?
 IF %UserConfig.GitAllowFetchChangeLog% EQU False EXIT /B 0
 CALL :CompileProject_Display_IncomingTaskSubLevel "Fetching a standard changelog [txt formatting]"
