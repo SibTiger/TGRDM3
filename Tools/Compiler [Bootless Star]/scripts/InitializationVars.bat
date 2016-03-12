@@ -53,7 +53,7 @@ REM Used as the filename and directory when compiling the project.  This is buil
 SET FileName=UNKNOWN
 SET FileName_Archive=UNKNOWN
 REM Version of the initial project, not the program version.
-SET Version=1
+SET Version=0
 REM Error Signal for Operations; if the value is not null, there was a general issue with a function or functions in sequence.
 SET ErrorSignal=0
 REM Exit Code captures ErrorLevel - but retains the xid.
