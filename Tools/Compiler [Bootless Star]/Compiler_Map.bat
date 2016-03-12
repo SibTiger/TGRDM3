@@ -89,6 +89,8 @@ REM Copy data from the SVN Project to the local directory
     CALL :Make_DuplicateAssets "%~1" || EXIT /B 1
 REM Revise the map name to the standard MAP scheme
     CALL :Make_UpdateMapNames "%~1" || EXIT /B 1
+REM Remove rubbish from Map directory
+    CALL :Make_ThrashSuperfluousMapData "%~1" || EXIT /B 1
 REM IF: WYSIWYG patch alteration
 EXIT /B 0
 
@@ -415,6 +417,23 @@ EXIT /B 0
 
 
 
+REM # =============================================================================================
+REM # Documentation: This function will expunge superfluous data that is in the Maps directory.  Such data
+REM #       can be: (GZ)Doom Builder Wad Backups and (GZ)Doom Builder DBS files
+REM # Parameters: [{String} Project Build Path]
+REM # =============================================================================================
+:Make_ThrashSuperfluousMapData
+REM This variable is used to describe the drivers main purpose and present the value in the log files.
+CALL :CompileProject_Display_IncomingTaskSubLevel "Thrashing the superfluous data from the Maps Directory"
+REM ----
+REM Thrash: DBS files [DB2 configuration for the individual map\wad]
+    SET TaskCaller_CallLong=DEL /Q "%~1Maps\*.dbs" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+REM Thrash: Wad Backups
+    SET TaskCaller_CallLong=DEL /Q "%~1Maps\*.wad.backup*" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+REM =========================================================
+EXIT /B 0
 
 
 
