@@ -401,6 +401,30 @@ REM Main Stock Maps
     REM ----
     
     
+    REM The Testaments [TGRDM2]
+    SET TaskCaller_CallLong=RENAME "%~1Maps\Testaments.wad" "MAP10.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM Royal [TGRDM2]
+    SET TaskCaller_CallLong=RENAME "%~1Maps\Royal.wad" "MAP11.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM Chambers [TGRDM2]
+    SET TaskCaller_CallLong=RENAME "%~1Maps\Chambers.wad" "MAP12.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM The Stand [TGRDM2]
+    SET TaskCaller_CallLong=RENAME "%~1Maps\TheStand.wad" "MAP13.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
 REM Special Stock Maps
     REM Abandoned Misery [Pretty]
     SET TaskCaller_CallLong=RENAME "%~1Maps\AbandonedMisery[Pretty].wad" "AMISERY.wad" || EXIT /B 1

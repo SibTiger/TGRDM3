@@ -10,7 +10,13 @@ MAP[1-10]
     MAP07 = Malus
     MAP08 = AiluropodaMelanoleuca
     MAP09 = Adios
-    MAP10 = ???
+
+TGRDM2
+==================
+    MAP10 = The Testaments
+    MAP11 = Royal
+    MAP12 = Chambers
+    MAP13 = The Stand
 
 Specials
 ==================
