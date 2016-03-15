@@ -18,6 +18,12 @@ TGRDM2
     MAP12 = Chambers
     MAP13 = The Stand
 
+TGRDM3 [Ancient]
+==================
+    MAP14 = Blood Stone
+    MAP15 = Direful
+    MAP16 = Native Base
+
 Specials
 ==================
 Artis = Artis
