@@ -231,6 +231,9 @@ REM Decorate
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Splashes\*.*" "%~1Sprites\"
     CALL :CompileProject_TaskOperation
     REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Trees\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
 REM Sounds
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sounds\Weapons\*.*" "%~1Sounds\"
     CALL :CompileProject_TaskOperation

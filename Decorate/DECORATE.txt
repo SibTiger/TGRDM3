@@ -36,3 +36,8 @@
 // Items
     #include "Decorate/_MegaSphere.txt"
     #include "Decorate/_SoulSphere.txt"
+
+
+
+// Legacy
+    #include "Decorate/Trees.txt"
