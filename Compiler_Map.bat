@@ -219,6 +219,9 @@ REM Decorate
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Decorate\Items\*.*" "%~1Decorate\"
     CALL :CompileProject_TaskOperation
     REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Decorate\Legacy\*.*" "%~1Decorate\"
+    CALL :CompileProject_TaskOperation
+    REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Weapons\*.*" "%~1Sprites\"
     CALL :CompileProject_TaskOperation
     REM ----
@@ -296,6 +299,9 @@ REM Decorate
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Decorate\Items\*.*" "%~1Decorate\"
     CALL :CompileProject_TaskOperation
     REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Decorate\Legacy\*.*" "%~1Decorate\"
+    CALL :CompileProject_TaskOperation
+    REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Weapons\*.*" "%~1Sprites\"
     CALL :CompileProject_TaskOperation
     REM ----
@@ -306,6 +312,9 @@ REM Decorate
     CALL :CompileProject_TaskOperation
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Splashes\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Trees\*.*" "%~1Sprites\"
     CALL :CompileProject_TaskOperation
     REM ----
 REM Sounds
