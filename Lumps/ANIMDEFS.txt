@@ -2561,6 +2561,27 @@ TEXTURE TX1_0GI
         PIC TX1_0GP TICS 3
 
 
+// TGRDM3 LEGACY
+// -----------------
+    TEXTURE FA_021A
+        pic FA_021A tics 8
+        pic FA_022B tics 8
+        pic FA_023C tics 8
+        pic FA_024D tics 8
+        pic FA_025E tics 8
+        pic FA_026F tics 8
+        pic FA_027G tics 8
+        pic FA_028H tics 8
+
+    TEXTURE PA_219A
+        pic PA_219A tics 4
+        pic PA_220B tics 4
+        pic PA_221C tics 4
+        pic PA_222D tics 4
+        pic PA_223E tics 4
+        pic PA_224F tics 4
+        pic PA_225G tics 4
+        pic PA_226H tics 4
 
 
 // ==============================
@@ -2909,6 +2930,10 @@ TEXTURE TX1_0GI
     WARP FLAT TX5_000
 
 
+// TGRDM3 LEGACY
+// -----------------
+    WARP TEXTURE FW_002
+    WARP2 TEXTURE FW_A01
 
 
 // ==============================
