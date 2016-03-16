@@ -530,6 +530,8 @@ TERRAIN YellowSludge
     floor TX3_009 DarkWater
     floor TX3_00A DarkWater
     floor TX3_00B DarkWater
+    floor FW_002 DarkWater
+    floor FW_A01 DarkWater
 
 
 
