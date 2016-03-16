@@ -14,3 +14,9 @@
 5014         TGRSoulSphere
 15000        RainSpawner
 15001        FogCloud_Generator
+16000        TGRTreeSkyBoxViewpoint
+16001        TGRTree1
+16002        TGRTree2
+16003        TGRTree3
+16004        TGRTree4
+16005        TGRTree5

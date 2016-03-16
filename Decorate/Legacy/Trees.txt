@@ -1,0 +1,99 @@
+ACTOR TreeSkyBoxViewpoint 16000 // SkyBox Tree
+{
+    Game Doom
+    Radius 2
+    Height 8
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        TF35 A -1
+        stop
+    }
+}
+
+
+
+ACTOR TGRTree1 16001
+{
+    Game Doom
+    Radius 20
+    Height 128
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        TF1F A -1
+        stop
+    }
+}
+
+
+
+ACTOR TGRTree2 16002
+{
+    Game Doom
+    Radius 10
+    Height 106
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        TF2J A -1
+        stop
+    }
+}
+
+
+
+ACTOR TGRTree3 16003
+{
+    Game Doom
+    Radius 15
+    Height 154
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        TF2M A -1
+        stop
+    }
+}
+
+
+
+ACTOR TGRTree4 16004
+{
+    Game Doom
+    Radius 40
+    Height 124
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        TF2G A -1
+        stop
+    }
+}
+
+
+
+ACTOR TGRTree5 16005
+{
+    Game Doom
+    Radius 15
+    Height 185
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        TF2L A -1
+        stop
+    }
+}
