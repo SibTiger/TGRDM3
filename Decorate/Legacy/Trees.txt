@@ -1,4 +1,4 @@
-ACTOR TreeSkyBoxViewpoint 16000 // SkyBox Tree
+ACTOR TreeSkyBoxViewpoint 16000 // {Resources are Uncredited}
 {
     Game Doom
     Radius 2
@@ -15,7 +15,7 @@ ACTOR TreeSkyBoxViewpoint 16000 // SkyBox Tree
 
 
 
-ACTOR TGRTree1 16001
+ACTOR TGRTree1 16001 // {Resources are Uncredited}
 {
     Game Doom
     Radius 20
@@ -32,7 +32,7 @@ ACTOR TGRTree1 16001
 
 
 
-ACTOR TGRTree2 16002
+ACTOR TGRTree2 16002 // {Resources are Uncredited}
 {
     Game Doom
     Radius 10
@@ -49,7 +49,7 @@ ACTOR TGRTree2 16002
 
 
 
-ACTOR TGRTree3 16003
+ACTOR TGRTree3 16003 // {Resources are Uncredited}
 {
     Game Doom
     Radius 15
@@ -66,7 +66,7 @@ ACTOR TGRTree3 16003
 
 
 
-ACTOR TGRTree4 16004
+ACTOR TGRTree4 16004 // {Resources are Uncredited}
 {
     Game Doom
     Radius 40
@@ -83,7 +83,7 @@ ACTOR TGRTree4 16004
 
 
 
-ACTOR TGRTree5 16005
+ACTOR TGRTree5 16005 // {Resources are Uncredited}
 {
     Game Doom
     Radius 15
