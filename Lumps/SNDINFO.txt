@@ -41,6 +41,32 @@ $ambient 1 Ambient/Rain point 1.0 continuous 0.5
 
 
 
+//======================
+//       Legacy
+//======================
+
+// Wind {Resources are Uncredited}
+Ambient/LegacyWind      ASW20
+$AMBIENT 2 Ambient/LegacyWind POINT RANDOM 10.0 30.0 0.5
+
+
+// --
+
+
+// Ocean {Resources are Uncredited}
+Ambient/LegacyOcean     ASW22
+$AMBIENT 3 Ambient/LegacyOcean POINT CONTINUOUS 0.5
+
+
+// --
+
+
+// mechanical Homing {Resources are Uncredited}
+Ambient/LegacyMachineHom    ASW25
+$AMBIENT 4 Ambient/LegacyMachineHom POINT CONTINUOUS 0.5
+
+
+
 
 //======================
 //       Splashes
