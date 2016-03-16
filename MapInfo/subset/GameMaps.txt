@@ -102,7 +102,7 @@ MAP MAP10 "The Testaments"
     LevelNum = 10
     Next = MAP11
     Music = "D_ROMERO"
-    SKY1 = "TGR_RSKY2", 0.0
+    SKY1 = "TGR_SKY1", 0.0
 } // The Testaments (TGRDM2)
 
 
@@ -121,7 +121,7 @@ MAP MAP12 "Chambers"
     LevelNum = 12
     Next = MAP13
     Music = "D_DOOM"
-    Sky1 = "TGR_RSKY2", 0.0
+    Sky1 = "TGR_SKY1", 0.0
 } // Chambers (TGRDM2)
 
 
@@ -130,7 +130,7 @@ MAP MAP13 "The Stand"
 {
     LevelNum = 13
     Next = MAP14
-    SKY1 = "TGR_RSKY3", 1.0
+    SKY1 = "TGR_SKY2", 1.0
     MUSIC = "D_DDTBLU"
 } // The Stand (TGRDM2)
 

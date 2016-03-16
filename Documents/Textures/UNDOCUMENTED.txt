@@ -3,8 +3,8 @@ Listed below is a list of textures that are undocumented and were used in some o
 
 Textures from TGRDM2
 --------------------------
-TGR_RSKY2
-TGR_RSKY3
+TGR_SKY1
+TGR_SKY2
 
 
 Textures from TGRDM3 (Legacy)
