@@ -111,7 +111,7 @@ MAP MAP11 "Royal"
 {
     LevelNum = 11
     Next = MAP12
-    Music = "D_STLKS3"
+    Music = "D_STALKS"
 } // Royal (TGRDM2)
 
 
@@ -133,3 +133,33 @@ MAP MAP13 "The Stand"
     SKY1 = "TGR_RSKY3", 1.0
     MUSIC = "D_DDTBLU"
 } // The Stand (TGRDM2)
+
+
+
+MAP MAP14 "Blood Stone"
+{
+    LevelNum = 14
+    Next = MAP15
+    SKY1 = "HM_051", 0.0
+    MUSIC = "D_COUNTD"
+} // Blood Stone (TGRDM3 Legacy)
+
+
+
+MAP MAP15 "Direful"
+{
+    LevelNum = 15
+    Next = MAP16
+    SKY1 = "HM_051", 0.0
+    MUSIC = "D_E3M2"
+} // Direful (TGRDM3 Legacy)
+
+
+
+MAP MPA16 "Native Base"
+{
+    LevelNum = 16
+    Next = MAP17
+    SKY1 = "F_SKY1", 0.0
+    MUSIC = "D_AMPIE"
+} // Native Base (TGRDM3 Legacy)
