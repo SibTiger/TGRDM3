@@ -156,7 +156,7 @@ MAP MAP15 "Direful"
 
 
 
-MAP MPA16 "Native Base"
+MAP MAP16 "Native Base"
 {
     LevelNum = 16
     Next = MAP17
