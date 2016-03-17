@@ -441,6 +441,24 @@ REM Main Stock Maps
     REM ----
     
     
+    REM Blood Stone [LEGACY]
+    SET TaskCaller_CallLong=RENAME "%~1Maps\BloodStone.wad" "MAP14.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM Direful [LEGACY]
+    SET TaskCaller_CallLong=RENAME "%~1Maps\Direful.wad" "MAP15.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
+    REM Native Base [LEGACY]
+    SET TaskCaller_CallLong=RENAME "%~1Maps\NativeBase.wad" "MAP16.wad" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+    REM ----
+    
+    
 REM Special Stock Maps
     REM Abandoned Misery [Pretty]
     SET TaskCaller_CallLong=RENAME "%~1Maps\AbandonedMisery[Pretty].wad" "AMISERY.wad" || EXIT /B 1
