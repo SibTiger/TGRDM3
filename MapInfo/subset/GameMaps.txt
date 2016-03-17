@@ -160,6 +160,6 @@ MAP MAP16 "Native Base"
 {
     LevelNum = 16
     Next = MAP17
-    SKY1 = "TX0_2VH", 0.0
+    SKY1 = "TX0_0DZ", 0.0
     MUSIC = "D_AMPIE"
 } // Native Base (TGRDM3 Legacy)
