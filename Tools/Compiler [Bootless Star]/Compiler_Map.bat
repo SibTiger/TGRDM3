@@ -490,6 +490,9 @@ REM Thrash: DBS files [DB2 configuration for the individual map\wad]
 REM Thrash: Wad Backups
     SET TaskCaller_CallLong=DEL /Q "%~1Maps\*.wad.backup*" || EXIT /B 1
     CALL :CompileProject_TaskOperation
+REM Thrash: SLADE WAD Backups
+    SET TaskCaller_CallLong=DEL /Q "%~1Maps\*.wad.bak*" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
 REM =========================================================
 EXIT /B 0
 
