@@ -78,6 +78,15 @@ Dancso
 
 
 
+Perkristian
+----
+    Created High Definition Doom Sounds
+        Web Site: http://www.perkristian.net/
+        Link: http://www.perkristian.net/sounds/pk_doom_sfx.zip
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
 Shane Strife (AKA: Shane)
 ----
     Made available 'High Quality' (not remixed) music of Doom and Doom 2.
