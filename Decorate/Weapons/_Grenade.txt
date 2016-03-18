@@ -22,14 +22,14 @@ Actor TGRGrenade
         +CanBounceWater
     // ----
     SeeSound "Weapons/GrBnce"
-    DeathSound "Weapons/GrenLX"
+    DeathSound "weapons/rocklx"
     DamageType Fire
     States
     {
     Spawn:
         SGRN A 0 Bright
         SGRN A 0 Bright A_StopSound
-        SGRN A 0 Bright A_PlaySound("Weapons/GrenLF")
+        SGRN A 0 Bright A_PlaySound("weapons/rocklf")
         SGRN A 1 Bright 
         Goto Spawn+3
     Death:
