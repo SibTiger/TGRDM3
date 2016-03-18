@@ -41,6 +41,9 @@ ACTOR TGRChainsaw : Chainsaw REPLACES Chainsaw
     // ------
     States
     {
+        Ready:
+            SAWG CCDDEEFF 1 A_WeaponReady
+            Loop
         Fire:
             SAWG AB 4 A_Saw
             SAWG B 0 A_ReFire

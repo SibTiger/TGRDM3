@@ -84,6 +84,10 @@ Perkristian
         Web Site: http://www.perkristian.net/
         Link: http://www.perkristian.net/sounds/pk_doom_sfx.zip
             Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+    Additionally, created 'Smooth Weapons' and was modified to work with ZDoom based ports by Phi108, along with various contributers modifications and improvements.
+        Forum Topic: https://www.doomworld.com/vb/post/779518
+        Back Up: http://forum.zdoom.org/viewtopic.php?p=617687&sid=451e500c64501fd88bf236d0fe103ef1#p617687
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
 
 
 

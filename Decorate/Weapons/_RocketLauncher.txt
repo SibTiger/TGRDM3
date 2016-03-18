@@ -38,10 +38,21 @@ ACTOR TGRRocketLauncher : RocketLauncher REPLACES RocketLauncher
     States
     {
     Fire:
-        MISG B 8 A_GunFlash
-        MISG B 15 A_FireCustomMissile ("TGRRocket")
-        MISG B 0 A_ReFire
+        PKRL A 2 
+        PKRL A 4 A_GunFlash
+        PKRL B 2
+        PKRL D 3 A_FireCustomMissile ("TGRRocket")
+        PKRL C 3
+        PKRL BE 2
+        PKRL FG 1
+        PKRL A 0 A_ReFire
         Goto Ready
+    Flash:
+        PKRF A 3 Bright A_Light1
+        PKRF B 2 Bright
+        PKRF C 2 Bright A_Light2
+        PKRF DE 3 Bright
+        Goto LightDone
     Spawn:
         LAUN A -1
         Stop
