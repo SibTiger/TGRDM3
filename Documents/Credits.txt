@@ -87,6 +87,15 @@ Perkristian
 
 
 
+DoomJedi
+----
+    Created SkullTag Item High-Resolution pack
+        Web Site: http://www.skulltag.com/download/
+        Link: http://www.skulltag.com/download/files/st_hi-res.pk3
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
 Shane Strife (AKA: Shane)
 ----
     Made available 'High Quality' (not remixed) music of Doom and Doom 2.

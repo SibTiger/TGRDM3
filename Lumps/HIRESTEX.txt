@@ -1,204 +1,360 @@
+// ===========================================================
+// -----------------------------------------------------------
+// ===========================================================
+// DOOM FONTS, CREATED BY DANSCO
+
 //Smallfont
-remap stcfn033 HIDOF033
-remap stcfn034 HIDOF034
-remap stcfn035 HIDOF035
-remap stcfn036 HIDOF036
-remap stcfn037 HIDOF037
-remap stcfn038 HIDOF038
-remap stcfn039 HIDOF039
-remap stcfn040 HIDOF040
-remap stcfn041 HIDOF041
-remap stcfn042 HIDOF042
-remap stcfn043 HIDOF043
-remap stcfn044 HIDOF044
-remap stcfn045 HIDOF045
-remap stcfn046 HIDOF046
-remap stcfn047 HIDOF047
-remap stcfn048 HIDOF048
-remap stcfn049 HIDOF049
-remap stcfn050 HIDOF050
-remap stcfn051 HIDOF051
-remap stcfn052 HIDOF052
-remap stcfn053 HIDOF053
-remap stcfn054 HIDOF054
-remap stcfn055 HIDOF055
-remap stcfn056 HIDOF056
-remap stcfn057 HIDOF057
-remap stcfn058 HIDOF058
-remap stcfn059 HIDOF059
-remap stcfn060 HIDOF060
-remap stcfn061 HIDOF061
-remap stcfn062 HIDOF062
-remap stcfn063 HIDOF063
-remap stcfn064 HIDOF064
-remap stcfn065 HIDOF065
-remap stcfn066 HIDOF066
-remap stcfn067 HIDOF067
-remap stcfn068 HIDOF068
-remap stcfn069 HIDOF069
-remap stcfn070 HIDOF070
-remap stcfn071 HIDOF071
-remap stcfn072 HIDOF072
-remap stcfn073 HIDOF073
-remap stcfn074 HIDOF074
-remap stcfn075 HIDOF075
-remap stcfn076 HIDOF076
-remap stcfn077 HIDOF077
-remap stcfn078 HIDOF078
-remap stcfn079 HIDOF079
-remap stcfn080 HIDOF080
-remap stcfn081 HIDOF081
-remap stcfn082 HIDOF082
-remap stcfn083 HIDOF083
-remap stcfn084 HIDOF084
-remap stcfn085 HIDOF085
-remap stcfn086 HIDOF086
-remap stcfn087 HIDOF087
-remap stcfn088 HIDOF088
-remap stcfn089 HIDOF089
-remap stcfn090 HIDOF090
-remap stcfn091 HIDOF091
-remap stcfn092 HIDOF092
-remap stcfn093 HIDOF093
-remap stcfn094 HIDOF094
-remap stcfn095 HIDOF095
-//lower case letters taken out, d'oh
-remap stcfn196 HIDOF196
-remap stcfn214 HIDOF214
-remap stcfn220 HIDOF220
-remap stcfn223 HIDOF223
+    remap stcfn033 HIDOF033
+    remap stcfn034 HIDOF034
+    remap stcfn035 HIDOF035
+    remap stcfn036 HIDOF036
+    remap stcfn037 HIDOF037
+    remap stcfn038 HIDOF038
+    remap stcfn039 HIDOF039
+    remap stcfn040 HIDOF040
+    remap stcfn041 HIDOF041
+    remap stcfn042 HIDOF042
+    remap stcfn043 HIDOF043
+    remap stcfn044 HIDOF044
+    remap stcfn045 HIDOF045
+    remap stcfn046 HIDOF046
+    remap stcfn047 HIDOF047
+    remap stcfn048 HIDOF048
+    remap stcfn049 HIDOF049
+    remap stcfn050 HIDOF050
+    remap stcfn051 HIDOF051
+    remap stcfn052 HIDOF052
+    remap stcfn053 HIDOF053
+    remap stcfn054 HIDOF054
+    remap stcfn055 HIDOF055
+    remap stcfn056 HIDOF056
+    remap stcfn057 HIDOF057
+    remap stcfn058 HIDOF058
+    remap stcfn059 HIDOF059
+    remap stcfn060 HIDOF060
+    remap stcfn061 HIDOF061
+    remap stcfn062 HIDOF062
+    remap stcfn063 HIDOF063
+    remap stcfn064 HIDOF064
+    remap stcfn065 HIDOF065
+    remap stcfn066 HIDOF066
+    remap stcfn067 HIDOF067
+    remap stcfn068 HIDOF068
+    remap stcfn069 HIDOF069
+    remap stcfn070 HIDOF070
+    remap stcfn071 HIDOF071
+    remap stcfn072 HIDOF072
+    remap stcfn073 HIDOF073
+    remap stcfn074 HIDOF074
+    remap stcfn075 HIDOF075
+    remap stcfn076 HIDOF076
+    remap stcfn077 HIDOF077
+    remap stcfn078 HIDOF078
+    remap stcfn079 HIDOF079
+    remap stcfn080 HIDOF080
+    remap stcfn081 HIDOF081
+    remap stcfn082 HIDOF082
+    remap stcfn083 HIDOF083
+    remap stcfn084 HIDOF084
+    remap stcfn085 HIDOF085
+    remap stcfn086 HIDOF086
+    remap stcfn087 HIDOF087
+    remap stcfn088 HIDOF088
+    remap stcfn089 HIDOF089
+    remap stcfn090 HIDOF090
+    remap stcfn091 HIDOF091
+    remap stcfn092 HIDOF092
+    remap stcfn093 HIDOF093
+    remap stcfn094 HIDOF094
+    remap stcfn095 HIDOF095
+    //lower case letters taken out, d'oh
+    remap stcfn196 HIDOF196
+    remap stcfn214 HIDOF214
+    remap stcfn220 HIDOF220
+    remap stcfn223 HIDOF223
 // ----
 
 
 
 //Bigfont
-remap DOMSF033 HIDOF033
-remap DOMSF034 HIDOF034
-remap DOMSF035 HIDOF035
-remap DOMSF036 HIDOF036
-remap DOMSF037 HIDOF037
-remap DOMSF038 HIDOF038
-remap DOMSF039 HIDOF039
-remap DOMSF040 HIDOF040
-remap DOMSF041 HIDOF041
-remap DOMSF042 HIDOF042
-remap DOMSF043 HIDOF043
-remap DOMSF044 HIDOF044
-remap DOMSF045 HIDOF045
-remap DOMSF046 HIDOF046
-remap DOMSF047 HIDOF047
-remap DOMSF048 HIDOF048
-remap DOMSF049 HIDOF049
-remap DOMSF050 HIDOF050
-remap DOMSF051 HIDOF051
-remap DOMSF052 HIDOF052
-remap DOMSF053 HIDOF053
-remap DOMSF054 HIDOF054
-remap DOMSF055 HIDOF055
-remap DOMSF056 HIDOF056
-remap DOMSF057 HIDOF057
-remap DOMSF058 HIDOF058
-remap DOMSF059 HIDOF059
-remap DOMSF060 HIDOF060
-remap DOMSF061 HIDOF061
-remap DOMSF062 HIDOF062
-remap DOMSF063 HIDOF063
-remap DOMSF064 HIDOF064
-remap DOMSF065 HIDOF065
-remap DOMSF066 HIDOF066
-remap DOMSF067 HIDOF067
-remap DOMSF068 HIDOF068
-remap DOMSF069 HIDOF069
-remap DOMSF070 HIDOF070
-remap DOMSF071 HIDOF071
-remap DOMSF072 HIDOF072
-remap DOMSF073 HIDOF073
-remap DOMSF074 HIDOF074
-remap DOMSF075 HIDOF075
-remap DOMSF076 HIDOF076
-remap DOMSF077 HIDOF077
-remap DOMSF078 HIDOF078
-remap DOMSF079 HIDOF079
-remap DOMSF080 HIDOF080
-remap DOMSF081 HIDOF081
-remap DOMSF082 HIDOF082
-remap DOMSF083 HIDOF083
-remap DOMSF084 HIDOF084
-remap DOMSF085 HIDOF085
-remap DOMSF086 HIDOF086
-remap DOMSF087 HIDOF087
-remap DOMSF088 HIDOF088
-remap DOMSF089 HIDOF089
-remap DOMSF090 HIDOF090
-remap DOMSF091 HIDOF091
-remap DOMSF092 HIDOF092
-remap DOMSF093 HIDOF093
-remap DOMSF094 HIDOF094
-remap DOMSF095 HIDOF095
-remap DOMSF096 HIDOF096
-remap DOMSF097 HIDOF097
-remap DOMSF098 HIDOF098
-remap DOMSF099 HIDOF099
-remap DOMSF100 HIDOF100
-remap DOMSF101 HIDOF101
-remap DOMSF102 HIDOF102
-remap DOMSF103 HIDOF103
-remap DOMSF104 HIDOF104
-remap DOMSF105 HIDOF105
-remap DOMSF106 HIDOF106
-remap DOMSF107 HIDOF107
-remap DOMSF108 HIDOF108
-remap DOMSF109 HIDOF109
-remap DOMSF110 HIDOF110
-remap DOMSF111 HIDOF111
-remap DOMSF112 HIDOF112
-remap DOMSF113 HIDOF113
-remap DOMSF114 HIDOF114
-remap DOMSF115 HIDOF115
-remap DOMSF116 HIDOF116
-remap DOMSF117 HIDOF117
-remap DOMSF118 HIDOF118
-remap DOMSF119 HIDOF119
-remap DOMSF120 HIDOF120
-remap DOMSF121 HIDOF121
-remap DOMSF122 HIDOF122
-remap DOMSF196 HIDOF196
-remap DOMSF214 HIDOF214
-remap DOMSF220 HIDOF220
-remap DOMSF223 HIDOF223
+    remap DOMSF033 HIDOF033
+    remap DOMSF034 HIDOF034
+    remap DOMSF035 HIDOF035
+    remap DOMSF036 HIDOF036
+    remap DOMSF037 HIDOF037
+    remap DOMSF038 HIDOF038
+    remap DOMSF039 HIDOF039
+    remap DOMSF040 HIDOF040
+    remap DOMSF041 HIDOF041
+    remap DOMSF042 HIDOF042
+    remap DOMSF043 HIDOF043
+    remap DOMSF044 HIDOF044
+    remap DOMSF045 HIDOF045
+    remap DOMSF046 HIDOF046
+    remap DOMSF047 HIDOF047
+    remap DOMSF048 HIDOF048
+    remap DOMSF049 HIDOF049
+    remap DOMSF050 HIDOF050
+    remap DOMSF051 HIDOF051
+    remap DOMSF052 HIDOF052
+    remap DOMSF053 HIDOF053
+    remap DOMSF054 HIDOF054
+    remap DOMSF055 HIDOF055
+    remap DOMSF056 HIDOF056
+    remap DOMSF057 HIDOF057
+    remap DOMSF058 HIDOF058
+    remap DOMSF059 HIDOF059
+    remap DOMSF060 HIDOF060
+    remap DOMSF061 HIDOF061
+    remap DOMSF062 HIDOF062
+    remap DOMSF063 HIDOF063
+    remap DOMSF064 HIDOF064
+    remap DOMSF065 HIDOF065
+    remap DOMSF066 HIDOF066
+    remap DOMSF067 HIDOF067
+    remap DOMSF068 HIDOF068
+    remap DOMSF069 HIDOF069
+    remap DOMSF070 HIDOF070
+    remap DOMSF071 HIDOF071
+    remap DOMSF072 HIDOF072
+    remap DOMSF073 HIDOF073
+    remap DOMSF074 HIDOF074
+    remap DOMSF075 HIDOF075
+    remap DOMSF076 HIDOF076
+    remap DOMSF077 HIDOF077
+    remap DOMSF078 HIDOF078
+    remap DOMSF079 HIDOF079
+    remap DOMSF080 HIDOF080
+    remap DOMSF081 HIDOF081
+    remap DOMSF082 HIDOF082
+    remap DOMSF083 HIDOF083
+    remap DOMSF084 HIDOF084
+    remap DOMSF085 HIDOF085
+    remap DOMSF086 HIDOF086
+    remap DOMSF087 HIDOF087
+    remap DOMSF088 HIDOF088
+    remap DOMSF089 HIDOF089
+    remap DOMSF090 HIDOF090
+    remap DOMSF091 HIDOF091
+    remap DOMSF092 HIDOF092
+    remap DOMSF093 HIDOF093
+    remap DOMSF094 HIDOF094
+    remap DOMSF095 HIDOF095
+    remap DOMSF096 HIDOF096
+    remap DOMSF097 HIDOF097
+    remap DOMSF098 HIDOF098
+    remap DOMSF099 HIDOF099
+    remap DOMSF100 HIDOF100
+    remap DOMSF101 HIDOF101
+    remap DOMSF102 HIDOF102
+    remap DOMSF103 HIDOF103
+    remap DOMSF104 HIDOF104
+    remap DOMSF105 HIDOF105
+    remap DOMSF106 HIDOF106
+    remap DOMSF107 HIDOF107
+    remap DOMSF108 HIDOF108
+    remap DOMSF109 HIDOF109
+    remap DOMSF110 HIDOF110
+    remap DOMSF111 HIDOF111
+    remap DOMSF112 HIDOF112
+    remap DOMSF113 HIDOF113
+    remap DOMSF114 HIDOF114
+    remap DOMSF115 HIDOF115
+    remap DOMSF116 HIDOF116
+    remap DOMSF117 HIDOF117
+    remap DOMSF118 HIDOF118
+    remap DOMSF119 HIDOF119
+    remap DOMSF120 HIDOF120
+    remap DOMSF121 HIDOF121
+    remap DOMSF122 HIDOF122
+    remap DOMSF196 HIDOF196
+    remap DOMSF214 HIDOF214
+    remap DOMSF220 HIDOF220
+    remap DOMSF223 HIDOF223
 // ----
 
 
 
 // Status Bar [Equiped Weapons] Numbers
-remap STYSNUM0 HIRENUM0
-remap STYSNUM1 HIRENUM1
-remap STYSNUM2 HIRENUM2
-remap STYSNUM3 HIRENUM3
-remap STYSNUM4 HIRENUM4
-remap STYSNUM5 HIRENUM5
-remap STYSNUM6 HIRENUM6
-remap STYSNUM7 HIRENUM7
-remap STYSNUM8 HIRENUM8
-remap STYSNUM9 HIRENUM9
+    remap STYSNUM0 HIRENUM0
+    remap STYSNUM1 HIRENUM1
+    remap STYSNUM2 HIRENUM2
+    remap STYSNUM3 HIRENUM3
+    remap STYSNUM4 HIRENUM4
+    remap STYSNUM5 HIRENUM5
+    remap STYSNUM6 HIRENUM6
+    remap STYSNUM7 HIRENUM7
+    remap STYSNUM8 HIRENUM8
+    remap STYSNUM9 HIRENUM9
 // ----
 
 
 
 // Status Bar [NOT Equiped Weapons] Numbers
-remap STGNUM0 HIR2NUM0
-remap STGNUM1 HIR2NUM1
-remap STGNUM2 HIR2NUM2
-remap STGNUM3 HIR2NUM3
-remap STGNUM4 HIR2NUM4
-remap STGNUM5 HIR2NUM5
-remap STGNUM6 HIR2NUM6
-remap STGNUM7 HIR2NUM7
-remap STGNUM8 HIR2NUM8
-remap STGNUM9 HIR2NUM9
+    remap STGNUM0 HIR2NUM0
+    remap STGNUM1 HIR2NUM1
+    remap STGNUM2 HIR2NUM2
+    remap STGNUM3 HIR2NUM3
+    remap STGNUM4 HIR2NUM4
+    remap STGNUM5 HIR2NUM5
+    remap STGNUM6 HIR2NUM6
+    remap STGNUM7 HIR2NUM7
+    remap STGNUM8 HIR2NUM8
+    remap STGNUM9 HIR2NUM9
 // ----
 
 
 
 //HUDFONT_DOOM
-remap STTPRCNT HIDOF037
+    remap STTPRCNT HIDOF037
+
+
+
+// ===========================================================
+// -----------------------------------------------------------
+// ===========================================================
+// SkullTag Item High-Resolution pack; CREATED BY DOOMJEDI
+
+// ===================
+// Ammunition
+// ===================
+
+// Box of Ammo
+    remap AMMOA0 AMMOA0_H
+
+// Box of Rockets
+    remap BROKA0 BROKA0_H
+
+// Box of Shells
+    remap SBOXA0 SBOXA0_H
+
+
+// ===================
+// Health and Armor
+// ===================
+
+// Armor Bonus
+    remap BON2A0 BON2A0_H
+    remap BON2B0 BON2B0_H
+    remap BON2C0 BON2C0_H
+    remap BON2D0 BON2D0_H
+
+// Blue Armor
+    remap ARM2A0 ARM2A0_H
+    remap ARM2B0 ARM2B0_H
+
+// Green Armor
+    remap ARM1A0 ARM1A0_H
+    remap ARM1B0 ARM1B0_H
+
+// Health Bonus
+    remap BON1A0 BON1A0_H
+    remap BON1B0 BON1B0_H
+    remap BON1C0 BON1C0_H
+    remap BON1D0 BON1D0_H
+
+// Medikit
+    remap MEDIA0 MEDIA0_H
+
+
+// ===================
+// Light Sources
+// ===================
+
+// Candelabra
+    remap CBRAA0 CBRAA0_H
+
+// Candle
+    remap CANDA0 CANDA0_H
+
+// Floor Lamp
+    remap COLUA0 YCOLA0_H
+
+// Short Blue Torch
+    remap SMBTA0 SMBTA0_H
+    remap SMBTB0 SMBTB0_H
+    remap SMBTC0 SMBTC0_H
+    remap SMBTD0 SMBTD0_H
+
+// Short Green Torch
+    remap SMGTA0 SMGTA0_H
+    remap SMGTB0 SMGTB0_H
+    remap SMGTC0 SMGTC0_H
+    remap SMGTD0 SMGTD0_H
+
+// Short Red Torch
+    remap SMRTA0 SMRTA0_H
+    remap SMRTB0 SMRTB0_H
+    remap SMRTC0 SMRTC0_H
+    remap SMRTD0 SMRTD0_H
+
+// Short Tech Floor Lamp
+    remap TLP2A0 TLP2A0_H
+    remap TLP2B0 TLP2B0_H
+    remap TLP2C0 TLP2C0_H
+    remap TLP2D0 TLP2D0_H
+
+// Tall Blue Torch
+    remap TBLUA0 TBLUA0_H
+    remap TBLUB0 TBLUB0_H
+    remap TBLUC0 TBLUC0_H
+    remap TBLUD0 TBLUD0_H
+
+// Tall Green Torch
+    remap TGRNA0 TGRNA0_H
+    remap TGRNB0 TGRNB0_H
+    remap TGRNC0 TGRNC0_H
+    remap TGRND0 TGRND0_H
+
+// Tall Red Torch
+    remap TREDA0 TREDA0_H
+    remap TREDB0 TREDB0_H
+    remap TREDC0 TREDC0_H
+    remap TREDD0 TREDD0_H
+
+// Tall Tech Floor Lamp
+    remap TLMPA0 TLMPA0_H
+    remap TLMPB0 TLMPB0_H
+    remap TLMPC0 TLMPC0_H
+    remap TLMPD0 TLMPD0_H
+
+
+// ===================
+// Powerups
+// ===================
+
+// Mega Sphere
+    remap MEGAA0 MEGAA0_H
+
+
+// Soulsphere
+    remap SOULA0 SOULA0_H
+    remap SOULB0 SOULB0_H
+    remap SOULC0 SOULC0_H
+    remap SOULD0 SOULD0_H
+
+
+// ===================
+// Weapons
+// ===================
+
+// Chaingun
+    remap MGUNA0 MGUNA0_H
+
+// Grenade Launcher
+    remap GLAUA0 GLAUA0_H
+
+// Plasma Rifle
+    remap PLASA0 PLASA0_H
+
+// Railgun
+    remap RAILA0 RAILA0_H
+
+// Rocket Launcher
+    remap LAUNA0 LAUNA0_H
+
+// Shotgun
+    remap SHOTA0 SHOTA0_H
+
+// Super Shotgun
+    remap SGN2A0 SGN2A0_H
