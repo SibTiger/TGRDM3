@@ -15,28 +15,37 @@ Actor TGRGrenade
         ProjectileKickBack 40
         RadiusDamageFactor 2 //2x=y
         -NoGravity
+        +RANDOMIZE
         +DehExplosion
         +GrenadeTrail
         +ExplodeOnDeath
         +ForceRadiusDMG
         +CanBounceWater
     // ----
-    SeeSound "Weapons/GrBnce"
+    SeeSound "weapons/rocklf"
     DeathSound "weapons/rocklx"
-    DamageType Fire
+    BounceSound "Weapons/GrBnce"
+    DamageType Grenade
     States
     {
     Spawn:
-        SGRN A 0 Bright
-        SGRN A 0 Bright A_StopSound
-        SGRN A 0 Bright A_PlaySound("weapons/rocklf")
-        SGRN A 1 Bright 
-        Goto Spawn+3
+        SGRN A 1 Bright
+        Loop
     Death:
-        MISL B 0 Bright A_ChangeFlag("NoGravity", 1)
         MISL B 8 Bright A_Explode
         MISL C 6 Bright
         MISL D 4 Bright
-        stop
+        Stop
+    Grenade:
+        MISL A 1000 A_Die
+        Wait
+    Detonate:
+        MISL B 4 A_Scream
+        MISL C 6 A_Detonate
+        MISL D 10
+        Stop
+    Mushroom:
+        MISL B 8 A_Mushroom
+        Goto Death+1
     }
 }
