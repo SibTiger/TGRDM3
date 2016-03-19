@@ -26,3 +26,17 @@ SCRIPT "3DTeleport" (int heightCeiling, int heightFloor, int mapSpotTarget)
             // If the player is between the heightCeiling and heightFloor of the 3D Plain, teleport the player
             Teleport(mapSpotTarget, 0, 0);
 } // 3DTeleport()
+
+
+
+
+// Jumping Pad Sound
+// This is a very tiny script that simply plays the jumping pad sound once activated
+// ----
+// Description
+//      This script will only play the default jumping pad; this is not customizable.
+// ----
+SCRIPT "JumpPadSound" (VOID)
+{
+    PlaySound(1, "World/JumpPad", CHAN_AUTO, 1.0, false, ATTN_NORM);
+} // JumpPadSound()

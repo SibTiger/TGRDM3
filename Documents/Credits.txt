@@ -100,6 +100,15 @@ DoomJedi
 
 
 
+id Software
+----
+    Created and has all rights and properties to the Quake 3 Jumping Pad sound.
+        Web Site: http://www.idsoftware.com/
+        Game Link (Steam): http://store.steampowered.com/app/2200/
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
 Shane Strife (AKA: Shane)
 ----
     Made available 'High Quality' (not remixed) music of Doom and Doom 2.
