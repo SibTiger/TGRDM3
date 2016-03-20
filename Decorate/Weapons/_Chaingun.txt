@@ -1,7 +1,5 @@
 ACTOR TGRChaingun : Chaingun REPLACES Chaingun
 {
-    Inventory.PickupMessage "Picked Up: Chaingun"
-    Obituary "[%o] -->> Chaingun -->> [%k]"
     Tag "Chaingun"
     // Standards
     // ===========

@@ -1,0 +1,28 @@
+[enu default]
+
+
+// =======================================================
+// -------------------------------------------------------
+//                         WEAPONS
+// -------------------------------------------------------
+
+// Grenade Launcher
+PICKUP_GRENADELAUNCHER = "You got the grenade launcher!"; // Original from SkullTag
+
+// RailGun
+PICKUP_RAILGUN = "You got the railgun!"; // Original from SkullTag
+
+// Grenade
+OB_GRENADE = "%o caught %k's grenade."; // Original from SkullTag
+OB_GRENADE_SPLASH = "%o was shredded by %k's shrapnel."; // Original from SkullTag
+OB_GRENADE_SELF = "%o tripped %p own grenade."; // Original from SkullTag
+
+
+
+// =======================================================
+// -------------------------------------------------------
+//                    GAME ENVIRONMENT
+// -------------------------------------------------------
+
+// Quit Message; ZMAPINFO
+TGR_QuitGame = "Are you sure you want to quit?";

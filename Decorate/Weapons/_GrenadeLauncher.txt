@@ -13,8 +13,7 @@ Actor TGRGrenadeLauncher : DoomWeapon 5011
     Weapon.SelectionOrder 6000
     Radius 20
     Height 16
-    Inventory.PickupMessage "Picked Up: Grenade Launcher"
-    HitObituary "[%o] -->> Grenade Launcher -->> [%k]"
+    Inventory.PickupMessage "$PICKUP_GRENADELAUNCHER"
     Tag "Grenade Launcher"
     // Standards
     // ===========

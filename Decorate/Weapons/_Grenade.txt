@@ -1,6 +1,6 @@
 Actor TGRGrenade
 {
-    Obituary "[%o] -->> Grenade Launcher -->> [%k]"
+    Obituary "$OB_GRENADE"
     Game Doom
     Radius 8
     Height 8

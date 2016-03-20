@@ -1,7 +1,5 @@
 ACTOR TGRChainsaw : Chainsaw REPLACES Chainsaw
 {
-    Inventory.PickupMessage "Picked Up: Chainsaw"
-    HitObituary "[%o] -->> Chainsaw -->> [%k]"
     Tag "Chainsaw"
     // Standards
     // ===========

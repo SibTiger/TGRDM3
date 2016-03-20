@@ -1,7 +1,5 @@
 ACTOR TGRRocketLauncher : RocketLauncher REPLACES RocketLauncher
 {
-    Inventory.PickupMessage "Picked Up: Rocket Launcher"
-    HitObituary "[%o] -->> Rocket Launcher -->> [%k]"
     Tag "Rocket Launcher"
     // Standards
     // ===========

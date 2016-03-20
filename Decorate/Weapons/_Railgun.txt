@@ -14,8 +14,8 @@ Actor TGRRailgun : DoomWeapon 5012
     Height 16
     Weapon.Kickback 50
     Weapon.SelectionOrder 4500
-    Inventory.PickupMessage "Picked Up: Railgun"
-    HitObituary "[%o] -->> Railgun -->> [%k]"
+    Inventory.Pickupmessage "$PICKUP_RAILGUN"
+    Obituary "$OB_RAILGUN"
     Tag "Railgun"
     // Standards
     // ===========

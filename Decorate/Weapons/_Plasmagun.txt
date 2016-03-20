@@ -1,7 +1,5 @@
 ACTOR TGRPlasmaRifle : PlasmaRifle REPLACES PlasmaRifle
 {
-    Inventory.PickupMessage "Picked Up: Plasma Rifle"
-    HitObituary "[%o] -->> Plasma Rifle -->> [%k]"
     Tag "Plasma Rifle"
     // Standards
     // ===========

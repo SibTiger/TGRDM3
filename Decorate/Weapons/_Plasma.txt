@@ -1,6 +1,5 @@
 ACTOR TGRPlasmaBall : PlasmaBall REPLACES PlasmaBall
 {
-    Obituary "[%o] -->> Plasma Rifle -->> [%k]"
     Game Doom
     Radius 13
     Height 8

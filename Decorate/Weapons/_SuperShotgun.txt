@@ -1,7 +1,5 @@
 ACTOR TGRSuperShotgun : SuperShotgun REPLACES SuperShotgun
 {
-    Inventory.PickupMessage "Picked Up: SuperShotgun"
-    HitObituary "[%o] -->> SuperShotgun -->> [%k]"
     Tag "SuperShotgun"
     // Standards
     // ===========

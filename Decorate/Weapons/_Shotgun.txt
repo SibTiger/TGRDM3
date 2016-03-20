@@ -1,7 +1,5 @@
 ACTOR TGRShotgun : Shotgun REPLACES Shotgun
 {
-    Inventory.PickupMessage "Picked Up: Shotgun"
-    HitObituary "[%o] -->> Shotgun -->> [%k]"
     Tag "Shotgun"
     // Standards
     // ===========

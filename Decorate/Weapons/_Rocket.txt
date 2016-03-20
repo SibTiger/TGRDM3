@@ -1,7 +1,6 @@
 ACTOR TGRRocket : Rocket REPLACES Rocket
 {
     Game Doom
-    Obituary "[%o] -->> Rocket Launcher -->> [%k]"
     Radius 11
     Height 8
     Speed 40
