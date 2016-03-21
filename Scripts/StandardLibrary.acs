@@ -34,9 +34,12 @@ SCRIPT "3DTeleport" (int heightCeiling, int heightFloor, int mapSpotTarget)
 // This is a very tiny script that simply plays the jumping pad sound once activated
 // ----
 // Description
-//      This script will only play the default jumping pad; this is not customizable.
+//      This script will only play the default jumping pad sound as defined in the SNDINFO lump.
 // ----
-SCRIPT "JumpPadSound" (VOID)
+// Parameters
+//      Host THING tag <int>
+//          Plays the jump pad sound at the tag source
+SCRIPT "JumpPadSound" (int tagTarget)
 {
-    PlaySound(1, "World/JumpPad", CHAN_AUTO, 1.0, false, ATTN_NORM);
+    PlaySound(tagTarget, "World/JumpPad", CHAN_AUTO, 1.0, false, ATTN_NORM);
 } // JumpPadSound()
