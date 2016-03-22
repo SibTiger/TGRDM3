@@ -2930,6 +2930,11 @@ TEXTURE TX1_0GI
     WARP FLAT TX5_000
 
 
+// TGRDM3 Specifics
+// -----------------
+    WARP FLAT TX5_001
+
+
 // TGRDM3 LEGACY
 // -----------------
     WARP TEXTURE FW_002

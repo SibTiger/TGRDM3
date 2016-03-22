@@ -3,7 +3,12 @@
 
 Texture TX5_000, 64, 128
 {
-	Patch SNAK8_1, 0, 0
+    Patch SNAK8_1, 0, 0
+}
+
+Texture TX5_001, 64, 64
+{
+    Patch TX2_00V, 0, 0
 }
 
 // End of texture definitions
