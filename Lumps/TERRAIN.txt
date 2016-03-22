@@ -578,6 +578,7 @@ TERRAIN YellowSludge
     floor TX3_006 Lava
     floor TX3_010 Lava
     floor TX5_001 Lava
+    floor TX5_003 Lava
 
 
 
