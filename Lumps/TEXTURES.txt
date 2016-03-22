@@ -11,4 +11,8 @@ Texture TX5_001, 64, 64
     Patch TX2_00V, 0, 0
 }
 
+Texture TX5_002, 64, 64
+{
+    Patch TX2_00S, 0, 0
+}
 // End of texture definitions

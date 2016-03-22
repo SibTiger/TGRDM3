@@ -10,7 +10,9 @@ Glow
     Flats
     {
         flat TX5_001
+        flat TX5_002
     }
     
-    Texture "TX5_001", FF0000, fullbright
+    Texture "TX5_001", FF0000, 104, fullbright
+    Texture "TX5_002", FF0000, 168, fullbright
 }

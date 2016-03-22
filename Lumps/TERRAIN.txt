@@ -468,6 +468,7 @@ TERRAIN YellowSludge
     floor TX3_00Y Blood
     floor TX3_00Z Blood
     floor TX3_011 Blood
+    floor TX5_002 Blood
 
 
 
