@@ -12,9 +12,11 @@ Glow
         flat TX5_001
         flat TX5_002
         flat TX5_003
+        flat TX5_004
     }
     
     Texture "TX5_001", FF0000, 104, fullbright
     Texture "TX5_002", FF0000, 168, fullbright
     Texture "TX5_003", FF0000, 64, fullbright
+    Texture "TX5_004", FF0000, 168, fullbright
 }

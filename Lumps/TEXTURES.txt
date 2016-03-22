@@ -20,4 +20,9 @@ Texture TX5_003, 64, 64
 {
     Patch TX3_006, 0, 0
 }
+
+Texture TX5_004, 64, 64
+{
+    Patch TX3_006, 0, 0
+}
 // End of texture definitions
