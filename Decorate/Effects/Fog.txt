@@ -29,7 +29,7 @@ Actor FogCloud_Generator 15001
     +NoBlockmap
     +NoGravity
     +NoSector
-    +ClientsideOnly
+    +ClientSideOnly
     Radius 1
     Height 1
     States
