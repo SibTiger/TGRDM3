@@ -11,9 +11,28 @@
 
 
 
-SCRIPT "EnvironmentLight_Driver" (int baseLight, int newLight, int maxSectorTag)
+// Environment Light Driver (fallback system)
+// Special script that will try to adjust the map brightness
+// ----
+// Description
+//      This script is designed to adjust the maps light value by inspecting
+//          the user's OpenGL configuration settings.  What is fundamentally important
+//          is wither the user is actually using the OpenGL renderer and if
+//          Dynamic Lights is enabled or disabled.  Based on these settings,
+//          this script will adjust the lighting to be brighter - so it is easier
+//          for the players to see the map rather than living in pour darkness,
+//          or if the lighting should be restored to its base source if the user
+//          re-enables dynamic lights and using the OpenGL renderer.
+// ----
+// Parameters
+//      baseLight <int>
+//          The default light value of the entire map.
+//      newLight <int>
+//          Recommended brightness adjustment if GL lighting is not available.
+//      maxSectorTag <int>
+//          Sector tags that will be altered with the changes from tag range [0 -> x]
+SCRIPT "EnvironmentLight_Driver" (int baseLight, int newLight, int maxSectorTag) CLIENTSIDE
 {
-    print (s:"Running...");
     // Debug message
         print(s:"Base light: ", i:baseLight, s:" - New Light: ", i:newLight, s:" - Max Tags: ", i:maxSectorTag);
     
@@ -30,7 +49,7 @@ SCRIPT "EnvironmentLight_Driver" (int baseLight, int newLight, int maxSectorTag)
     } // OpenGL was false
     
     
-    // To avoid wasting cycles, avoid running the light change update when GL_Lights is already true.
+    // We're going to use a cache variable to maintain the previous setting of the GL_Lights CVar.
     bool cacheLights = true;  // Assume default is true.
     
     do
@@ -51,13 +70,24 @@ SCRIPT "EnvironmentLight_Driver" (int baseLight, int newLight, int maxSectorTag)
         
         // Slight pause
             Delay (1);
-    }
-    while (true);
+    } while (true);
 } // EnvironmentLight_Driver()
 
 
 
+
 // Updates the sector references lighting
+// This function is designed to perform the main task of altering the light values.
+// ----
+// Description
+//      This small function will adjust the brightness level within the map at the
+//          given sector tag ranges from 0 to max value.
+// ----
+// Parameters
+//      lightValue <int>
+//          The brightness level that will be applied to the sectors.
+//      maxSectorTags <int>
+//          Sector tags that will be altered with the changes from tag range [0 -> x]
 function void EnvironmentLight_Process (int lightValue, int maxSectorTags)
 {
     for(int i = 0; i < maxSectorTags; i++)
