@@ -34,7 +34,7 @@
 SCRIPT "EnvironmentLight_Driver" (int baseLight, int newLight, int maxSectorTag) CLIENTSIDE
 {
     // Debug message
-        print(s:"Base light: ", i:baseLight, s:" - New Light: ", i:newLight, s:" - Max Tags: ", i:maxSectorTag);
+        //print(s:"Base light: ", i:baseLight, s:" - New Light: ", i:newLight, s:" - Max Tags: ", i:maxSectorTag);
     
     // First check to see if the OpenGL renderer is actually enabled on the host system
     //  This code is still on the based assumption that users MUST restart GZDoom in-order
