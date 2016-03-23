@@ -1,0 +1,66 @@
+// OpenGL Lighting Fallback System
+// ----
+// This scrip is designed to automatically adjust the lighting based
+//  on the end user's settings and preferences.  If the user does not have the
+//  Dynamic Lights enabled or if the OpenGL renderer is not enabled
+//  from the end-user's configuration, this script will try to adjust the
+//  lighting as much as possible.  This implementation may not be perfect,
+//  however, this will assure that the user's can visually see the virtual
+//  world instead of being left in the dark, literally....
+// ----
+
+
+
+SCRIPT "EnvironmentLight_Driver" (int baseLight, int newLight, int maxSectorTag)
+{
+    print (s:"Running...");
+    // Debug message
+        print(s:"Base light: ", i:baseLight, s:" - New Light: ", i:newLight, s:" - Max Tags: ", i:maxSectorTag);
+    
+    // First check to see if the OpenGL renderer is actually enabled on the host system
+    //  This code is still on the based assumption that users MUST restart GZDoom in-order
+    //  to switch from the Software renderer to OpenGL renderer.
+    //  IIF (if and only if) GZDoom changes this scheme, than this code will surely break
+    //  from the start.
+    
+    if (!GetCVar("Vid_Renderer"))
+    {
+        EnvironmentLight_Process(newLight, maxSectorTag);
+        Terminate;
+    } // OpenGL was false
+    
+    
+    // To avoid wasting cycles, avoid running the light change update when GL_Lights is already true.
+    bool cacheLights = true;  // Assume default is true.
+    
+    do
+    {
+        if(GetCVar("GL_Lights") && !cacheLights)
+        {
+            EnvironmentLight_Process(baseLight, maxSectorTag);
+            cacheLights = !cacheLights;
+        } // GL Lights is on
+        
+        
+        
+        if(!GetCVar("GL_Lights") && cacheLights)
+        {
+            EnvironmentLight_Process(newLight, maxSectorTag);
+            cacheLights = !cacheLights;
+        } // GL Lights is off
+        
+        // Slight pause
+            Delay (1);
+    }
+    while (true);
+} // EnvironmentLight_Driver()
+
+
+
+// Updates the sector references lighting
+function void EnvironmentLight_Process (int lightValue, int maxSectorTags)
+{
+    for(int i = 0; i < maxSectorTags; i++)
+        Light_ChangeToValue(i, lightValue);
+    return;
+} // EnvironmentLight_Process()
