@@ -1,8 +1,3 @@
-//#library "StandardLibrary"
-//#include "zcommon.acs"
-
-
-
 // 3D Teleport
 // Specialized script to teleport the player while on a 3D plain
 // ----
