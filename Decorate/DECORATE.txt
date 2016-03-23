@@ -11,6 +11,7 @@
     #include "Decorate/Rain.txt"
     #include "Decorate/Fog.txt"
     #include "Decorate/Splashes.txt"
+    #include "Decorate/SparkleSpawner.txt"
 
 
 

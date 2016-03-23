@@ -1,0 +1,98 @@
+//Documentation
+//=================
+//  Place on map and use the first two arguments to control the intensity and area of the 
+//  spawner. The original was a 64x64 square.
+
+
+//  First argument controls the size of the area. 32, for example, spawns in a 64x64 square (or
+//  64 diameter circle. See second argument).
+
+//  Second argument controls the type of area it spawns in. 0 is square, 1 is circle.
+
+
+//  It should be noted that pngs can't be translated like normal graphics. Because of this, if
+//  you convert the SPFXA0 sprite to a png, the spawners will spawn white effects. Use Doom's
+//  lmp format, instead.
+
+
+
+/////////////////////////////
+// SPARKLE FOUNTAINS ////////
+// for UTNT          ////////
+// by Tormentor667   ////////
+/////////////////////////////
+
+Actor BaseStar
+{
+ +Missile
+ +NoGravity
+ +NoBlockmap
+ +NoInteraction
+ -Solid
+ +ClientSideOnly
+ Radius 0
+ Height 0
+ RenderStyle Add
+ Alpha 0.01
+ Scale 0.20
+ States
+ {
+  Spawn:
+   PTCL AABBCCAA 1 Bright A_FadeIn(0.2)
+   PTCL AABBCCAABBCCAABBCC 1 Bright A_FadeOut(0.06)
+   Stop
+ }
+}
+
+actor WhiteSparkleSpawner 209
+{
+//$Category SpecialEffects
+	+NoBlockMap +NoGravity +NoSector +NoInteraction +NoClip -Solid +CLIENTSIDEONLY
+        states
+        {
+        Spawn:
+           Active:
+        	TNT1 A 0
+        	TNT1 A 0 A_JumpIf(Args[1], "Circle")
+        	TNT1 A 1 A_SpawnItemEx ("BaseStar", random(-Args[0], Args[0]), random(-Args[0], Args[0]), random(0, 8), 0, 0, random(1,4), 0, 129, 0) 
+        	Loop
+           Circle:
+        	TNT1 A 0
+        	TNT1 A 1 A_SpawnItemEx ("BaseStar", random(-Args[0], Args[0]), 0, random(0, 8), 0, 0, random(1,4), Random(0, 360), 129, 0) 
+        	Loop
+           Inactive:
+		TNT1 A 1
+		Loop
+        }     
+        
+}
+
+actor BlueSparkleSpawner : WhiteSparkleSpawner 210
+{
+//$Category SpecialEffects
+	translation "80:111=196:207"
+}
+
+actor GreenSparkleSpawner : WhiteSparkleSpawner 211
+{
+//$Category SpecialEffects
+	translation "80:111=112:127"
+}
+
+actor RedSparkleSpawner : WhiteSparkleSpawner 212
+{
+//$Category SpecialEffects
+	translation "80:111=176:191"
+}
+
+actor OrangeSparkleSpawner: WhiteSparkleSpawner 213
+{
+//$Category SpecialEffects
+	translation "80:111=214:223"
+}
+
+actor PurpleSparkleSpawner: WhiteSparkleSpawner 214
+{
+//$Category SpecialEffects
+	translation "80:111=250:254"
+}
