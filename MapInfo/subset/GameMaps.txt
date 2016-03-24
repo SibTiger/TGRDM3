@@ -79,24 +79,6 @@ MAP MAP09 "Adios"
 
 
 
-MAP AMISERY "Abandoned Misery [Pretty]"
-{
-    LevelNum = 99
-    Next = "MAP01"
-    Music = "D_DEAD"
-}// Abandoned Misery [Pretty]
-
-
-
-MAP ARTIS "Artis [Duel]"
-{
-    LevelNum = 98
-    Next = "Artis"
-    Music = "D_E3M3"
-} // Artis [Duel]
-
-
-
 MAP MAP10 "The Testaments"
 {
     LevelNum = 10
@@ -163,3 +145,21 @@ MAP MAP16 "Native Base"
     SKY1 = "TX0_0DZ", 0.0
     MUSIC = "D_AMPIE"
 } // Native Base (TGRDM3 Legacy)
+
+
+
+MAP AMISERY "Abandoned Misery [Pretty]"
+{
+    LevelNum = 99
+    Next = "MAP01"
+    Music = "D_DEAD"
+}// Abandoned Misery [Pretty]
+
+
+
+MAP ARTIS "Artis [Duel]"
+{
+    LevelNum = 98
+    Next = "Artis"
+    Music = "D_E3M3"
+} // Artis [Duel]
