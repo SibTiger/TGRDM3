@@ -158,7 +158,7 @@
     FragLimit = 50
     DMFlags = 540676
     DMFlags2 = 1152
-    CompatFlags = 
+    CompatFlags = 0
     bot[0] = Betus
     bot[1] = Orion
     bot[2] = Scythe
