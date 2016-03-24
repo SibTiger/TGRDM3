@@ -28,7 +28,7 @@
     CompatFlags = 0
     bot[0] = Cataclysm
     bot[1] = "Golden Fattie"
-    bot[2] = "\cgL\ciI\cfN \cdM\cfe\chn\cgg\ccj\ciu"
+    bot[2] = "Nazi Chaingunner"
     bot[3] = "Strife Guy"
     bot[4] = Daemos
     bot[5] = Crash
@@ -165,7 +165,7 @@
     bot[3] = Omega
     bot[4] = Maabus
     bot[5] = Zombieman
-    bot[6] = "\cgL\ciI\cfN \cdM\cfe\chn\cgg\ccj\ciu"
+    bot[6] = "Nazi Chaingunner"
     bot[7] = "SS Nazi"
     bot[8] = Aldebaran
 }
@@ -248,7 +248,7 @@
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Zombieman
-    bot[1] = "\cgL\ciI\cfN \cdM\cfe\chn\cgg\ccj\ciu"
+    bot[1] = "Nazi Chaingunner"
     bot[2] = Manek
     bot[3] = Chaingunner
 }
