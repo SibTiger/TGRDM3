@@ -1,0 +1,357 @@
+// Acerbus
+{
+    MapName = MAP01
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Betus
+    bot[1] = Protos
+    bot[2] = Orion
+    bot[3] = Linguica
+    bot[4] = Scythe
+    bot[5] = Maabus
+}
+
+
+
+// Unfaithful
+{
+    MapName = MAP02
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Cataclysm
+    bot[1] = "Golden Fattie"
+    bot[2] = "\cgL\ciI\cfN \cdM\cfe\chn\cgg\ccj\ciu"
+    bot[3] = "Strife Guy"
+    bot[4] = Daemos
+    bot[5] = Crash
+    bot[6] = Aldebaran
+}
+
+
+
+// Noir Lust
+{
+    MapName = MAP03
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Protos
+    bot[1] = Obelisk
+    bot[2] = Omega
+    bot[3] = Torrent
+    bot[4] = Zombieman
+    bot[5] = "SS Nazi"
+    bot[6] = Synas
+    bot[7] = Prey
+    bot[8] = Shotgunner
+    bot[9] = Cryon
+}
+
+
+
+// Abandoned Misery
+{
+    MapName = MAP04
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Orion
+    bot[1] = Scythe
+    bot[2] = Obelisk
+    bot[3] = "Nazi Guard"
+    bot[4] = Maabus
+    bot[5] = frad
+}
+
+
+
+// Dark Stone
+{
+    MapName = MAP05
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Betus
+    bot[1] = Vex
+    bot[2] = Alphus
+    bot[3] = Maabus
+    bot[4] = "Strife Guy"
+    bot[5] = "King REoL"
+    bot[6] = Manek
+    bot[7] = Sirius
+    bot[8] = Chubbs
+    bot[9] = Chaingunner
+}
+
+
+
+// Insomnium
+{
+    MapName = MAP06
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Cataclysm
+    bot[1] = Linguica
+    bot[2] = Torrent
+    bot[3] = "Golden Fattie"
+    bot[4] = Rigel
+    bot[5] = Crash
+    bot[6] = Synas
+    bot[7] = Prey
+    bot[8] = Romero
+    bot[9] = Shotgunner
+    bot[10] = "Nazi Guard"
+    bot[11] = Seenas
+    bot[12] = Gamma
+    bot[13] = h4x0r
+}
+
+
+
+// Malus
+{
+    MapName = MAP07
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Obelisk
+    bot[1] = "Nazi Guard"
+    bot[2] = Cryon
+    bot[3] = Ultimus
+    bot[4] = Electra
+    bot[5] = xxEnemyxx
+    bot[6] = Slyor
+}
+
+
+
+
+// Ailuropoda Melanoleuca
+{
+    MapName = MAP08
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 
+    bot[0] = Betus
+    bot[1] = Orion
+    bot[2] = Scythe
+    bot[3] = Omega
+    bot[4] = Maabus
+    bot[5] = Zombieman
+    bot[6] = "\cgL\ciI\cfN \cdM\cfe\chn\cgg\ccj\ciu"
+    bot[7] = "SS Nazi"
+    bot[8] = Aldebaran
+}
+
+
+
+// Adios
+{
+    MapName = MAP09
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Protos
+    bot[1] = Vex
+    bot[2] = h4x0r
+    bot[3] = Electra
+}
+
+
+
+// The Testaments [TGRDM2]
+{
+    MapName = MAP10
+    GameMode = Duel
+    TimeLimit = 5
+    FragLimit = 25
+    DuelLimit = 1
+    WinLimit = 1
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Deimos
+}
+
+
+
+// Royal [TGRDM2]
+{
+    MapName = MAP11
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Linguica
+    bot[1] = Alphus
+    bot[2] = "Strife Guy"
+    bot[3] = "SS Nazi"
+}
+
+
+
+// Chambers [TGRDM2]
+{
+    MapName = MAP12
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Cataclysm
+    bot[1] = Maabus
+    bot[2] = Synas
+}
+
+
+
+// The Stand [TGRDM2]
+{
+    MapName = MAP13
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Zombieman
+    bot[1] = "\cgL\ciI\cfN \cdM\cfe\chn\cgg\ccj\ciu"
+    bot[2] = Manek
+    bot[3] = Chaingunner
+}
+
+
+
+// Blood Stone [TGRDM3 Legacy]
+{
+    MapName = MAP14
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Omicron
+    bot[1] = Vex
+    bot[2] = Alphus
+    bot[3] = Omega
+    bot[4] = Torrent
+    bot[5] = Rigel
+    bot[6] = "Golden Fattie"
+    bot[7] = Seenas
+    bot[8] = "Super Shotgunner"
+}
+
+
+
+// Direful [TGRDM3 Legacy]
+{
+    MapName = MAP15
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Omicron
+    bot[1] = Omega
+    bot[2] = Scythe
+    bot[3] = Zombieman
+    bot[4] = Quotebot
+    bot[5] = Daemos
+    bot[6] = Scyon
+    bot[7] = "King REoL"
+    bot[8] = Cryon
+    bot[9] = Sirius
+    bot[10] = Chubbs
+    bot[11] = Ultimus
+    bot[12] = xxEnemyxx
+    bot[13] = "Super Shotgunner"
+}
+
+
+
+// Native Base [TGRDM3 Legacy]
+{
+    MapName = MAP16
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Orion
+    bot[1] = Alphus
+    bot[2] = "SS Nazi"
+    bot[3] = frad
+    bot[4] = Sirius
+    bot[5] = Gamma
+}
+
+
+
+// Abandoned Misery [Pretty]
+{
+    MapName = AMISERY
+    GameMode = Deathmatch
+    TimeLimit = 5
+    FragLimit = 50
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Obelisk
+    bot[1] = Torrent
+    bot[2] = Daemos
+    bot[3] = Rigel
+    bot[4] = Crash
+    bot[5] = Scyon
+}
+
+
+
+// Artis
+{
+    MapName = Artis
+    GameMode = Duel
+    TimeLimit = 5
+    FragLimit = 25
+    DuelLimit = 1
+    WinLimit = 1
+    DMFlags = 540676
+    DMFlags2 = 1152
+    CompatFlags = 0
+    bot[0] = Aldebaran
+}
