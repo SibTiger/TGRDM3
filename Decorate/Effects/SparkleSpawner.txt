@@ -48,7 +48,28 @@ Actor BaseStar
 
 actor WhiteSparkleSpawner 209
 {
-    //$Category SpecialEffects
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "White Sparkle"
+    //$Category "Special Effects/Sparkles"
+    //$Sprite PTCLA0
+    //$Color 15
+    //$NotAngled
+    // ----
+    //$Arg0 "Size"
+    //$Arg0Type 0
+    //$Arg0Default 32
+    //$Arg0Tooltip "First argument controls the size of the area. 32, for example, spawns in a 64x64 square (or 64 diameter circle. See second argument)."
+    // ----
+    //$Arg1 "Spawn Type"
+    //$Arg1Type 11
+    //$Arg1Default 0
+    //$Arg1Enum { 0 = "Square"; 1 = "Circle";}
+    //$Arg1Tooltip "States wither the particle spawner will be a square or a circle."
+    // ------------------------------
+    // ==============================
+
+
     +NoBlockMap
     +NoGravity
     +NoSector
@@ -78,7 +99,28 @@ actor WhiteSparkleSpawner 209
 
 actor BlueSparkleSpawner : WhiteSparkleSpawner 210
 {
-    //$Category SpecialEffects
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Blue Sparkle"
+    //$Category "Special Effects/Sparkles"
+    //$Sprite PTCLA0
+    //$Color 1
+    //$NotAngled
+    // ----
+    //$Arg0 "Size"
+    //$Arg0Type 0
+    //$Arg0Default 32
+    //$Arg0Tooltip "First argument controls the size of the area. 32, for example, spawns in a 64x64 square (or 64 diameter circle. See second argument)."
+    // ----
+    //$Arg1 "Type"
+    //$Arg1Type 11
+    //$Arg1Default 0
+    //$Arg1Enum { 0 = "Square"; 1 = "Circle";}
+    //$Arg1Tooltip "States wither the particle spawner will be a square or a circle."
+    // ------------------------------
+    // ==============================
+
+
     translation "80:111=196:207"
 }
 
@@ -86,7 +128,28 @@ actor BlueSparkleSpawner : WhiteSparkleSpawner 210
 
 actor GreenSparkleSpawner : WhiteSparkleSpawner 211
 {
-    //$Category SpecialEffects
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Green Sparkle"
+    //$Category "Special Effects/Sparkles"
+    //$Sprite PTCLA0
+    //$Color 2
+    //$NotAngled
+    // ----
+    //$Arg0 "Size"
+    //$Arg0Type 0
+    //$Arg0Default 32
+    //$Arg0Tooltip "First argument controls the size of the area. 32, for example, spawns in a 64x64 square (or 64 diameter circle. See second argument)."
+    // ----
+    //$Arg1 "Type"
+    //$Arg1Type 11
+    //$Arg1Default 0
+    //$Arg1Enum { 0 = "Square"; 1 = "Circle";}
+    //$Arg1Tooltip "States wither the particle spawner will be a square or a circle."
+    // ------------------------------
+    // ==============================
+
+
     translation "80:111=112:127"
 }
 
@@ -94,7 +157,28 @@ actor GreenSparkleSpawner : WhiteSparkleSpawner 211
 
 actor RedSparkleSpawner : WhiteSparkleSpawner 212
 {
-    //$Category SpecialEffects
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Red Sparkle"
+    //$Category "Special Effects/Sparkles"
+    //$Sprite PTCLA0
+    //$Color 4
+    //$NotAngled
+    // ----
+    //$Arg0 "Size"
+    //$Arg0Type 0
+    //$Arg0Default 32
+    //$Arg0Tooltip "First argument controls the size of the area. 32, for example, spawns in a 64x64 square (or 64 diameter circle. See second argument)."
+    // ----
+    //$Arg1 "Type"
+    //$Arg1Type 11
+    //$Arg1Default 0
+    //$Arg1Enum { 0 = "Square"; 1 = "Circle";}
+    //$Arg1Tooltip "States wither the particle spawner will be a square or a circle."
+    // ------------------------------
+    // ==============================
+
+
     translation "80:111=176:191"
 }
 
@@ -102,7 +186,28 @@ actor RedSparkleSpawner : WhiteSparkleSpawner 212
 
 actor OrangeSparkleSpawner: WhiteSparkleSpawner 213
 {
-    //$Category SpecialEffects
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Orange Sparkle"
+    //$Category "Special Effects/Sparkles"
+    //$Sprite PTCLA0
+    //$Color 17
+    //$NotAngled
+    // ----
+    //$Arg0 "Size"
+    //$Arg0Type 0
+    //$Arg0Default 32
+    //$Arg0Tooltip "First argument controls the size of the area. 32, for example, spawns in a 64x64 square (or 64 diameter circle. See second argument)."
+    // ----
+    //$Arg1 "Type"
+    //$Arg1Type 11
+    //$Arg1Default 0
+    //$Arg1Enum { 0 = "Square"; 1 = "Circle";}
+    //$Arg1Tooltip "States wither the particle spawner will be a square or a circle."
+    // ------------------------------
+    // ==============================
+
+
     translation "80:111=214:223"
 }
 
@@ -110,6 +215,27 @@ actor OrangeSparkleSpawner: WhiteSparkleSpawner 213
 
 actor PurpleSparkleSpawner: WhiteSparkleSpawner 214
 {
-    //$Category SpecialEffects
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Purple Sparkle"
+    //$Category "Special Effects/Sparkles"
+    //$Sprite PTCLA0
+    //$Color 5
+    //$NotAngled
+    // ----
+    //$Arg0 "Size"
+    //$Arg0Type 0
+    //$Arg0Default 32
+    //$Arg0Tooltip "First argument controls the size of the area. 32, for example, spawns in a 64x64 square (or 64 diameter circle. See second argument)."
+    // ----
+    //$Arg1 "Type"
+    //$Arg1Type 11
+    //$Arg1Default 0
+    //$Arg1Enum { 0 = "Square"; 1 = "Circle";}
+    //$Arg1Tooltip "States wither the particle spawner will be a square or a circle."
+    // ------------------------------
+    // ==============================
+
+
     translation "80:111=250:254"
 }
