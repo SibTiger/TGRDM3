@@ -1,5 +1,16 @@
 ACTOR TreeSkyBoxViewpoint 16000 // {Resources are Uncredited}
 {
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Tree (Skybox)"
+    //$Category "Obstacles/Legacy"
+    //$Color 10
+    //$Sprite TF35A0
+    //$NotAngled
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 2
     Height 8
@@ -17,6 +28,17 @@ ACTOR TreeSkyBoxViewpoint 16000 // {Resources are Uncredited}
 
 ACTOR TGRTree1 16001 // {Resources are Uncredited}
 {
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Tree 1"
+    //$Category "Obstacles/Legacy"
+    //$Color 10
+    //$Sprite TF1FA0
+    //$NotAngled
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 20
     Height 128
@@ -34,6 +56,17 @@ ACTOR TGRTree1 16001 // {Resources are Uncredited}
 
 ACTOR TGRTree2 16002 // {Resources are Uncredited}
 {
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Tree 2"
+    //$Category "Obstacles/Legacy"
+    //$Color 10
+    //$Sprite TF2JA0
+    //$NotAngled
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 10
     Height 106
@@ -51,6 +84,17 @@ ACTOR TGRTree2 16002 // {Resources are Uncredited}
 
 ACTOR TGRTree3 16003 // {Resources are Uncredited}
 {
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Tree 3"
+    //$Category "Obstacles/Legacy"
+    //$Color 10
+    //$Sprite TF2MA0
+    //$NotAngled
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 15
     Height 154
@@ -68,6 +112,17 @@ ACTOR TGRTree3 16003 // {Resources are Uncredited}
 
 ACTOR TGRTree4 16004 // {Resources are Uncredited}
 {
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Tree 4"
+    //$Category "Obstacles/Legacy"
+    //$Color 10
+    //$Sprite TF2GA0
+    //$NotAngled
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 40
     Height 124
@@ -85,6 +140,17 @@ ACTOR TGRTree4 16004 // {Resources are Uncredited}
 
 ACTOR TGRTree5 16005 // {Resources are Uncredited}
 {
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Tree 5"
+    //$Category "Obstacles/Legacy"
+    //$Color 10
+    //$Sprite TF2LA0
+    //$NotAngled
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 15
     Height 185
