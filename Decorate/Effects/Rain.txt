@@ -21,17 +21,17 @@ Actor RainSpawner 15000
         // ----
         //$Arg0 "Area"
         //$Arg0Type 0
-        //$Arg0ToopTip "Rain spawner size that covers the area.\nUsage example:\n128 = 256x256 (or 256-radius circle)"
+        //$Arg0ToolTip "Rain spawner size that covers the area.\nUsage example:\n128 = 256x256 (or 256-radius circle)"
         //$Arg0Default 32
         // ----
         //$Arg1 "Frequency"
         //$Arg1Type 0
-        //$Arg1ToopTip "Rain frequency of the spawner; lower the value the harder it rains."
+        //$Arg1ToolTip "Rain frequency of the spawner; lower the value the harder it rains."
         //$Arg1Default 0
         // ----
         //$Arg2 "Sound"
         //$Arg2Type 11
-        //$Arg2ToopTip "When set to '0', this will give the rain spawner sound."
+        //$Arg2ToolTip "When set to '0', this will give the rain spawner sound."
         //$Arg2Default 1
         //$Arg2Enum {0 = "Enable sound"; 1 = "Disable sound";}
         // ----
