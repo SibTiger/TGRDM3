@@ -555,7 +555,7 @@ REM This variable is used to describe the drivers main purpose and present the v
 CALL :CompileProject_Display_IncomingTaskSubLevel "Generating ACS Library"
 REM ----
 REM Thrash: DBS files [DB2 configuration for the individual map\wad]
-    SET TaskCaller_CallLong="%UserConfig.DirProjectWorkingCopy%\Tools\ZDoom ACC\acc.exe" -i "%~1Source" "%~1Source\StandardLibrary.acs" "%~1ACS\StandardLibrary.o" || EXIT /B 1
+    SET TaskCaller_CallLong="%UserConfig.DirProjectWorkingCopy%\Tools\ZDoom ACC\acc.exe" -i "%~1Source" "%~1Source\StdLib.acs" "%~1ACS\StdLib.o" || EXIT /B 1
     CALL :CompileProject_TaskOperation
 REM =========================================================
 EXIT /B 0

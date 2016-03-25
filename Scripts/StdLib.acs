@@ -1,5 +1,5 @@
 // Library name
-    #library "StandardLib"
+    #library "StdLib"
 
 // ZDoom stuff
     #include "zcommon.acs"
