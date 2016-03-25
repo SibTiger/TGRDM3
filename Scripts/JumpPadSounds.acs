@@ -1,0 +1,13 @@
+// Jumping Pad Sound
+// This is a very tiny script that simply plays the jumping pad sound once activated
+// ----
+// Description
+//      This script will only play the default jumping pad sound as defined in the SNDINFO lump.
+// ----
+// Parameters
+//      Host THING tag <int>
+//          Plays the jump pad sound at the tag source
+SCRIPT "JumpPadSound" (int tagTarget)
+{
+    PlaySound(tagTarget, "World/JumpPad", CHAN_AUTO, 1.0, false, ATTN_NORM);
+} // JumpPadSound()

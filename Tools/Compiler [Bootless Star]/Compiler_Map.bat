@@ -69,6 +69,8 @@ REM Create the standard archive filesystem
     CALL :Make_ArchiveResourceFilesystem "%~1" || EXIT /B 1
 REM Copy data from the SVN Project to the local directory
     CALL :Make_DuplicateResourceAssets "%~1" || EXIT /B 1
+REM Generate the ACS Library
+    CALL :Make_GenerateLibrary "%~1" || EXIT /B 1
 EXIT /B 0
 
 
@@ -91,6 +93,8 @@ REM Revise the map name to the standard MAP scheme
     CALL :Make_UpdateMapNames "%~1" || EXIT /B 1
 REM Remove rubbish from Map directory
     CALL :Make_ThrashSuperfluousMapData "%~1" || EXIT /B 1
+REM Generate the ACS Library
+    CALL :Make_GenerateLibrary "%~1" || EXIT /B 1
 REM IF: WYSIWYG patch alteration
 EXIT /B 0
 
@@ -104,8 +108,11 @@ REM # ==========================================================================
 REM This variable is used to describe the drivers main purpose and present the value in the log files.
 CALL :CompileProject_Display_IncomingTaskSubLevel "Creating archive filesystem"
 REM ----
-    REM ACS
+REM ACS
     SET "TaskCaller_CallLong=MKDIR %~1ACS"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
+REM Source
+    SET "TaskCaller_CallLong=MKDIR %~1Source"
     CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Decorate
     SET "TaskCaller_CallLong=MKDIR %~1Decorate"
@@ -149,8 +156,11 @@ REM # ==========================================================================
 REM This variable is used to describe the drivers main purpose and present the value in the log files.
 CALL :CompileProject_Display_IncomingTaskSubLevel "Creating resource archive filesystem"
 REM ----
-    REM ACS
+REM ACS
     SET "TaskCaller_CallLong=MKDIR %~1ACS"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
+REM Source
+    SET "TaskCaller_CallLong=MKDIR %~1Source"
     CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Decorate
     SET "TaskCaller_CallLong=MKDIR %~1Decorate"
@@ -279,6 +289,9 @@ REM Music
 REM Graphics
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Graphics\Fonts\*.*" "%~1Graphics\"
     CALL :CompileProject_TaskOperation
+REM Script Sources
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Scripts\*.*" "%~1Source\"
+    CALL :CompileProject_TaskOperation
 EXIT /B 0
 
 
@@ -371,6 +384,9 @@ REM Music
     REM ----
 REM Graphics
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Graphics\Fonts\*.*" "%~1Graphics\"
+    CALL :CompileProject_TaskOperation
+REM Script Sources
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Scripts\*.*" "%~1Source\"
     CALL :CompileProject_TaskOperation
 EXIT /B 0
 
@@ -527,6 +543,23 @@ REM Thrash: SLADE WAD Backups
     CALL :CompileProject_TaskOperation
 REM =========================================================
 EXIT /B 0
+
+
+
+REM # =============================================================================================
+REM # Documentation: This function will create the library needed for the project as some maps depend on it.
+REM # Parameters: [{String} Project Build Path]
+REM # =============================================================================================
+:Make_GenerateLibrary
+REM This variable is used to describe the drivers main purpose and present the value in the log files.
+CALL :CompileProject_Display_IncomingTaskSubLevel "Generating ACS Library"
+REM ----
+REM Thrash: DBS files [DB2 configuration for the individual map\wad]
+    SET TaskCaller_CallLong="%UserConfig.DirProjectWorkingCopy%\Tools\ZDoom ACC\acc.exe" -i "%~1Source" "%~1Source\StandardLibrary.acs" "%~1ACS\StandardLib.o" || EXIT /B 1
+    CALL :CompileProject_TaskOperation
+REM =========================================================
+EXIT /B 0
+
 
 
 
