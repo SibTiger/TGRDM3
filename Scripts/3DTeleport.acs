@@ -2,7 +2,7 @@
 // Specialized script to teleport the player while on a 3D plain
 // ----
 // Description
-//      This will allow teleports that are either above, below, or inbetween 3D Floors to behave exactly like
+//      This will allow teleports that are either above, below, or in-between 3D Floors to behave exactly like
 //          the standard teleporters; the player will be able to walk on to and above the LineDef to activate it.
 //      This is the only way I can figure out how to make teleporters that are above, below, or in-between 3D floors to behave EXACTLY
 //          like the regular teleporters that we all know in Doom ;)

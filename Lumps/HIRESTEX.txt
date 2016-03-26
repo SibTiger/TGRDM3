@@ -175,7 +175,7 @@
 
 
 
-// Status Bar [Equiped Weapons] Numbers
+// Status Bar [Equipped Weapons] Numbers
     remap STYSNUM0 HIRENUM0
     remap STYSNUM1 HIRENUM1
     remap STYSNUM2 HIRENUM2
@@ -190,7 +190,7 @@
 
 
 
-// Status Bar [NOT Equiped Weapons] Numbers
+// Status Bar [NOT Equipped Weapons] Numbers
     remap STGNUM0 HIR2NUM0
     remap STGNUM1 HIR2NUM1
     remap STGNUM2 HIR2NUM2
