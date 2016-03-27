@@ -106,6 +106,14 @@ DoomJedi
 
 
 
+Keksdose
+----
+    Created Ultimate Torment 'n' Torture torch effects
+        Forum Topic: http://forum.zdoom.org/viewtopic.php?p=727383#p727383
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
 id Software
 ----
     Created and has all rights and properties to the Quake 3 Jumping Pad sound.
