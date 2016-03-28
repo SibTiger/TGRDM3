@@ -226,24 +226,24 @@ object MegaSphere
 pointlight EvilEye0
 {
     color 0.0 1.0 0.0
-    size 16
-    offset 0 16 0
+    size 56
+    offset 0 24 0
 }
 
 
 pointlight EvilEye1
 {
     color 0.0 1.0 0.0
-    size 16
-    offset 0 16 0
+    size 56
+    offset 0 24 0
 }
 
 
 pointlight EvilEye2
 {
     color 0.0 1.0 0.0
-    size 16
-    offset 0 16 0
+    size 56
+    offset 0 24 0
 }
 
 
