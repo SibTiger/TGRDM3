@@ -4,19 +4,19 @@
 
 
 // Weapons
-include "GLDefs/GrenadeLauncher.txt"
-include "GLDefs/Plasma.txt"
-include "GLDefs/Rocket.txt"
+#include "GLDefs/GrenadeLauncher.txt"
+#include "GLDefs/Plasma.txt"
+#include "GLDefs/Rocket.txt"
 
 
 // Items
-include "GLDefs/Megasphere.txt"
+#include "GLDefs/Megasphere.txt"
 
 
 // Textures
-include "GLDefs/Textures.txt"
+#include "GLDefs/Textures.txt"
 
 
 // World
-include "GLDefs/PrettyTorches.txt"
-include "GLDefs/EvilEye.txt"
+#include "GLDefs/PrettyTorches.txt"
+#include "GLDefs/EvilEye.txt"
