@@ -1,0 +1,46 @@
+// ----------------------------------------------------------------------------
+//
+// UTnT Torch GLDefs by KeksDose
+//
+// ----------------------------------------------------------------------------
+
+FlickerLight2 Torch_RedLight
+{
+    Color 0.7 0.0 0.0
+    Offset 0 0 0
+    Size 60
+    SecondarySize 70
+    Interval 0.001
+}
+
+FlickerLight2 Torch_GreenLight
+{
+    Color 0.0 0.7 0.0
+    Offset 0 0 0
+    Size 60
+    SecondarySize 70
+    Interval 0.001
+}
+
+FlickerLight2 Torch_BlueLight
+{
+    Color 0.0 0.0 0.7
+    Offset 0 0 0
+    Size 60
+    SecondarySize 70
+    Interval 0.001
+}
+
+FlickerLight2 Torch_OrangeLight
+{
+    Color 0.7 0.3 0.1
+    Offset 0 0 0
+    Size 65
+    SecondarySize 80
+    Interval 0.001
+}
+
+Object KD_TorchFlareRed   { Frame RFLRA { Light Torch_RedLight    } }
+Object KD_TorchFlareGreen { Frame GFLRA { Light Torch_GreenLight  } }
+Object KD_TorchFlareBlue  { Frame BFLRA { Light Torch_BlueLight   } }
+Object KD_BarrelFlare     { Frame RFLRA { Light Torch_OrangeLight } }

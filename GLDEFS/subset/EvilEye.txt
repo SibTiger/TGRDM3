@@ -1,0 +1,33 @@
+//------------------------
+// Evil Eye
+//------------------------
+pointlight EvilEye0
+{
+    color 0.0 1.0 0.0
+    size 56
+    offset 0 24 0
+}
+
+
+pointlight EvilEye1
+{
+    color 0.0 1.0 0.0
+    size 56
+    offset 0 24 0
+}
+
+
+pointlight EvilEye2
+{
+    color 0.0 1.0 0.0
+    size 56
+    offset 0 24 0
+}
+
+
+object EvilEye
+{
+    frame CEYEA0 { light EvilEye0 }
+    frame CEYEB0 { light EvilEye1 }
+    frame CEYEC0 { light EvilEye2 }
+}

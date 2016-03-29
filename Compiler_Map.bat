@@ -129,6 +129,9 @@ REM Sounds
 REM MapInfo
     SET "TaskCaller_CallLong=MKDIR %~1MapInfo"
     CALL :CompileProject_TaskOperation || EXIT /B 1
+REM GLDefs
+    SET "TaskCaller_CallLong=MKDIR %~1GLDefs"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Music
     SET "TaskCaller_CallLong=MKDIR %~1Music"
     CALL :CompileProject_TaskOperation || EXIT /B 1
@@ -174,6 +177,9 @@ REM Sounds
 REM MapInfo
     SET "TaskCaller_CallLong=MKDIR %~1MapInfo"
     CALL :CompileProject_TaskOperation || EXIT /B 1
+REM GLDefs
+    SET "TaskCaller_CallLong=MKDIR %~1GLDefs"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Music
     SET "TaskCaller_CallLong=MKDIR %~1Music"
     CALL :CompileProject_TaskOperation || EXIT /B 1
@@ -212,6 +218,12 @@ REM MapInfo
     CALL :CompileProject_TaskOperation
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\MAPINFO\Subset\*.*" "%~1MapInfo\"
+    CALL :CompileProject_TaskOperation
+REM GLDefs
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\GLDefs\GLDEFS.txt" "%~1"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\GLDefs\Subset\*.*" "%~1GLDefs\"
     CALL :CompileProject_TaskOperation
 REM Lumps
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Lumps\*.*" "%~1"
@@ -314,6 +326,12 @@ REM MapInfo
     CALL :CompileProject_TaskOperation
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\MAPINFO\Subset\*.*" "%~1MapInfo\"
+    CALL :CompileProject_TaskOperation
+REM GLDefs
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\GLDefs\GLDEFS.txt" "%~1"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\GLDefs\Subset\*.*" "%~1GLDefs\"
     CALL :CompileProject_TaskOperation
 REM Lumps
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Lumps\*.*" "%~1"

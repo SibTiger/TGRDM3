@@ -1,0 +1,22 @@
+// GZDoom GLDEFS
+// ZDOOM WIKI: http://zdoom.org/wiki/GLDEFS
+// ===================================================================
+
+
+// Weapons
+include "GLDefs/GrenadeLauncher.txt"
+include "GLDefs/Plasma.txt"
+include "GLDefs/Rocket.txt"
+
+
+// Items
+include "GLDefs/Megasphere.txt"
+
+
+// Textures
+include "GLDefs/Textures.txt"
+
+
+// World
+include "GLDefs/PrettyTorches.txt"
+include "GLDefs/EvilEye.txt"
