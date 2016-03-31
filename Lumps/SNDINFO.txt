@@ -33,6 +33,9 @@ World/JumpPad       Q3JMPD
 World/TeleportGate   TeleHum
 $AMBIENT 5 World/TeleportGate POINT CONTINUOUS 1.0
 
+World/TeleportGate2   TeleHum2 // Demonic
+$AMBIENT 6 World/TeleportGate2 POINT CONTINUOUS 1.0
+
 
 // --
 
