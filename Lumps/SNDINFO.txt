@@ -29,6 +29,14 @@ World/JumpPad       Q3JMPD
 // --
 
 
+// TGRDM3's Teleport Humming
+World/TeleportGate   TeleHum
+$AMBIENT 5 World/TeleportGate POINT CONTINUOUS 1.0
+
+
+// --
+
+
 // Rain
 $ambient 1 Ambient/Rain point 1.0 continuous 0.5
 
