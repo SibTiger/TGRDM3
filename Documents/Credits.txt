@@ -32,7 +32,7 @@ Ghastly_dragon
             Link: http://www.realm667.com/index.php/en/armory-mainmenu-157-97317/doom-style-mainmenu-158-94349
             Link Bkup: http://www.realm667.com/
         Marine Skins
-            Various contributers
+            Various contributors
             Link: http://forum.zdoom.org/viewtopic.php?p=469284&sid=1ffa83f3dc90e4089384863e7073c531#p469284
             Legal Remarks:
                 Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
@@ -65,7 +65,7 @@ Tormentor667
 
 BouncyTEM
 ----
-    Sumbitted and made available the 'Demonic Drones' sound package
+    Submitted and made available the 'Demonic Drones' sound package
         Link: http://realm667.com/index.php/en/sound-factory-82669/88-hell--horror/1347-demonic-drones
         Link Bkup: http://www.realm667.com/
             Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
@@ -99,7 +99,7 @@ Perkristian
         Web Site: http://www.perkristian.net/
         Link: http://www.perkristian.net/sounds/pk_doom_sfx.zip
             Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
-    Additionally, created 'Smooth Weapons' and was modified to work with ZDoom based ports by Phi108, along with various contributers modifications and improvements.
+    Additionally, created 'Smooth Weapons' and was modified to work with ZDoom based ports by Phi108, along with various contributors modifications and improvements.
         Forum Topic: https://www.doomworld.com/vb/post/779518
         Back Up: http://forum.zdoom.org/viewtopic.php?p=617687&sid=451e500c64501fd88bf236d0fe103ef1#p617687
             Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
