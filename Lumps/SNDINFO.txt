@@ -82,13 +82,6 @@ $AMBIENT 10 World/WindyBreeze1 POINT CONTINUOUS 0.9
 //       Legacy
 //======================
 
-// Wind {Resources are Uncredited}
-Ambient/LegacyWind      ASW22
-$AMBIENT 2 Ambient/LegacyWind POINT RANDOM 10.0 30.0 0.5
-
-
-// --
-
 
 // Ocean {Resources are Uncredited}
 Ambient/LegacyOcean     ASW20
