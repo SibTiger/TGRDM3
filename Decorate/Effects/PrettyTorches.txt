@@ -55,6 +55,7 @@ Actor KD_TorchFlareRed : KD_TorchFlareBase
 	{
 		Spawn:
 			RFLR A 2 Bright NoDelay A_SetTranslucent(FRandom(0.07, 0.14), 1)
+            RFLR A 0 A_PlaySound ("World/Fire", 0, 0.5, 0, ATTN_STATIC)
 			Stop
 	}
 }
@@ -65,6 +66,7 @@ Actor KD_TorchFlareGreen : KD_TorchFlareBase
 	{
 		Spawn:
 			GFLR A 2 Bright NoDelay A_SetTranslucent(FRandom(0.07, 0.14), 1)
+            GFLR A 0 A_PlaySound ("World/Fire", 0, 0.5, 0, ATTN_STATIC)
 			Stop
 	}
 }
@@ -75,6 +77,7 @@ Actor KD_TorchFlareBlue : KD_TorchFlareBase
 	{
 		Spawn:
 			BFLR A 2 Bright NoDelay A_SetTranslucent(FRandom(0.07, 0.14), 1)
+            BFLR A 0 A_PlaySound ("World/Fire", 0, 0.5, 0, ATTN_STATIC)
 			Stop
 	}
 }
