@@ -59,6 +59,24 @@ World/WindWhistle   wndwist
 $AMBIENT 7 World/WindWhistle POINT RANDOM 25.0 60.0 0.5
 
 
+// --
+World/GentleBreeze      wndgntl
+$AMBIENT 8 World/GentleBreeze POINT CONTINUOUS 1.0
+
+
+// --
+
+
+World/WindyBreeze       wndbrez
+$AMBIENT 9 World/WindyBreeze POINT CONTINUOUS 0.9
+
+// --
+
+
+World/WindyBreeze1      wndbrez1
+$AMBIENT 10 World/WindyBreeze1 POINT CONTINUOUS 0.9
+
+
 
 //======================
 //       Legacy
