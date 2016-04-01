@@ -40,6 +40,13 @@ $AMBIENT 6 World/TeleportGate2 POINT CONTINUOUS 0.5
 // --
 
 
+// Torch Fire
+World/Fire      Fire
+
+
+// --
+
+
 // Rain
 $ambient 1 Ambient/Rain point 1.0 continuous 0.5
 
