@@ -177,15 +177,6 @@ Equality_X12
 
 
 
-gnrja
-----
-    Created and made available a ocean wave sound effect that is used in this project.
-        Web Site: http://freesound.org/people/gnrja/sounds/151703/
-        License Type: Creative Commons [ http://creativecommons.org/licenses/by/3.0/ ]
-            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
-
-
-
 ppfpower87
 ----
     Created and made available a ocean wave sound effect that is used in this project.
