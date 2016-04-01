@@ -56,7 +56,7 @@ $ambient 1 Ambient/Rain point 1.0 continuous 0.5
 
 // Wind Whistling
 World/WindWhistle   wndwist
-$AMBIENT 7 World/WindWhistle POINT RANDOM 10.0 30.0 0.5
+$AMBIENT 7 World/WindWhistle POINT RANDOM 25.0 60.0 0.5
 
 
 
