@@ -149,6 +149,15 @@ Batuhan
 
 
 
+nhaudio
+----
+    Created and made available the wind whistling sound that is used in this project.
+        Web Site: http://freesound.org/people/nhaudio/sounds/177933/#
+        License Type: Creative Commons [ http://creativecommons.org/licenses/by/3.0/ ]
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
 Shane Strife (AKA: Shane)
 ----
     Made available 'High Quality' (not remixed) music of Doom and Doom 2.
