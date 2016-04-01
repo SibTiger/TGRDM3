@@ -81,7 +81,7 @@ $AMBIENT 10 World/WindyBreeze1 POINT CONTINUOUS 0.9
 
 
 World/OceanWaves        OceanWav
-$AMBIENT 3 World/OceanWaves POINT CONTINUOUS 0.5
+$AMBIENT 3 World/OceanWaves POINT CONTINUOUS 1.0
 
 
 //======================
