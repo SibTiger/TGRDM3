@@ -77,18 +77,23 @@ World/WindyBreeze1      wndbrez1
 $AMBIENT 10 World/WindyBreeze1 POINT CONTINUOUS 0.9
 
 
+// --
+
+
+World/OceanWavesFar     WaveFar
+$AMBIENT 2 World/OceanWavesFar POINT CONTINUOUS 0.5
+
+
+// --
+
+
+World/OceanWaves        OceanWav
+$AMBIENT 3 World/OceanWaves POINT CONTINUOUS 0.5
+
 
 //======================
 //       Legacy
 //======================
-
-
-// Ocean {Resources are Uncredited}
-Ambient/LegacyOcean     ASW20
-$AMBIENT 3 Ambient/LegacyOcean POINT CONTINUOUS 0.5
-
-
-// --
 
 
 // mechanical Homing {Resources are Uncredited}
