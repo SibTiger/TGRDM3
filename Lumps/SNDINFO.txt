@@ -84,6 +84,20 @@ World/OceanWaves        OceanWav
 $AMBIENT 3 World/OceanWaves POINT CONTINUOUS 1.0
 
 
+// --
+
+
+World/ElectricBuzzing   ElecBuz
+$AMBIENT 11 World/ElectricBuzzing POINT CONTINUOUS 1.0
+
+
+// --
+
+
+World/ElectricBuzzing1  ElecBuz1
+$AMBIENT 12 World/ElectricBuzzing POINT CONTINUOUS 1.0
+
+
 //======================
 //       Legacy
 //======================
