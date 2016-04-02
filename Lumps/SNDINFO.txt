@@ -98,6 +98,14 @@ World/ElectricBuzzing1  ElecBuz1
 $AMBIENT 12 World/ElectricBuzzing POINT CONTINUOUS 1.0
 
 
+// --
+
+
+World/LavaBoiling   lavamlt
+$AMBIENT 13 World/LavaBoiling POINT CONTINUOUS 1.0
+
+
+
 //======================
 //       Legacy
 //======================
