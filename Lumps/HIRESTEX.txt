@@ -207,3 +207,20 @@
 
 //HUDFONT_DOOM
     remap STTPRCNT HIDOF037
+// ----
+
+
+
+// Zandronum Compatibility [v3.0]
+// Credit to Torr Samaho
+    remap STTNUM0 HIDOF048
+    remap STTNUM1 HIDOF049
+    remap STTNUM2 HIDOF050
+    remap STTNUM3 HIDOF051
+    remap STTNUM4 HIDOF052
+    remap STTNUM5 HIDOF053
+    remap STTNUM6 HIDOF054
+    remap STTNUM7 HIDOF055
+    remap STTNUM8 HIDOF056
+    remap STTNUM9 HIDOF057
+// ----
