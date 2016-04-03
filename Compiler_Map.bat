@@ -1,3 +1,10 @@
+:: If incase the user double clicks this script without using proper compiling procedure, and using MS-DOS, stop
+::  the script immediately!
+IF "%OS%" NEQ "Windows_NT" GOTO :UnsupportedOS
+REM ----
+
+
+
 CALL :Main %1 "%~2" "%~3" %4
 EXIT /B %ERRORLEVEL%
 REM -----------------------------------------------------------------
@@ -15,8 +22,69 @@ REM #     Make [Format the project to append to the ZIP standard as specified in
 REM #     Version [Project version]
 REM # =============================================================================================
 :Main
-CALL :%1 "%~2" "%~3" %4
+REM Make sure that a function was actually passed as the first parameter; if not - opt out immediately!
+REM    Failure todo so could result into Unforeseen Consequences!
+IF "%~1" EQU "" (
+    CALL :InsuccifientParameters
+) ELSE ( 
+    CALL :%1 "%~2" "%~3" %4
+)
 EXIT /B %ERRORLEVEL%
+
+
+
+REM # =============================================================================================
+REM # Documentation: This function warns the user that this script started without any parameters and will
+REM #   notify the end-user that this script terminate to avoid any Unforeseen Consequences.
+REM #
+REM # ACHTUNG: If the Host System IS NOT Windows 2000 [NT5.0 - Windows NT] or greater, this function will
+REM #   be meaningless as Windows ME and early [DOS - MS-DOS] does NOT support parameter passing!
+REM # ===========================================================================================
+:InsuccifientParameters
+ECHO OFF
+REM Flush the terminal
+    CLS
+REM Output the message
+ECHO ^<!^> ERROR ^<!^>
+ECHO =====================
+ECHO.
+ECHO.
+ECHO This shell script requires Bootless Star and the TGRDM3 module!
+ECHO.
+
+REM Let the user see the message before the window is destroyed
+PAUSE
+
+REM End with error
+EXIT /B 1
+
+
+
+REM # =============================================================================================
+REM # Documentation: This method will prompt the user that their OS is incompatible with this script
+REM #   This method will only take effect if and only if the user clicks the shell script without
+REM #   doing the proper compiling methods.
+REM #
+REM # ACHTUNG: To avoid spaghetti code, control everything from this function - including the termination
+REM # ===========================================================================================
+:UnsupportedOS
+ECHO OFF
+:: Flush the terminal
+    CLS
+:: Output the message
+ECHO ^<!^> ERROR ^<!^>
+ECHO =====================
+ECHO.
+ECHO.
+ECHO The host system is incompatible with this script!  You must have a 'Windows_NT' variant in order to run this script!
+ECHO Reported host version: %OS%
+ECHO.
+
+:: Let the user see the message before the window is destroyed
+PAUSE
+
+:: End with error
+EXIT /B 255
 
 
 
