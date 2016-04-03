@@ -11,7 +11,7 @@ MAP MAP02 "Unfaithful"
 {
     LevelNum = 2
     Next = "MAP03"
-    Music = "D_E3M5"
+    Music = "D_E1M7"
 } // Unfaithful
 
 
