@@ -204,6 +204,15 @@ kbnevel
 
 
 
+Arctura
+----
+    Created and made available a rain sound effect that is used in this project.
+        Web Site: http://freesound.org/people/Arctura/sounds/34069/
+        License Type: Creative Commons [ http://creativecommons.org/licenses/by/3.0/ ]
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
 Audionautics
 ----
     Created and made available a simulation of boiling hot magma sound effect that is used in this project.
