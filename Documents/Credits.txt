@@ -222,6 +222,14 @@ Audionautics
 
 
 
+Jay Reichard
+----
+    Made available 'Project: Doom (Final)', a collection of remixed Doom MIDI's.
+        Link: https://www.doomworld.com/idgames/music/prjdoom
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
 Shane Strife (AKA: Shane)
 ----
     Made available 'High Quality' (not remixed) music of Doom and Doom 2.
