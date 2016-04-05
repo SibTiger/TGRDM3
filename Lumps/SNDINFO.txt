@@ -16,7 +16,7 @@ Weapons/GrBnce          DSBOUNCE
 
 // RainSpawner
 Ambient/Rain        AMBRAIN
-$volume Ambient/Rain 0.2
+$volume Ambient/Rain 0.4
 
 
 // --
