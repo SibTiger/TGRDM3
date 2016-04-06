@@ -32,6 +32,11 @@ IF %1 EQU 2 (
     CALL :CompileProject_GenerateProjectName_MakeName_AssetName
     GOTO :EOF
 )
+REM Music Add-on
+IF %1 EQU 3 (
+    CALL :CompileProject_GenerateProjectName_MakeName_MusicName
+    GOTO :EOF
+)
 IF %ProjectCommitID% EQU "UNKNOWN" (
     CALL :CompileProject_GenerateProjectName_MakeName_NoCommitID
     GOTO :EOF
@@ -62,4 +67,12 @@ GOTO :EOF
 REM include the revision in the filename.
 SET FileName=%ProjectNameCompact%_v%Version%-%ProjectCommitID%
 CALL :CompileProject_Display_IncomingTaskSubLevelMSG "The file naming scheme will include a commit hash-ID."
+GOTO :EOF
+
+
+
+:CompileProject_GenerateProjectName_MakeName_MusicName
+REM Music Filename
+SET FileName=%ProjectNameCompact%_Music
+CALL :CompileProject_Display_IncomingTaskSubLevelMSG "The file name will be set for the optional music add-on."
 GOTO :EOF
