@@ -186,7 +186,7 @@ REM # ==========================================================================
 REM Create the filesystem needed
     CALL :Make_MusicBuilder_ArchiveFilesystem "%~1" || EXIT /B 1
 REM Duplicate the data
-    CALL :Make_ExtraBuilderMusic_Duplicate "%~1" || EXIT /B 1
+    CALL :Make_MusicBuilder_Duplicate "%~1" || EXIT /B 1
 REM Done
 EXIT /B 0
 
