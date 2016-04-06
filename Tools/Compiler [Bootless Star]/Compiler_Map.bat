@@ -111,13 +111,18 @@ REM #   %3 = Build Type:
 REM #        0 = Developmental Build
 REM #        1 = Release Build
 REM #        2 = Resource Build
+REM #        3 = Optional Extras [such as hi-def music]
 REM # =============================================================================================
 :Make
 SET "DriversNiceTask=Creating Project Build %ProjectNameShort% [Version: %Version%]"
 CALL :CompileProject_Display_IncomingTask "%DriversNiceTask%"
 REM ----
+IF "%3" EQU "0" CALL :Make_ProjectBuilder %~1 || (CALL :Make_Failure& EXIT /B 1)
+IF "%3" EQU "1" CALL :Make_ProjectBuilder %~1 || (CALL :Make_Failure& EXIT /B 1)
 IF "%3" EQU "2" CALL :Make_ResourceBuilder %~1 || (CALL :Make_Failure& EXIT /B 1)
-IF "%3" NEQ "2" CALL :Make_ProjectBuilder %~1 || (CALL :Make_Failure& EXIT /B 1)
+REM EXTRA STUFF
+IF "%3" EQU "3" CALL :Make_ExtraBuilderMusic %~1 || (CALL :Make_Failure& EXIT /B 1)
+REM ----
 CALL :CompileProject_DriverLogFooter "%DriversNiceTask%"
 EXIT /B 0
 
@@ -164,6 +169,53 @@ REM Remove rubbish from Map directory
 REM Generate the ACS Library
     CALL :Make_GenerateLibrary "%~1" || EXIT /B 1
 REM IF: WYSIWYG patch alteration
+EXIT /B 0
+
+
+
+REM # =============================================================================================
+REM # Parameters: [{string} DirectoryBuildTarget] [{string} DirectoryProjectTarget]
+REM # Documentation: Generate the High Definition music files that is not initially built into the main project
+REM #  Parameters:
+REM #   %1 = Directory that will hold all of the resources for the project; this _will_ be compiled with 7z!
+REM #        This does contain a trailing slash!  [example: .\Project\Build\]
+REM #   %2 = Place contents outside of the resources; readme and other read-able documentation can be placed here.
+REM #        This does contain a trailing slash!  [example: .\Project\]
+REM # =============================================================================================
+:Make_ExtraBuilderMusic
+REM Create the filesystem needed
+    CALL :Make_ExtraBuilderMusic_ArchiveFilesystem "%~1" || EXIT /B 1
+REM Duplicate the data
+    CALL :Make_ExtraBuilderMusic_Duplicate "%~1" || EXIT /B 1
+REM Done
+EXIT /B 0
+
+
+
+REM # =============================================================================================
+REM # Documentation: This function creates the entire archive filesystem as meet with the ZDoom specifications and standards; Music Optional only
+REM # Parameters: [{String} Project Build Path]
+REM # =============================================================================================
+:Make_ExtraBuilderMusic_ArchiveFilesystem
+REM Music
+    SET "TaskCaller_CallLong=MKDIR %~1Music"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
+EXIT /B 0
+
+
+
+REM # =============================================================================================
+REM # Documentation: This function will duplicate the Hi-Def Music data from the repo project into the ZDoom Archive filesystem standards.
+REM #                 This function is explicitly for the Music archive.
+REM # Parameters: [{String} Project Build Path]
+REM # =============================================================================================
+:Make_ExtraBuilderMusic_Duplicate
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Music\HiDef\Doom\*.*" "%~1Music\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Music\HiDef\Doom2\*.*" "%~1Music\"
+    CALL :CompileProject_TaskOperation
+    REM ----
 EXIT /B 0
 
 
@@ -363,10 +415,7 @@ REM Dependencies
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Dependencies\*.*" "%~1"
     CALL :CompileProject_TaskOperation
 REM Music
-    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Music\Doom\*.*" "%~1Music\"
-    CALL :CompileProject_TaskOperation
-    REM ----
-    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Music\Doom2\*.*" "%~1Music\"
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Music\MIDI\*.*" "%~1Music\"
     CALL :CompileProject_TaskOperation
     REM ----
 REM Graphics
@@ -471,10 +520,7 @@ REM Dependencies
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Dependencies\*.*" "%~1"
     CALL :CompileProject_TaskOperation
 REM Music
-    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Music\Doom\*.*" "%~1Music\"
-    CALL :CompileProject_TaskOperation
-    REM ----
-    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Music\Doom2\*.*" "%~1Music\"
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Music\MIDI\*.*" "%~1Music\"
     CALL :CompileProject_TaskOperation
     REM ----
 REM Graphics
