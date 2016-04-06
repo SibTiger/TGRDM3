@@ -18,7 +18,7 @@ ECHO %SeparatorSmall%
 ECHO [1] Compile Developmental Build
 ECHO [2] Compile Release Build
 ECHO [3] Compile Resource Build
-ECHO [4] Compile Optional Resources
+ECHO [4] Compile High Definition Music
 ECHO.
 ECHO Other Options
 ECHO %SeparatorSmall%
@@ -39,7 +39,7 @@ REM # ==========================================================================
 IF "%STDIN%" EQU "1" GOTO :Main_Choice_DevelopmentBuild
 IF "%STDIN%" EQU "2" GOTO :Main_Choice_ReleaseBuild
 IF "%STDIN%" EQU "3" GOTO :Main_Choice_ResourceBuild
-IF "%STDIN%" EQU "4" GOTO :Main_Choice_ExtraStuff
+IF "%STDIN%" EQU "4" GOTO :Main_Choice_MusicBuild
 IF /I "%STDIN%" EQU "S" GOTO :Main_Choice_Settings
 IF /I "%STDIN%" EQU "V" GOTO :Main_Choice_ViewDirectories
 IF /I "%STDIN%" EQU "C" GOTO :Main_Choice_Cleanup
@@ -83,9 +83,9 @@ GOTO :MainMenu
 
 
 REM # =============================================================================================
-REM # Documentation: Compile optional resources that is not included in main project build.
+REM # Documentation: Compile HiDef Music resource that is not included in main project build.
 REM # =============================================================================================
-:Main_Choice_ExtraStuff
+:Main_Choice_MusicBuild
 CALL :ClearBuffer
 CALL :CompileManager_Driver 3
 CALL :ClearBuffer
