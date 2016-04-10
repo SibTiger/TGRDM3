@@ -1,0 +1,28 @@
+// Jumping Pad
+// This jump pad algorithm will control how the jump pad will work.
+// ----
+// Description
+//      This algorithm controls how the jump pads will work and effectively push or thrust the player.
+//      NOTE: This used to be split into a bunch of THING triggers for each instruction, however, THING_STOP
+//          proofed to be a hassle as it would execute without proper sequential order.  THING_STOP must be
+//          executed first before anything else.
+// ----
+// Parameters
+//      thrustZ <int>
+//          Thrust the player in to the air by 'thrustZ' amount.
+//      thrust <int>
+//          if not '0', push the player by 'thrust' amount.
+//      thrustDirection <int>
+//          if thrust is not 0, thrust the player towards the specified direction.
+//          Please see here for angles: http://zdoom.org/wiki/Definitions#Byte_angles
+SCRIPT "JumpPad" (int thrustZ, int thrust, int thrustDirection)
+{
+    // Stop the player's velocity - entirely
+        Thing_Stop (0);
+    // Thrust the player into the air
+        ThrustThingZ (0, thrustZ, 0, 0);
+    // Push the player?
+        if (thrust)
+            // Push the player towards the giving direction.
+            ThrustThing (thrustDirection, thrust, true, 0);
+} // JumpPad()
