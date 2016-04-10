@@ -7,6 +7,9 @@
 // 3D Teleport algorithm
     #include "3DTeleport.acs"
 
+// Jumping Pad Main Functionality
+    #include "JumpPad.acs"
+
 // Jumping Pad sounds
     #include "JumpPadSounds.acs"
 
