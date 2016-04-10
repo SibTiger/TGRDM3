@@ -8,4 +8,5 @@ Episode MAP01
     Name = "Morgenstern"
     NoSkillMenu //Not needed in Deathmatch.
     BotEpisode //SkullTag (Zandronum) Feature: Prompt user Bot Skill Level menu
+    BotSkillPicName "M_DMATCH" // SkullTag (Zandronum) Feature: Displays the botskill graphic lump
 }
