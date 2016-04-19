@@ -10,8 +10,8 @@
 -----------------------
 5011         TGRGrenadeLauncher
 5012         TGRRailgun
-5013         TGRMegaSphere
-5014         TGRSoulSphere
+5013         TGRMegaSphere_NoGravity
+5014         TGRSoulSphere_NoGravity
 15000        RainSpawner
 15001        FogCloud_Generator
 16000        TGRTreeSkyBoxViewpoint

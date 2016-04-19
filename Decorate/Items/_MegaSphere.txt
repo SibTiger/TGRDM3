@@ -1,5 +1,5 @@
 //Inherits the original MegaSphere data from the existing Actor, but this Actor includes '+NoGravity' flag.
-ACTOR TGRMegaSphere : Megasphere 5013
+ACTOR TGRMegaSphere_NoGravity : Megasphere 5013
 {
     // GZDoom Builder Configuration
     // ==============================

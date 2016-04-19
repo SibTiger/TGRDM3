@@ -1,5 +1,5 @@
 //Inherits the original SoulSphere data from the existing Actor, but this Actor includes '+NoGravity' flag.
-ACTOR TGRSoulSphere : Soulsphere 5014
+ACTOR TGRSoulSphere_NoGravity : Soulsphere 5014
 {
     // GZDoom Builder Configuration
     // ==============================
