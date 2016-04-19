@@ -230,6 +230,34 @@ Jay Reichard
 
 
 
+Voxelbro
+----
+    Created and made available the 'Grenade Launcher' and 'Grenade' from the 'FKER Voxels' package.
+        Link: http://forum.zdoom.org/viewtopic.php?f=19&t=45526
+        Bkup: http://www.mediafire.com/download/4hhhe2m6b42t3a3/FKER_Voxels1.1.pk3
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
+Team Hellspawn && Voxelbro
+----
+    Created and made available various vanilla Doom Voxel's.
+        Link: http://forum.zdoom.org/viewtopic.php?f=19&t=45526
+        Backup: http://www.mediafire.com/download/c3obfy5b55vlfd4/hellspawn_voxelbro1.4.pk3
+        Backup: http://teamhellspawn.com/voxels.htm
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
+HazeBandicoot
+----
+    Created and made available the 'SkullTag Railgun' in Voxel.
+        Link: http://forum.zdoom.org/viewtopic.php?p=900857#p900857
+        Bkup: https://www.dropbox.com/s/3o31jamvu4eexad/RailgunFixed.kvx?dl=1
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
 Shane Strife (AKA: Shane)
 ----
     Made available 'High Quality' (not remixed) music of Doom and Doom 2.

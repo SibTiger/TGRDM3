@@ -264,6 +264,9 @@ REM Sprites
 REM HiRes
     SET "TaskCaller_CallLong=MKDIR %~1HiRes"
     CALL :CompileProject_TaskOperation || EXIT /B 1
+REM Voxels
+    SET "TaskCaller_CallLong=MKDIR %~1Voxels"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
 REM Textures
     SET "TaskCaller_CallLong=MKDIR %~1Textures"
     CALL :CompileProject_TaskOperation || EXIT /B 1
@@ -308,6 +311,9 @@ REM Sprites
     CALL :CompileProject_TaskOperation || EXIT /B 1
 REM HiRes
     SET "TaskCaller_CallLong=MKDIR %~1HiRes"
+    CALL :CompileProject_TaskOperation || EXIT /B 1
+REM Voxels
+    SET "TaskCaller_CallLong=MKDIR %~1Voxels"
     CALL :CompileProject_TaskOperation || EXIT /B 1
 EXIT /B 0
 
@@ -389,6 +395,10 @@ REM Decorate
     CALL :CompileProject_TaskOperation
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\PrettyTorches\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+REM Voxels
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Voxels\*.*" "%~1Voxels\"
     CALL :CompileProject_TaskOperation
     REM ----
 REM High Resolution
@@ -494,6 +504,10 @@ REM Decorate
     CALL :CompileProject_TaskOperation
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\PrettyTorches\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+REM Voxels
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Voxels\*.*" "%~1Voxels\"
     CALL :CompileProject_TaskOperation
     REM ----
 REM High Resolution

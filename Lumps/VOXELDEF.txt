@@ -1,0 +1,369 @@
+// Grenade Launcher
+GLAUA="GLAUA"
+{
+    Scale = 0.5
+}
+
+
+
+// Grenade
+STGRNA="STGRNA"
+{
+    AngleOffset = 180
+}
+
+
+
+// Ammo Box
+AMMOA = "AMMOA"
+{
+    DroppedSpin = 25
+}
+
+
+// Green Armor [Dark]
+ARM1A = "ARM1A"
+{
+	droppedspin = 25
+	AngleOffset = 270
+}
+
+
+
+// Green Armor [Bright]
+ARM1B = "ARM1B"
+{
+	droppedspin = 25
+	AngleOffset = 270
+}
+
+
+
+// Blue Armor [Dark]
+ARM2A = "ARM2A"
+{
+	droppedspin = 25
+	AngleOffset = 270
+}
+
+
+
+// Blue Armor [Bright]
+ARM2B = "ARM2B"
+{
+	droppedspin = 25
+	AngleOffset = 270
+}
+
+
+
+// Health Bonus [Animation:1]
+BON1A = "BON1A"
+{
+	droppedspin = 25
+}
+
+
+
+// Health Bonus [Animation:2]
+BON1B = "BON1B"
+{
+	droppedspin = 25
+}
+
+
+
+// Health Bonus [Animation:3]
+BON1C = "BON1C"
+{
+	droppedspin = 25
+}
+
+
+
+// Health Bonus [Animation:4]
+BON1D = "BON1D"
+{
+	droppedspin = 25
+}
+
+
+
+// Armor Bonus [Animation:1]
+BON2A = "BON2A"
+{
+	droppedspin = 25
+}
+
+
+
+// Armor Bonus [Animation:2]
+BON2B = "BON2B"
+{
+	droppedspin = 25
+}
+
+
+
+// Armor Bonus [Animation:3]
+BON2C = "BON2C"
+{
+	droppedspin = 25
+}
+
+
+
+// Armor Bonus [Animation:4]
+BON2D = "BON2D"
+{
+	droppedspin = 25
+}
+
+
+
+// Box of Rockets
+BROKA = "BROKA"
+{
+	droppedspin = 25
+}
+
+
+
+// Candlbra
+CBRAA = "CANDLBRA"
+{
+	AngleOffset = 90
+}
+
+
+
+// Candle
+CANDA = "CANDA"
+{
+
+}
+
+
+
+// Cell Pack
+CELPA = "CELPA"
+{
+	droppedspin = 25
+}
+
+
+
+// Tiny Cell Pack
+CELLA = "CELLA"
+{
+
+}
+
+
+
+// Green Marble Column [Tall]
+COL1A = "COL1A"
+{
+
+}
+
+
+
+// Green Marble Column [Short]
+COL2A = "COL2A"
+{
+
+}
+
+
+
+// Redish Marble Column [Tall]
+COL3A = "COL3A"
+{
+
+}
+
+
+
+// Redish Marble Column [Short]
+COL4A = "COL4A"
+{
+
+}
+
+
+
+// Green Marble Column [Beating Heard: 1]
+COL5A = "COL5A"
+{
+
+}
+
+
+
+// Green Marble Column [Beating Heard: 2]
+COL5B = "COL5B"
+{
+
+}
+
+
+
+// Lamp Post [Small]
+COLUA = "COLUA"
+{
+
+}
+
+
+
+// Chainsaw [Pickup]
+CSAWA = "CSAWA"
+{
+
+}
+
+
+
+// Rocket Launcher
+LAUNA = "LAUNA"
+{
+	droppedspin = 25
+}
+
+
+
+// Chaingun
+MGUNA = "MGUNA"
+{
+	Scale = 0.9
+	droppedspin = 25
+}
+
+
+
+// Medkit
+MEDIA = "MEDIA"
+{
+    droppedspin = 25
+}
+
+
+
+// Rocket [Projectile]
+MISLA = "MISLA"
+{
+    AngleOffset = 270
+}
+
+
+
+// Plasma Rifle
+PLASA = "PLASA"
+{
+    droppedspin = 25
+}
+
+
+
+// Rocket [Item]
+ROCKA = "ROCKA"
+{
+
+}
+
+
+
+// Shotgun Shells
+SBOXA = "SBOXA"
+{
+    droppedspin = 25
+}
+
+
+
+// Super Shotgun
+SGN2A = "SGN2A"
+{
+    droppedspin = 25
+}
+
+
+
+// Shotgun
+SHOTA = "SHOTA"
+{
+
+}
+
+
+
+// Stimp Pack
+STIMA = "STIMA"
+{
+
+}
+
+
+
+// Light Post [Tall:1]
+TLMPA = "TLMPA"
+{
+
+}
+
+
+
+// Light Post [Tall:2]
+TLMPB = "TLMPB"
+{
+
+}
+
+
+
+// Light Post [Tall:3]
+TLMPC = "TLMPC"
+{
+
+}
+
+
+
+// Light Post [Tall:4]
+TLMPD = "TLMPD"
+{
+
+}
+
+
+
+// Light Post [Short:1]
+TLP2A = "TLP2A"
+{
+
+}
+
+
+
+// Light Post [Short:2]
+TLP2B = "TLP2B"
+{
+
+}
+
+
+
+// Light Post [Short:3]
+TLP2C = "TLP2C"
+{
+
+}
+
+
+
+// Light Post [Short:4]
+TLP2D = "TLP2D"
+{
+
+}
