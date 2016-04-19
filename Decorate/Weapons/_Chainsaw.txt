@@ -32,7 +32,7 @@ ACTOR TGRChainsaw : Chainsaw REPLACES Chainsaw
         +FloatBob
     // ------
     // ======
-    Inventory.Icon "CSAWA0"
+        Inventory.Icon "CSAWA0"
     // ------
     // Sounds
     // ========

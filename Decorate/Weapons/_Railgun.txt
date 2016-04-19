@@ -36,22 +36,22 @@ Actor TGRRailgun : DoomWeapon 5012
     // ----
     // Flags, Switches, and Properties
     // =================================
-    +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
-    -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
-    Weapon.PreferredSkin "Railgun-Marine" // Zandronum feature only; dependency required: MarineSkins
-    +NoGravity
-    +FloatBob
+        +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
+        -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
+        Weapon.PreferredSkin "Railgun-Marine" // Zandronum feature only; dependency required: MarineSkins
+        +NoGravity
+        +FloatBob
     // ------
     // ======
 
     // ----
     // Ammo Management
-    Weapon.AmmoUse 1
-    Weapon.AmmoGive 12
-    Weapon.AmmoType "Cell"
-    Decal RailScorch
+        Weapon.AmmoUse 1
+        Weapon.AmmoGive 12
+        Weapon.AmmoType "Cell"
+        Decal RailScorch
     // ----
-    Inventory.Icon "RAILA0"
+        Inventory.Icon "RAILA0"
     // ------
     States
     {

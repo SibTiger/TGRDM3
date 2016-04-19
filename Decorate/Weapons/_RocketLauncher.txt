@@ -20,21 +20,22 @@ ACTOR TGRRocketLauncher : RocketLauncher REPLACES RocketLauncher
     // ----
     // Flags, Switches, and Properties
     // =================================
-    +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
-    -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
-    Weapon.PreferredSkin "Rocket-Marine" // Zandronum feature only; dependency required: MarineSkins
-    +NoGravity
-    +FloatBob
+        +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
+        -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
+        Weapon.PreferredSkin "Rocket-Marine" // Zandronum feature only; dependency required: MarineSkins
+        +NoGravity
+        +FloatBob
     // ------
     // ======
 
     // ----
     // Ammo Management
-    Weapon.AmmoUse 1
-    Weapon.AmmoGive 8
-    Weapon.AmmoType "RocketAmmo"
+        Weapon.AmmoUse 1
+        Weapon.AmmoGive 8
+        Weapon.AmmoType "RocketAmmo"
     // ----
-    Inventory.Icon "LAUNA0"
+        Inventory.Icon "LAUNA0"
+    // ------
     States
     {
     Fire:

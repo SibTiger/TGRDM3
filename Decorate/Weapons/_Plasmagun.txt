@@ -20,21 +20,22 @@ ACTOR TGRPlasmaRifle : PlasmaRifle REPLACES PlasmaRifle
     // ----
     // Flags, Switches, and Properties
     // =================================
-    +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
-    -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
-    Weapon.PreferredSkin "Plasma-Rifle-Marine" // Zandronum feature only; dependency required: MarineSkins
-    +NoGravity
-    +FloatBob
+        +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
+        -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
+        Weapon.PreferredSkin "Plasma-Rifle-Marine" // Zandronum feature only; dependency required: MarineSkins
+        +NoGravity
+        +FloatBob
     // ------
     // ======
 
     // ----
     // Ammo Management
-    Weapon.AmmoUse 1
-    Weapon.AmmoGive 40
-    Weapon.AmmoType "Cell"
+        Weapon.AmmoUse 1
+        Weapon.AmmoGive 40
+        Weapon.AmmoType "Cell"
     // ----
-    Inventory.Icon "PLASA0"
+        Inventory.Icon "PLASA0"
+    // ------
     States
     {
     Fire:

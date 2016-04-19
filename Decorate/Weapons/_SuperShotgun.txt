@@ -20,22 +20,23 @@ ACTOR TGRSuperShotgun : SuperShotgun REPLACES SuperShotgun
     // ----
     // Flags, Switches, and Properties
     // =================================
-    +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
-    -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
-    Weapon.PreferredSkin "SSG-Marine" // Zandronum feature only; dependency required: MarineSkins
-    +NoGravity
-    +FloatBob
+        +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
+        -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
+        Weapon.PreferredSkin "SSG-Marine" // Zandronum feature only; dependency required: MarineSkins
+        +NoGravity
+        +FloatBob
     // ------
     // ======
 
     // ----
     // Ammo Management
-    Weapon.AmmoUse 2
-    Weapon.AmmoGive 20
-    Weapon.AmmoType "Shell"
-    Decal BulletChip
+        Weapon.AmmoUse 2
+        Weapon.AmmoGive 20
+        Weapon.AmmoType "Shell"
+        Decal BulletChip
     // ----
-    Inventory.Icon "SGN2A0"
+        Inventory.Icon "SGN2A0"
+    // ------
     States
     {
     Ready:
