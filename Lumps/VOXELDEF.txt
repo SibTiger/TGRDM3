@@ -14,7 +14,7 @@ GLAUA = "GLAUA"
 // Grenade
 SGRNA = "SGRNA"
 {
-    AngleOffset = 180
+
 }
 
 
