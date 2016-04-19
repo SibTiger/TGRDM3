@@ -12,7 +12,7 @@ GLAUA = "GLAUA"
 
 
 // Grenade
-STGRNA = "STGRNA"
+SGRNA = "SGRNA"
 {
     AngleOffset = 180
 }
