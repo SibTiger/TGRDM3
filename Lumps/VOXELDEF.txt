@@ -1,122 +1,91 @@
+// ===============================
+// ===============================
+//             WEAPONS
+// -------------------------------
 // Grenade Launcher
-GLAUA="GLAUA"
+GLAUA = "GLAUA"
 {
     Scale = 0.5
+    Spin = 50
 }
 
 
 
 // Grenade
-STGRNA="STGRNA"
+STGRNA = "STGRNA"
 {
     AngleOffset = 180
 }
 
 
 
+// Super Shotgun
+SGN2A = "SGN2A"
+{
+    Spin = 50
+}
+
+
+
+// Shotgun
+SHOTA = "SHOTA"
+{
+    Spin = 50
+}
+
+
+
+// Rocket [Projectile]
+MISLA = "MISLA"
+{
+    AngleOffset = 270
+}
+
+
+
+// Plasma Rifle
+PLASA = "PLASA"
+{
+    Spin = 50
+}
+
+
+
+// Chaingun
+MGUNA = "MGUNA"
+{
+    Scale = 0.9
+    Spin = 50
+}
+
+
+
+// Rocket Launcher
+LAUNA = "LAUNA"
+{
+    Spin = 50
+}
+
+
+// Chainsaw [Pickup]
+CSAWA = "CSAWA"
+{
+    Spin = 50
+}
+
+
+
+
+// ===============================
+// ===============================
+//           AMMUNITION
+// -------------------------------
+
+
 // Ammo Box
 AMMOA = "AMMOA"
 {
-    DroppedSpin = 25
-}
-
-
-// Green Armor [Dark]
-ARM1A = "ARM1A"
-{
-	droppedspin = 25
-	AngleOffset = 270
-}
-
-
-
-// Green Armor [Bright]
-ARM1B = "ARM1B"
-{
-	droppedspin = 25
-	AngleOffset = 270
-}
-
-
-
-// Blue Armor [Dark]
-ARM2A = "ARM2A"
-{
-	droppedspin = 25
-	AngleOffset = 270
-}
-
-
-
-// Blue Armor [Bright]
-ARM2B = "ARM2B"
-{
-	droppedspin = 25
-	AngleOffset = 270
-}
-
-
-
-// Health Bonus [Animation:1]
-BON1A = "BON1A"
-{
-	droppedspin = 25
-}
-
-
-
-// Health Bonus [Animation:2]
-BON1B = "BON1B"
-{
-	droppedspin = 25
-}
-
-
-
-// Health Bonus [Animation:3]
-BON1C = "BON1C"
-{
-	droppedspin = 25
-}
-
-
-
-// Health Bonus [Animation:4]
-BON1D = "BON1D"
-{
-	droppedspin = 25
-}
-
-
-
-// Armor Bonus [Animation:1]
-BON2A = "BON2A"
-{
-	droppedspin = 25
-}
-
-
-
-// Armor Bonus [Animation:2]
-BON2B = "BON2B"
-{
-	droppedspin = 25
-}
-
-
-
-// Armor Bonus [Animation:3]
-BON2C = "BON2C"
-{
-	droppedspin = 25
-}
-
-
-
-// Armor Bonus [Animation:4]
-BON2D = "BON2D"
-{
-	droppedspin = 25
+    Spin = 50
 }
 
 
@@ -124,23 +93,23 @@ BON2D = "BON2D"
 // Box of Rockets
 BROKA = "BROKA"
 {
-	droppedspin = 25
+    Spin = 50
 }
 
 
 
-// Candlbra
-CBRAA = "CANDLBRA"
+// Rocket [Item]
+ROCKA = "ROCKA"
 {
-	AngleOffset = 90
+    Spin = 50
 }
 
 
 
-// Candle
-CANDA = "CANDA"
+// Shotgun Shells
+SBOXA = "SBOXA"
 {
-
+    Spin = 50
 }
 
 
@@ -148,13 +117,166 @@ CANDA = "CANDA"
 // Cell Pack
 CELPA = "CELPA"
 {
-	droppedspin = 25
+    Spin = 50
 }
 
 
 
 // Tiny Cell Pack
 CELLA = "CELLA"
+{
+    Spin = 50
+}
+
+
+// Box of Rockets
+BROKA = "BROKA"
+{
+    Spin = 50
+}
+
+
+
+
+// ===============================
+// ===============================
+//          PICKUP ITEMS
+// -------------------------------
+
+
+// Green Armor [Dark]
+ARM1A = "ARM1A"
+{
+    Spin = 50
+    AngleOffset = 270
+}
+
+
+
+// Green Armor [Bright]
+ARM1B = "ARM1B"
+{
+    Spin = 50
+    AngleOffset = 270
+}
+
+
+
+// Blue Armor [Dark]
+ARM2A = "ARM2A"
+{
+    Spin = 50
+    AngleOffset = 270
+}
+
+
+
+// Blue Armor [Bright]
+ARM2B = "ARM2B"
+{
+    Spin = 50
+    AngleOffset = 270
+}
+
+
+
+// Health Bonus [Animation:1]
+BON1A = "BON1A"
+{
+    Spin = 50
+}
+
+
+
+// Health Bonus [Animation:2]
+BON1B = "BON1B"
+{
+    Spin = 50
+}
+
+
+
+// Health Bonus [Animation:3]
+BON1C = "BON1C"
+{
+    Spin = 50
+}
+
+
+
+// Health Bonus [Animation:4]
+BON1D = "BON1D"
+{
+    Spin = 50
+}
+
+
+
+// Armor Bonus [Animation:1]
+BON2A = "BON2A"
+{
+    Spin = 50
+}
+
+
+
+// Armor Bonus [Animation:2]
+BON2B = "BON2B"
+{
+    Spin = 50
+}
+
+
+
+// Armor Bonus [Animation:3]
+BON2C = "BON2C"
+{
+    Spin = 50
+}
+
+
+
+// Armor Bonus [Animation:4]
+BON2D = "BON2D"
+{
+    Spin = 50
+}
+
+
+
+// Stimp Pack
+STIMA = "STIMA"
+{
+    Spin = 50
+}
+
+
+
+// Medkit
+MEDIA = "MEDIA"
+{
+    Spin = 50
+}
+
+
+
+
+// ===============================
+// ===============================
+//        WORLD ENVIRONMENT
+// -------------------------------
+
+
+// Candlbra
+CBRAA = "CANDLBRA"
+{
+    AngleOffset = 90
+}
+
+
+
+// Candle
+CANDA = "CANDA"
 {
 
 }
@@ -211,95 +333,6 @@ COL5B = "COL5B"
 
 // Lamp Post [Small]
 COLUA = "COLUA"
-{
-
-}
-
-
-
-// Chainsaw [Pickup]
-CSAWA = "CSAWA"
-{
-
-}
-
-
-
-// Rocket Launcher
-LAUNA = "LAUNA"
-{
-	droppedspin = 25
-}
-
-
-
-// Chaingun
-MGUNA = "MGUNA"
-{
-	Scale = 0.9
-	droppedspin = 25
-}
-
-
-
-// Medkit
-MEDIA = "MEDIA"
-{
-    droppedspin = 25
-}
-
-
-
-// Rocket [Projectile]
-MISLA = "MISLA"
-{
-    AngleOffset = 270
-}
-
-
-
-// Plasma Rifle
-PLASA = "PLASA"
-{
-    droppedspin = 25
-}
-
-
-
-// Rocket [Item]
-ROCKA = "ROCKA"
-{
-
-}
-
-
-
-// Shotgun Shells
-SBOXA = "SBOXA"
-{
-    droppedspin = 25
-}
-
-
-
-// Super Shotgun
-SGN2A = "SGN2A"
-{
-    droppedspin = 25
-}
-
-
-
-// Shotgun
-SHOTA = "SHOTA"
-{
-
-}
-
-
-
-// Stimp Pack
-STIMA = "STIMA"
 {
 
 }
