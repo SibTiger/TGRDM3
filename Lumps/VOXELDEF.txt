@@ -2,6 +2,8 @@
 // ===============================
 //             WEAPONS
 // -------------------------------
+
+
 // Grenade Launcher
 GLAUA = "GLAUA"
 {
@@ -67,6 +69,7 @@ LAUNA = "LAUNA"
 }
 
 
+
 // Chainsaw [Pickup]
 CSAWA = "CSAWA"
 {
@@ -127,6 +130,7 @@ CELLA = "CELLA"
 {
     Spin = 50
 }
+
 
 
 // Box of Rockets
