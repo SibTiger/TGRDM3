@@ -39,6 +39,8 @@ Actor TGRRailgun : DoomWeapon 5012
     +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
     -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
     Weapon.PreferredSkin "Railgun-Marine" // Zandronum feature only; dependency required: MarineSkins
+    +NoGravity
+    +FloatBob
     // ------
     // ======
 
@@ -78,7 +80,10 @@ Actor TGRRailgun : DoomWeapon 5012
         TNT1 A 0 bright A_Light0
         Goto LightDone
     Spawn:
-        RAIL A -1
+        // Allow a function to be called immediately
+            TNT1 A 0 NoDelay
+        // Spawn the item, but raise it by z-offset value
+            RAIL A -1 A_Warp(AAPTR_DEFAULT, 0, 0, 8)
         Stop
     }
 }

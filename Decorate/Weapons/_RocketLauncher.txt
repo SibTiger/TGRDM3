@@ -23,6 +23,8 @@ ACTOR TGRRocketLauncher : RocketLauncher REPLACES RocketLauncher
     +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
     -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
     Weapon.PreferredSkin "Rocket-Marine" // Zandronum feature only; dependency required: MarineSkins
+    +NoGravity
+    +FloatBob
     // ------
     // ======
 
@@ -52,7 +54,10 @@ ACTOR TGRRocketLauncher : RocketLauncher REPLACES RocketLauncher
         PKRF DE 3 Bright
         Goto LightDone
     Spawn:
-        LAUN A -1
+        // Allow a function to be called immediately
+            TNT1 A 0 NoDelay
+        // Spawn the item, but raise it by z-offset value
+            LAUN A -1 A_Warp(AAPTR_DEFAULT, 0, 0, 8)
         Stop
     }
 }

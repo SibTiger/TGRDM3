@@ -37,6 +37,8 @@ Actor TGRGrenadeLauncher : DoomWeapon 5011
     +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
     -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
     Weapon.PreferredSkin "Grenade-Marine" // Zandronum feature only; dependency required: MarineSkins
+    +NoGravity
+    +FloatBob
     // ------
     // ======
 
@@ -50,7 +52,10 @@ Actor TGRGrenadeLauncher : DoomWeapon 5011
     States
     {
     Spawn:
-        GLAU A -1
+        // Allow a function to be called immediately
+            TNT1 A 0 NoDelay
+        // Spawn the item, but raise it by z-offset value
+            GLAU A -1 A_Warp(AAPTR_DEFAULT, 0, 0, 8)
         Stop
     Ready:
         GRLG A 1 A_WeaponReady
