@@ -6,7 +6,7 @@ ACTOR TGRCell : Cell REPLACES Cell
         +FloatBob
     // ------
     // ======
-    Spawn
+    States
     {
     Spawn:
         // Allow a function to be called immediately

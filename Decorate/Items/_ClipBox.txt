@@ -6,7 +6,7 @@ ACTOR TGRClipBox : ClipBox REPLACES ClipBox
         +FloatBob
     // ------
     // ======
-    Spawn
+    States
     {
     Spawn:
         // Allow a function to be called immediately
