@@ -42,6 +42,8 @@
     #include "Decorate/_CellPack.txt"
     #include "Decorate/_ClipBox.txt"
     #include "Decorate/_ShellBox.txt"
+    #include "Decorate/_RocketAmmo.txt"
+    #include "Decorate/_RocketBox.txt"
 
 
 

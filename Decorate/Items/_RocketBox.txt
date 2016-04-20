@@ -1,0 +1,18 @@
+ACTOR TGRRocketBox : RocketBox REPLACES RocketBox
+{
+    // Flags, Switches, and Properties
+    // =================================
+        +NoGravity
+        +FloatBob
+    // ------
+    // ======
+    States
+    {
+    Spawn:
+        // Allow a function to be called immediately
+            TNT1 A 0 NoDelay
+        // Spawn the item, but raise it by z-offset value
+            BROK A -1 A_Warp (AAPTR_DEFAULT, 0, 0, 8)
+        Stop
+    }
+}
