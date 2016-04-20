@@ -36,7 +36,9 @@
 
 
 // Items
+    #include "Decorate/_MegaSphere.txt"
     #include "Decorate/_MegaSphere_NoGravity.txt"
+    #include "Decorate/_SoulSphere.txt"
     #include "Decorate/_SoulSphere_NoGravity.txt"
     #include "Decorate/_Cell.txt"
     #include "Decorate/_CellPack.txt"
