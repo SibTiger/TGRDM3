@@ -50,6 +50,8 @@
     #include "Decorate/_ArmorBonus.txt"
     #include "Decorate/_StimPack.txt"
     #include "Decorate/_MediKit.txt"
+    #include "Decorate/_GreenArmor.txt"
+    #include "Decorate/_BlueArmor.txt"
 
 
 
