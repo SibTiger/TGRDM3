@@ -1,0 +1,24 @@
+//------------------------
+// Green Armor
+//------------------------
+pointlight GREENARMOR1
+{
+    color 0.0 0.6 0.0
+    size 48
+}
+
+
+
+pointlight GREENARMOR2
+{
+    color 0.0 0.6 0.0
+    size 32
+}
+
+
+
+object TGRGreenArmor
+{
+    frame ARM1A { light GREENARMOR1 }
+    frame ARM1B { light GREENARMOR2 }
+}

@@ -1,0 +1,18 @@
+//------------------------
+// Armor Bonus
+//------------------------
+pulselight ARMORBONUS
+{
+    color 0.0 0.6 0.0
+    size 16
+    secondarySize 14
+    interval 1.0
+    dontlightself 1
+}
+
+
+
+object TGRArmorBonus
+{
+    frame BON2 { light ARMORBONUS }
+}

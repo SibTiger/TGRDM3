@@ -1,0 +1,25 @@
+//------------------------
+// SoulSphere
+//------------------------
+pulselight SoulSphere
+{
+    color 0.0 0.0 1.0
+    size 40
+    secondarySize 42
+    interval 2.0
+    offset 0 16 0
+}
+
+
+
+object TGRSoulSphere
+{
+    frame SOUL { light SOULSPHERE }
+}
+
+
+
+object TGRSoulSphere_NoGravity
+{
+    frame SOUL { light SOULSPHERE }
+}

@@ -11,6 +11,11 @@
 
 // Items
 #include "GLDefs/Megasphere.txt"
+#include "GLDefs/SoulSphere.txt"
+#include "GLDefs/HealthBonus.txt"
+#include "GLDEFS/ArmorBonus.txt"
+#include "GLDEFS/GreenArmor.txt"
+#include "GLDEFS/BlueArmor.txt"
 
 
 // Textures
