@@ -12,7 +12,11 @@ ACTOR TGRMegaSphere : MegaSphere REPLACES MegaSphere
         // Allow a function to be called immediately
             TNT1 A 0 NoDelay
         // Spawn the item, but raise it by z-offset value
-            MEGA ABCD 6 BRIGHT A_Warp (AAPTR_DEFAULT, 0, 0, 8)
-        Stop
+            TNT1 A 0 A_Warp (AAPTR_DEFAULT, 0, 0, 8)
+        // Go to Spawn Animation
+            GOTO SpawnAnimation
+    SpawnAnimation:
+        MEGA ABCD 6 BRIGHT
+        Loop
     }
 }
