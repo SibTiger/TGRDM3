@@ -78,7 +78,7 @@ ACTOR TGRSuperShotgun : SuperShotgun REPLACES SuperShotgun
         // Allow a function to be called immediately
             TNT1 A 0 NoDelay
         // Spawn the item, but raise it by z-offset value
-        SGN2 A -1 A_Warp (AAPTR_DEFAULT, 0, 0, 8)
+            SGN2 A -1 A_Warp (AAPTR_DEFAULT, 0, 0, 8)
         Stop
     }
 }
