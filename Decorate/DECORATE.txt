@@ -38,6 +38,10 @@
 // Items
     #include "Decorate/_MegaSphere.txt"
     #include "Decorate/_SoulSphere.txt"
+    #include "Decorate/_Cell.txt"
+    #include "Decorate/_CellPack.txt"
+    #include "Decorate/_ClipBox.txt"
+    #include "Decorate/_ShellBox.txt"
 
 
 
