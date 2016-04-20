@@ -29,7 +29,17 @@ pointlight MEGASPHERE4
     offset 0 16 0
 }
 
-object MegaSphere
+object TGRMegaSphere
+{
+    frame MEGAA0 { light MEGASPHERE1 }
+    frame MEGAB0 { light MEGASPHERE2 }
+    frame MEGAC0 { light MEGASPHERE3 }
+    frame MEGAD0 { light MEGASPHERE4 }
+}
+
+
+
+object TGRMegaSphere_NoGravity
 {
     frame MEGAA0 { light MEGASPHERE1 }
     frame MEGAB0 { light MEGASPHERE2 }
