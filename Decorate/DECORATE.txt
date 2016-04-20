@@ -46,6 +46,10 @@
     #include "Decorate/_ShellBox.txt"
     #include "Decorate/_RocketAmmo.txt"
     #include "Decorate/_RocketBox.txt"
+    #include "Decorate/_HealthBonus.txt"
+    #include "Decorate/_ArmorBonus.txt"
+    #include "Decorate/_StimPack.txt"
+    #include "Decorate/_MediKit.txt"
 
 
 
