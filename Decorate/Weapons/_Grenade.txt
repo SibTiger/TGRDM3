@@ -6,7 +6,7 @@ Actor TGRGrenade
     Height 8
     Speed 20 //Original was 25; test
     Damage 35 //Original was 20; test
-    Gravity .7 //Original was .25
+    Gravity .45 //Original was .25
     // ----
     // Flags, Switches, and Properties
     // =================================
