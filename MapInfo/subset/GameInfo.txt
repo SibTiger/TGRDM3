@@ -2,6 +2,7 @@ GameInfo
 {
     DefaultDropStyle = 2 //Strife Style
     Swapmenu = True //New Game, Load, Save, Options
+    DrawReadThis = True //Display the Help Documentation (image)
     DimAount = .5 //Half translucent
     DimColor = "00 00 00" //Black; should be a bit easier on the eyes
     QuitMessages = "$TGR_QuitGame"
