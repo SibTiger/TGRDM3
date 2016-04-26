@@ -4,6 +4,7 @@ MAP MAP01 "Acerbus"
     Next = "MAP02"
     Music = "D_SHAWN"
     F1 = "f1_dm"
+    ExitPic = "Inter_01"
 } // Acerbus
 
 
@@ -14,6 +15,7 @@ MAP MAP02 "Unfaithful"
     Next = "MAP03"
     Music = "D_E1M7"
     F1 = "f1_dm"
+    ExitPic = "Inter_02"
 } // Unfaithful
 
 
@@ -24,6 +26,7 @@ MAP MAP03 "Noir Lust"
     Next = "MAP04"
     Music = "D_DOOM"
     F1 = "f1_dm"
+    ExitPic = "Inter_03"
 } // Noir Lust
 
 
@@ -34,6 +37,7 @@ MAP MAP04 "Abandoned Misery"
     Next = "MAP05"
     Music = "D_DEAD"
     F1 = "f1_dm"
+    ExitPic = "Inter_04"
 } // Abandoned Misery
 
 
@@ -44,6 +48,7 @@ MAP MAP05 "Dark Stone"
     Next = "MAP06"
     Music = "D_E2M6"
     F1 = "f1_dm"
+    ExitPic = "Inter_05"
 } // Dark Stone
 
 
@@ -54,6 +59,7 @@ MAP MAP06 "Insomnium"
     Next = "MAP07"
     Music = "D_E2M4"
     F1 = "f1_dm"
+    ExitPic = "Inter_06"
 } // Insomnium
 
 
@@ -64,6 +70,7 @@ MAP MAP07 "Malus"
     Next = "MAP08"
     Music = "D_TENSE"
     F1 = "f1_dm"
+    ExitPic = "Inter_07"
 } // Malus
 
 
@@ -74,6 +81,7 @@ MAP MAP08 "Ailuropoda Melanoleuca"
     Next = "MAP09"
     Music = "D_IN_CIT"
     F1 = "f1_dm"
+    ExitPic = "Inter_08"
 } // Ailuropoda Melanoleuca
 
 
@@ -84,6 +92,7 @@ MAP MAP09 "Adios"
     Next = "MAP10"
     Music = "D_E2M3"
     F1 = "f1_dm"
+    ExitPic = "Inter_09"
 } // Adios
 
 
@@ -95,6 +104,7 @@ MAP MAP10 "The Testaments"
     Music = "D_ROMERO"
     SKY1 = "TGR_SKY1", 0.0
     F1 = "f1_duel"
+    ExitPic = "Inter_10"
 } // The Testaments (TGRDM2)
 
 
@@ -105,6 +115,7 @@ MAP MAP11 "Royal"
     Next = MAP12
     Music = "D_STALKS"
     F1 = "f1_dm"
+    ExitPic = "Inter_11"
 } // Royal (TGRDM2)
 
 
@@ -116,6 +127,7 @@ MAP MAP12 "Chambers"
     Music = "D_DOOM"
     Sky1 = "TGR_SKY1", 0.0
     F1 = "f1_dm"
+    ExitPic = "Inter_12"
 } // Chambers (TGRDM2)
 
 
@@ -127,6 +139,7 @@ MAP MAP13 "The Stand"
     SKY1 = "TGR_SKY2", 1.0
     MUSIC = "D_DDTBLU"
     F1 = "f1_dm"
+    ExitPic = "Inter_13"
 } // The Stand (TGRDM2)
 
 
@@ -138,6 +151,7 @@ MAP MAP14 "Blood Stone"
     SKY1 = "HM_051", 0.0
     MUSIC = "D_COUNTD"
     F1 = "f1_dm"
+    ExitPic = "Inter_14"
 } // Blood Stone (TGRDM3 Legacy)
 
 
@@ -149,6 +163,7 @@ MAP MAP15 "Direful"
     SKY1 = "HM_051", 0.0
     MUSIC = "D_E3M2"
     F1 = "f1_dm"
+    ExitPic = "Inter_15"
 } // Direful (TGRDM3 Legacy)
 
 
@@ -160,6 +175,7 @@ MAP MAP16 "Native Base"
     SKY1 = "TX0_0DZ", 0.0
     MUSIC = "D_AMPIE"
     F1 = "f1_dm"
+    ExitPic = "Inter_16"
 } // Native Base (TGRDM3 Legacy)
 
 
@@ -170,6 +186,7 @@ MAP AMISERY "Abandoned Misery [Pretty]"
     Next = "MAP01"
     Music = "D_DEAD"
     F1 = "f1_dm"
+    ExitPic = "Inter_99"
 }// Abandoned Misery [Pretty]
 
 
@@ -180,4 +197,5 @@ MAP ARTIS "Artis [Duel]"
     Next = "Artis"
     Music = "D_E3M3"
     F1 = "f1_duel"
+    ExitPic = "Inter_98"
 } // Artis [Duel]
