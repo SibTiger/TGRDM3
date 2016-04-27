@@ -2,6 +2,7 @@ ACTOR TGRArmorBonus : ArmorBonus REPLACES ArmorBonus
 {
     // Flags, Switches, and Properties
     // =================================
+        Inventory.RespawnTics 700 // Change the respawn time to 20 seconds
         +NoGravity
         +FloatBob
     // ------

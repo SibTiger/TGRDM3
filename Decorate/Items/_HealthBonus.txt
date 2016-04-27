@@ -2,6 +2,7 @@ ACTOR TGRHealthBonus : HealthBonus REPLACES HealthBonus
 {
     // Flags, Switches, and Properties
     // =================================
+        Inventory.RespawnTics 700 // Change the respawn time to 20 seconds
         +NoGravity
         +FloatBob
     // ------
