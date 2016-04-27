@@ -1,0 +1,11 @@
+Game Settings
+===================
+Even though it is merely suggested, I have provided the default game settings as to how the players can win per-game.
+
+
+FragLimit = 50
+Give enough frags available for players to get into the game and competively.
+
+
+TimeLimit = 5
+To keep the game rolling and to avoid lengthy matches, enforce five minutes per-game.
