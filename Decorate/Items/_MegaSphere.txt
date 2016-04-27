@@ -2,6 +2,7 @@ ACTOR TGRMegaSphere : MegaSphere REPLACES MegaSphere
 {
     // Flags, Switches, and Properties
     // =================================
+        Inventory.RespawnTics 1400 // Change the respawn time to 40 seconds
         +NoGravity
         +FloatBob
     // ------

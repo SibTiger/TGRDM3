@@ -8,6 +8,10 @@ ACTOR TGRMegaSphere_NoGravity : Megasphere 5013
         //$Sprite MEGAA0
         //$IgnoreRenderStyle
         // ----
-
-    +NoGravity
+    // Flags, Switches, and Properties
+    // =================================
+        Inventory.RespawnTics 1400 // Change the respawn time to 40 seconds
+        +NoGravity
+    // ------
+    // ======
 }

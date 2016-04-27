@@ -2,6 +2,7 @@ ACTOR TGRSoulSphere : SoulSphere REPLACES SoulSphere
 {
     // Flags, Switches, and Properties
     // =================================
+        Inventory.RespawnTics 1400 // Change the respawn time to 40 seconds
         +NoGravity
         +FloatBob
     // ------

@@ -8,6 +8,10 @@ ACTOR TGRSoulSphere_NoGravity : Soulsphere 5014
         //$Sprite SOULA0
         //$IgnoreRenderStyle
         // ----
-
-    +NoGravity
+    // Flags, Switches, and Properties
+    // =================================
+        Inventory.RespawnTics 1400 // Change the respawn time to 40 seconds
+        +NoGravity
+    // ------
+    // ======
 }
