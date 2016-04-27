@@ -1,0 +1,24 @@
+Game Settings
+===================
+Below is the list of DMFlags that is suggested when playing or hosting this project.  Of course, these are merely suggested and can be adjusted to your liking.
+
+
+DMFlags = 9060352
+--------------------
+Items Respawn [16384]
+Allow Jump [131072]
+Allow Crouch [8388608]
+Allow Freelook [524288]
+
+
+DMFlags2 = 134217728
+--------------------
+Big Powerups Respawn [134217728]
+
+
+CompatFlags = 0
+--------------------
+
+
+CompatFlags2 = 0
+--------------------
