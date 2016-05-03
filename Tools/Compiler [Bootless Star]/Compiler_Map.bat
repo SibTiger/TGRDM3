@@ -421,6 +421,9 @@ REM Sounds
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sounds\World\*.*" "%~1Sounds\"
     CALL :CompileProject_TaskOperation
     REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sounds\Actors\*.*" "%~1Sounds\"
+    CALL :CompileProject_TaskOperation
+    REM ----
 REM Dependencies
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Dependencies\*.*" "%~1"
     CALL :CompileProject_TaskOperation
@@ -537,6 +540,9 @@ REM Sounds
     CALL :CompileProject_TaskOperation
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sounds\World\*.*" "%~1Sounds\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sounds\Actors\*.*" "%~1Sounds\"
     CALL :CompileProject_TaskOperation
     REM ----
 REM Dependencies

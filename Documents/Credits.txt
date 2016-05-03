@@ -230,6 +230,15 @@ Audionautics
 
 
 
+ryanconway
+----
+    Created and made available variations of male grunts that provide a simulation of various effects that actors (players, mainly) would make, such as jumping.
+        Web Site: http://freesound.org/people/ryanconway/sounds/182304/
+        License Type: Creative Commons [ http://creativecommons.org/licenses/by/3.0/ ]
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
 Jay Reichard
 ----
     Made available 'Project: Doom (Final)', a collection of remixed Doom MIDI's.
