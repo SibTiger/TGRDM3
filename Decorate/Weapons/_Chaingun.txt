@@ -43,6 +43,14 @@ ACTOR TGRChaingun : Chaingun REPLACES Chaingun
     // ------
     States
     {
+    Select:
+        CHGG A 0 A_Raise // Raise the weapon faster
+        CHGG A 1 A_Raise
+        Loop
+    Deselect:
+        CHGG A 0 A_Lower // Lower the weapon faster
+        CHGG A 1 A_Lower
+        Loop
     Fire:
         CHGG A 0 A_GunFlash
         CHGG A 0 BRIGHT A_FireBullets (3, 3, -1, 7, "BulletPuff", FBF_USEAMMO)

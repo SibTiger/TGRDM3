@@ -39,6 +39,14 @@ ACTOR TGRRocketLauncher : RocketLauncher REPLACES RocketLauncher
     // ------
     States
     {
+    Select:
+        MISG A 0 A_Raise // Raise the weapon faster
+        MISG A 1 A_Raise
+        Loop
+    Deselect:
+        MISG A 0 A_Lower // Lower the weapon faster
+        MISG A 1 A_Lower
+        Loop
     Fire:
         PKRL A 2 
         PKRL A 4 A_GunFlash

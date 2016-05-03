@@ -44,6 +44,14 @@ ACTOR TGRShotgun : Shotgun REPLACES Shotgun
     // ------
     States
     {
+    Select:
+        SHTG A 0 A_Raise // Raise the weapon faster
+        SHTG A 1 A_Raise
+        Loop
+    Deselect:
+        SHTG A 0 A_Lower // Lower the weapon faster
+        SHTG A 1 A_Lower
+        Loop
     Fire:
         PKSG A 3
         PKSG A 0 A_GunFlash

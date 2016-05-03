@@ -41,6 +41,14 @@ ACTOR TGRChainsaw : Chainsaw REPLACES Chainsaw
     // ------
     States
     {
+        Select:
+            SAWG A 0 A_Raise // Raise the weapon faster
+            SAWG A 1 A_Raise
+            Loop
+        Deselect:
+            SAWG A 0 A_Lower // Lower the weapon faster
+            SAWG A 1 A_Lower
+            Loop
         Ready:
             SAWG CCDDEEFF 1 A_WeaponReady
             Loop

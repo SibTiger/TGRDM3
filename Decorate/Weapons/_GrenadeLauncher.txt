@@ -63,9 +63,11 @@ Actor TGRGrenadeLauncher : DoomWeapon 5011
         GRLG A 1 A_WeaponReady
         Loop
     Deselect:
+        GRLG A 0 A_Lower // Lower the weapon faster
         GRLG A 1 A_Lower
         Loop
-    Select: 
+    Select:
+        GRLG A 0 A_Raise // Raise the weapon faster
         GRLG A 1 A_Raise
         Loop
     Fire: 

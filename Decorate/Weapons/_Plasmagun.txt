@@ -39,6 +39,14 @@ ACTOR TGRPlasmaRifle : PlasmaRifle REPLACES PlasmaRifle
     // ------
     States
     {
+    Select:
+        PLSG A 0 A_Raise // Raise the weapon faster
+        PLSG A 1 A_Raise
+        Loop
+    Deselect:
+        PLSG A 0 A_Lower // Lower the weapon faster
+        PLSG A 1 A_Lower
+        Loop
     Fire:
         PLSF C 0 A_GunFlash
         PLSF C 1 Bright A_FireCustomMissile ("TGRPlasmaBall")
