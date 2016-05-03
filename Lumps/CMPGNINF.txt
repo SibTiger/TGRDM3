@@ -1,10 +1,34 @@
+// Documenation
+// ===============
+// DMFlags
+// ----
+// Incase if I ever need to revist this again and alter the DMFlags,
+//  instead of bringing out the pen and paper and make a bit-field
+//  switches - here is a list of what is used:
+//
+//  REQUIRED REFERENCE:
+//   http://wiki.zandronum.com/DMFlags
+//
+// DMFlags
+//  SV_ItemRespawn   == 2^14
+//  SV_RespawnSuper  == 2^19
+//  SV_AllowJump     == 2^17
+//  SV_AllowCrouch   == 2^23
+//
+// DMFlags2
+//  SV_Degeneration   == 2^7
+//  SV_NoRespawnInvul == 2^10
+// ===============
+
+
+
 // Acerbus
 {
     MapName = MAP01
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Betus
@@ -23,7 +47,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Cataclysm
@@ -43,7 +67,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Protos
@@ -66,7 +90,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Orion
@@ -85,7 +109,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Betus
@@ -108,7 +132,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Cataclysm
@@ -135,7 +159,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Obelisk
@@ -156,7 +180,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Betus
@@ -178,7 +202,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Protos
@@ -197,7 +221,7 @@
     FragLimit = 25
     DuelLimit = 1
     WinLimit = 1
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Deimos
@@ -211,7 +235,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Linguica
@@ -228,7 +252,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Cataclysm
@@ -244,7 +268,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Zombieman
@@ -261,7 +285,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Omicron
@@ -283,7 +307,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Omicron
@@ -310,7 +334,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Orion
@@ -329,7 +353,7 @@
     GameMode = Deathmatch
     TimeLimit = 5
     FragLimit = 50
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Obelisk
@@ -350,7 +374,7 @@
     FragLimit = 25
     DuelLimit = 1
     WinLimit = 1
-    DMFlags = 540676
+    DMFlags = 9060352
     DMFlags2 = 1152
     CompatFlags = 0
     bot[0] = Aldebaran
