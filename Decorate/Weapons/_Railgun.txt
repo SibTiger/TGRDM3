@@ -47,8 +47,8 @@ Actor TGRRailgun : DoomWeapon 5012
 
     // ----
     // Ammo Management
-        Weapon.AmmoUse 1
-        Weapon.AmmoGive 12
+        Weapon.AmmoUse 10
+        Weapon.AmmoGive 40
         Weapon.AmmoType "Cell"
         Decal RailScorch
     // ----
