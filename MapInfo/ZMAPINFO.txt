@@ -7,6 +7,10 @@
 include "MapInfo/Episodes.txt"
 
 
+//Default Skill Level
+include "MapInfo/SkillLevel.txt"
+
+
 //Game and Default Settings
 include "MapInfo/GameInfo.txt"
 include "MapInfo/GameDefaults.txt"

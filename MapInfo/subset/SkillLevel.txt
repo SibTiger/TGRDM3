@@ -1,0 +1,22 @@
+// Documentation: http://zdoom.org/wiki/MAPINFO/Skill_definition
+
+// Remove the unnecessary skill levels.  This is DM, not Co-op.
+    ClearSkills
+
+
+// Declare and Define the standard skill level.
+Skill Standard
+{
+    AmmoFactor = 1
+    DropAmmoFactor = 1
+    DoubleAmmoFactor = 2
+    DamageFactor = 1
+    // Still treat everything as if 'SKILL 5' or Nightmare for compatibility reasons
+        SpawnFilter = Nightmare
+        ACSReturn = 4
+    // ----
+    Name = "Standard"
+    DefaultSkill
+    ArmorFactor = 1
+    HealthFactor = 1
+}
