@@ -76,6 +76,17 @@ Actor TGRRailgun : DoomWeapon 5012
         RLGG D 12
         RLGG C 6
         RLGG B 6
+        Goto ReloadCheck
+    ReloadCheck:
+        RLGG F 6 A_CheckForReload(4, "ReadyToUse")
+        GOTO ReloadWeapon
+    ReloadWeapon:
+        RLGG GHIJK 6
+        RLGG L 6 A_ResetReloadCounter
+        Goto ReadyToUse
+    ReadyToUse:
+        RLGG A 6
+        RLGG M 0 A_ReFire
         Goto Ready
     Flash:
         TNT1 A 5 bright A_Light1
