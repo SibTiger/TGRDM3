@@ -26,3 +26,12 @@ OB_GRENADE_SELF = "%o tripped %p own grenade."; // Original from SkullTag
 
 // Quit Message; ZMAPINFO
 TGR_QuitGame = "Are you sure you want to quit?";
+
+// Error; ACS: Title Map acted as a normal map; example: using CCMD 'MAP TITLEMAP'.
+//  This error message will appear.
+ERR_TitleMapBadSetup = "!ERR!: Playing Title Map as a playable map!";
+
+
+// Action; ACS: When required to do so to prevent improper setup or critical faults, -
+//  this string will appear in regards to the up-coming task.
+Action_ForceChangeMap = "!ACT!: Forcibly changing the map. . .";
