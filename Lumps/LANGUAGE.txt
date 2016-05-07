@@ -9,8 +9,10 @@
 // Grenade Launcher
 PICKUP_GRENADELAUNCHER = "You got the grenade launcher!"; // Original from SkullTag
 
+
 // RailGun
 PICKUP_RAILGUN = "You got the railgun!"; // Original from SkullTag
+
 
 // Grenade
 OB_GRENADE = "%o caught %k's grenade."; // Original from SkullTag
@@ -30,6 +32,7 @@ ProjectName = "Morgenstern";
 
 // Quit Message; ZMAPINFO
 TGR_QuitGame = "Are you sure you want to quit?";
+
 
 // Error; ACS: Title Map acted as a normal map; example: using CCMD 'MAP TITLEMAP'.
 //  This error message will appear.
