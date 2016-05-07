@@ -24,6 +24,10 @@ OB_GRENADE_SELF = "%o tripped %p own grenade."; // Original from SkullTag
 //                    GAME ENVIRONMENT
 // -------------------------------------------------------
 
+// Project Name
+ProjectName = "Morgenstern";
+
+
 // Quit Message; ZMAPINFO
 TGR_QuitGame = "Are you sure you want to quit?";
 
