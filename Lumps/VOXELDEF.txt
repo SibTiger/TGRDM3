@@ -16,7 +16,7 @@ GLAUA = "GLAUA"
 // Grenade
 SGRNA = "SGRNA"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -290,7 +290,7 @@ CBRAA = "CANDLBRA"
 // Candle
 CANDA = "CANDA"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -298,7 +298,7 @@ CANDA = "CANDA"
 // Green Marble Column [Tall]
 COL1A = "COL1A"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -306,7 +306,7 @@ COL1A = "COL1A"
 // Green Marble Column [Short]
 COL2A = "COL2A"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -314,7 +314,7 @@ COL2A = "COL2A"
 // Redish Marble Column [Tall]
 COL3A = "COL3A"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -322,7 +322,7 @@ COL3A = "COL3A"
 // Redish Marble Column [Short]
 COL4A = "COL4A"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -330,7 +330,7 @@ COL4A = "COL4A"
 // Green Marble Column [Beating Heard: 1]
 COL5A = "COL5A"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -338,7 +338,7 @@ COL5A = "COL5A"
 // Green Marble Column [Beating Heard: 2]
 COL5B = "COL5B"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -346,7 +346,7 @@ COL5B = "COL5B"
 // Lamp Post [Small]
 COLUA = "COLUA"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -354,7 +354,7 @@ COLUA = "COLUA"
 // Light Post [Tall:1]
 TLMPA = "TLMPA"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -362,7 +362,7 @@ TLMPA = "TLMPA"
 // Light Post [Tall:2]
 TLMPB = "TLMPB"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -370,7 +370,7 @@ TLMPB = "TLMPB"
 // Light Post [Tall:3]
 TLMPC = "TLMPC"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -378,7 +378,7 @@ TLMPC = "TLMPC"
 // Light Post [Tall:4]
 TLMPD = "TLMPD"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -386,7 +386,7 @@ TLMPD = "TLMPD"
 // Light Post [Short:1]
 TLP2A = "TLP2A"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -394,7 +394,7 @@ TLP2A = "TLP2A"
 // Light Post [Short:2]
 TLP2B = "TLP2B"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -402,7 +402,7 @@ TLP2B = "TLP2B"
 // Light Post [Short:3]
 TLP2C = "TLP2C"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
 
 
@@ -410,5 +410,5 @@ TLP2C = "TLP2C"
 // Light Post [Short:4]
 TLP2D = "TLP2D"
 {
-
+    // Empty; no properties to set for this actor or object.
 }
