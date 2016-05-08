@@ -1,16 +1,15 @@
-Designed for Notepad++
+Designed for Notepad++<br>
 Base theme: Deep Black
 
 To install: Text Version 2
- * Open Notepad++
- * Language Menu
- * Define your language
- * Import
- * Select the file: 'txt2.xml'
+ 1. Open Notepad++
+ 2. Language Menu
+ 3. Define your language
+ 4. Import
+ 5. Select the file: 'txt2.xml'
 
 
-Difference between regular Text and Text2
-----------------------------------------------
+# Difference between regular Text and Text2
 Supports folding using:
 
 | Opening | Closing |
