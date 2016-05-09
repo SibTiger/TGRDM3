@@ -1,7 +1,8 @@
 ACTOR TGRDoomPlayer : DoomPlayer
 {
     Speed 0.85 // Slow down the player a little
-    Player.AirCapacity 1.3
+    Player.AirCapacity 1.3 // Provide longer multiplier time while under-water.
+    Player.UseRange 56 // How far away to activate trigger; default: 64
     Player.StartItem "TGRChaingun"
     Player.StartItem "TGRChainsaw"
     Player.StartItem "Clip", 60
