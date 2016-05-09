@@ -1,5 +1,11 @@
 ACTOR TGRArmorBonus : ArmorBonus REPLACES ArmorBonus
 {
+    // Standards
+    // ===========
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+    // ======
+
     // Flags, Switches, and Properties
     // =================================
         Inventory.RespawnTics 700 // Change the respawn time to 20 seconds

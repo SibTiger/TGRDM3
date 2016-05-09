@@ -16,6 +16,11 @@ ACTOR TreeSkyBoxViewpoint 16000 // {Resources are Uncredited}
     Height 8
     +SOLID
     +USESPECIAL
+    // Standards
+    // ===========
+        +ForceYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+
     States
     {
     Spawn:
@@ -44,6 +49,11 @@ ACTOR TGRTree1 16001 // {Resources are Uncredited}
     Height 128
     +SOLID
     +USESPECIAL
+    // Standards
+    // ===========
+        +ForceYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+
     States
     {
     Spawn:
@@ -72,6 +82,11 @@ ACTOR TGRTree2 16002 // {Resources are Uncredited}
     Height 106
     +SOLID
     +USESPECIAL
+    // Standards
+    // ===========
+        +ForceYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+
     States
     {
     Spawn:
@@ -100,6 +115,11 @@ ACTOR TGRTree3 16003 // {Resources are Uncredited}
     Height 154
     +SOLID
     +USESPECIAL
+    // Standards
+    // ===========
+        +ForceYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+
     States
     {
     Spawn:
@@ -128,6 +148,11 @@ ACTOR TGRTree4 16004 // {Resources are Uncredited}
     Height 124
     +SOLID
     +USESPECIAL
+    // Standards
+    // ===========
+        +ForceYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+
     States
     {
     Spawn:
@@ -156,6 +181,11 @@ ACTOR TGRTree5 16005 // {Resources are Uncredited}
     Height 185
     +SOLID
     +USESPECIAL
+    // Standards
+    // ===========
+        +ForceYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+
     States
     {
     Spawn:

@@ -1,5 +1,11 @@
 ACTOR TGRMedikit : Medikit REPLACES Medikit
 {
+    // Standards
+    // ===========
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+    // ======
+
     // Flags, Switches, and Properties
     // =================================
         +NoGravity

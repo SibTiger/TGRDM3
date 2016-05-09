@@ -14,6 +14,12 @@
 
 ACTOR NJCoreSplashChunk
 {
+    // Standards
+    // ===========
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+    // ======
+
     Radius 2
     Height 4
     RenderStyle Translucent
@@ -32,6 +38,12 @@ ACTOR NJCoreSplashChunk
 
 ACTOR NJCoreSplashBase
 {
+    // Standards
+    // ===========
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+    // ======
+
     Radius 2
     Height 4
     RenderStyle Translucent
@@ -47,6 +59,12 @@ ACTOR NJCoreSplashBase
 
 ACTOR NJCoreSplashSmoke
 {
+    // Standards
+    // ===========
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+    // ======
+
     Radius 2
     Height 4
     RenderStyle Translucent

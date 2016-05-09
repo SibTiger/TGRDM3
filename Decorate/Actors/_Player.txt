@@ -1,5 +1,11 @@
 ACTOR TGRDoomPlayer : DoomPlayer
 {
+    // Standards
+    // ===========
+        +ForceXYBillboard // Usable only for viewing players at extreme angles.
+    // ------
+    // ======
+
     Speed 0.85 // Slow down the player a little
     Player.AirCapacity 1.3 // Provide longer multiplier time while under-water.
     Player.UseRange 56 // How far away to activate trigger; default: 64

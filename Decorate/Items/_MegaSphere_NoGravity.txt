@@ -7,7 +7,14 @@ ACTOR TGRMegaSphere_NoGravity : Megasphere 5013
         //$Category "Powerups/Custom"
         //$Sprite MEGAA0
         //$IgnoreRenderStyle
-        // ----
+    // ----
+
+    // Standards
+    // ===========
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+    // ======
+
     // Flags, Switches, and Properties
     // =================================
         Inventory.RespawnTics 1400 // Change the respawn time to 40 seconds

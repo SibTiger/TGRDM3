@@ -8,6 +8,7 @@ ACTOR TGRChaingun : Chaingun REPLACES Chaingun
         +Weapon.NoAutoAim // Disallow AutoAim with this weapon.
         +Weapon.No_Auto_Switch // When this weapon is picked up, do not switch to it.
         Weapon.BobStyle InverseSmooth // Different taste of bobbing; use Doom Alpha's bobbing style - but smooth.
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
 
         // Because some mods in Zandronum abuse the ConsoleCommand to change the user's settings; I found one that changes bobbing....
             Weapon.BobRangeX 1.0

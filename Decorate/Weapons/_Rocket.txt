@@ -13,6 +13,7 @@ ACTOR TGRRocket : Rocket REPLACES Rocket
         +RANDOMIZE // Randomized timing
         +DEHEXPLOSION // Draw the missile's state translucent
         +ROCKETTRAIL // Rocket trails
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
     // -----
     Decal Scorch
     SeeSound "weapons/rocklf"

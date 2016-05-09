@@ -24,6 +24,12 @@
 
 Actor BaseStar
 {
+    // Standards
+    // ===========
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+    // ======
+
     +Missile
     +NoGravity
     +NoBlockmap
@@ -68,8 +74,6 @@ actor WhiteSparkleSpawner 209
     //$Arg1Tooltip "States wither the particle spawner will be a square or a circle."
     // ------------------------------
     // ==============================
-
-
     +NoBlockMap
     +NoGravity
     +NoSector

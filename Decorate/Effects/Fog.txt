@@ -23,8 +23,6 @@ Actor FogCloud_Generator 15001
         //$Arg0Default 96
     // ------------------------------
     // ==============================
-
-
     +Missile
     +NoBlockmap
     +NoGravity
@@ -53,8 +51,14 @@ Actor FogCloud_Generator 15001
 
 
 
-Actor FogCloud_V1 
+Actor FogCloud_V1
 {
+    // Standards
+    // ===========
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+    // ======
+
     +Missile
     +NoGravity
     +NoBlockmap

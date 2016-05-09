@@ -5,6 +5,11 @@ ACTOR TGRPlasmaBall : PlasmaBall REPLACES PlasmaBall
     Height 8
     Speed 37 //Speed this up just a bit.
     Damage 8
+    // Standards
+    // ===========
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+
     // ----
     // Flags, Switches, and Properties
     // =================================

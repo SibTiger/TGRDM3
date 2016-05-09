@@ -76,6 +76,13 @@ Actor RainSpawner 15000
 
 Actor RainDrop
 {
+
+    // Standards
+    // ===========
+        +ForceYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+    // ======
+
     +Missile
     +NoBlockMap
     -NoGravity

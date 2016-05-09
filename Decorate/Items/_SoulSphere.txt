@@ -7,6 +7,13 @@ ACTOR TGRSoulSphere : SoulSphere REPLACES SoulSphere
         +FloatBob
     // ------
     // ======
+
+    // Standards
+    // ===========
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+    // ======
+
     States
     {
     Spawn:

@@ -7,6 +7,11 @@ Actor TGRGrenade
     Speed 20 //Original was 25; test
     Damage 35 //Original was 20; test
     Gravity .45 //Original was .25
+    // Standards
+    // ===========
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+
     // ----
     // Flags, Switches, and Properties
     // =================================

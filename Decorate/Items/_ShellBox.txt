@@ -6,6 +6,13 @@ ACTOR TGRShellBox : ShellBox REPLACES ShellBox
         +FloatBob
     // ------
     // ======
+
+    // Standards
+    // ===========
+        +ForceXYBillboard // Usable only for when Voxels is disabled and using Sprites.
+    // ------
+    // ======
+
     States
     {
     Spawn:
