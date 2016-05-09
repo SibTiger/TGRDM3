@@ -1,0 +1,5 @@
+// This Script Lump modifies the loading window before ZDoom engine displays the main game title.
+// References: http://zdoom.org/wiki/GAMEINFO
+
+StartUpTitle = "Morgenstern"
+StartUpColors = "C8C8C8", "242424"
