@@ -34,7 +34,7 @@ Example of usage:<br>
   `// FIX: Dividing by zero causes unforeseen consequences.  We should probably fix that....`
 
 ### Numbers
-When using numbers with or without decimals, they will automatically change colours to destingush them from the rest of the text.
+When using numbers with or without decimals, they will automatically change colours to distinguish them from the rest of the text.
 
 Example of usage:<br>
   `DynamicVoid_DeepAxisLogic = 500;`<br>
