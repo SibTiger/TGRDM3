@@ -133,9 +133,10 @@ Keksdose
 
 id Software
 ----
-    Created and has all rights and properties to the Quake 3 Jumping Pad sound.
+    Created and has all rights and properties to the Quake 3 Jumping Pad sound aswell as the original Sprites.
         Web Site: http://www.idsoftware.com/
-        Game Link (Steam): http://store.steampowered.com/app/2200/
+        Game Link (Steam) for Quake 3 Arena: http://store.steampowered.com/app/2200/
+        Game Link (Steam) for Doom 2: http://store.steampowered.com/app/2300/
             Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
 
 
