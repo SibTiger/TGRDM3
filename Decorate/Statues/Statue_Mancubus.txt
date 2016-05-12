@@ -1,5 +1,16 @@
 ACTOR StatueMancubus 269
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SFATA0
+        //$Angled
+        //$Title "Mancubus"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 48
     Height 64

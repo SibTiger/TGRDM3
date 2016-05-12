@@ -1,5 +1,16 @@
 ACTOR StatueBaron 264
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SBOSA0
+        //$Angled
+        //$Title "Baron of Hell"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 24
     Height 64

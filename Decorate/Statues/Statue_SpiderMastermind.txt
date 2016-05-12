@@ -1,5 +1,16 @@
 ACTOR StatueSpiderMastermind 276
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SSPIA0
+        //$Angled
+        //$Title "SpiderMastermind"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 128
     Height 100

@@ -1,5 +1,16 @@
 ACTOR StatueLostSoul 272
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SSKUA0
+        //$Angled
+        //$Title "LostSoul"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 16
     Height 56

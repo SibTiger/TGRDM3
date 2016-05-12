@@ -1,5 +1,16 @@
 ACTOR StatueZombieMan 281
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SPO2A0
+        //$Angled
+        //$Title "ZombieMan"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 20
     Height 56

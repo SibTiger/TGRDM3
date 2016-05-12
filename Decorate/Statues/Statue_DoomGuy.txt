@@ -1,5 +1,16 @@
 ACTOR StatueDoomGuy 274
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SPLAA0
+        //$Angled
+        //$Title "DoomGuy"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 20
     Height 56

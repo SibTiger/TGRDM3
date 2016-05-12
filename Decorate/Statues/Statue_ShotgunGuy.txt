@@ -1,5 +1,16 @@
 ACTOR StatueShotgunGuy 277
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SSPOA0
+        //$Angled
+        //$Title "ShotgunGuy"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 20
     Height 56

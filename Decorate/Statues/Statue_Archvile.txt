@@ -1,5 +1,16 @@
 ACTOR StatueArchvile 278
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SVILA0
+        //$Angled
+        //$Title "Archvile"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 20
     Height 56

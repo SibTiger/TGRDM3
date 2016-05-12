@@ -1,5 +1,16 @@
 ACTOR StatueHellKnight 270
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SHELA0
+        //$Angled
+        //$Title "HellKnight"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 24
     Height 64

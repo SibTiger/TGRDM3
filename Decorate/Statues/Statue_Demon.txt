@@ -1,5 +1,16 @@
 ACTOR StatueDemon 268
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SSARA0
+        //$Angled
+        //$Title "Demon"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 30
     Height 56

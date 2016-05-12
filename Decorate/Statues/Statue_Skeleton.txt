@@ -1,5 +1,16 @@
 ACTOR StatueSkeleton 275
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SSKEA0
+        //$Angled
+        //$Title "Skeleton"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 20
     Height 56

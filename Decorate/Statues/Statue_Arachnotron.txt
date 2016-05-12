@@ -1,5 +1,16 @@
 ACTOR StatueArachnotron 279
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SBSPA0
+        //$Angled
+        //$Title "Arachnotron"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 64
     Height 64

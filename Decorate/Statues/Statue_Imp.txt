@@ -1,5 +1,16 @@
 ACTOR StatueImp 271
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite STROA0
+        //$Angled
+        //$Title "Imp"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 20
     Height 56

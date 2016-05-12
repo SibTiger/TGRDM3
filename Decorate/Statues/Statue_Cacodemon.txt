@@ -1,5 +1,16 @@
 ACTOR StatueCacodemon 265
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SHEAA0
+        //$Angled
+        //$Title "Cacodemon"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 31
     Height 56

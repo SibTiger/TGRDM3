@@ -1,5 +1,16 @@
 ACTOR Statue_Cyberdemon 267
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SCYBA0
+        //$Angled
+        //$Title "Cyberdemon"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 40
     Height 110

@@ -1,5 +1,16 @@
 ACTOR StatueChaingunGuy 266
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SCPOA0
+        //$Angled
+        //$Title "ChaingunGuy"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 20
     Height 56

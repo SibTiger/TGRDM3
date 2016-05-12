@@ -1,5 +1,16 @@
 ACTOR StatuePainElemental 273
 {
+    // GZDoom Builder Configuration
+    // ==============================
+        //$Category "Statues"
+        //$Color 9
+        //$Sprite SPAIA0
+        //$Angled
+        //$Title "PainElemental"
+    // ------------------------------
+    // ==============================
+
+
     Game Doom
     Radius 31
     Height 56
