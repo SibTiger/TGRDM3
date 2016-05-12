@@ -6,7 +6,7 @@ ACTOR StatueSkeleton 16115
         //$Color 9
         //$Sprite SSKEA0
         //$Angled
-        //$Title "Skeleton"
+        //$Title "Revenant"
     // ------------------------------
     // ==============================
 

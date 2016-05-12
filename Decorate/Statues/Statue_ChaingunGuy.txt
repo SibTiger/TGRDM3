@@ -6,7 +6,7 @@ ACTOR StatueChaingunGuy 16105
         //$Color 9
         //$Sprite SCPOA0
         //$Angled
-        //$Title "ChaingunGuy"
+        //$Title "Chaingun Guy"
     // ------------------------------
     // ==============================
 

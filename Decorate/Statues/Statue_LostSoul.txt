@@ -6,7 +6,7 @@ ACTOR StatueLostSoul 16111
         //$Color 9
         //$Sprite SSKUA0
         //$Angled
-        //$Title "LostSoul"
+        //$Title "Lost Soul"
     // ------------------------------
     // ==============================
 

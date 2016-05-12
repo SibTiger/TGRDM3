@@ -6,7 +6,7 @@ ACTOR StatueZombieMan 16117
         //$Color 9
         //$Sprite SPO2A0
         //$Angled
-        //$Title "ZombieMan"
+        //$Title "Zombie Man"
     // ------------------------------
     // ==============================
 

@@ -6,7 +6,7 @@ ACTOR StatueDoomGuy 16108
         //$Color 9
         //$Sprite SPLAA0
         //$Angled
-        //$Title "DoomGuy"
+        //$Title "Doom Guy"
     // ------------------------------
     // ==============================
 

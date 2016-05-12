@@ -6,7 +6,7 @@ ACTOR StatueShotgunGuy 16114
         //$Color 9
         //$Sprite SSPOA0
         //$Angled
-        //$Title "ShotgunGuy"
+        //$Title "Shotgun Guy"
     // ------------------------------
     // ==============================
 

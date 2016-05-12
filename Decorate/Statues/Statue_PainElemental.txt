@@ -6,7 +6,7 @@ ACTOR StatuePainElemental 16113
         //$Color 9
         //$Sprite SPAIA0
         //$Angled
-        //$Title "PainElemental"
+        //$Title "Pain Elemental"
     // ------------------------------
     // ==============================
 

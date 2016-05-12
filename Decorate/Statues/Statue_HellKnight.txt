@@ -6,7 +6,7 @@ ACTOR StatueHellKnight 16109
         //$Color 9
         //$Sprite SHELA0
         //$Angled
-        //$Title "HellKnight"
+        //$Title "Hell Knight"
     // ------------------------------
     // ==============================
 

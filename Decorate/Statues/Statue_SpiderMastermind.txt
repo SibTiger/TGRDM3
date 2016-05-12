@@ -6,7 +6,7 @@ ACTOR StatueSpiderMastermind 16116
         //$Color 9
         //$Sprite SSPIA0
         //$Angled
-        //$Title "SpiderMastermind"
+        //$Title "Spider Mastermind"
     // ------------------------------
     // ==============================
 
