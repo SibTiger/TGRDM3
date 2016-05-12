@@ -4,6 +4,7 @@ Actor TGRRailgun : DoomWeapon 5012
     // ==============================
         //$Category "Weapons"
         //$Sprite RAILA0
+        //$Angled
         //$Title "Railgun"
     // ------------------------------
     // ==============================

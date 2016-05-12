@@ -6,6 +6,7 @@ ACTOR TGRSoulSphere_NoGravity : Soulsphere 5014
         //$Title "SoulSphere (No Gravity)"
         //$Category "Powerups/Custom"
         //$Sprite SOULA0
+        //$NotAngled
         //$IgnoreRenderStyle
     // ----
 

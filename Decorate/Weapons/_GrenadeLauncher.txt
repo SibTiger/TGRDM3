@@ -4,6 +4,7 @@ Actor TGRGrenadeLauncher : DoomWeapon 5011
     // ==============================
         //$Category "Weapons"
         //$Sprite GLAUA0
+        //$Angled
         //$Title "Grenade Launcher"
     // ------------------------------
     // ==============================

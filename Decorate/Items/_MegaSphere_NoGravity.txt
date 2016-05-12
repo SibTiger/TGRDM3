@@ -6,6 +6,7 @@ ACTOR TGRMegaSphere_NoGravity : Megasphere 5013
         //$Title "Megasphere (No Gravity)"
         //$Category "Powerups/Custom"
         //$Sprite MEGAA0
+        //$NotAngled
         //$IgnoreRenderStyle
     // ----
 
