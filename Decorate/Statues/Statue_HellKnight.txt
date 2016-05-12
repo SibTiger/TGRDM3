@@ -4,7 +4,7 @@ ACTOR StatueHellKnight 16109
     // ==============================
         //$Category "Statues"
         //$Color 9
-        //$Sprite SHELA0
+        //$Sprite SHLKA0
         //$Angled
         //$Title "Hell Knight"
     // ------------------------------
@@ -19,6 +19,6 @@ ACTOR StatueHellKnight 16109
     States
     {
     Spawn:
-        SHEL A -1
+        SHLK A -1
     }
 }
