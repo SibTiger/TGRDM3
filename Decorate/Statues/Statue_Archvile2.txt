@@ -1,0 +1,13 @@
+ACTOR StatueArchvile_2 280
+{
+    Game Doom
+    Radius 20
+    Height 56
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SVI2 A -1
+    }
+}

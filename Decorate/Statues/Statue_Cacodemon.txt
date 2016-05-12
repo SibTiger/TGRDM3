@@ -1,0 +1,13 @@
+ACTOR StatueCacodemon 265
+{
+    Game Doom
+    Radius 31
+    Height 56
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SHEA A -1
+    }
+}

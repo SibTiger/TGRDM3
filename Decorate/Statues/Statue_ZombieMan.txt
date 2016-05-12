@@ -1,0 +1,13 @@
+ACTOR StatueZombieMan 281
+{
+    Game Doom
+    Radius 20
+    Height 56
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SPO2 A -1
+    }
+}

@@ -1,0 +1,13 @@
+ACTOR StatueSpiderMastermind 276
+{
+    Game Doom
+    Radius 128
+    Height 100
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SSPI A -1
+    }
+}

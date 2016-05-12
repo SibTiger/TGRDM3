@@ -1,0 +1,13 @@
+ACTOR StatueArchvile 278
+{
+    Game Doom
+    Radius 20
+    Height 56
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SVIL A -1
+    }
+}

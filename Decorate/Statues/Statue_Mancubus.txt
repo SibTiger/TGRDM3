@@ -1,0 +1,13 @@
+ACTOR StatueMancubus 269
+{
+    Game Doom
+    Radius 48
+    Height 64
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SFAT A -1
+    }
+}

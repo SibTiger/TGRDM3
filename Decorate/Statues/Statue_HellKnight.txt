@@ -1,0 +1,13 @@
+ACTOR StatueHellKnight 270
+{
+    Game Doom
+    Radius 24
+    Height 64
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SHEL A -1
+    }
+}

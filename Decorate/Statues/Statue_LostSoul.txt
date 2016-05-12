@@ -1,0 +1,13 @@
+ACTOR StatueLostSoul 272
+{
+    Game Doom
+    Radius 16
+    Height 56
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SSKU A -1
+    }
+}

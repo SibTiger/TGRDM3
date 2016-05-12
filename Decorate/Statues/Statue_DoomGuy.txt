@@ -1,0 +1,13 @@
+ACTOR StatueDoomGuy 274
+{
+    Game Doom
+    Radius 20
+    Height 56
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SPLA A -1
+    }
+}

@@ -1,0 +1,13 @@
+ACTOR StatueArachnotron 279
+{
+    Game Doom
+    Radius 64
+    Height 64
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SBSP A -1
+    }
+}

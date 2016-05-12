@@ -1,0 +1,13 @@
+ACTOR StatueDemon 268
+{
+    Game Doom
+    Radius 30
+    Height 56
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SSAR A -1
+    }
+}

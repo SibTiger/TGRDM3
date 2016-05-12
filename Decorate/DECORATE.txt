@@ -57,3 +57,25 @@
 
 // Legacy
     #include "Decorate/Trees.txt"
+
+
+
+// Statues
+    #include "Decorate/Statue_Arachnotron.txt"
+    #include "Decorate/Statue_Archvile.txt"
+    #include "Decorate/Statue_Archvile2.txt"
+    #include "Decorate/Statue_Baron.txt"
+    #include "Decorate/Statue_Cacodemon.txt"
+    #include "Decorate/Statue_ChaingunGuy.txt"
+    #include "Decorate/Statue_Cyberdemon.txt"
+    #include "Decorate/Statue_Demon.txt"
+    #include "Decorate/Statue_DoomGuy.txt"
+    #include "Decorate/Statue_HellKnight.txt"
+    #include "Decorate/Statue_Imp.txt"
+    #include "Decorate/Statue_LostSoul.txt"
+    #include "Decorate/Statue_Mancubus.txt"
+    #include "Decorate/Statue_PainElemental.txt"
+    #include "Decorate/Statue_ShotgunGuy.txt"
+    #include "Decorate/Statue_Skeleton.txt"
+    #include "Decorate/Statue_SpiderMastermind.txt"
+    #include "Decorate/Statue_ZombieMan.txt"

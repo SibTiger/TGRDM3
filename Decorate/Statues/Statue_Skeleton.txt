@@ -1,0 +1,13 @@
+ACTOR StatueSkeleton 275
+{
+    Game Doom
+    Radius 20
+    Height 56
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SSKE A -1
+    }
+}

@@ -1,0 +1,13 @@
+ACTOR StatueChaingunGuy 266
+{
+    Game Doom
+    Radius 20
+    Height 56
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SCPO A -1
+    }
+}

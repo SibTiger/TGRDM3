@@ -397,6 +397,57 @@ REM Decorate
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\PrettyTorches\*.*" "%~1Sprites\"
     CALL :CompileProject_TaskOperation
     REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Arachnotron\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Archvile\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Baron of Hell\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Cacodemon\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\ChaingunGuy\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Cyberdemon\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Demon\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\DoomGuy\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\HellKnight\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Imp\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\LostSoul\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Mancubus\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\PainElemental\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Revenant\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\ShotgunGuy\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\SpiderMastermind\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\ZombieMan\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
 REM Voxels
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Voxels\*.*" "%~1Voxels\"
     CALL :CompileProject_TaskOperation
@@ -516,6 +567,57 @@ REM Decorate
     CALL :CompileProject_TaskOperation
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\PrettyTorches\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Arachnotron\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Archvile\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Baron of Hell\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Cacodemon\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\ChaingunGuy\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Cyberdemon\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Demon\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\DoomGuy\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\HellKnight\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Imp\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\LostSoul\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Mancubus\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\PainElemental\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\Revenant\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\ShotgunGuy\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\SpiderMastermind\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\Statues\ZombieMan\*.*" "%~1Sprites\"
     CALL :CompileProject_TaskOperation
     REM ----
 REM Voxels

@@ -1,0 +1,13 @@
+ACTOR StatueImp 271
+{
+    Game Doom
+    Radius 20
+    Height 56
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        STRO A -1
+    }
+}

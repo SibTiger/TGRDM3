@@ -1,0 +1,13 @@
+ACTOR StatuePainElemental 273
+{
+    Game Doom
+    Radius 31
+    Height 56
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SPAI A -1
+    }
+}

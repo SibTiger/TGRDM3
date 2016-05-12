@@ -1,0 +1,13 @@
+ACTOR StatueShotgunGuy 277
+{
+    Game Doom
+    Radius 20
+    Height 56
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SSPO A -1
+    }
+}

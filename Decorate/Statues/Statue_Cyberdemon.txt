@@ -1,0 +1,13 @@
+ACTOR Statue_Cyberdemon 267
+{
+    Game Doom
+    Radius 40
+    Height 110
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SCYB A -1
+    }
+}

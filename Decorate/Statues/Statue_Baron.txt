@@ -1,0 +1,13 @@
+ACTOR StatueBaron 264
+{
+    Game Doom
+    Radius 24
+    Height 64
+    +SOLID
+    +USESPECIAL
+    States
+    {
+    Spawn:
+        SBOS A -1
+    }
+}
