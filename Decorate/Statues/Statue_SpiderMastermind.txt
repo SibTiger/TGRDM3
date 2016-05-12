@@ -1,4 +1,4 @@
-ACTOR StatueSpiderMastermind 276
+ACTOR StatueSpiderMastermind 16116
 {
     // GZDoom Builder Configuration
     // ==============================

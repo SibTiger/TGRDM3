@@ -1,4 +1,4 @@
-ACTOR StatueLostSoul 272
+ACTOR StatueLostSoul 16111
 {
     // GZDoom Builder Configuration
     // ==============================

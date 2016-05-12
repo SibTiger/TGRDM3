@@ -1,4 +1,4 @@
-ACTOR StatueImp 271
+ACTOR StatueImp 16110
 {
     // GZDoom Builder Configuration
     // ==============================

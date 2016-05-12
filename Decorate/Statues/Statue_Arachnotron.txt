@@ -1,4 +1,4 @@
-ACTOR StatueArachnotron 279
+ACTOR StatueArachnotron 16100
 {
     // GZDoom Builder Configuration
     // ==============================

@@ -1,4 +1,4 @@
-ACTOR StatueZombieMan 281
+ACTOR StatueZombieMan 16117
 {
     // GZDoom Builder Configuration
     // ==============================

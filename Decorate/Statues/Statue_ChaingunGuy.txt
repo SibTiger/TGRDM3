@@ -1,4 +1,4 @@
-ACTOR StatueChaingunGuy 266
+ACTOR StatueChaingunGuy 16105
 {
     // GZDoom Builder Configuration
     // ==============================

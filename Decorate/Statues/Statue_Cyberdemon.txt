@@ -1,4 +1,4 @@
-ACTOR StatueCyberdemon 267
+ACTOR StatueCyberdemon 16106
 {
     // GZDoom Builder Configuration
     // ==============================

@@ -1,4 +1,4 @@
-ACTOR StatueMancubus 269
+ACTOR StatueMancubus 16112
 {
     // GZDoom Builder Configuration
     // ==============================

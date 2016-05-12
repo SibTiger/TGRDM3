@@ -1,4 +1,4 @@
-ACTOR StatuePainElemental 273
+ACTOR StatuePainElemental 16113
 {
     // GZDoom Builder Configuration
     // ==============================

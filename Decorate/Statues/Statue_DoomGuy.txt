@@ -1,4 +1,4 @@
-ACTOR StatueDoomGuy 274
+ACTOR StatueDoomGuy 16108
 {
     // GZDoom Builder Configuration
     // ==============================

@@ -1,4 +1,4 @@
-ACTOR StatueHellKnight 270
+ACTOR StatueHellKnight 16109
 {
     // GZDoom Builder Configuration
     // ==============================

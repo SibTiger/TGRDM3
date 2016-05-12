@@ -1,4 +1,4 @@
-ACTOR StatueBaron 264
+ACTOR StatueBaron 16103
 {
     // GZDoom Builder Configuration
     // ==============================

@@ -1,4 +1,4 @@
-ACTOR StatueCacodemon 265
+ACTOR StatueCacodemon 16104
 {
     // GZDoom Builder Configuration
     // ==============================

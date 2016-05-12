@@ -1,4 +1,4 @@
-ACTOR StatueArchvile 278
+ACTOR StatueArchvile 16101
 {
     // GZDoom Builder Configuration
     // ==============================
