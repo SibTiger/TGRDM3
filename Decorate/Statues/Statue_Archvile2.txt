@@ -1,4 +1,4 @@
-ACTOR StatueArchvile_2 16102
+ACTOR StatueArchvile2 16102
 {
     // GZDoom Builder Configuration
     // ==============================
@@ -6,7 +6,7 @@ ACTOR StatueArchvile_2 16102
         //$Color 9
         //$Sprite SVI2A0
         //$Angled
-        //$Title "Archvile Type 2"
+        //$Title "Archvile [Resurrecting]"
     // ------------------------------
     // ==============================
 

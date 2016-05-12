@@ -6,7 +6,7 @@ ACTOR StatueArchvile 16101
         //$Color 9
         //$Sprite SVILA0
         //$Angled
-        //$Title "Archvile"
+        //$Title "Archvile [Attack]"
     // ------------------------------
     // ==============================
 
