@@ -1,0 +1,96 @@
+// Music Player Algorithm
+// ----
+// This algorithm is designed to automatically rotate through a randomized playlist and change to the next song after so
+//  much time has been lapsed.  The overall idea of this feature is to provide a fresher experience overall when playing
+//  through each map, thus it doesn't feel like the exact environment each time when the user goes through the maps after so
+//  many times.
+// This algorithm requires no interation from the user and is not customizable to the end-user perspective.
+// ----
+
+
+
+#define arraySize 3
+// Test Sample of Music Playlist
+str musicSample[arraySize] = {"D_ADRIAN", "D_E1M8", "D_ULTIMA"};
+
+// Front end Music Player Driver
+SCRIPT "MusicPlayer" (VOID)
+{
+    // Display the array on the screen
+        OutputArray();
+    // Reorganize the array
+        ReorganizeArray();
+    // Display the array on the screen
+        OutputArray();
+    // Play the music
+        ACS_NamedExecute("CrossPlay", 0, 0, 1, 0);
+    delay(35*10);
+        ACS_NamedExecute("CrossPlay", 0, 1, 1, 0);
+    delay(35*10);
+        ACS_NamedExecute("CrossPlay", 0, 2, 1, 0);
+        
+        
+} // MusicPlayer()
+
+
+// This function is designed to take the music array and randomly reoganize it
+// We're going to use the Fisher-Yates Suffle Modern Algorithm
+//  We start from the ending of the array and simply shuffle the array from
+//  floor <-> ceiling.  In the next pass, the ceiling deincrements by one, and
+//  do the routine again.  We continue this until we hit index 0.  This is
+//  an unbias algorithm and should be efficient enough.
+// https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+function void ReorganizeArray (void)
+{
+    int n, temp;
+    for (int i = (arraySize - 1); i > 0; --i)
+    {
+        n = Random(0,i);
+        temp = musicSample[i];
+        musicSample[i] = musicSample[n];
+        musicSample[n] = temp;
+    }
+} // ReorganizeArray()
+
+
+// Output the array
+function void OutputArray (void)
+{
+    for(int i = 0; i < arraySize; i++)
+        Log(s:"Index: ", i:i, s:" Value is: ", s:musicSample[i]);
+}  // OutputArray()
+
+
+SCRIPT "CrossPlay" (int musicIndex, int fader)
+{
+    if (!fader)
+        // Fader is 0
+        // Immediately set the song as desired
+        SetMusic(musicSample[musicIndex]);
+    else
+    {
+        // Because I disagree with fixed numbers and it breaks C like rules
+        //  and I probably wont remember this as the '.0' or anything after
+        //  the decimal gets truncated in an integer data type.
+        //  Go here to refigure this out if needed:
+        //   http://zdoom.org/wiki/Fixed_point_number
+            int fixedFader = 1.0;
+        
+        // Give an illusion of a cross fade effect
+        do 
+        {
+            SetMusicVolume(fixedFader);
+            fixedFader -= 0.1;
+            delay(17);
+        } while(fixedFader >= 0.0);
+        
+        SetMusic(musicSample[musicIndex]);
+        
+        do
+        {
+            SetMusicVolume(fixedFader);
+            fixedFader += 0.1;
+            delay(17);
+        } while (fixedFader <= 1.0);
+    }
+}

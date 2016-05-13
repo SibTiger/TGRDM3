@@ -15,3 +15,6 @@
 
 // Lighting Fallback algorithm
     #include "LightFallback.acs"
+
+// Music Player algorithm
+    #include "MusicPlayer.acs"
