@@ -23,7 +23,13 @@
 
 
 // Music Play List Array
-str MusicPlayList[MusicPlayListSize];
+global str 1: MusicPlayList[MusicPlayListSize];
+
+// PlayList Ready [Generated, shuffled]
+global int 2: MusicPlayListReady = false;
+
+// PlayList Highlight [points to highlighted index]
+global int 3: MusicPlayListHighlight = 0;
 
 
 
