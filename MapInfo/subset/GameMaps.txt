@@ -2,7 +2,6 @@ MAP MAP01 "Acerbus"
 {
     LevelNum = 1
     Next = "MAP02"
-    Music = "D_SHAWN"
     F1 = "f1_dm"
     ExitPic = "Inter_01"
 } // Acerbus
@@ -13,7 +12,6 @@ MAP MAP02 "Unfaithful"
 {
     LevelNum = 2
     Next = "MAP03"
-    Music = "D_E1M7"
     F1 = "f1_dm"
     ExitPic = "Inter_02"
 } // Unfaithful
@@ -24,7 +22,6 @@ MAP MAP03 "Noir Lust"
 {
     LevelNum = 3
     Next = "MAP04"
-    Music = "D_DOOM"
     F1 = "f1_dm"
     ExitPic = "Inter_03"
 } // Noir Lust
@@ -35,7 +32,6 @@ MAP MAP04 "Abandoned Misery"
 {
     LevelNum = 4
     Next = "MAP05"
-    Music = "D_DEAD"
     F1 = "f1_dm"
     ExitPic = "Inter_04"
 } // Abandoned Misery
@@ -46,7 +42,6 @@ MAP MAP05 "Dark Stone"
 {
     LevelNum = 5
     Next = "MAP06"
-    Music = "D_E2M6"
     F1 = "f1_dm"
     ExitPic = "Inter_05"
 } // Dark Stone
@@ -57,7 +52,6 @@ MAP MAP06 "Insomnium"
 {
     LevelNum = 6
     Next = "MAP07"
-    Music = "D_E2M4"
     F1 = "f1_dm"
     ExitPic = "Inter_06"
 } // Insomnium
@@ -68,7 +62,6 @@ MAP MAP07 "Malus"
 {
     LevelNum = 7
     Next = "MAP08"
-    Music = "D_TENSE"
     F1 = "f1_dm"
     ExitPic = "Inter_07"
 } // Malus
@@ -79,7 +72,6 @@ MAP MAP08 "Ailuropoda Melanoleuca"
 {
     LevelNum = 8
     Next = "MAP09"
-    Music = "D_IN_CIT"
     F1 = "f1_dm"
     ExitPic = "Inter_08"
 } // Ailuropoda Melanoleuca
@@ -90,7 +82,6 @@ MAP MAP09 "Adios"
 {
     LevelNum = 9
     Next = "MAP10"
-    Music = "D_E2M3"
     F1 = "f1_dm"
     ExitPic = "Inter_09"
 } // Adios
@@ -101,7 +92,6 @@ MAP MAP10 "The Testaments"
 {
     LevelNum = 10
     Next = MAP11
-    Music = "D_ROMERO"
     SKY1 = "TGR_SKY1", 0.0
     F1 = "f1_duel"
     ExitPic = "Inter_10"
@@ -113,7 +103,6 @@ MAP MAP11 "Royal"
 {
     LevelNum = 11
     Next = MAP12
-    Music = "D_STALKS"
     F1 = "f1_dm"
     ExitPic = "Inter_11"
 } // Royal (TGRDM2)
@@ -124,7 +113,6 @@ MAP MAP12 "Chambers"
 {
     LevelNum = 12
     Next = MAP13
-    Music = "D_DOOM"
     Sky1 = "TGR_SKY1", 0.0
     F1 = "f1_dm"
     ExitPic = "Inter_12"
@@ -137,7 +125,6 @@ MAP MAP13 "The Stand"
     LevelNum = 13
     Next = MAP14
     SKY1 = "TGR_SKY2", 1.0
-    MUSIC = "D_DDTBLU"
     F1 = "f1_dm"
     ExitPic = "Inter_13"
 } // The Stand (TGRDM2)
@@ -149,7 +136,6 @@ MAP MAP14 "Blood Stone"
     LevelNum = 14
     Next = MAP15
     SKY1 = "HM_051", 0.0
-    MUSIC = "D_COUNTD"
     F1 = "f1_dm"
     ExitPic = "Inter_14"
 } // Blood Stone (TGRDM3 Legacy)
@@ -161,7 +147,6 @@ MAP MAP15 "Direful"
     LevelNum = 15
     Next = MAP16
     SKY1 = "HM_051", 0.0
-    MUSIC = "D_E3M2"
     F1 = "f1_dm"
     ExitPic = "Inter_15"
 } // Direful (TGRDM3 Legacy)
@@ -173,7 +158,6 @@ MAP MAP16 "Native Base"
     LevelNum = 16
     Next = MAP17
     SKY1 = "TX0_0DZ", 0.0
-    MUSIC = "D_AMPIE"
     F1 = "f1_dm"
     ExitPic = "Inter_16"
 } // Native Base (TGRDM3 Legacy)
@@ -184,10 +168,9 @@ MAP AMISERY "Abandoned Misery [Pretty]"
 {
     LevelNum = 99
     Next = "MAP01"
-    Music = "D_DEAD"
     F1 = "f1_dm"
     ExitPic = "Inter_99"
-}// Abandoned Misery [Pretty]
+} // Abandoned Misery [Pretty]
 
 
 
@@ -195,7 +178,6 @@ MAP ARTIS "Artis [Duel]"
 {
     LevelNum = 98
     Next = "Artis"
-    Music = "D_E3M3"
     F1 = "f1_duel"
     ExitPic = "Inter_98"
 } // Artis [Duel]
