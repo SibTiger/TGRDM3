@@ -85,44 +85,6 @@ function void OutputArray (void)
 
 
 
-// TODO: This function needs an overhaul
-
-SCRIPT "CrossPlay" (int musicIndex, int fader)
-{
-    if (!fader)
-        // Fader is 0
-        // Immediately set the song as desired
-        SetGameMusic(musicSample[musicIndex]);
-    else
-    {
-        // Because I disagree with fixed numbers and it breaks C like rules
-        //  and I probably wont remember this as the '.0' or anything after
-        //  the decimal gets truncated in an integer data type.
-        //  Go here to refigure this out if needed:
-        //   http://zdoom.org/wiki/Fixed_point_number
-            int fixedFader = 1.0;
-        
-        // Give an illusion of a cross fade effect
-        do 
-        {
-            SetMusicVolume(fixedFader);
-            fixedFader -= 0.1;
-            delay(17);
-        } while(fixedFader >= 0.0);
-        
-        SetGameMusic(musicSample[musicIndex]);
-        
-        do
-        {
-            SetMusicVolume(fixedFader);
-            fixedFader += 0.1;
-            delay(17);
-        } while (fixedFader <= 1.0);
-    }
-}
-
-
-
 // This function is designed to fade the music in or out.
 //  This is illusion of crossfading between one one song to another.
 //  This merely isn't a perfect implementation, but - it's better than
