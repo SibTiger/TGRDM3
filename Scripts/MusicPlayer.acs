@@ -63,12 +63,12 @@ function void ReorganizeArray (void)
         //  index is NOT the highlighted index itself.
         if (n != i)
         {
-        // Save the highlighted index (not randomized) to a variable
-            temp = musicSample[i];
-        // Switch the randomly selected index with the highlighted index.
-            musicSample[i] = musicSample[n];
-        // Replace the randomly selected index's value with the highlited index.
-            musicSample[n] = temp;
+            // Save the highlighted index (not randomized) to a variable
+                temp = musicSample[i];
+            // Switch the randomly selected index with the highlighted index.
+                musicSample[i] = musicSample[n];
+            // Replace the randomly selected index's value with the highlited index.
+                musicSample[n] = temp;
         } // if
     }
 } // ReorganizeArray()
