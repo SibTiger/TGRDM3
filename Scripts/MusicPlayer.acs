@@ -72,7 +72,7 @@ function void ReorganizeArray (void)
     // ----
 
     // Randomization algorithm
-    for (int i = (arraySize - 1); i > 0; --i)
+    for (int i = (MusicPlayListSize - 1); i > 0; --i)
     {
         // Fetch a random index to switch with another index.
             n = Random(0,i);
@@ -97,7 +97,7 @@ function void ReorganizeArray (void)
 //  This function is only useful for debugging purposes.
 function void OutputArray (void)
 {
-    for(int i = 0; i < arraySize; i++)
+    for(int i = 0; i < MusicPlayListSize; i++)
         Log(s:"Index: ", i:i, s:" Value is: ", s:MusicPlayList[i]);
 }  // OutputArray()
 
