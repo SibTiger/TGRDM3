@@ -158,7 +158,6 @@ function void SetGameMusic (int musicIndex)
 
 
 
-// MusicPlayList
 // Auto-fill the play list array with 'MUS$num' formatting
 //  Where $num is the size of the array, inwhich is dependent on the variable
 //  'MusicPlayListSize' <int>.
@@ -167,6 +166,6 @@ function void MusicPlayList_AutoFill (VOID)
     // Automatically fill up the array with 'MUS##'.
     // For example: MUS00, MUS01, MUS02, etc.
     // The limit is defined by (MusicPlayListSize - 1)
-    for (int i = 0; i < MusicPlayListSize; i++)
-        MusicPlayList[i] = StrParam(s:"MUS", i:i);
+        for (int i = 0; i < MusicPlayListSize; i++)
+            MusicPlayList[i] = StrParam(s:"MUS", i:i);
 } // MusicPlayList_AutoFill()
