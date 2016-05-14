@@ -9,8 +9,20 @@
 
 
 
+//        << ! ACHTUNG ! >>
+// ===============================
+// The size of the music play list.
+//  If adding more music, please update only this variable and then make the
+//  appropriate changes in the SNDINFO using $MusicAlias while keeping the
+//  original formatting schematic of 'MUS##'.  Using anything other than 'MUS##'
+//  will fail, so you MUST use 'MUS##'.  For example: 'MUS00' or 'MUS39' is legal, but 'MyUltraCoolMP3ExclamationMarkTimes3' will not work.
 #define MusicPlayListSize 3
-// Test Sample of Music Playlist
+// If adding music, you do NOT need to edit anything else in this script.
+// ----
+
+
+
+// Music Play List Array
 str MusicPlayList[MusicPlayListSize];
 
 
