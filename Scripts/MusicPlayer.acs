@@ -86,12 +86,13 @@ function void OutputArray (void)
 
 
 // TODO: This function needs an overhaul
+
 SCRIPT "CrossPlay" (int musicIndex, int fader)
 {
     if (!fader)
         // Fader is 0
         // Immediately set the song as desired
-        SetMusic(musicSample[musicIndex]);
+        SetGameMusic(musicSample[musicIndex]);
     else
     {
         // Because I disagree with fixed numbers and it breaks C like rules
@@ -109,7 +110,7 @@ SCRIPT "CrossPlay" (int musicIndex, int fader)
             delay(17);
         } while(fixedFader >= 0.0);
         
-        SetMusic(musicSample[musicIndex]);
+        SetGameMusic(musicSample[musicIndex]);
         
         do
         {
@@ -119,3 +120,76 @@ SCRIPT "CrossPlay" (int musicIndex, int fader)
         } while (fixedFader <= 1.0);
     }
 }
+
+
+
+// This function is designed to fade the music in or out.
+//  This is illusion of crossfading between one one song to another.
+//  This merely isn't a perfect implementation, but - it's better than
+//  shifting to something soft and easy listening like Marvin Gaye and
+//  immediately you notice your ears are bleeding with Mudvayne screaming
+//  in your ears.  So, with this fade - you'll mentally accept the song
+//  transitioning.
+//
+// FIXED POINT NUMBERS WARNING {Because I hate them; READ THIS}
+//  http://zdoom.org/wiki/Fixed_point_number
+// ----
+// Parameters:
+//  fadeType <int>
+//      Determines the type of fading.
+//      0 = Fade out; stop music
+//      1 = Fade in; play music
+//  faderSpeed <int>
+//      The tic-rate in which to fade the music in or out.
+//      Recommended value: 17tics
+SCRIPT "MusicFade" (int fadeType, int faderSpeed)
+{
+    // Declarations
+        // This variable is going to be used as a base in terms of
+        //  fading in or out.
+            int fixedFader;
+    // ----
+
+        // Fade out
+        if (!fadeType)
+        {
+            // Update the variable.
+            fixedFader = 1.0;
+            
+            // Fade out effect
+            do
+            {
+                SetMusicVolume(fixedFader);
+                fixedFader -= 0.1;
+                delay(faderSpeed);
+            } while(fixedFader >= 0.0);
+        } // if (fadeType = 0)
+        
+        
+        // Fade in
+        if (fadeType)
+        {
+            // Update the variable.
+            fixedFader = 0.0;
+            
+            // Fade in effect
+            do
+            {
+                SetMusicVolume(fixedFader);
+                fixedFader += 0.1;
+                delay(faderSpeed);
+            } while (fixedFader <= 1.0);
+        } // if (fadeType = 1)
+} // MusicFade()
+
+
+
+// Sets the music for all clients to the desired song.
+// ----
+// Parameters:
+//  musicIndex <int>
+//      The selected index from the play list array.
+function void SetGameMusic (int musicIndex)
+{
+    SetMusic(musicSample[musicIndex]);
+} // SetGameMusic()
