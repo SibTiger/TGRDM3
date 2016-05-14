@@ -251,3 +251,54 @@ $volume world/lavasizzlesmall 0.1 // Reduce the volume [NG]
 world/lavasizzlesmall1      dslavsml
 world/lavasizzlesmall2      dslavsm2
 // ---------
+
+
+//======================
+//        Music
+//======================
+
+// Environment
+$musicalias D_DM2INT EndMap
+
+// Doom
+$musicalias D_E1M1 MUS00
+$musicalias D_E1M2 MUS01
+$musicalias D_E1M3 MUS02
+$musicalias D_E1M4 MUS03
+$musicalias D_E1M5 MUS04
+$musicalias D_E1M6 MUS05
+$musicalias D_E1M7 MUS06
+$musicalias D_E1M8 MUS07
+$musicalias D_E1M9 MUS08
+$musicalias D_E2M1 MUS09
+$musicalias D_E2M2 MUS10
+$musicalias D_E2M3 MUS11
+$musicalias D_E2M4 MUS12
+$musicalias D_E2M6 MUS13
+$musicalias D_E2M7 MUS14
+$musicalias D_E2M8 MUS15
+$musicalias D_E2M9 MUS16
+$musicalias D_E3M2 MUS17
+$musicalias D_E3M3 MUS18
+$musicalias D_E3M8 MUS19
+
+// Doom 2
+$musicalias D_RUNNIN MUS20
+$musicalias D_STALKS MUS21
+$musicalias D_COUNTD MUS22
+$musicalias D_BETWEE MUS23
+$musicalias D_DOOM   MUS24
+$musicalias D_THE_DA MUS25
+$musicalias D_SHAWN  MUS26
+$musicalias D_DDTBLU MUS27
+$musicalias D_IN_CIT MUS28
+$musicalias D_DEAD   MUS29
+$musicalias D_ROMERO MUS30
+$musicalias D_MESSAG MUS31
+$musicalias D_AMPIE  MUS32
+$musicalias D_ADRIAN MUS33
+$musicalias D_TENSE  MUS34
+$musicalias D_OPENIN MUS35
+$musicalias D_EVIL   MUS36
+$musicalias D_ULTIMA MUS37
+$musicalias D_READ_M MUS38
