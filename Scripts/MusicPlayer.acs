@@ -70,7 +70,7 @@ function void ReorganizeArray (void)
             // Replace the randomly selected index's value with the highlited index.
                 musicSample[n] = temp;
         } // if
-    }
+    } // for
 } // ReorganizeArray()
 
 
