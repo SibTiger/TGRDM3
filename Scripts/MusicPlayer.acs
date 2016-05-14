@@ -13,6 +13,9 @@
 // Test Sample of Music Playlist
 str musicSample[arraySize] = {"D_ADRIAN", "D_E1M8", "D_ULTIMA"};
 
+
+
+// TODO: This function needs an overhaul
 // Front end Music Player Driver
 SCRIPT "MusicPlayer" (VOID)
 {
@@ -28,32 +31,46 @@ SCRIPT "MusicPlayer" (VOID)
         ACS_NamedExecute("CrossPlay", 0, 1, 1, 0);
     delay(35*10);
         ACS_NamedExecute("CrossPlay", 0, 2, 1, 0);
-        
-        
 } // MusicPlayer()
 
 
-// This function is designed to take the music array and randomly reoganize it
-// We're going to use the Fisher-Yates Suffle Modern Algorithm
+
+// This function is designed to take the music array and randomly reoganize it.
+// We're going to use the Fisher-Yates Shuffle Modern Algorithm
 //  We start from the ending of the array and simply shuffle the array from
-//  floor <-> ceiling.  In the next pass, the ceiling deincrements by one, and
-//  do the routine again.  We continue this until we hit index 0.  This is
-//  an unbias algorithm and should be efficient enough.
-// https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+//  the beginning to the tail ending of the array list.  In the next pass, we'll
+//  shift from the tail ending to the index before the tail ending, and do the
+//  routine again.  We continue this routine until we hit index 0.  This is an
+//  unbias algorithm and should be efficient enough.  Although with ZDoom's Random
+//  ACS function, I can't guarantee the best randomization results.
+// Algorithm: https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
 function void ReorganizeArray (void)
 {
-    int n, temp;
+    // Declarations needed for the algorithm
+        // Used for randomly selected indexes
+            int n;
+        // Keeps the value of the highlighted index
+            int temp;
+    // ----
+
+    // Randomization algorithm
     for (int i = (arraySize - 1); i > 0; --i)
     {
-        n = Random(0,i);
-        temp = musicSample[i];
-        musicSample[i] = musicSample[n];
-        musicSample[n] = temp;
+        // Fetch a random index to switch with another index.
+            n = Random(0,i);
+        // Save the highlighted index (not randomized) to a variable
+            temp = musicSample[i];
+        // Switch the randomly selected index with the highlighted index.
+            musicSample[i] = musicSample[n];
+        // Replace the randomly selected index's value with the highlited index.
+            musicSample[n] = temp;
     }
 } // ReorganizeArray()
 
 
+
 // Output the array
+//  This function is only useful for debugging purposes.
 function void OutputArray (void)
 {
     for(int i = 0; i < arraySize; i++)
@@ -61,6 +78,8 @@ function void OutputArray (void)
 }  // OutputArray()
 
 
+
+// TODO: This function needs an overhaul
 SCRIPT "CrossPlay" (int musicIndex, int fader)
 {
     if (!fader)
