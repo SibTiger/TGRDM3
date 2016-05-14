@@ -58,12 +58,18 @@ function void ReorganizeArray (void)
     {
         // Fetch a random index to switch with another index.
             n = Random(0,i);
+        
+        // Only switch index values if and only if the randomly selected
+        //  index is NOT the highlighted index itself.
+        if (n != i)
+        {
         // Save the highlighted index (not randomized) to a variable
             temp = musicSample[i];
         // Switch the randomly selected index with the highlighted index.
             musicSample[i] = musicSample[n];
         // Replace the randomly selected index's value with the highlited index.
             musicSample[n] = temp;
+        } // if
     }
 } // ReorganizeArray()
 
