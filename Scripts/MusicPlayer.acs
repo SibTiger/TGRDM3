@@ -9,9 +9,9 @@
 
 
 
-#define arraySize 3
+#define MusicPlayListSize 3
 // Test Sample of Music Playlist
-str musicSample[arraySize] = {"D_ADRIAN", "D_E1M8", "D_ULTIMA"};
+str MusicPlayList[MusicPlayListSize];
 
 
 
@@ -64,11 +64,11 @@ function void ReorganizeArray (void)
         if (n != i)
         {
             // Save the highlighted index (not randomized) to a variable
-                temp = musicSample[i];
+                temp = MusicPlayList[i];
             // Switch the randomly selected index with the highlighted index.
-                musicSample[i] = musicSample[n];
+                MusicPlayList[i] = MusicPlayList[n];
             // Replace the randomly selected index's value with the highlited index.
-                musicSample[n] = temp;
+                MusicPlayList[n] = temp;
         } // if
     } // for
 } // ReorganizeArray()
@@ -80,7 +80,7 @@ function void ReorganizeArray (void)
 function void OutputArray (void)
 {
     for(int i = 0; i < arraySize; i++)
-        Log(s:"Index: ", i:i, s:" Value is: ", s:musicSample[i]);
+        Log(s:"Index: ", i:i, s:" Value is: ", s:MusicPlayList[i]);
 }  // OutputArray()
 
 
@@ -153,5 +153,20 @@ SCRIPT "MusicFade" (int fadeType, int faderSpeed)
 //      The selected index from the play list array.
 function void SetGameMusic (int musicIndex)
 {
-    SetMusic(musicSample[musicIndex]);
+    SetMusic(MusicPlayList[musicIndex]);
 } // SetGameMusic()
+
+
+
+// MusicPlayList
+// Auto-fill the play list array with 'MUS$num' formatting
+//  Where $num is the size of the array, inwhich is dependent on the variable
+//  'MusicPlayListSize' <int>.
+function void MusicPlayList_AutoFill (VOID)
+{
+    // Automatically fill up the array with 'MUS##'.
+    // For example: MUS00, MUS01, MUS02, etc.
+    // The limit is defined by (MusicPlayListSize - 1)
+    for (int i = 0; i < MusicPlayListSize; i++)
+        MusicPlayList[i] = StrParam(s:"MUS", i:i);
+} // MusicPlayList_AutoFill()
