@@ -57,7 +57,18 @@ SCRIPT "MusicPlayer" OPEN
 
 SCRIPT "MusicPlayer_BackEnd" (VOID)
 {
-    
+    do
+    {
+        // Fade out current music
+            ACS_NamedExecuteWait("MusicFade", 0, 0, 17, 0);
+        // Change the song
+            SetGameMusic(MusicPlayListHighlight);
+        // Fade in the next song
+            ACS_NamedExecuteWait("MusicFade", 0, 1, 17, 0);
+        // Wait
+        // Move the Music Play List Highlight to the next index.
+            MusicPlayListHighlight++;
+    } while (1);
 } // MusicPlayer_BackEnd()
 
 
