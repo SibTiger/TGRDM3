@@ -66,6 +66,7 @@ SCRIPT "MusicPlayer_BackEnd" (VOID)
         // Fade in the next song
             ACS_NamedExecuteWait("MusicFade", 0, 1, 17, 0);
         // Wait
+            Delay(35*75);
         // Move the Music Play List Highlight to the next index.
             MusicPlayListHighlight++;
     } while (1);
