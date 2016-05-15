@@ -35,21 +35,44 @@ global int 3: MusicPlayListHighlight = 0;
 
 // TODO: This function needs an overhaul
 // Front end Music Player Driver
-SCRIPT "MusicPlayer" (VOID)
+SCRIPT "MusicPlayer" OPEN
 {
-    // Display the array on the screen
-        OutputArray();
-    // Reorganize the array
-        ReorganizeArray();
-    // Display the array on the screen
-        OutputArray();
-    // Play the music
-        ACS_NamedExecute("CrossPlay", 0, 0, 1, 0);
-    delay(35*10);
-        ACS_NamedExecute("CrossPlay", 0, 1, 1, 0);
-    delay(35*10);
-        ACS_NamedExecute("CrossPlay", 0, 2, 1, 0);
+    // Since this function\script is always going to reload on each map load
+    //  we have to make sure that the play list array is ready for use.
+    //  We do not need to regenerate the array on each map load and waste
+    //  the end-users system resources.  Instead, lets try to optimize it
+    //  at the fullest possible.
+    if (!MusicPlayListReady)
+        // Play list is not ready yet
+        GenerateMusicPlayList()
+        
+    // Play list is ready to be used
+    // Lay down that boogie and play that funky music till you die
+    //  Wild Cherry - Play That Funky Music, White Boy
+    //  I had too ;)
+            ACS_NamedExecute("MusicPlayer_BackEnd", 0, 0, 0, 0);
 } // MusicPlayer()
+
+
+
+SCRIPT "MusicPlayer_BackEnd" (VOID)
+{
+    
+} // MusicPlayer_BackEnd()
+
+
+
+// Make the play list array ready for use.
+//  Build up the array and shuffle it.
+function void GenerateMusicPlayList (VOID)
+{
+    // Auto-fill the array
+        MusicPlayList_AutoFill();
+    // Shuffle the playlist
+        MusicPlayer_ShufflePlayList();
+    // Music play list is now ready for use
+        MusicPlayListReady = 1;
+} // GenerateMusicPlayList()
 
 
 
@@ -62,7 +85,7 @@ SCRIPT "MusicPlayer" (VOID)
 //  unbias algorithm and should be efficient enough.  Although with ZDoom's Random
 //  ACS function, I can't guarantee the best randomization results.
 // Algorithm: https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
-function void ReorganizeArray (void)
+function void MusicPlayer_ShufflePlayList (void)
 {
     // Declarations needed for the algorithm
         // Used for randomly selected indexes
