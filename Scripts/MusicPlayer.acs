@@ -68,9 +68,25 @@ SCRIPT "MusicPlayer_BackEnd" (VOID)
         // Wait
             Delay(35*75);
         // Move the Music Play List Highlight to the next index.
-            MusicPlayListHighlight++;
+            UpdatePlayListHighlight();
     } while (1);
 } // MusicPlayer_BackEnd()
+
+
+
+// This is a dedicated function to increment the array highlighter,
+//  but also makes sure that the highlighter stays within the sprectrum
+//  of the array and not outside.
+function void UpdatePlayListHighlight (void)
+{
+    // Make sure that the highlighter stays inside the array.
+    if (MusicPlayListHighlight <= (MusicPlayListSize))
+        // The highlighter is out of boundary; start back to zero.
+        MusicPlayListHighlight = 0;
+    else
+        // Increment the highlighter to the index.
+        MusicPlayListHighlight++;
+} // UpdatePlayListHighlight()
 
 
 
