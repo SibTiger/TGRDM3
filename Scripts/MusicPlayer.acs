@@ -23,13 +23,13 @@
 
 
 // Music Play List Array
-global str 1: MusicPlayList[MusicPlayListSize];
+global str 1: MusicPlayList[];
 
 // PlayList Ready [Generated, shuffled]
-global int 2: MusicPlayListReady = false;
+global int 2: MusicPlayListReady;
 
 // PlayList Highlight [points to highlighted index]
-global int 3: MusicPlayListHighlight = 0;
+global int 3: MusicPlayListHighlight;
 
 
 
@@ -37,6 +37,15 @@ global int 3: MusicPlayListHighlight = 0;
 // Front end Music Player Driver
 SCRIPT "MusicPlayer" OPEN
 {
+    // Declarations and Initializations
+    // ---------------------------------
+        // Setup the global variables
+            // Play list is not ready
+                MusicPlayListReady = false;
+            // Play list highlight
+                MusicPlayListHighlight = 0;
+    // ----
+    
     // Since this function\script is always going to reload on each map load
     //  we have to make sure that the play list array is ready for use.
     //  We do not need to regenerate the array on each map load and waste
