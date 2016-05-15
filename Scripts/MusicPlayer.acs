@@ -43,8 +43,8 @@ SCRIPT "MusicPlayer" OPEN
     //  the end-users system resources.  Instead, lets try to optimize it
     //  at the fullest possible.
     if (!MusicPlayListReady)
-        // Play list is not ready yet
-        GenerateMusicPlayList()
+        // Play list is not ready yet; populate and generate the play list.
+        GenerateMusicPlayList();
         
     // Play list is ready to be used
     // Lay down that boogie and play that funky music till you die
@@ -59,16 +59,21 @@ SCRIPT "MusicPlayer_BackEnd" (VOID)
 {
     do
     {
-        // Fade out current music
-            ACS_NamedExecuteWait("MusicFade", 0, 0, 17, 0);
-        // Change the song
-            SetGameMusic(MusicPlayListHighlight);
-        // Fade in the next song
-            ACS_NamedExecuteWait("MusicFade", 0, 1, 17, 0);
-        // Wait
-            Delay(35*75);
-        // Move the Music Play List Highlight to the next index.
-            UpdatePlayListHighlight();
+        if (MusicPlayListReady)
+        {
+            // Fade out current music
+                ACS_NamedExecuteWait("MusicFade", 0, 0, 17, 0);
+            // Change the song
+                SetGameMusic(MusicPlayListHighlight);
+            // Fade in the next song
+                ACS_NamedExecuteWait("MusicFade", 0, 1, 17, 0);
+            // Wait
+                Delay(35*75);
+            // Move the Music Play List Highlight to the next index.
+                UpdatePlayListHighlight();
+            // If the highlighted index is now '0', regenerate the playlist.
+                GenerateMusicPlayList();
+        } // if (play list is ready)
     } while (1);
 } // MusicPlayer_BackEnd()
 
@@ -94,12 +99,14 @@ function void UpdatePlayListHighlight (void)
 //  Build up the array and shuffle it.
 function void GenerateMusicPlayList (VOID)
 {
+    // Mark the playlist as not ready for use.
+        MusicPlayListReady = false;
     // Auto-fill the array
         MusicPlayList_AutoFill();
     // Shuffle the playlist
         MusicPlayer_ShufflePlayList();
     // Music play list is now ready for use
-        MusicPlayListReady = 1;
+        MusicPlayListReady = true;
 } // GenerateMusicPlayList()
 
 
