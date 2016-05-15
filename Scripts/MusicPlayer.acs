@@ -208,7 +208,7 @@ SCRIPT "MusicFade" (int fadeType, int faderSpeed)
         if (fadeType)
         {
             // Update the variable.
-            fixedFader = 0.0;
+            fixedFader = 0.1;
             
             // Fade in effect
             do
