@@ -261,16 +261,16 @@ world/lavasizzlesmall2      dslavsm2
 $musicalias EndMap D_DM2INT
 
 // Doom
-$musicalias MUS00 D_E1M1
-$musicalias MUS01 D_E1M2
-$musicalias MUS02 D_E1M3
-$musicalias MUS03 D_E1M4
-$musicalias MUS04 D_E1M5
-$musicalias MUS05 D_E1M6
-$musicalias MUS06 D_E1M7
-$musicalias MUS07 D_E1M8
-$musicalias MUS08 D_E1M9
-$musicalias MUS09 D_E2M1
+$musicalias MUS0 D_E1M1
+$musicalias MUS1 D_E1M2
+$musicalias MUS2 D_E1M3
+$musicalias MUS3 D_E1M4
+$musicalias MUS4 D_E1M5
+$musicalias MUS5 D_E1M6
+$musicalias MUS6 D_E1M7
+$musicalias MUS7 D_E1M8
+$musicalias MUS8 D_E1M9
+$musicalias MUS9 D_E2M1
 $musicalias MUS10 D_E2M2
 $musicalias MUS11 D_E2M3
 $musicalias MUS12 D_E2M4
