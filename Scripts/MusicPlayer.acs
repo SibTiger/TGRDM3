@@ -16,7 +16,11 @@
 //  appropriate changes in the SNDINFO using $MusicAlias while keeping the
 //  original formatting schematic of 'MUS##'.  Using anything other than 'MUS##'
 //  will fail, so you MUST use 'MUS##'.  For example: 'MUS00' or 'MUS39' is legal, but 'MyUltraCoolMP3ExclamationMarkTimes3' will not work.
-#define MusicPlayListSize 39
+//   NOTE: When adding more music, the last MUS## number in the SNDINFO, add one
+//   more digit.  So when defining 'MusicPlayListSize, if the last MUS in SNDINFO
+//   is MUS34, then add one more digit.  Thus, it'll be MusicPlayListSize = 35.
+//   Or simply use (PlayList + 1)
+#define MusicPlayListSize 54
 // If adding music, you do NOT need to edit anything else in this script.
 // ----
 

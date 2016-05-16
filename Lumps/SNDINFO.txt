@@ -302,3 +302,20 @@ $musicalias MUS35 D_OPENIN
 $musicalias MUS36 D_EVIL
 $musicalias MUS37 D_ULTIMA
 $musicalias MUS38 D_READ_M
+
+// TNT Evilution
+$musicalias MUS39 T_BETWEE
+$musicalias MUS40 T_DDTBL2
+$musicalias MUS41 T_DDTBLU
+$musicalias MUS42 T_DEAD
+$musicalias MUS43 T_DEAD2
+$musicalias MUS44 T_DOOM
+$musicalias MUS45 T_MESSAG
+$musicalias MUS46 T_READ_M
+$musicalias MUS47 T_RUNNI2
+$musicalias MUS48 T_RUNNIN
+$musicalias MUS49 T_SHAWN
+$musicalias MUS50 T_STLKS2
+$musicalias MUS51 T_TENSE
+$musicalias MUS52 T_THE_DA
+$musicalias MUS53 T_THEDA3
