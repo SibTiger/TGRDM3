@@ -68,6 +68,7 @@ SCRIPT "MusicPlayer_BackEnd" (VOID)
 
     do
     {
+        // Only run the music when the play list is ready
         if (MusicPlayListReady)
         {
             // Fade out current music
@@ -90,6 +91,10 @@ SCRIPT "MusicPlayer_BackEnd" (VOID)
                 if (!MusicPlayListHighlight)
                     GenerateMusicPlayList();
         } // if (play list is ready)
+        
+        else
+            // To prevent a RunAway fault, issue a small pause.
+            Delay(1);
     } while (1);
 } // MusicPlayer_BackEnd()
 
