@@ -36,7 +36,7 @@ global int 3: MusicPlayListHighlight;
 // Front end Music Player Driver
 //  This script merely makes sure that the array is ready for use before
 //  jumping into the main operation.
-SCRIPT "MusicPlayer" OPEN
+SCRIPT "MusicPlayer" OPEN CLIENTSIDE
 {
     // Since this function\script is always going to reload on each map load
     //  we have to make sure that the play list array is ready for use.
@@ -58,7 +58,7 @@ SCRIPT "MusicPlayer" OPEN
 
 // This script is the main loop operation for the game music.
 // This script is a dedicated driver into how the music will interact with the user.
-SCRIPT "MusicPlayer_BackEnd" (VOID)
+SCRIPT "MusicPlayer_BackEnd" (VOID) CLIENTSIDE
 {
     // Declarations and Initliazations
         // When running this function for the first time, don't run some features
@@ -201,7 +201,7 @@ function void OutputArray (void)
 //  faderSpeed <int>
 //      The tic-rate in which to fade the music in or out.
 //      Recommended value: 17tics
-SCRIPT "MusicFade" (int fadeType, int faderSpeed)
+SCRIPT "MusicFade" (int fadeType, int faderSpeed) CLIENTSIDE
 {
     // Declarations
         // This variable is going to be used as a base in terms of
