@@ -55,6 +55,8 @@ SCRIPT "MusicPlayer" OPEN
 
 
 
+// This script is the main loop operation for the game music.
+// This script is a dedicated driver into how the music will interact with the user.
 SCRIPT "MusicPlayer_BackEnd" (VOID)
 {
     // Declarations and Initliazations
