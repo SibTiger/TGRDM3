@@ -33,8 +33,9 @@ global int 3: MusicPlayListHighlight;
 
 
 
-// TODO: This function needs an overhaul
 // Front end Music Player Driver
+//  This script merely makes sure that the array is ready for use before
+//  jumping into the main operation.
 SCRIPT "MusicPlayer" OPEN
 {
     // Since this function\script is always going to reload on each map load
