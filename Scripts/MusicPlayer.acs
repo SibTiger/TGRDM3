@@ -172,16 +172,6 @@ function void MusicPlayer_ShufflePlayList (void)
 
 
 
-// Output the array
-//  This function is only useful for debugging purposes.
-function void OutputArray (void)
-{
-    for(int i = 0; i < MusicPlayListSize; i++)
-        Log(s:"Index: ", i:i, s:" Value is: ", s:MusicPlayList[i]);
-}  // OutputArray()
-
-
-
 // This function is designed to fade the music in or out.
 //  This is illusion of crossfading between one one song to another.
 //  This merely isn't a perfect implementation, but - it's better than
