@@ -83,8 +83,8 @@ SCRIPT "MusicPlayer_BackEnd" (VOID) CLIENTSIDE
                 SetGameMusic(MusicPlayListHighlight);
             // Fade in the next song
                 ACS_NamedExecuteWait("MusicFade", 0, 1, 17, 0);
-            // Wait
-                Delay(35*75);
+            // Wait for ~ 1min and 30secs.
+                Delay(35*90);
             // Move the Music Play List Highlight to the next index.
                 UpdatePlayListHighlight();
             // If the highlighted index is now '0', regenerate the playlist.
