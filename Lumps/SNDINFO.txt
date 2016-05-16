@@ -258,7 +258,7 @@ world/lavasizzlesmall2      dslavsm2
 //======================
 
 // Environment
-$musicalias EndMap D_DM2INT
+$musicalias EndMap T_DM2INT
 
 // Doom
 $musicalias MUS0 D_E1M1
