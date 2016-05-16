@@ -57,12 +57,24 @@ SCRIPT "MusicPlayer" OPEN
 
 SCRIPT "MusicPlayer_BackEnd" (VOID)
 {
+    // Declarations and Initliazations
+        // When running this function for the first time, don't run some features
+        //  such as Music Fade Out.
+            bool firstRun = true;
+    // ----
+
     do
     {
         if (MusicPlayListReady)
         {
             // Fade out current music
-                ACS_NamedExecuteWait("MusicFade", 0, 0, 17, 0);
+            //  but only if we're not running this function for the first time.
+                if (!firstRun)
+                    // Fade out the music
+                    ACS_NamedExecuteWait("MusicFade", 0, 0, 17, 0);
+                else
+                    // Turn off 'First Run'.
+                    firstRun = false;
             // Change the song
                 SetGameMusic(MusicPlayListHighlight);
             // Fade in the next song
