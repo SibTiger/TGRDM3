@@ -72,7 +72,8 @@ SCRIPT "MusicPlayer_BackEnd" (VOID)
             // Move the Music Play List Highlight to the next index.
                 UpdatePlayListHighlight();
             // If the highlighted index is now '0', regenerate the playlist.
-                GenerateMusicPlayList();
+                if (!MusicPlayListHighlight)
+                    GenerateMusicPlayList();
         } // if (play list is ready)
     } while (1);
 } // MusicPlayer_BackEnd()
@@ -85,7 +86,7 @@ SCRIPT "MusicPlayer_BackEnd" (VOID)
 function void UpdatePlayListHighlight (void)
 {
     // Make sure that the highlighter stays inside the array.
-    if (MusicPlayListHighlight <= (MusicPlayListSize))
+    if (MusicPlayListHighlight >= (MusicPlayListSize - 1))
         // The highlighter is out of boundary; start back to zero.
         MusicPlayListHighlight = 0;
     else
