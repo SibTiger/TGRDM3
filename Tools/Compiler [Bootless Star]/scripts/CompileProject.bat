@@ -10,7 +10,7 @@ REM =====================================================================
 REM # =============================================================================================
 REM # Parameters: [{int} BuildMode]
 REM # Documentation: This driver will guide the entire compiling procedure.
-REM #   Parameters: BuildMode: 0=Developmental Build, 1=Release Build, 2=Resource Build [GZDB], 3=HiDef Music Resource
+REM #   Parameters: BuildMode: 0=Developmental Build, 1=Release Build, 2=Resource Build [GZDB]
 REM # =============================================================================================
 :CompileManager_Driver
 CALL :DashboardOrClassicalDisplay

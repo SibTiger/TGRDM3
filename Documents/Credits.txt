@@ -273,18 +273,3 @@ HazeBandicoot
         Link: http://forum.zdoom.org/viewtopic.php?p=900857#p900857
         Bkup: https://www.dropbox.com/s/3o31jamvu4eexad/RailgunFixed.kvx?dl=1
             Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
-
-
-
-Shane Strife (AKA: Shane)
-----
-    Made available 'High Quality' (not remixed) music of Doom and Doom 2.
-        Link: http://forum.zdoom.org/viewtopic.php?p=472461#p472461
-        ATTN: /idgames Archive Maintainers:
-            README.INCOMING:WAD RULES § 4: "Do not embed commercial MP3s as music in WADs"
-            As a precaution, these assets can be found at the specified link (under: Link) which the author of these songs explicitly states:
-                "If you use any tracks, please credit me, Shane Strife and don't forget the original composers somewhere in there. Enjoy."
-            These files can be accessed by anyone (provided they can access the ZDoom Forums) and use them free-of-charge with no strings attached as long as they meet with the author's wishes.
-        Legal Remarks:
-                Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
-                Original music by id Software.
