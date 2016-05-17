@@ -9,6 +9,7 @@ ACTOR TGRDoomPlayer : DoomPlayer
     Speed 1 // Player speed <float>; default is 1
     Player.AirCapacity 1.3 // Provide longer multiplier time while under-water.
     Player.UseRange 64 // How far away to activate trigger; default: 64
+    Player.FallingScreamSpeed 35.0, 40.0 // Range speed when falling to enable the scream sound
     Player.StartItem "TGRChaingun"
     Player.StartItem "TGRChainsaw"
     Player.StartItem "Clip", 60

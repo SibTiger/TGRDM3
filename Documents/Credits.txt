@@ -240,6 +240,15 @@ ryanconway
 
 
 
+Robinhood76
+----
+    Created and made available a simulation of a man screaming while screaming to his death sound effect.
+        Web Site: http://freesound.org/people/Robinhood76/sounds/132549/
+        License Type: Creative Commons [ http://creativecommons.org/licenses/by-nc/3.0/ ]
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
 Jay Reichard
 ----
     Made available 'Project: Doom (Final)', a collection of remixed Doom MIDI's.
