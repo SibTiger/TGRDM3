@@ -1,0 +1,66 @@
+//======================
+//        Music
+//======================
+
+// Environment
+$musicalias EndMap T_DM2INT
+
+// Doom
+$musicalias MUS0 D_E1M1
+$musicalias MUS1 D_E1M2
+$musicalias MUS2 D_E1M3
+$musicalias MUS3 D_E1M4
+$musicalias MUS4 D_E1M5
+$musicalias MUS5 D_E1M6
+$musicalias MUS6 D_E1M7
+$musicalias MUS7 D_E1M8
+$musicalias MUS8 D_E1M9
+$musicalias MUS9 D_E2M1
+$musicalias MUS10 D_E2M2
+$musicalias MUS11 D_E2M3
+$musicalias MUS12 D_E2M4
+$musicalias MUS13 D_E2M6
+$musicalias MUS14 D_E2M7
+$musicalias MUS15 D_E2M8
+$musicalias MUS16 D_E2M9
+$musicalias MUS17 D_E3M2
+$musicalias MUS18 D_E3M3
+$musicalias MUS19 D_E3M8
+
+// Doom 2
+$musicalias MUS20 D_RUNNIN
+$musicalias MUS21 D_STALKS
+$musicalias MUS22 D_COUNTD
+$musicalias MUS23 D_BETWEE
+$musicalias MUS24 D_DOOM
+$musicalias MUS25 D_THE_DA
+$musicalias MUS26 D_SHAWN
+$musicalias MUS27 D_DDTBLU
+$musicalias MUS28 D_IN_CIT
+$musicalias MUS29 D_DEAD
+$musicalias MUS30 D_ROMERO
+$musicalias MUS31 D_MESSAG
+$musicalias MUS32 D_AMPIE
+$musicalias MUS33 D_ADRIAN
+$musicalias MUS34 D_TENSE
+$musicalias MUS35 D_OPENIN
+$musicalias MUS36 D_EVIL
+$musicalias MUS37 D_ULTIMA
+$musicalias MUS38 D_READ_M
+
+// TNT Evilution
+$musicalias MUS39 T_BETWEE
+$musicalias MUS40 T_DDTBL2
+$musicalias MUS41 T_DDTBLU
+$musicalias MUS42 T_DEAD
+$musicalias MUS43 T_DEAD2
+$musicalias MUS44 T_DOOM
+$musicalias MUS45 T_MESSAG
+$musicalias MUS46 T_READ_M
+$musicalias MUS47 T_RUNNI2
+$musicalias MUS48 T_RUNNIN
+$musicalias MUS49 T_SHAWN
+$musicalias MUS50 T_STLKS2
+$musicalias MUS51 T_TENSE
+$musicalias MUS52 T_THE_DA
+$musicalias MUS53 T_THEDA3

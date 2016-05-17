@@ -1,0 +1,8 @@
+//======================
+//       Legacy
+//======================
+
+
+// mechanical Homing {Resources are Uncredited}
+Ambient/LegacyMachineHom    ASW25
+$AMBIENT 4 Ambient/LegacyMachineHom POINT CONTINUOUS 0.5

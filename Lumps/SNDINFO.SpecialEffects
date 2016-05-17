@@ -1,0 +1,94 @@
+//======================
+//    Special Effects
+//======================
+
+
+// RainSpawner
+Ambient/Rain        AMBRAIN
+$volume Ambient/Rain 0.4
+
+
+// --
+
+
+// Quake 3's Jump Pad
+World/JumpPad       Q3JMPD
+
+
+// --
+
+
+// TGRDM3's Teleport Humming
+World/TeleportGate   TeleHum
+$AMBIENT 5 World/TeleportGate POINT CONTINUOUS 0.5
+
+World/TeleportGate2   TeleHum2 // Demonic
+$AMBIENT 6 World/TeleportGate2 POINT CONTINUOUS 0.5
+
+
+// --
+
+
+// Torch Fire
+World/Fire      Fire
+
+
+// --
+
+
+// Rain
+$ambient 1 Ambient/Rain point 1.0 continuous 0.5
+
+
+// --
+
+
+// Wind Whistling
+World/WindWhistle   wndwist
+$AMBIENT 7 World/WindWhistle POINT RANDOM 25.0 60.0 0.8
+
+
+// --
+World/GentleBreeze      wndgntl
+$AMBIENT 8 World/GentleBreeze POINT CONTINUOUS 1.0
+
+
+// --
+
+
+World/WindyBreeze       wndbrez
+$AMBIENT 9 World/WindyBreeze POINT CONTINUOUS 0.9
+
+// --
+
+
+World/WindyBreeze1      wndbrez1
+$AMBIENT 10 World/WindyBreeze1 POINT CONTINUOUS 0.9
+
+
+// --
+
+
+World/OceanWaves        OceanWav
+$AMBIENT 3 World/OceanWaves POINT CONTINUOUS 1.0
+
+
+// --
+
+
+World/ElectricBuzzing   ElecBuz
+$AMBIENT 11 World/ElectricBuzzing POINT CONTINUOUS 1.0
+
+
+// --
+
+
+World/ElectricBuzzing1  ElecBuz1
+$AMBIENT 12 World/ElectricBuzzing POINT CONTINUOUS 1.0
+
+
+// --
+
+
+World/LavaBoiling   lavamlt
+$AMBIENT 13 World/LavaBoiling POINT CONTINUOUS 1.0
