@@ -1,11 +1,13 @@
 //======================
 //        Music
 //======================
+// For information about the original soundtracks, click on this link:
+//  http://doomwiki.org/wiki/Music
 
 // Environment
 $musicalias EndMap T_DM2INT
 
-// Doom
+// Doom - http://doomwiki.org/wiki/Doom_music
 $musicalias MUS0 D_E1M1
 $musicalias MUS1 D_E1M2
 $musicalias MUS2 D_E1M3
@@ -27,7 +29,7 @@ $musicalias MUS17 D_E3M2
 $musicalias MUS18 D_E3M3
 $musicalias MUS19 D_E3M8
 
-// Doom 2
+// Doom 2 - http://doomwiki.org/wiki/Doom_II_music
 $musicalias MUS20 D_RUNNIN
 $musicalias MUS21 D_STALKS
 $musicalias MUS22 D_COUNTD
@@ -48,7 +50,7 @@ $musicalias MUS36 D_EVIL
 $musicalias MUS37 D_ULTIMA
 $musicalias MUS38 D_READ_M
 
-// TNT Evilution
+// TNT Evilution - http://doomwiki.org/wiki/Final_Doom_TNT_music
 $musicalias MUS39 T_BETWEE
 $musicalias MUS40 T_DDTBL2
 $musicalias MUS41 T_DDTBLU
