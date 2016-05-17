@@ -306,6 +306,9 @@ REM Lumps
 REM Maps
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Maps\Deathmatch\*.*" "%~1Maps\"
     CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Maps\Special\*.*" "%~1Maps\"
+    CALL :CompileProject_TaskOperation
 REM Decorate
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Decorate\DECORATE.txt*" "%~1"
     CALL :CompileProject_TaskOperation
