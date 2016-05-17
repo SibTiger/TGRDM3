@@ -222,6 +222,18 @@ SCRIPT "MusicFade" (int fadeType, int faderSpeed) CLIENTSIDE
         // Fade in
         if (fadeType)
         {
+            // Unfortuntely, due to a slight limtation with 'SetMusicVolume()', I had to comment this entire
+            //  feature out.  When 'SetMusic()' has been invoked and 'SetMusicVolume()' has been set to
+            //  a value of '0.0', the function 'SetMusic()' will ignore the 'SetMusicVolume()' value and reset it.
+            //  Topic: http://forum.zdoom.org/viewtopic.php?p=908222#p908222
+            
+            // To be sure - if incase - there is changes with ZDoom's music functionality in the future,
+            //  forcefully revert the SetMusicVolume() value.
+                fixedFader = 1.0;
+                SetMusicVolume(fixedFader);
+            
+            
+            /*
             // Update the variable.
             fixedFader = 0.1;
             
@@ -232,6 +244,7 @@ SCRIPT "MusicFade" (int fadeType, int faderSpeed) CLIENTSIDE
                 fixedFader += 0.1;
                 delay(faderSpeed);
             } while (fixedFader <= 1.0);
+            */
         } // if (fadeType = 1)
 } // MusicFade()
 
