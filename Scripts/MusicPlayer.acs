@@ -72,8 +72,8 @@ SCRIPT "MusicPlayer_BackEnd" (VOID) CLIENTSIDE
 
     do
     {
-        // Only run the music when the play list is ready
-        if (MusicPlayListReady)
+        // Only run the music when the play list is ready and also if we're not in the 'TITLEMAP'.
+        if (MusicPlayListReady && (GameType() != GAME_TITLE_MAP))
         {
             // Fade out current music
             //  but only if we're not running this function for the first time.
