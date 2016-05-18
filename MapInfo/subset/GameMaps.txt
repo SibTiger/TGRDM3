@@ -181,3 +181,23 @@ MAP ARTIS "Artis [Duel]"
     F1 = "f1_duel"
     ExitPic = "Inter_98"
 } // Artis [Duel]
+
+
+
+MAP TITLEMAP "Title"
+{
+    NoBotNodes
+    F1 = "TGRHelp"
+} // Title Map
+
+
+
+// This is inspired by AlexMax's centralized Old School
+//  Duel collection project.
+//  https://www.doomworld.com/vb/post/1549742
+MAP HUB "Lobby"
+{
+    IsLobby
+    NoBotNodes
+    F1 = "TGRHelp"
+} // Lobby
