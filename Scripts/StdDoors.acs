@@ -1,0 +1,30 @@
+// This script is designed to unify and centralize the door
+//  mechanics to one place.  This script will standardize
+//  the doors to function in a certain way - with no necessary
+//  extra work to make sure that everything fits with a standard.
+// ----
+// Parameters
+//   doorTag <int>
+//      Specifies the sector tag of the door we're going to manipulate.
+//   doorType <int>
+//      Controls how the door functions
+//      0 = Open and Close
+//      1 = Open the door and stop
+SCRIPT "FastGenericDoors" (int doorTag, int doorType)
+{
+    // Open the door and close it
+    if (!doorType)
+        Generic_Door(doorTag, // Sector tag of door
+                        128, // Speed
+                        0, // Type of Door
+                        34, // Delay
+                        0); // Lock
+
+    // Open the door
+    if (doorType)
+        Generic_Door(doorTag, // Sector tag of door
+                        128, // Speed
+                        1, // Type of Door
+                        34, // Delay
+                        0); // Lock
+} // FastGenericDoors()
