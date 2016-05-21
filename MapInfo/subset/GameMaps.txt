@@ -188,6 +188,9 @@ MAP TITLEMAP "Title"
 {
     NoBotNodes
     F1 = "TGRHelp"
+    // Because these textures are going to be called via ACS,
+    //  tell ZDoom that we're going to need them on-demand.
+        PrecacheTextures = "TX6_000", "TX6_001", "TX6_002", "TX6_003", "TX6_004", "TX6_005", "TX6_006", "TX6_007", "TX6_008", "TX6_009", "TX6_00A", "TX6_00B", "TX6_00C", "TX6_00D", "TX6_00E", "TX6_00F", "TX6_00G", "TX6_00H", "TX6_00I"
 } // Title Map
 
 
