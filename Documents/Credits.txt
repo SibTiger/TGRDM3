@@ -282,3 +282,11 @@ HazeBandicoot
         Link: http://forum.zdoom.org/viewtopic.php?p=900857#p900857
         Bkup: https://www.dropbox.com/s/3o31jamvu4eexad/RailgunFixed.kvx?dl=1
             Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
+
+
+
+Simon "SlayeR" Judd
+----
+    Made available the MUS 'D_THE_DA', which was included in the HellCore project.
+        Link: https://www.doomworld.com/idgames/levels/doom2/Ports/g-i/hc20
+            Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
