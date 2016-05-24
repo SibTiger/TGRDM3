@@ -285,8 +285,9 @@ HazeBandicoot
 
 
 
-Simon "SlayeR" Judd
+TeamTNT [TNT Evilution]
 ----
-    Made available the MUS 'D_THE_DA', which was included in the HellCore project.
-        Link: https://www.doomworld.com/idgames/levels/doom2/Ports/g-i/hc20
+    Created and has all rights and properties to their music.
+        Web Site: http://www.idsoftware.com/
+        Game Link (Steam): http://store.steampowered.com/app/2290/
             Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
