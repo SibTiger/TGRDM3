@@ -8,11 +8,6 @@
 # Auto-Generated WAD Settings Configuration's
 *.dbs
 
-# Assets data file
-Morgenstern_assets.pk[3|7]
-TGRDM3_assets.pk[3|7]
-
-
 
 
 # ================================
@@ -21,6 +16,15 @@ TGRDM3_assets.pk[3|7]
 
 # [SLADE] Backup Files
 *.wad.bak
+
+
+
+# ================================
+#        Assets data file
+# ================================
+
+Morgenstern_assets.pk[3|7]
+TGRDM3_assets.pk[3|7]
 
 
 
