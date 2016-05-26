@@ -445,9 +445,6 @@ REM Graphics
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Graphics\BotSkillLevel\*.*" "%~1Graphics\"
     CALL :CompileProject_TaskOperation
     REM ----
-    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Graphics\SkullTag Help Screens\*.*" "%~1Graphics\"
-    CALL :CompileProject_TaskOperation
-    REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Graphics\Intermission Screens\*.*" "%~1Graphics\"
     CALL :CompileProject_TaskOperation
     REM ----
@@ -619,9 +616,6 @@ REM Graphics
     CALL :CompileProject_TaskOperation
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Graphics\BotSkillLevel\*.*" "%~1Graphics\"
-    CALL :CompileProject_TaskOperation
-    REM ----
-    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Graphics\SkullTag Help Screens\*.*" "%~1Graphics\"
     CALL :CompileProject_TaskOperation
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Graphics\Intermission Screens\*.*" "%~1Graphics\"

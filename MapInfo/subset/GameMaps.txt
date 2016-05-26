@@ -2,7 +2,6 @@ MAP MAP01 "Acerbus"
 {
     LevelNum = 1
     Next = "MAP02"
-    F1 = "f1_dm"
     ExitPic = "Inter_01"
 } // Acerbus
 
@@ -12,7 +11,6 @@ MAP MAP02 "Unfaithful"
 {
     LevelNum = 2
     Next = "MAP03"
-    F1 = "f1_dm"
     ExitPic = "Inter_02"
 } // Unfaithful
 
@@ -22,7 +20,6 @@ MAP MAP03 "Noir Lust"
 {
     LevelNum = 3
     Next = "MAP04"
-    F1 = "f1_dm"
     ExitPic = "Inter_03"
 } // Noir Lust
 
@@ -32,7 +29,6 @@ MAP MAP04 "Abandoned Misery"
 {
     LevelNum = 4
     Next = "MAP05"
-    F1 = "f1_dm"
     ExitPic = "Inter_04"
 } // Abandoned Misery
 
@@ -42,7 +38,6 @@ MAP MAP05 "Dark Stone"
 {
     LevelNum = 5
     Next = "MAP06"
-    F1 = "f1_dm"
     ExitPic = "Inter_05"
 } // Dark Stone
 
@@ -52,7 +47,6 @@ MAP MAP06 "Insomnium"
 {
     LevelNum = 6
     Next = "MAP07"
-    F1 = "f1_dm"
     ExitPic = "Inter_06"
 } // Insomnium
 
@@ -62,7 +56,6 @@ MAP MAP07 "Malus"
 {
     LevelNum = 7
     Next = "MAP08"
-    F1 = "f1_dm"
     ExitPic = "Inter_07"
 } // Malus
 
@@ -72,7 +65,6 @@ MAP MAP08 "Ailuropoda Melanoleuca"
 {
     LevelNum = 8
     Next = "MAP09"
-    F1 = "f1_dm"
     ExitPic = "Inter_08"
 } // Ailuropoda Melanoleuca
 
@@ -82,7 +74,6 @@ MAP MAP09 "Adios"
 {
     LevelNum = 9
     Next = "MAP10"
-    F1 = "f1_dm"
     ExitPic = "Inter_09"
 } // Adios
 
@@ -93,7 +84,6 @@ MAP MAP10 "The Testaments"
     LevelNum = 10
     Next = MAP11
     SKY1 = "TGR_SKY1", 0.0
-    F1 = "f1_duel"
     ExitPic = "Inter_10"
 } // The Testaments (TGRDM2)
 
@@ -103,7 +93,6 @@ MAP MAP11 "Royal"
 {
     LevelNum = 11
     Next = MAP12
-    F1 = "f1_dm"
     ExitPic = "Inter_11"
 } // Royal (TGRDM2)
 
@@ -114,7 +103,6 @@ MAP MAP12 "Chambers"
     LevelNum = 12
     Next = MAP13
     Sky1 = "TGR_SKY1", 0.0
-    F1 = "f1_dm"
     ExitPic = "Inter_12"
 } // Chambers (TGRDM2)
 
@@ -125,7 +113,6 @@ MAP MAP13 "The Stand"
     LevelNum = 13
     Next = MAP14
     SKY1 = "TGR_SKY2", 1.0
-    F1 = "f1_dm"
     ExitPic = "Inter_13"
 } // The Stand (TGRDM2)
 
@@ -136,7 +123,6 @@ MAP MAP14 "Blood Stone"
     LevelNum = 14
     Next = MAP15
     SKY1 = "HM_051", 0.0
-    F1 = "f1_dm"
     ExitPic = "Inter_14"
 } // Blood Stone (TGRDM3 Legacy)
 
@@ -147,7 +133,6 @@ MAP MAP15 "Direful"
     LevelNum = 15
     Next = MAP16
     SKY1 = "HM_051", 0.0
-    F1 = "f1_dm"
     ExitPic = "Inter_15"
 } // Direful (TGRDM3 Legacy)
 
@@ -158,7 +143,6 @@ MAP MAP16 "Native Base"
     LevelNum = 16
     Next = MAP17
     SKY1 = "TX0_0DZ", 0.0
-    F1 = "f1_dm"
     ExitPic = "Inter_16"
 } // Native Base (TGRDM3 Legacy)
 
@@ -168,7 +152,6 @@ MAP AMISERY "Abandoned Misery [Pretty]"
 {
     LevelNum = 99
     Next = "MAP01"
-    F1 = "f1_dm"
     ExitPic = "Inter_99"
 } // Abandoned Misery [Pretty]
 
@@ -178,7 +161,6 @@ MAP ARTIS "Artis [Duel]"
 {
     LevelNum = 98
     Next = "Artis"
-    F1 = "f1_duel"
     ExitPic = "Inter_98"
 } // Artis [Duel]
 
@@ -187,7 +169,6 @@ MAP ARTIS "Artis [Duel]"
 MAP TITLEMAP "Title"
 {
     NoBotNodes
-    F1 = "TGRHelp"
     // Because these textures are going to be called via ACS,
     //  tell ZDoom that we're going to need them on-demand.
         PrecacheTextures = "TX6_000", "TX6_001", "TX6_002", "TX6_003", "TX6_004", "TX6_005", "TX6_006", "TX6_007", "TX6_008", "TX6_009", "TX6_00A", "TX6_00B", "TX6_00C", "TX6_00D", "TX6_00E", "TX6_00F", "TX6_00G", "TX6_00H"
@@ -205,5 +186,4 @@ MAP HUB "Lobby"
 {
     IsLobby
     NoBotNodes
-    F1 = "TGRHelp"
 } // Lobby
