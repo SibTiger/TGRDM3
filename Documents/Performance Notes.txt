@@ -14,3 +14,5 @@ Most maps in this project uses seriously intensive resources for the features\ey
         R_DrawTrans [True|False]
     Toggle Voxels
         R_DrawVoxels [True|False]
+    Toggle Rendering Precision
+        GL_Render_Precise [True|False]
