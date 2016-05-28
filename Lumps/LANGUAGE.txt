@@ -42,3 +42,49 @@ ERR_TitleMapBadSetup = "!ERR!: Playing Title Map as a playable map!";
 // Action; ACS: When required to do so to prevent improper setup or critical faults, -
 //  this string will appear in regards to the up-coming task.
 Action_ForceChangeMap = "!ACT!: Forcibly changing the map. . .";
+
+
+
+// =======================================================
+// -------------------------------------------------------
+//                         CREDITS
+// -------------------------------------------------------
+
+// Tools Used
+Credits_ToolsUsed = "Tools Used";
+
+
+// Game Content
+Credits_GameContent = "Game Content";
+
+
+// Map Design
+Credits_MapDesign = "Map Designs";
+
+
+// Graphics
+Credits_Graphics = "Graphics";
+
+
+// Sounds
+Credits_Sounds = "Sounds";
+
+
+// Music
+Credits_Music = "Music";
+
+
+// Visual Effects
+Credits_VisualEffects = "Visual Effects";
+
+
+// Special Thanks: Doom Ports
+Credits_DoomPorts = "Thanks to those that made Doom even better!";
+
+
+// Special Thanks: Supporters and Helpers
+Credits_Support = "Special thanks to the Supporters and Helpers";
+
+
+// Special Thanks
+Credits_SpecialThanks = "Special Thanks";
