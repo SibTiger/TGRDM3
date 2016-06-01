@@ -48,7 +48,6 @@ SCRIPT "Domination_Driver" OPEN
         GameType() != GAME_TITLE_MAP)
         {
             // Domination Game Mode
-            Log(s:"Executing Domination Game Environment. . .");
             // Execute map individual instructions {Setup sectors, mainly}
                 Domination_Map_Instructions();
         }
