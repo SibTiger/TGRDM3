@@ -4,7 +4,7 @@
 //  much time has been lapsed.  The overall idea of this feature is to provide a fresher experience overall when playing
 //  through each map, thus it doesn't feel like the exact environment each time when the user goes through the maps after so
 //  many times.
-// This algorithm requires no interation from the user and is not customizable to the end-user perspective.
+// This algorithm requires no interaction from the user and is not customizable to the end-user perspective.
 // ----
 
 
@@ -64,7 +64,7 @@ SCRIPT "MusicPlayer" OPEN CLIENTSIDE
 // This script is a dedicated driver into how the music will interact with the user.
 SCRIPT "MusicPlayer_BackEnd" (VOID) CLIENTSIDE
 {
-    // Declarations and Initliazations
+    // Declarations and Initializations
         // When running this function for the first time, don't run some features
         //  such as Music Fade Out.
             bool firstRun = true;
@@ -105,7 +105,7 @@ SCRIPT "MusicPlayer_BackEnd" (VOID) CLIENTSIDE
 
 
 // This is a dedicated function to increment the array highlighter,
-//  but also makes sure that the highlighter stays within the sprectrum
+//  but also makes sure that the highlighter stays within the spectrum
 //  of the array and not outside.
 function void UpdatePlayListHighlight (void)
 {
@@ -136,7 +136,7 @@ function void GenerateMusicPlayList (VOID)
 
 
 
-// This function is designed to take the music array and randomly reoganize it.
+// This function is designed to take the music array and randomly reorganize it.
 // We're going to use the Fisher-Yates Shuffle Modern Algorithm
 //  We start from the ending of the array and simply shuffle the array from
 //  the beginning to the tail ending of the array list.  In the next pass, we'll
@@ -168,7 +168,7 @@ function void MusicPlayer_ShufflePlayList (void)
                 temp = MusicPlayList[i];
             // Switch the randomly selected index with the highlighted index.
                 MusicPlayList[i] = MusicPlayList[n];
-            // Replace the randomly selected index's value with the highlited index.
+            // Replace the randomly selected index's value with the highlighted index.
                 MusicPlayList[n] = temp;
         } // if
     } // for
@@ -222,7 +222,7 @@ SCRIPT "MusicFade" (int fadeType, int faderSpeed) CLIENTSIDE
         // Fade in
         if (fadeType)
         {
-            // Unfortuntely, due to a slight limtation with 'SetMusicVolume()', I had to comment this entire
+            // Unfortunately, due to a slight limitation with 'SetMusicVolume()', I had to comment this entire
             //  feature out.  When 'SetMusic()' has been invoked and 'SetMusicVolume()' has been set to
             //  a value of '0.0', the function 'SetMusic()' will ignore the 'SetMusicVolume()' value and reset it.
             //  Topic: http://forum.zdoom.org/viewtopic.php?p=908222#p908222
@@ -263,7 +263,7 @@ function void SetGameMusic (int musicIndex)
 
 
 // Auto-fill the play list array with 'MUS$num' formatting
-//  Where $num is the size of the array, inwhich is dependent on the variable
+//  Where $num is the size of the array, in which is dependent on the variable
 //  'MusicPlayListSize' <int>.
 function void MusicPlayList_AutoFill (VOID)
 {
