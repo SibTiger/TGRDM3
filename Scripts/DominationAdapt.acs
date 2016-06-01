@@ -1,7 +1,8 @@
 // Domination Adapt Algorithm
 // ----
 // This script is designed to automatically setup the game environment to
-//  work in the Domination game mode [ http://wiki.zandronum.com/Game_Modes#Domination ]
+//  work in the Domination game mode [ http://wiki.zandronum.com/Game_Modes#Domination ].
+//  Which is specifically for the Zandronum\SkullTag engine only, ZDoom does not support this game mode.
 // We accomplish this by trying to detect the game environment, and then try
 //  to adjust the map to work with the environment if necessary.  For example,
 //  if the game mode is Deathmatch, we leave the maps to their default setting -
