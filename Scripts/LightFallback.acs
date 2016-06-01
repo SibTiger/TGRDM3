@@ -5,7 +5,7 @@
 //  Dynamic Lights enabled or if the OpenGL renderer is not enabled
 //  from the end-user's configuration, this script will try to adjust the
 //  lighting as much as possible.  This implementation may not be perfect,
-//  however, this will assure that the user's can visually see the virtual
+//  however, this will assure that the users can visually see the virtual
 //  world instead of being left in the dark, literally....
 // ----
 
