@@ -1,6 +1,6 @@
 // OpenGL Lighting Fallback System
 // ----
-// This scrip is designed to automatically adjust the lighting based
+// This script is designed to automatically adjust the lighting based
 //  on the end user's settings and preferences.  If the user does not have the
 //  Dynamic Lights enabled or if the OpenGL renderer is not enabled
 //  from the end-user's configuration, this script will try to adjust the
