@@ -13,6 +13,7 @@
 //              Stop
 //          IF (TeamGame) <Assumption; best we can accomplish>
 //              Activate Map Script
+/                   <<< Map Scope Function: Domination_Map_Instructions() >>>
 //                  This should contain instructions for its sectors
 //                  and adjust the environment if necessary.
 //              Enable any globalized settings if necessary.
@@ -45,7 +46,13 @@ SCRIPT "Domination_Driver" OPEN
         GameType() != GAME_NET_COOPERATIVE &&
         GameType() != GAME_SINGLE_PLAYER &&
         GameType() != GAME_TITLE_MAP)
-        Log(s:"Executing Domination Game Environment. . .");
+        {
+            // Domination Game Mode
+            Log(s:"Executing Domination Game Environment. . .");
+            // Execute map individual instructions {Setup sectors, mainly}
+                Domination_Map_Instructions();
+        }
     Else
-        Log(s:"Not Executing Domination Game Environment!");
+        // Anything other than the Domination Game Mode
+        Terminate;
 } // Domination_Driver()
