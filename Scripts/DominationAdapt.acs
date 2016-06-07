@@ -50,7 +50,7 @@ SCRIPT "Domination_Driver" OPEN
         {
             // Domination Game Mode
             // Execute map individual instructions {Setup sectors, mainly}
-                Domination_Map_Instructions();
+                //Domination_Map_Instructions();
         }
     Else
         // Anything other than the Domination Game Mode
