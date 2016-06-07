@@ -1,0 +1,58 @@
+// Domination Adapt Algorithm
+// ----
+// This script is designed to automatically setup the game environment to
+//  work in the Domination game mode [ http://wiki.zandronum.com/Game_Modes#Domination ].
+//  Which is specifically for the Zandronum\SkullTag engine only, ZDoom does not support this game mode.
+// We accomplish this by trying to detect the game environment, and then try
+//  to adjust the map to work with the environment if necessary.  For example,
+//  if the game mode is Deathmatch, we leave the maps to their default setting -
+//  Deathmatch.  But, however, we'll need to enforce the maps to readjust themselves if the game mode is Domination.
+// SETUP:
+//  DominationAdapt
+//      Check GameMode
+//          IF (Deathmatch)
+//              Stop
+//          IF (TeamGame) <Assumption; best we can accomplish>
+//              Activate Map Script
+//                  <<< Map Scope Function: Domination_Map_Instructions() >>>
+//                  This should contain instructions for its sectors
+//                  and adjust the environment if necessary.
+//              Enable any globalized settings if necessary.
+//              Stop
+// Remember that the SECTINFO manages what sectors are important for the gamemode.
+//  Anything else, the SkullTag\Zandronum engine would take care of by itself.
+//  There's no extra work! :)
+// ----
+
+
+
+// Domination Driver
+// ----
+// Description
+//  This script tries to detect if we're in the Domination game mode.
+//  If we're in the domination game mode, this script will call the map
+//  function that carries its own unique instructions to perform its own
+//  map environment changes suitable for the Domination game mode.
+SCRIPT "Domination_Driver" OPEN
+{
+    // Try to detect the game mode
+    // Do keep in mind, that ZDoom does NOT support the CVar 'Domination' nor
+    //  does it have 'GAME_NET_TEAMGAME', so we have to use the longer method
+    //  to get the same result as 'GAME_NET_TEAMGAME' but under assumption.
+    // NOTE BUG
+    //  If the game mode is CTF, SkullTag, or anything of the like that nests in 'GAME_NET_TEAMGAME', this still activate the Domination game setting.
+    //  There's no other way around this issue, this is just a limitation with
+    //  the engines and staying compatible between both Zandronum and GZDoom.
+    IF (GameType() != GAME_NET_DEATHMATCH &&
+        GameType() != GAME_NET_COOPERATIVE &&
+        GameType() != GAME_SINGLE_PLAYER &&
+        GameType() != GAME_TITLE_MAP)
+        {
+            // Domination Game Mode
+            // Execute map individual instructions {Setup sectors, mainly}
+                Domination_Map_Instructions();
+        }
+    Else
+        // Anything other than the Domination Game Mode
+        Terminate;
+} // Domination_Driver()

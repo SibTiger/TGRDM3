@@ -21,3 +21,6 @@
 
 // Standard Doors
     #include "StdDoors.acs"
+
+// Domination Adaptiveness
+    #include "DominationAdapt.acs"
