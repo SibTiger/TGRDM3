@@ -85,14 +85,14 @@ Names = {
 Points = {
     "Courtyard" = {1344, 1345, 1346, 1347, 1309, 1308, 1310, 1311, 1226},
     "Baron Keep" = {1342},
-    "Untold Secrets" = {1358},
+    "Untold Secrets" = {1343},
     "Passage" = {1358}
 } // Points
 
 Names = {
     "Courtyard" = {1344, 1345, 1346, 1347, 1309, 1308, 1310, 1311, 1226},
     "Baron Keep" = {1342},
-    "Untold Secrets" = {1358},
+    "Untold Secrets" = {1343},
     "Passage" = {1358}
 } // Names
 
