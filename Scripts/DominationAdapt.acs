@@ -12,7 +12,7 @@
 
 
 
-// Domination Driver
+// Domination Check
 // ----
 // Description
 //  This function tries to detect if we're in the Domination game mode.
@@ -21,7 +21,7 @@
 // Output
 //  True = Domination is presumed to be running.
 //  False = Domination was not detected; presumed Deathmatch
-function bool Domination_Driver (void)
+function bool Domination_Check (void)
 {
     // Try to detect the game mode
     // Do keep in mind, that ZDoom does NOT support the CVar 'Domination' nor
@@ -41,3 +41,31 @@ function bool Domination_Driver (void)
     // Anything other than the Domination Game Mode
     Return False;
 } // Domination_Driver()
+
+
+
+// This script is designed to toggle the Ring Spawner actors to their appropriate settings.
+//  If the Domination game mode was detected, then the Ring Spawners will be activated, however
+//  they will remain deactivated or will be deactivated upon change.
+// Despite currently the game mode can not easily be set on the fly, so this check may feel redundant
+//  upon checking within a loop.  However, the engine might be able to handle these techniques differently
+//  in the future.  So, this game must beable to cooperate with that expectency - if required.
+//
+// NOTE: The Ring Spawners have a static THING tag of 9999997
+//  This makes activation and manipulation far easier.
+#define ringSpawnerTag 9999997
+SCRIPT "Toggle_RingSpawner" OPEN
+{
+    // Check the game mode and toggle the spawners to their appropriate activation settings.
+    do
+    {
+        if (Domination_Check())
+            // Domination game mode was detected.
+            Thing_Activate(ringSpawnerTag);
+        else
+            // Something else was detected, make sure the spawners are off.
+            Thing_Deactivate(ringSpawnerTag);
+        // Wait for approx. one second before checking again.
+        delay(35);
+    } while (true);
+} // Toggle_RingSpawner()
