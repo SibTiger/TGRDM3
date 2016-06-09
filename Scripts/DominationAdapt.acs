@@ -21,7 +21,7 @@
 // Output
 //  True = Domination is presumed to be running.
 //  False = Domination was not detected; presumed Deathmatch
-function void Domination_Driver (void)
+function bool Domination_Driver (void)
 {
     // Try to detect the game mode
     // Do keep in mind, that ZDoom does NOT support the CVar 'Domination' nor
@@ -37,7 +37,7 @@ function void Domination_Driver (void)
         GameType() != GAME_TITLE_MAP)
         // Domination
         Return True;
-    Else
-        // Anything other than the Domination Game Mode
-        Return False;
+
+    // Anything other than the Domination Game Mode
+    Return False;
 } // Domination_Driver()
