@@ -55,7 +55,27 @@ Actor BaseOrb
 
 actor GreenCirclePad 191
 {
-    //$Category Stronghold_PowerUpPads
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Green Ring"
+    //$Category "Special Effects/Rings"
+    //$Sprite LRFXA0
+    //$Color 2
+    //$NotAngled
+    // ----
+    //$Arg1 "Speed [+|-]"
+    //$Arg1Type 0
+    //$Arg1Default 8
+    //$Arg1Tooltip "Second argument controls the speed of the rings.  It is possible to use negative values to invert the motion of the rings."
+    // ----
+    //$Arg2 "Size"
+    //$Arg2Type 0
+    //$Arg2Default 64
+    //$Arg2Tooltip "Third argument controls the size of the area. 32, for example, spawns in a 64x64 square."
+    // ------------------------------
+    // ==============================
+    
+    
     +NoBlockMap
     +NoGravity
     +NoSector
@@ -116,6 +136,26 @@ actor GreenCirclePad 191
 
 actor BlueCirclePad : GreenCirclePad 192
 {
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Blue Ring"
+    //$Category "Special Effects/Rings"
+    //$Sprite LRFXA0
+    //$Color 1
+    //$NotAngled
+    // ----
+    //$Arg1 "Speed [+|-]"
+    //$Arg1Type 0
+    //$Arg1Default 8
+    //$Arg1Tooltip "Second argument controls the speed of the rings.  It is possible to use negative values to invert the motion of the rings."
+    // ----
+    //$Arg2 "Size"
+    //$Arg2Type 0
+    //$Arg2Default 64
+    //$Arg2Tooltip "Third argument controls the size of the area. 32, for example, spawns in a 64x64 square."
+    // ------------------------------
+    // ==============================
+    
     translation "112:127=196:207"
 }
 
@@ -123,6 +163,26 @@ actor BlueCirclePad : GreenCirclePad 192
 
 actor WhiteCirclePad : GreenCirclePad 193
 {
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "White Ring"
+    //$Category "Special Effects/Rings"
+    //$Sprite LRFXA0
+    //$Color 15
+    //$NotAngled
+    // ----
+    //$Arg1 "Speed [+|-]"
+    //$Arg1Type 0
+    //$Arg1Default 8
+    //$Arg1Tooltip "Second argument controls the speed of the rings.  It is possible to use negative values to invert the motion of the rings."
+    // ----
+    //$Arg2 "Size"
+    //$Arg2Type 0
+    //$Arg2Default 64
+    //$Arg2Tooltip "Third argument controls the size of the area. 32, for example, spawns in a 64x64 square."
+    // ------------------------------
+    // ==============================
+    
     translation "112:127=80:111"
 }
 
@@ -130,6 +190,26 @@ actor WhiteCirclePad : GreenCirclePad 193
 
 actor RedCirclePad : GreenCirclePad 194
 {
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Red Ring"
+    //$Category "Special Effects/Rings"
+    //$Sprite LRFXA0
+    //$Color 4
+    //$NotAngled
+    // ----
+    //$Arg1 "Speed [+|-]"
+    //$Arg1Type 0
+    //$Arg1Default 8
+    //$Arg1Tooltip "Second argument controls the speed of the rings.  It is possible to use negative values to invert the motion of the rings."
+    // ----
+    //$Arg2 "Size"
+    //$Arg2Type 0
+    //$Arg2Default 64
+    //$Arg2Tooltip "Third argument controls the size of the area. 32, for example, spawns in a 64x64 square."
+    // ------------------------------
+    // ==============================
+    
     translation "112:127=176:191"
 }
 
@@ -137,5 +217,25 @@ actor RedCirclePad : GreenCirclePad 194
 
 actor OrangeCirclePad: GreenCirclePad 195
 {
+    // GZDoom Builder Configuration
+    // ==============================
+    //$Title "Orange Ring"
+    //$Category "Special Effects/Rings"
+    //$Sprite LRFXA0
+    //$Color 17
+    //$NotAngled
+    // ----
+    //$Arg1 "Speed [+|-]"
+    //$Arg1Type 0
+    //$Arg1Default 8
+    //$Arg1Tooltip "Second argument controls the speed of the rings.  It is possible to use negative values to invert the motion of the rings."
+    // ----
+    //$Arg2 "Size"
+    //$Arg2Type 0
+    //$Arg2Default 64
+    //$Arg2Tooltip "Third argument controls the size of the area. 32, for example, spawns in a 64x64 square."
+    // ------------------------------
+    // ==============================
+    
     translation "112:127=214:223"
 }
