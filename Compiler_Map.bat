@@ -350,6 +350,9 @@ REM Sprites
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\SparkleSpawner\*.*" "%~1Sprites\"
     CALL :CompileProject_TaskOperation
     REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\RingSpawner\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\PrettyTorches\*.*" "%~1Sprites\"
     CALL :CompileProject_TaskOperation
     REM ----
@@ -521,6 +524,9 @@ REM Sprites
     CALL :CompileProject_TaskOperation
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\SparkleSpawner\*.*" "%~1Sprites\"
+    CALL :CompileProject_TaskOperation
+    REM ----
+    SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\RingSpawner\*.*" "%~1Sprites\"
     CALL :CompileProject_TaskOperation
     REM ----
     SET TaskCaller_CallLong=COPY %CopyIntCMDArg% "%UserConfig.DirProjectWorkingCopy%\Sprites\PrettyTorches\*.*" "%~1Sprites\"
