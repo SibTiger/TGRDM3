@@ -1,6 +1,7 @@
 //Documentation
 //=================
 // Place on map and use the provided arguments to control the intensity and area of the spawner.
+//  [NG] Do note that in order to use these actors, they must be activated by using the ACS function 'Thing_Activate(tid)'.
 //
 // [NG] First argument adjusts the delay before the next update takes place.  The default value is '4',
 //  however, it is possible to increase this value to a higher integer to slow down the object per update.
