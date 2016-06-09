@@ -12,6 +12,7 @@
     #include "Decorate/Fog.txt"
     #include "Decorate/Splashes.txt"
     #include "Decorate/SparkleSpawner.txt"
+    #include "Decorate/RingSpawner.txt"
     #include "Decorate/PrettyTorches.txt"
 
 
