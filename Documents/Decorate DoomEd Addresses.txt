@@ -8,6 +8,17 @@
 
 #-Address  |  Object
 -----------------------
+191          GreenCirclePad
+192          BlueCirclePad
+193          WhiteCirclePad
+194          RedCirclePad
+195          OrangeCirclePad
+209          WhiteSparkleSpawner
+210          BlueSparkleSpawner
+211          GreenSparkleSpawner
+212          RedSparkleSpawner
+213          OrangeSparkleSpawner
+214          PurpleSparkleSpawner
 5011         TGRGrenadeLauncher
 5012         TGRRailgun
 5013         TGRMegaSphere_NoGravity
