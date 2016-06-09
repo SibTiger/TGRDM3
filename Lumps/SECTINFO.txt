@@ -47,17 +47,17 @@ Names = {
 //Map: Noir Lust
 [MAP03]
 Points = {
-    "North" = {472},
+    "Misery" = {472},
     "Lava Pit" = {964},
-    "Outside" = {1664},
-    "South" = {1527}
+    "Courtyard" = {1664},
+    "Noose" = {1527}
 } // Points
 
 Names = {
-    "North" = {472},
+    "Misery" = {472},
     "Lava Pit" = {964},
-    "Outside" = {1664},
-    "South" = {1527}
+    "Courtyard" = {1664},
+    "Noose" = {1527}
 } // Names
 
 
