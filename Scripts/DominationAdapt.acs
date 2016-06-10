@@ -40,7 +40,7 @@ function bool Domination_Check (void)
 
     // Anything other than the Domination Game Mode
     Return False;
-} // Domination_Driver()
+} // Domination_Check()
 
 
 
