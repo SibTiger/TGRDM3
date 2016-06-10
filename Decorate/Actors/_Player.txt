@@ -11,6 +11,7 @@ ACTOR TGRDoomPlayer : DoomPlayer
     Player.UseRange 64 // How far away to activate trigger; default: 64
     Player.FallingScreamSpeed 35.0, 40.0 // Range speed when falling to enable the scream sound
     DamageFactor "RocketDamage", .32 // Try to mimic Quake's Rocket Jump damage; average is ~32 damage
+    DamageFactor "GrenadeDamage", .5 // Reduce the damage for the grenades by half.
     Player.StartItem "TGRChaingun"
     Player.StartItem "TGRChainsaw"
     Player.StartItem "Clip", 60

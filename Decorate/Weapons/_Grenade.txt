@@ -5,7 +5,6 @@ Actor TGRGrenade
     Radius 8
     Height 8
     Speed 20 //Original was 25; test
-    Damage 35 //Original was 20; test
     Gravity .45 //Original was .25
     // Standards
     // ===========
@@ -17,6 +16,8 @@ Actor TGRGrenade
     // =================================
         Projectile
         BounceType "Doom"
+        DamageType GrenadeDamage
+        Damage (35*2) //Original was 20; test
         ProjectileKickBack 40
         RadiusDamageFactor 2 //2x=y
         -NoGravity
@@ -30,14 +31,15 @@ Actor TGRGrenade
     SeeSound "weapons/rocklf"
     DeathSound "weapons/rocklx"
     BounceSound "Weapons/GrBnce"
-    DamageType Grenade
+    
     States
     {
     Spawn:
         SGRN A 1 Bright
         Loop
     Death:
-        MISL B 8 Bright A_Explode
+        MISL B 0 Bright A_Explode (128, 128, XF_HURTSOURCE) // Self damage && everyone else
+        MISL B 8 Bright A_Explode (128, 128, 0) // Omitting self damage; everyone else.
         MISL C 6 Bright
         MISL D 4 Bright
         Stop
