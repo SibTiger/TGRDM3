@@ -132,12 +132,12 @@ actor GreenCirclePad : SwitchableDecoration 191
             TNT1 A 0 A_SpawnItemEx ("BaseOrb", Args[1], 0, 0, 0, 0, Args[2],270, 129, 0)
             TNT1 A 0 A_SpawnItemEx ("BaseOrb", Args[1], 0, 0, 0, 0, Args[2],280, 129, 0)
             TNT1 A 0 A_SpawnItemEx ("BaseOrb", Args[1], 0, 0, 0, 0, Args[2],290, 129, 0)
+            TNT1 A 0 A_SpawnItemEx ("BaseOrb", Args[1], 0, 0, 0, 0, Args[2],300, 129, 0)
             TNT1 A 0 A_SpawnItemEx ("BaseOrb", Args[1], 0, 0, 0, 0, Args[2],310, 129, 0)
             TNT1 A 0 A_SpawnItemEx ("BaseOrb", Args[1], 0, 0, 0, 0, Args[2],320, 129, 0)
             TNT1 A 0 A_SpawnItemEx ("BaseOrb", Args[1], 0, 0, 0, 0, Args[2],330, 129, 0)
             TNT1 A 0 A_SpawnItemEx ("BaseOrb", Args[1], 0, 0, 0, 0, Args[2],340, 129, 0)
             TNT1 A 0 A_SpawnItemEx ("BaseOrb", Args[1], 0, 0, 0, 0, Args[2],350, 129, 0)
-            TNT1 A 0 A_SpawnItemEx ("BaseOrb", Args[1], 0, 0, 0, 0, Args[2],360, 129, 0)
             TNT1 A 0 A_SetTics (Args[0]) // [NG] The map developer can now control the speed when it loops; default is 4.
             Loop
         Inactive:
