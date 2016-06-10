@@ -92,7 +92,8 @@ actor GreenCirclePad : SwitchableDecoration 191
     +NoInteraction
     +NoClip
     -Solid
-    +CLIENTSIDEONLY
+    // [NG] I commented this out as Zandronum doesn't like this; nothing is displayed
+        //+CLIENTSIDEONLY
 
     states
     {
