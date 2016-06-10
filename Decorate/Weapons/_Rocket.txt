@@ -25,8 +25,8 @@ ACTOR TGRRocket : Rocket REPLACES Rocket
         MISL A 1 Bright
         Loop
     Death:
-        MISL B 7 Bright A_Explode (128, 128, XF_HURTSOURCE) // Self damage && everyone else
-        MISL B 1 Bright A_Explode (272, 128, 0) // Omitting self damage; everyone else.  Note: [x * .32 = ~ (128 - [128 * .32]); formula]
+        MISL B 0 Bright A_Explode (128, 128, XF_HURTSOURCE) // Self damage && everyone else
+        MISL B 8 Bright A_Explode (272, 128, 0) // Omitting self damage; everyone else.  Note: [x * .32 = ~ (128 - [128 * .32]); formula]
         MISL C 6 Bright
         MISL D 4 Bright
         Stop
