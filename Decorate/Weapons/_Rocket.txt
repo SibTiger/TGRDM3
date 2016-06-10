@@ -4,11 +4,12 @@ ACTOR TGRRocket : Rocket REPLACES Rocket
     Radius 11
     Height 8
     Speed 40
-    Damage 30 //TEST [Original == 20]
     // ----
     // Flags, Switches, and Properties
     // =================================
         Projectile
+        DamageType "RocketDamage"
+        Damage (30*2) // Adjust's the damage provided.
         +SKYEXPLODE // When the projectile hits F_SKY1, the projectile will enter it's DEATH state.
         +RANDOMIZE // Randomized timing
         +DEHEXPLOSION // Draw the missile's state translucent
@@ -24,7 +25,8 @@ ACTOR TGRRocket : Rocket REPLACES Rocket
         MISL A 1 Bright
         Loop
     Death:
-        MISL B 8 Bright A_Explode
+        MISL B 7 Bright A_Explode (128, 128, XF_HURTSOURCE) // Self damage && everyone else
+        MISL B 1 Bright A_Explode (272, 128, 0) // Omitting self damage; everyone else.  Note: [x * .32 = ~ (128 - [128 * .32]); formula]
         MISL C 6 Bright
         MISL D 4 Bright
         Stop
