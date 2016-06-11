@@ -38,6 +38,8 @@ Description             : MAPS
                           The ancient maps from that project have been slightly modified
                           to work with this project, along with its features.
                           
+                          
+                          
                           GAME MODES
                           -------------------------
                           With all of the maps aside, this project does contain some
@@ -50,6 +52,8 @@ Description             : MAPS
                           Though, do note that with supporting Domination, some maps have varied
                           numbers of points.  Small maps might have one or two points, other
                           maps might contain up to four points.
+                          
+                          
                           
                           NOTABLE FEATURES
                           -------------------------
@@ -71,6 +75,8 @@ Description             : MAPS
                           instead of getting the exact same experience each-time - - which
                           gets old quickly.  But of-course, this feature is automatically
                           disabled if music is turned off.
+                          
+                          
                           
                           PLAYABLE FEATURES
                           -------------------------
@@ -108,7 +114,8 @@ Description             : MAPS
                           
                           
                           
-                          Performance Notes:
+                          PERFORMANCE NOTES
+                          -------------------------
                             This map might be rather resource and rendering
                             intensive on various systems abroad.  Here is a
                             few Console Variables that could help a bit by
@@ -131,8 +138,9 @@ Description             : MAPS
 
 Additional Credits to   : RESOURCES AND ASSETS
                           -------------------------
-                          This a brief list of credits, for the full list see
-                           Credits.txt and Texture Credits
+                          This a brief list of credits, for more information
+                          and links to the resouces, please see the Credits.txt
+                          located in the /documents/ of this .pk3 archive.
                           Affliction
                             Created a script to detect duplicate files.
                           Mazter
@@ -209,6 +217,8 @@ Additional Credits to   : RESOURCES AND ASSETS
                           TeamTNT [TNT Evilution]
                             Created (and has all rights) to their midi music.
                           
+                          
+                          
                           TEXTURES
                           -------------------------
                           All the authors of the textures I used for
@@ -216,6 +226,8 @@ Additional Credits to   : RESOURCES AND ASSETS
                            I placed all the documentation in the /documents/
                            section within the .pk3 archive.
                            Please view that directory for more information.
+                          
+                          
                           
                           SPECIAL THANKS
                           -------------------------
