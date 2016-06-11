@@ -149,7 +149,7 @@ id Software
 
 SkullTag Team
 ----
-    Created or made available, the Bot Skill Level menu and various graphics.
+    Created or made available, the Bot Skill Level menu.
         Web Site: http://www.skulltag.com/
             Property of the contents belong to the respected creators and maintainers.  The assets used might have been tweaked to work with this project.
 
