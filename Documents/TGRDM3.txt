@@ -191,8 +191,11 @@ Additional Credits to   : RESOURCES AND ASSETS
                             sound effect.
                           Jay Reichard
                             Created and made available Project: Doom (Final), 
-                            a upbeat\remix midi music collection of Doom, Doom 2, and TNT:Evilution.
-                            NOTE /idgames: This is freely available for anyone use.  Please see the Credits.txt for more information!
+                            a upbeat\remix midi music collection of Doom, Doom 2,
+                            and TNT:Evilution.
+                            NOTE /idgames: This is freely available for anyone
+                            use.
+                            Please see the Credits.txt for more information!
                           VoxelBro
                             Created and made available the Grenade Launcher and 
                             Grenade Voxels.  In addition to other voxels that
@@ -208,10 +211,10 @@ Additional Credits to   : RESOURCES AND ASSETS
                           
                           TEXTURES
                           -------------------------
-                          And all the authors of the textures I used for
-                           making this map; though, since I had a huge 
-                           texture database, I placed all the documentation
-                           in the /documents/ section within the .pk3 archive.
+                          All the authors of the textures I used for
+                           for this project are in a cenralized texture database,
+                           I placed all the documentation in the /documents/
+                           section within the .pk3 archive.
                            Please view that directory for more information.
                           
                           SPECIAL THANKS
