@@ -1,11 +1,11 @@
 ===========================================================================
 Archive Maintainer      : ATT: THIS IS NOT TO BE UPLOADED: BETA BUILD ONLY
-Advanced engine needed  : GZDoom 2.1 Recommended, Zandronum 3.0 Tested
+Advanced engine needed  : GZDoom 2.2 Recommended, Zandronum 3.0 Tested
 Primary purpose         : Deathmatch
 ===========================================================================
 Title                   : Morgenstern
 Filename                : TGRDM3
-Release date            : 12.March.2016
+Release date            : xx.June.2016
 Author                  : Nicholas "Tiger" Gautier
 Email Address           : SibTiger_And_Life@Hotmail.com
 Other Files By Author   : TGRDM1
@@ -20,13 +20,57 @@ Other Files By Author   : TGRDM1
                             https://www.doomworld.com/idgames/levels/doom2/deathmatch/Ports/a-c/amisery
 Misc. Author Info       : Ich liebe Siberian Tigers :)
 
-Description             : This project contains eleven deathmatch maps based
+Description             : MAPS
+                          -------------------------
+                          This project contains eleven deathmatch maps based
                           on the New School genre that are inspired by Quake
                           3.  The maps presented in this project does require
                           GZDoom's OpenGL renderer, as the software renderer
                           does not yet have the capabilities to render
                           slopped 3D floors, as well as some visual
-                          discrepancies.
+                          discrepancies.  In addition, I have also included three
+                          legacy maps that used to be the main stock of the TGRDM3
+                          project.  As the development of this project originally
+                          started back in the year 2007, there has been a lot of
+                          hit and misses, and these maps outline why and what I
+                          have personally struggled on for many years.  Furthermore,
+                          I have included four maps from my previous project, TGRDM2.
+                          The ancient maps from that project have been slightly modified
+                          to work with this project, along with its features.
+                          
+                          GAME MODES
+                          -------------------------
+                          With all of the maps aside, this project does contain some
+                          useful features that players can enjoy.  For starters,
+                          TGRDM3 works with Zandronum's extended game modes that
+                          is not available in the GZDoom engine.  For example, this
+                          project supports the following besides the usual Deathmatch
+                          game mode: Team Deathmatch, Domination, Duel, Last Man Standing,
+                          Team Last Man Standing, Possession, Team Possession, and Terminator.
+                          Though, do note that with supporting Domination, some maps have varied
+                          numbers of points.  Small maps might have one or two points, other
+                          maps might contain up to four points.
+                          
+                          NOTABLE FEATURES
+                          -------------------------
+                          Moreover, there is some notable features included in this project.
+                          This project will try to determine if the player is using OpenGL
+                          and\or if that player is seeing Dynamic Lights.  If incase the
+                          player is playing in Software Mode (VID_RENDERER 0) or if
+                          Dynamic Lights (or point lights) is disabled, then this project
+                          will try to brighting the maps for the player.  This will
+                          make the maps slightly brighter instead of the usual darkness
+                          that is luminated with Dynamic Lights.  However, as a draw back,
+                          the maps will seem extremely flat-leveled in terms of lighting.
+                          This, unfortunately, is a limitation of the implementation.
+                          In addition, another notable feature, is the randomized music
+                          player.  The music player will randomly shuffle the already
+                          supplied music, and play the songs for an amount of time and
+                          automatically change to the next song.  This feature alone
+                          should provide a fresh experience when returning to the maps,
+                          instead of getting the exact same experience each-time - - which
+                          gets old quickly.  But of-course, this feature is automatically
+                          disabled if music is turned off.
                           
                           
                           Performance Notes:
@@ -35,9 +79,20 @@ Description             : This project contains eleven deathmatch maps based
                             few Console Variables that could help a bit by
                             disabling some special features based on the
                             GZDoom engine:
-                                    Line Mirrors --> R_DrawMirrors
-                                    Sector Reflections --> GL_Plane_Reflection
-                                    Dynamic Lights --> GL_Lights
+                                Line Mirrors (Software Renderer)
+                                    R_DrawMirrors [True|False]
+                                Line Mirrors (OpenGL Renderer)
+                                    GL_Mirrors [True|False]
+                                Sector Reflections
+                                    GL_Plane_Reflection [True|False]
+                                Dynamic Lights
+                                    GL_Lights [True|False]
+                                Render translucency effects
+                                    R_DrawTrans [True|False]
+                                Toggle Voxels
+                                    R_DrawVoxels [True|False]
+                                Toggle Rendering Precision
+                                    GL_Render_Precise [True|False]
 
 Additional Credits to   : Ghastly_dragon - Submitted and made available the Railgun and
                             Grenade Launcher.  In addition, created and compiled
@@ -146,4 +201,3 @@ this file to allow further distribution.
 * Where to get the file that this text file describes *
 
 The Usual: ftp://archives.gamers.org/pub/idgames/ and mirrors
-Web sites: http://tiger.rfc1337.net/downloads/zdoom/morgenstern/devbuilds/
