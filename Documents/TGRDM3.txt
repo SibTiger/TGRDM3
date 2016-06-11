@@ -62,9 +62,9 @@ Description             : MAPS
                           and\or if that player is seeing Dynamic Lights.  If incase the
                           player is playing in Software Mode (VID_RENDERER 0) or if
                           Dynamic Lights (or point lights) is disabled, then this project
-                          will try to brighting the maps for the player.  This will
+                          will try to brighten the maps for the player.  This will
                           make the maps slightly brighter instead of the usual darkness
-                          that is luminated with Dynamic Lights.  However, as a draw back,
+                          that is illuminated with Dynamic Lights.  However, as a draw back,
                           the maps will seem extremely flat-leveled in terms of lighting.
                           This, unfortunately, is a limitation of the implementation.
                           In addition, another notable feature, is the randomized music
@@ -88,7 +88,7 @@ Description             : MAPS
                             This feature, however, is only available for the Zandronum engine.
                             >> http://forum.zdoom.org/viewtopic.php?p=469284#p469284
                           High Resolution Fonts
-                            Displays high resolution font charactors that are much easier on the
+                            Displays high resolution font characters that are much easier on the
                             eyes and clear to visually see on the screen.
                             >> http://forum.zdoom.org/viewtopic.php?p=428998#p428998
                           High Definition Doom Sounds
@@ -100,7 +100,7 @@ Description             : MAPS
                             >> https://www.doomworld.com/vb/post/779518
                           SkullTag HiRes Pack for Items
                             Provides smoother and clearer sprites.  Visually, this gives some
-                            sprites better blending of colours and smoothes out rough edges.
+                            sprites better blending of colors and smooths out rough edges.
                             >> http://www.skulltag.com/download/
                           Voxels
                             This will provide a 3D like feel to the items and some objects within
@@ -139,7 +139,7 @@ Description             : MAPS
 Additional Credits to   : RESOURCES AND ASSETS
                           -------------------------
                           This a brief list of credits, for more information
-                          and links to the resouces, please see the Credits.txt
+                          and links to the resources, please see the Credits.txt
                           located in the /documents/ of this .pk3 archive.
                           Affliction
                             Created a script to detect duplicate files.
@@ -169,7 +169,7 @@ Additional Credits to   : RESOURCES AND ASSETS
                             effects.
                           idSoftware
                             Created (and all rights reserved to them) the
-                            Quake 3 Jump Pads, aswell as the original SPRITES.
+                            Quake 3 Jump Pads, as well as the original SPRITES.
                             In addition, a special thanks to these guys for
                             obvious reasons ;)
                           SkullTag Team
@@ -185,9 +185,9 @@ Additional Credits to   : RESOURCES AND ASSETS
                           ppfpower87
                             Created the ocean wave sound effect.
                           Sevin7
-                            Created a electrical huming sound effect.
+                            Created a electrical humming sound effect.
                           kbnevel
-                            Created a electrical huming sound effect.
+                            Created a electrical humming sound effect.
                           Arctura
                             Created a rain sound effect.
                           Audionautics
@@ -222,7 +222,7 @@ Additional Credits to   : RESOURCES AND ASSETS
                           TEXTURES
                           -------------------------
                           All the authors of the textures I used for
-                           for this project are in a cenralized texture database,
+                           for this project are in a centralized texture database,
                            I placed all the documentation in the /documents/
                            section within the .pk3 archive.
                            Please view that directory for more information.
@@ -258,7 +258,7 @@ Additional Credits to   : RESOURCES AND ASSETS
                             Seriously, C++ is far better than ACS, no joke.
                           Affliction
                             A really good friend and helped me through
-                            various obsticles.
+                            various obstacles.
                           Tribeam
                             For being Tribeam ;)
                             Helped with my various ACS questions
@@ -270,11 +270,11 @@ Additional Credits to   : RESOURCES AND ASSETS
                             For helping me and supporting me through out the 
                             years.
                           DreamBits
-                            A close friend and supporter; sadly Dark Darness the
+                            A close friend and supporter; sadly Dark Darkness the
                             Darkening wont happen in this project, but we'll make
                             one in some other project.
                           Professor Faghihi
-                            He made it clear what I truely wanted to do for my
+                            He made it clear what I truly wanted to do for my
                             career; with game development, I am a kid in a candy
                             shop with eyes wide open with joy.
                             This is what I want to do.
