@@ -281,7 +281,7 @@ Additional Credits to   : RESOURCES AND ASSETS
 ===========================================================================
 * What is included *
 
-New levels              : 11
+New levels              : 18
 Sounds                  : Yes
 Music                   : Yes
 Graphics                : Yes
@@ -294,7 +294,7 @@ Other files required    : None
 * Play Information *
 
 Game                    : Doom 2
-Map #                   : MAP01-MAP09, Artis, AMISERY
+Map #                   : MAP01-MAP16, Artis, AMISERY
 Single Player           : Player starts only
 Cooperative 2-4 Player  : No
 Deathmatch 2-4 Player   : Designed for
@@ -305,7 +305,7 @@ Difficulty Settings     : Not implemented
 * Construction *
 
 Base                    : New from scratch
-Build Time              : 9 Years, ~1 Month
+Build Time              : 9 Years
 Editor(s) used          : GZDoom Builder, SLADE, Notepad++, MSPaint, and a
                           lot of Shell Scripts
 Known Bugs              : Zandronum 3.0 is advertised as 'tested', but that's
