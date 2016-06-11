@@ -129,62 +129,140 @@ Description             : MAPS
                                 Toggle Rendering Precision
                                     GL_Render_Precise [True|False]
 
-Additional Credits to   : Ghastly_dragon - Submitted and made available the Railgun and
-                            Grenade Launcher.  In addition, created and compiled
-                            (with various authors submissions) Marine Skins.
-                            Railgun and Grenade Launcher: http://www.realm667.com/
-                            Marine Skins: http://forum.zdoom.org/viewtopic.php?p=469284&sid=1ffa83f3dc90e4089384863e7073c531#p469284
-                          Dancso - Created the 'High Resolution' Doom Fonts
-                            http://forum.zdoom.org/viewtopic.php?p=428998#p428998
-                          Affliction - Created a python script which helped
-                            to identify duplicated images.
-                            http://pastebin.com/4Tv1mfxj
-                          Mazter - Assisted and shared a tool that
-                            compresses images using 'Image Catalyst'
-                          Qent - Helping me with testing on the Zandronum
-                            engine.
-                          Tribeam - For being Tribeam
-                          Edward850 - Helped me fix a really odd bug in the
-                            map, and ideas on presentation.
-                          Eruanna - Giving me a forum section from the DRD Team
-                            site for the TGRDM3 project.
-                            project.
-                          MaxED - Making Doom Builder 2 even better with
-                            GZDoom Builder editor.  If it wasn't for GZDoom
-                            Builder, editing would feel like a horror'ish
-                            nightmare with managing over 600 3D Objects in
-                            one map and having to deal with (G)ZDoom specific
-                            features at the same time.
-                          CodeImp - Making Doom Builder 2 and what started
-                            it all (at least for me) Doom Builder.
-                          Graf Zahl - Continuing work on the GZDoom engine.
-                          Zandronum Dev. Team - Continuing work on making
-                            SkullTag better and with a new vision.
-                          DeathZ0r - Made a tutorial back in 2004 in
-                            regards to making Deathmatch maps; a copy of the
-                            tutorial can be found in the provided link:
-                            http://zandronum.com/forum/showthread.php?tid=5182&pid=76221#pid76221
-                          Enjay - Updated and yet made publicly available for everyone
-                            to use, Splashes.
-                            http://forum.zdoom.org/viewtopic.php?p=670357#p670357
-                          Tormentor667 (and Realm667 contributors) - Created
-                            and made publicly available for everyone to use,
-                            Fog and rain special effects.
-                            http://www.realm667.com/
-                          Shane Strife - Created and made publicly available for
-                            everyone to use, Doom 2 'High Definition' (NOT REMIXED) music.
-                            http://forum.zdoom.org/viewtopic.php?p=472461#p472461
-                                NOTE: Property of the contents belong to the respected
-                                    creators and maintainers.  Original music by id Software.
-                                    (see \Documents\Credits.txt for more details)
-                          ID Software - Do I need to add a description for
-                            the obvious? ;)
+Additional Credits to   : RESOURCES AND ASSETS
+                          -------------------------
+                          This a brief list of credits, for the full list see
+                           Credits.txt and Texture Credits
+                          Affliction
+                            Created a script to detect duplicate files.
+                          Mazter
+                            Assisted with compressing images.
+                          Aap
+                            Creator of the DoomWord application.
+                          Ghastly_dragon
+                            Made available the Railgun, Grenade Launcher,
+                            and Marine Skins.
+                          Tormentor667
+                            Made available Fog, Rain, Sparkle Spawners,
+                            PowerUp Ring Spawners
+                          BouncyTEM
+                            Made available the Demonic Drones sounds.
+                          Enjay
+                            Made available the Splashes!
+                          Dancso
+                            Created the High-Resolution Doom Fonts.
+                          Perkristian
+                            Created and made available Smooth Weapons and
+                            High Definition Doom Sounds.
+                          DoomJedi
+                            Made available the SkullTag Item High-Resolution pack
+                          Keksdose
+                            Created and made available the UTnT fire torch
+                            effects.
+                          idSoftware
+                            Created (and all rights reserved to them) the
+                            Quake 3 Jump Pads, aswell as the original SPRITES.
+                            In addition, a special thanks to these guys for
+                            obvious reasons ;)
+                          SkullTag Team
+                            Created or made available the Bot Skill Level menu
+                          Batuhan
+                            Created the fire sound effect.
+                          nhaudio
+                            Created the wind whistling sound effect.
+                          mario1298
+                            Created various wind sound effects.
+                          Equality_X12
+                            Created a wind sound effect.
+                          ppfpower87
+                            Created the ocean wave sound effect.
+                          Sevin7
+                            Created a electrical huming sound effect.
+                          kbnevel
+                            Created a electrical huming sound effect.
+                          Arctura
+                            Created a rain sound effect.
+                          Audionautics
+                            Created a simulation of boiling lava.
+                          ryanconway
+                            Created variations of male grunts and sounds.
+                          Robinhood76
+                            Created a simulation of a man screaming to his death
+                            sound effect.
+                          Jay Reichard
+                            Created and made available Project: Doom (Final), 
+                            a upbeat\remix midi music collection of Doom, Doom 2, and TNT:Evilution.
+                            NOTE /idgames: This is freely available for anyone use.  Please see the Credits.txt for more information!
+                          VoxelBro
+                            Created and made available the Grenade Launcher and 
+                            Grenade Voxels.  In addition to other voxels that
+                            VoxelBro might have included with Team Hellspawn's
+                            work.
+                          Team Hellspawn
+                            Created and made available variations of Voxels for
+                            the Doom game.
+                          HazeBandicoot
+                            Created and made available the SkullTag Railgun voxel.
+                          TeamTNT [TNT Evilution]
+                            Created (and has all rights) to their midi music.
                           
+                          TEXTURES
+                          -------------------------
                           And all the authors of the textures I used for
                            making this map; though, since I had a huge 
                            texture database, I placed all the documentation
                            in the /documents/ section within the .pk3 archive.
                            Please view that directory for more information.
+                          
+                          SPECIAL THANKS
+                          -------------------------
+                          CodeImp
+                            For making Doom Builder and Doom Builder 2
+                          MaxED
+                            For making GZDoom Builder, the best freakin' Doom
+                            map editor available!
+                          Edward850
+                            Ideas on presentations and helped identify
+                            critical issues
+                          Qent
+                            Beta tester for Abandoned Misery [Pretty]
+                          Graf Zahl
+                            Taking ZDoom and adding OpenGL, making GZDoom.
+                            The best engine around!
+                          Zandronum Development Team
+                            Continued work on the Zandronum engine and making
+                            what used to be SkullTag even better!
+                          DeathZ0r
+                            Created a tutorial back in 2004 in regards to making
+                            competitive maps.  I highly encourage others to view
+                            it at these links:
+                            >> https://zandronum.com/forum/viewtopic.php?p=76221#p76221
+                            >> http://wiki.zandronum.com/Creating_Competitive_Maps
+                          TheMisterCat
+                            Helped with my various ACS questions
+                            Seriously, C++ is far better than ACS, no joke.
+                          Affliction
+                            A really good friend and helped me through
+                            various obsticles.
+                          Tribeam
+                            For being Tribeam ;)
+                            Helped with my various ACS questions
+                          Eruanna
+                            Helped me with the DRDTeam forums, but also provided
+                            feedback that helped steer the development of this
+                            project.
+                          My Family
+                            For helping me and supporting me through out the 
+                            years.
+                          DreamBits
+                            A close friend and supporter; sadly Dark Darness the
+                            Darkening wont happen in this project, but we'll make
+                            one in some other project.
+                          Professor Faghihi
+                            He made it clear what I truely wanted to do for my
+                            career; with game development, I am a kid in a candy
+                            shop with eyes wide open with joy.
+                            This is what I want to do.
 ===========================================================================
 * What is included *
 
