@@ -80,23 +80,31 @@ Description             : MAPS
                           Marine Skins [Version 7: Minimal]
                             Displays what weapon the players are currently using or holding.
                             This feature, however, is only available for the Zandronum engine.
+                            >> http://forum.zdoom.org/viewtopic.php?p=469284#p469284
                           High Resolution Fonts
                             Displays high resolution font charactors that are much easier on the
                             eyes and clear to visually see on the screen.
+                            >> http://forum.zdoom.org/viewtopic.php?p=428998#p428998
                           High Definition Doom Sounds
                             This improves the audio of the weapons, some player sounds, and some
                             of the Doom environment sounds.
+                            >> http://www.perkristian.net/
                           Smooth Weapons
                             This provides better and smoother animations to the weapons.
+                            >> https://www.doomworld.com/vb/post/779518
                           SkullTag HiRes Pack for Items
                             Provides smoother and clearer sprites.  Visually, this gives some
                             sprites better blending of colours and smoothes out rough edges.
+                            >> http://www.skulltag.com/download/
                           Voxels
                             This will provide a 3D like feel to the items and some objects within
                             the game.
+                            >> http://forum.zdoom.org/viewtopic.php?p=752670#p752670
+                            >> http://forum.zdoom.org/viewtopic.php?p=900857#p900857
                           Project Doom: Remix Music
                             This provides an upbeat feel to the original midi Doom music; this includes
                             most music from Doom, Doom 2, and TNT:Evilution.
+                            >> https://www.doomworld.com/idgames/music/prjdoom
                           
                           
                           
