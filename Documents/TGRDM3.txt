@@ -72,6 +72,33 @@ Description             : MAPS
                           gets old quickly.  But of-course, this feature is automatically
                           disabled if music is turned off.
                           
+                          PLAYABLE FEATURES
+                          -------------------------
+                          This project uses a lot of assets from various authors and
+                          contributors, but here is a list of the most notable features
+                          that stand out from the rest:
+                          Marine Skins [Version 7: Minimal]
+                            Displays what weapon the players are currently using or holding.
+                            This feature, however, is only available for the Zandronum engine.
+                          High Resolution Fonts
+                            Displays high resolution font charactors that are much easier on the
+                            eyes and clear to visually see on the screen.
+                          High Definition Doom Sounds
+                            This improves the audio of the weapons, some player sounds, and some
+                            of the Doom environment sounds.
+                          Smooth Weapons
+                            This provides better and smoother animations to the weapons.
+                          SkullTag HiRes Pack for Items
+                            Provides smoother and clearer sprites.  Visually, this gives some
+                            sprites better blending of colours and smoothes out rough edges.
+                          Voxels
+                            This will provide a 3D like feel to the items and some objects within
+                            the game.
+                          Project Doom: Remix Music
+                            This provides an upbeat feel to the original midi Doom music; this includes
+                            most music from Doom, Doom 2, and TNT:Evilution.
+                          
+                          
                           
                           Performance Notes:
                             This map might be rather resource and rendering
