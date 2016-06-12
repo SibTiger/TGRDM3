@@ -21,7 +21,7 @@ ACTOR TGRChainsaw : Chainsaw REPLACES Chainsaw
 
     // Flags, Switches, and Properties
     // =================================
-        -Inventory.InvBar // Do not show the weapon icon in the HUD Inventory list
+        -Inventory.InvBar // Do not show the weapon icon in the StatusBar HUD Inventory list
         +Inventory.NeverRespawn // Do not respawn this weapon after being picked up.
         +Inventory.NoScreenFlash // Do not flash the screen when picking this weapon up
         +Weapon.Wimpy_Weapon // If the player picks up ammo, switch away from this weapon.

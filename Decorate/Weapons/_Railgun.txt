@@ -39,7 +39,7 @@ Actor TGRRailgun : DoomWeapon 5012
     // Flags, Switches, and Properties
     // =================================
         Inventory.RespawnTics 175 // Change the respawn time to 5 seconds [Quake Live inspired]
-        +Inventory.InvBar // Show the weapon icon in the HUD Inventory list
+        -Inventory.InvBar // Do not show the weapon icon in the StatusBar HUD Inventory list
         -Weapon.NoAutoFire // Allow the weapon to automatically fire (if the user still has +attack == true) when raised or selected.
         Weapon.PreferredSkin "Railgun-Marine" // Zandronum feature only; dependency required: MarineSkins
         +NoGravity
