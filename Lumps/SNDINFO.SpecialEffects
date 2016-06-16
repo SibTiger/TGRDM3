@@ -84,7 +84,7 @@ $AMBIENT 11 World/ElectricBuzzing POINT CONTINUOUS 1.0
 
 
 World/ElectricBuzzing1  ElecBuz1
-$AMBIENT 12 World/ElectricBuzzing POINT CONTINUOUS 1.0
+$AMBIENT 12 World/ElectricBuzzing1 POINT CONTINUOUS 1.0
 
 
 // --
