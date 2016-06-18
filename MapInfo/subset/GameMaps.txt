@@ -148,21 +148,21 @@ MAP MAP16 "Native Base"
 
 
 
-MAP AMISERY "Abandoned Misery [Pretty]"
-{
-    LevelNum = 99
-    Next = "START"
-    ExitPic = "Inter_99"
-} // Abandoned Misery [Pretty]
-
-
-
 MAP ARTIS "Artis [Duel]"
 {
-    LevelNum = 98
+    LevelNum = 97
     Next = "START"
     ExitPic = "Inter_98"
 } // Artis [Duel]
+
+
+
+MAP AMISERY "Abandoned Misery [Pretty]"
+{
+    LevelNum = 98
+    Next = "START"
+    ExitPic = "Inter_99"
+} // Abandoned Misery [Pretty]
 
 
 
@@ -184,6 +184,7 @@ MAP TITLEMAP "Title"
 //  https://www.doomworld.com/vb/post/1549742
 MAP START "Introduction"
 {
+    LevelNum = 99
     IsLobby
     NoBotNodes
 } // START

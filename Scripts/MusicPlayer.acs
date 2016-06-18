@@ -68,12 +68,23 @@ SCRIPT "MusicPlayer_BackEnd" (VOID) CLIENTSIDE
         // When running this function for the first time, don't run some features
         //  such as Music Fade Out.
             bool firstRun = true;
+        // Fetch the map's LevelNum [ZMAPINFO]
+            int levelNum = GetLevelInfo(LEVELINFO_LEVELNUM);
+        // A mutable variable that determines if the music player can play depending
+        //  on the map's levelnum.
+            bool mapBlackListed;
     // ----
 
+
+    
+    
     do
     {
-        // Only run the music when the play list is ready and also if we're not in the 'TITLEMAP'.
-        if (MusicPlayListReady && (GameType() != GAME_TITLE_MAP))
+        // Check if the map is blacklisted
+        mapBlackListed = MapBlackList(levelNum);
+        print(i:mapBlackListed);
+        // Only run the music when the play list is ready, if we're not in the 'TITLEMAP', and if the map is not blacklisted.
+        if (MusicPlayListReady && (GameType() != GAME_TITLE_MAP) && (mapBlackListed != True))
         {
             // Fade out current music
             //  but only if we're not running this function for the first time.
@@ -101,6 +112,26 @@ SCRIPT "MusicPlayer_BackEnd" (VOID) CLIENTSIDE
             Delay(1);
     } while (1);
 } // MusicPlayer_BackEnd()
+
+
+
+// This function will avoid the music player from evening playing
+//  if the map is blacklisted from this feature.  Blacklisting is
+//  useful if the map has its own desired music and is not intended
+//  to use this very feature.
+// For the list of LevelNum's, please see the ZMAPINFO under GameMaps
+function bool MapBlackList (int levelNum)
+{
+    switch (levelNum)
+    {
+        case 99:
+        // Introduction Map
+        return true;
+    } // switch()
+    
+    // Not blacklisted
+    return false;
+} // MapBlackList()
 
 
 
