@@ -3,7 +3,7 @@ ClearEpisodes
 
 
 //Main Stock
-Episode MAP01
+Episode START
 {
     Name = "Morgenstern"
     NoSkillMenu //Not needed in Deathmatch.

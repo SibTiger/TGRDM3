@@ -1,7 +1,7 @@
 MAP MAP01 "Acerbus"
 {
     LevelNum = 1
-    Next = "MAP02"
+    Next = "START"
     ExitPic = "Inter_01"
 } // Acerbus
 
@@ -10,7 +10,7 @@ MAP MAP01 "Acerbus"
 MAP MAP02 "Unfaithful"
 {
     LevelNum = 2
-    Next = "MAP03"
+    Next = "START"
     ExitPic = "Inter_02"
 } // Unfaithful
 
@@ -19,7 +19,7 @@ MAP MAP02 "Unfaithful"
 MAP MAP03 "Noir Lust"
 {
     LevelNum = 3
-    Next = "MAP04"
+    Next = "START"
     ExitPic = "Inter_03"
 } // Noir Lust
 
@@ -28,7 +28,7 @@ MAP MAP03 "Noir Lust"
 MAP MAP04 "Abandoned Misery"
 {
     LevelNum = 4
-    Next = "MAP05"
+    Next = "START"
     ExitPic = "Inter_04"
 } // Abandoned Misery
 
@@ -37,7 +37,7 @@ MAP MAP04 "Abandoned Misery"
 MAP MAP05 "Dark Stone"
 {
     LevelNum = 5
-    Next = "MAP06"
+    Next = "START"
     ExitPic = "Inter_05"
 } // Dark Stone
 
@@ -46,7 +46,7 @@ MAP MAP05 "Dark Stone"
 MAP MAP06 "Insomnium"
 {
     LevelNum = 6
-    Next = "MAP07"
+    Next = "START"
     ExitPic = "Inter_06"
 } // Insomnium
 
@@ -55,7 +55,7 @@ MAP MAP06 "Insomnium"
 MAP MAP07 "Malus"
 {
     LevelNum = 7
-    Next = "MAP08"
+    Next = "START"
     ExitPic = "Inter_07"
 } // Malus
 
@@ -64,7 +64,7 @@ MAP MAP07 "Malus"
 MAP MAP08 "Ailuropoda Melanoleuca"
 {
     LevelNum = 8
-    Next = "MAP09"
+    Next = "START"
     ExitPic = "Inter_08"
 } // Ailuropoda Melanoleuca
 
@@ -73,7 +73,7 @@ MAP MAP08 "Ailuropoda Melanoleuca"
 MAP MAP09 "Adios"
 {
     LevelNum = 9
-    Next = "MAP10"
+    Next = "START"
     ExitPic = "Inter_09"
 } // Adios
 
@@ -82,7 +82,7 @@ MAP MAP09 "Adios"
 MAP MAP10 "The Testaments"
 {
     LevelNum = 10
-    Next = MAP11
+    Next = "START"
     SKY1 = "TGR_SKY1", 0.0
     ExitPic = "Inter_10"
 } // The Testaments (TGRDM2)
@@ -92,7 +92,7 @@ MAP MAP10 "The Testaments"
 MAP MAP11 "Royal"
 {
     LevelNum = 11
-    Next = MAP12
+    Next = "START"
     ExitPic = "Inter_11"
 } // Royal (TGRDM2)
 
@@ -101,7 +101,7 @@ MAP MAP11 "Royal"
 MAP MAP12 "Chambers"
 {
     LevelNum = 12
-    Next = MAP13
+    Next = "START"
     Sky1 = "TGR_SKY1", 0.0
     ExitPic = "Inter_12"
 } // Chambers (TGRDM2)
@@ -111,7 +111,7 @@ MAP MAP12 "Chambers"
 MAP MAP13 "The Stand"
 {
     LevelNum = 13
-    Next = MAP14
+    Next = "START"
     SKY1 = "TGR_SKY2", 1.0
     ExitPic = "Inter_13"
 } // The Stand (TGRDM2)
@@ -121,7 +121,7 @@ MAP MAP13 "The Stand"
 MAP MAP14 "Blood Stone"
 {
     LevelNum = 14
-    Next = MAP15
+    Next = "START"
     SKY1 = "HM_051", 0.0
     ExitPic = "Inter_14"
 } // Blood Stone (TGRDM3 Legacy)
@@ -131,7 +131,7 @@ MAP MAP14 "Blood Stone"
 MAP MAP15 "Direful"
 {
     LevelNum = 15
-    Next = MAP16
+    Next = "START"
     SKY1 = "HM_051", 0.0
     ExitPic = "Inter_15"
 } // Direful (TGRDM3 Legacy)
@@ -141,7 +141,7 @@ MAP MAP15 "Direful"
 MAP MAP16 "Native Base"
 {
     LevelNum = 16
-    Next = MAP17
+    Next = "START"
     SKY1 = "TX0_0DZ", 0.0
     ExitPic = "Inter_16"
 } // Native Base (TGRDM3 Legacy)
@@ -151,7 +151,7 @@ MAP MAP16 "Native Base"
 MAP AMISERY "Abandoned Misery [Pretty]"
 {
     LevelNum = 99
-    Next = "MAP01"
+    Next = "START"
     ExitPic = "Inter_99"
 } // Abandoned Misery [Pretty]
 
@@ -160,7 +160,7 @@ MAP AMISERY "Abandoned Misery [Pretty]"
 MAP ARTIS "Artis [Duel]"
 {
     LevelNum = 98
-    Next = "Artis"
+    Next = "START"
     ExitPic = "Inter_98"
 } // Artis [Duel]
 
@@ -179,11 +179,11 @@ MAP TITLEMAP "Title"
 
 
 
-// This is inspired by AlexMax's centralized Old School
+// This is inspired by AlexMax's centralized Old School and Quake
 //  Duel collection project.
 //  https://www.doomworld.com/vb/post/1549742
-MAP HUB "Lobby"
+MAP START "Introduction"
 {
     IsLobby
     NoBotNodes
-} // Lobby
+} // START
