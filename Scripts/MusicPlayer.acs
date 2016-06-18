@@ -124,7 +124,6 @@ function bool MapBlackList (int levelNum)
         case 99:
         // Introduction Map
         return True;
-        break;
     } // switch()
     
     // Not blacklisted
