@@ -72,7 +72,7 @@ SCRIPT "MusicPlayer_BackEnd" (VOID) CLIENTSIDE
             int levelNum = GetLevelInfo(LEVELINFO_LEVELNUM);
         // A mutable variable that determines if the music player can play depending
         //  on the map's levelnum.
-            bool mapBlackListed;
+            bool mapBlackListed = MapBlackList(levelNum);
     // ----
 
 
@@ -80,11 +80,8 @@ SCRIPT "MusicPlayer_BackEnd" (VOID) CLIENTSIDE
     
     do
     {
-        // Check if the map is blacklisted
-        mapBlackListed = MapBlackList(levelNum);
-        print(i:mapBlackListed);
         // Only run the music when the play list is ready, if we're not in the 'TITLEMAP', and if the map is not blacklisted.
-        if (MusicPlayListReady && (GameType() != GAME_TITLE_MAP) && (mapBlackListed != True))
+        if (MusicPlayListReady && (GameType() != GAME_TITLE_MAP) && !mapBlackListed)
         {
             // Fade out current music
             //  but only if we're not running this function for the first time.
@@ -126,11 +123,12 @@ function bool MapBlackList (int levelNum)
     {
         case 99:
         // Introduction Map
-        return true;
+        return True;
+        break;
     } // switch()
     
     // Not blacklisted
-    return false;
+    return False;
 } // MapBlackList()
 
 
