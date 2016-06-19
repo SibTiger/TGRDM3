@@ -1,0 +1,81 @@
+// Check Video Renderer
+// ----
+// This script is designed to warn the user if they are not using the OpenGL video renderer.
+//  As this project as a whole utilizes and takes full advantages of the OpenGL renderer, the
+//  current state of the Software renderer is simply imcompatible [19.June.2016].
+// The message will warn the user to change the video renderer.
+// This script can not be toggled or altered in RealTime; so its not possible to stop the warning
+//  that is being displayed on the user's screen.
+// ----
+
+
+
+// Check Video Renderer State
+// ----
+// Description
+//  This is a small script that - if required to, will manage the
+//  warning message.
+//  If OpenGL or something better is utilized, this script will
+//  terminate on its own.
+SCRIPT "CheckVideoRendererState" OPEN CLIENTSIDE
+{
+    // If the renderer is not OpenGL, display message
+    if (!ReportVideoRenderer())
+        do
+        {
+            // Warn the user with msg
+                DisplayRendererMSG();
+            // Wait ~10 seconds before loop
+                Delay(35 * 9);
+        } while (True);
+} // CheckVideoRendererState()
+
+
+
+// This function will report back the end-user's renderer
+// ----
+//  Output
+//      True = OpenGL or better
+//      False = Software or incompatible
+function bool ReportVideoRenderer (VOID)
+{
+    int stateRend = GetCVar("VID_Renderer");
+    
+    switch (stateRend)
+    {
+        case 0:
+            // Software
+            return False;
+        case 1:
+            // OpenGL
+            Return True;
+        Default:
+            // Unknown
+            Return False;
+    } // Switch()
+    
+    Return False; // Even though we wont reach this statement, ACC wont compile without it....
+} // ReportVideoRenderer()
+
+
+
+// This function will display the warning message that the end-user is using an
+//  incompatible renderer engine.
+function void DisplayRendererMSG (VOID)
+{
+    // Use smaller font
+        SetFont("SMALLFONT");
+    // Set the HUD size to: 320x200
+        SetHudSize(320, 200, FALSE);
+    
+    // Print the message to the screen
+    HudMessage(s:"ATTENTION: OpenGL Required!\nPlease switch renderers via Video Settings!"; // Message
+                // Type of HudMessage
+                HUDMSG_LAYER_OVERHUD, // Hud message is displayed on top of the player's Hud
+                2, // ID
+                CR_LIGHTBLUE, // Colour of the message
+                0.5, // x value on the Cartesian plane
+                20.1, // y value on the Cartesian plane
+                9.0 // Hold time (seconds))
+                );
+} // DisplayRendererMSG()

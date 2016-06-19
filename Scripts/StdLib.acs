@@ -24,3 +24,6 @@
 
 // Domination Adaptiveness
     #include "DominationAdapt.acs"
+
+// Check Video Renderer
+    #include "CheckVidRenderer.acs"
