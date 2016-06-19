@@ -185,6 +185,7 @@ MAP TITLEMAP "Title"
 MAP START "Introduction"
 {
     LevelNum = 99
+    Music = "Lobby"
     IsLobby
     NoBotNodes
 } // START
