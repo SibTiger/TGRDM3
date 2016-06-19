@@ -44,6 +44,11 @@ ERR_TitleMapBadSetup = "!ERR!: Playing Title Map as a playable map!";
 Action_ForceChangeMap = "!ACT!: Forcibly changing the map. . .";
 
 
+// Check Renderer State
+//  This string will be displayed if the user is not using the required video renderer.
+IncompatibleVideoRenderer_MSG = "ATTENTION: OpenGL Required!\nPlease switch renderers via Video Settings!";
+
+
 
 // =======================================================
 // -------------------------------------------------------

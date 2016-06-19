@@ -69,7 +69,7 @@ function void DisplayRendererMSG (VOID)
         SetHudSize(320, 200, FALSE);
     
     // Print the message to the screen
-    HudMessage(s:"ATTENTION: OpenGL Required!\nPlease switch renderers via Video Settings!"; // Message
+    HudMessage(l:"IncompatibleVideoRenderer_MSG"; // Message
                 // Type of HudMessage
                 HUDMSG_LAYER_OVERHUD, // Hud message is displayed on top of the player's Hud
                 2, // ID
