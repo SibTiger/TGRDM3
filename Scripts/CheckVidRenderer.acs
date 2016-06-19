@@ -2,7 +2,7 @@
 // ----
 // This script is designed to warn the user if they are not using the OpenGL video renderer.
 //  As this project as a whole utilizes and takes full advantages of the OpenGL renderer, the
-//  current state of the Software renderer is simply imcompatible [19.June.2016].
+//  current state of the Software renderer is simply incompatible [19.June.2016].
 // The message will warn the user to change the video renderer.
 // This script can not be toggled or altered in RealTime; so its not possible to stop the warning
 //  that is being displayed on the user's screen.
