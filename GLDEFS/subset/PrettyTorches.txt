@@ -43,4 +43,3 @@ FlickerLight2 Torch_OrangeLight
 Object KD_TorchFlareRed   { Frame RFLRA { Light Torch_RedLight    } }
 Object KD_TorchFlareGreen { Frame GFLRA { Light Torch_GreenLight  } }
 Object KD_TorchFlareBlue  { Frame BFLRA { Light Torch_BlueLight   } }
-Object KD_BarrelFlare     { Frame RFLRA { Light Torch_OrangeLight } }
