@@ -441,32 +441,8 @@ TERRAIN YellowSludge
     floor BLOOD2 Blood
     floor BLOOD3 Blood
     // --
-    floor TX1_0EZ Blood
-    floor TX1_0F0 Blood
-    floor TX1_0F1 Blood
-    floor TX1_0F6 Blood
-    floor TX1_0F7 Blood
-    floor TX1_0F8 Blood
-    floor TX1_0F9 Blood
-    floor TX2_002 Blood
     floor TX2_004 Blood
-    floor TX2_00E Blood
-    floor TX2_00I Blood
-    floor TX2_00P Blood
     floor TX2_00S Blood
-    floor TX2_00U Blood
-    floor TX2_00Y Blood
-    floor TX2_00Z Blood
-    floor TX2_011 Blood
-    floor TX3_002 Blood
-    floor TX3_004 Blood
-    floor TX3_00E Blood
-    floor TX3_00I Blood
-    floor TX3_00P Blood
-    floor TX3_00S Blood
-    floor TX3_00U Blood
-    floor TX3_00Y Blood
-    floor TX3_00Z Blood
     floor TX3_011 Blood
     floor TX5_002 Blood
 
@@ -480,84 +456,20 @@ TERRAIN YellowSludge
     floor FWATER3 Water
     floor FWATER4 Water
     // --
-    floor TX1_0CE Water
-    floor TX1_0CF Water
-    floor TX1_0CG Water
-    floor TX1_0CH Water
-    floor TX1_0CI Water
-    floor TX1_0CJ Water
-    floor TX1_0CK Water
-    floor TX1_0CL Water
-    floor TX1_0DC Water
-    floor TX1_0DD Water
-    floor TX1_0DE Water
-    floor TX1_0DF Water
-    floor TX1_0ET Water
-    floor TX1_0EU Water
-    floor TX1_0EV Water
     floor TX2_005 Water
-    floor TX2_007 Water
     floor TX2_00C Water
-    floor TX2_00D Water
-    floor TX2_00G Water
-    floor TX2_00J Water
-    floor TX2_00N Water
     floor TX2_00Q Water
-    floor TX2_00X Water
     floor TX3_005 Water
     floor TX3_007 Water
     floor TX3_00C Water
-    floor TX3_00D Water
-    floor TX3_00G Water
-    floor TX3_00J Water
-    floor TX3_00N Water
-    floor TX3_00Q Water
-    floor TX3_00X Water
 
 
 
 // --------------------
 // Dark Water [NG]
 // --------------------
-    floor TX1_0AH DarkWater
-    floor TX1_0AI DarkWater
-    floor TX1_0AJ DarkWater
-    floor TX1_0AK DarkWater
-    floor TX2_008 DarkWater
-    floor TX2_009 DarkWater
-    floor TX2_00A DarkWater
-    floor TX2_00B DarkWater
-    floor TX3_008 DarkWater
-    floor TX3_009 DarkWater
-    floor TX3_00A DarkWater
-    floor TX3_00B DarkWater
     floor FW_002 DarkWater
     floor FW_A01 DarkWater
-
-
-
-// --------------------
-// Orange Water [NG]
-// --------------------
-    floor TX1_0EW OrangeWater
-    floor TX1_0EX OrangeWater
-    floor TX1_0EY OrangeWater
-    floor TX1_0F2 OrangeWater
-    floor TX1_0F3 OrangeWater
-    floor TX1_0F4 OrangeWater
-    floor TX1_0F5 OrangeWater
-    floor TX2_00R OrangeWater
-    floor TX2_00T OrangeWater
-    floor TX3_00R OrangeWater
-    floor TX3_00T OrangeWater
-
-
-
-// --------------------
-// Purple Water [NG]
-// --------------------
-    floor TX2_00W PurpleWater
-    floor TX3_00W PurpleWater
 
 
 
@@ -569,14 +481,8 @@ TERRAIN YellowSludge
     floor LAVA3 Lava
     floor LAVA4 Lava
     // --
-    floor TX2_000 Lava
     floor TX2_00V Lava
-    floor TX2_006 Lava
-    floor TX2_010 Lava
-    floor TX3_000 Lava
-    floor TX3_00V Lava
     floor TX3_006 Lava
-    floor TX3_010 Lava
     floor TX5_001 Lava
     floor TX5_003 Lava
     floor TX5_004 Lava
@@ -590,12 +496,6 @@ TERRAIN YellowSludge
     floor NUKAGE2 Nuke
     floor NUKAGE3 Nuke
     // --
-    floor TX2_00H Nuke
-    floor TX2_00M Nuke
-    floor TX2_001 Nuke
-    floor TX3_00H Nuke
-    floor TX3_00M Nuke
-    floor TX3_001 Nuke
 
 
 
@@ -633,16 +533,3 @@ TERRAIN YellowSludge
 // Dark Sludge [NG]
 // --------------------
     floor TX2_003 DarkSludge
-    floor TX3_003 DarkSludge
-
-
-
-// --------------------
-// Yellow Sludge [NG]
-// --------------------
-    floor TX2_00K YellowSludge
-    floor TX2_00L YellowSludge
-    floor TX2_00O YellowSludge
-    floor TX3_00K YellowSludge
-    floor TX3_00L YellowSludge
-    floor TX3_00O YellowSludge
