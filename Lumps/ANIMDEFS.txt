@@ -74,6 +74,35 @@ TEXTURE TX1_0DK
         PIC TX1_0DM TICS 6
 
 
+// --
+
+
+TEXTURE TX1_0DO
+    PIC TX1_0DO TICS 6
+    PIC TX1_0DP TICS 6
+    PIC TX1_0DQ TICS 6
+    PIC TX1_0DR TICS 6
+
+    TEXTURE TX1_0DP
+        PIC TX1_0DP TICS 6
+        PIC TX1_0DQ TICS 6
+        PIC TX1_0DR TICS 6
+        PIC TX1_0DO TICS 6
+
+    TEXTURE TX1_0DQ
+        PIC TX1_0DQ TICS 6
+        PIC TX1_0DR TICS 6
+        PIC TX1_0DO TICS 6
+        PIC TX1_0DP TICS 6
+
+    TEXTURE TX1_0DR
+        PIC TX1_0DR TICS 6
+        PIC TX1_0DO TICS 6
+        PIC TX1_0DP TICS 6
+        PIC TX1_0DQ TICS 6
+
+
+
 // Texture Base: drdtextures
 // -----------------
 TEXTURE TX1_0EG
