@@ -152,7 +152,7 @@ MAP ARTIS "Artis [Duel]"
 {
     LevelNum = 97
     Next = "START"
-    ExitPic = "Inter_98"
+    ExitPic = "Inter_97"
 } // Artis [Duel]
 
 
@@ -161,7 +161,7 @@ MAP AMISERY "Abandoned Misery [Pretty]"
 {
     LevelNum = 98
     Next = "START"
-    ExitPic = "Inter_99"
+    ExitPic = "Inter_98"
 } // Abandoned Misery [Pretty]
 
 
