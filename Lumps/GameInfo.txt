@@ -1,5 +1,6 @@
 // This Script Lump modifies the loading window before ZDoom engine displays the main game title.
 // References: http://zdoom.org/wiki/GAMEINFO
 
+IWAD = "Doom2.wad" // Try to automatically use this IWAD by default
 StartUpTitle = "Morgenstern"
 StartUpColors = "C8C8C8", "242424"
