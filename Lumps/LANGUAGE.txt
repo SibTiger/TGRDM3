@@ -93,3 +93,114 @@ Credits_Support = "Special thanks to the Supporters and Helpers";
 
 // Special Thanks
 Credits_SpecialThanks = "Special Thanks";
+
+
+
+// =======================================================
+// -------------------------------------------------------
+//                    INTRODUCTION MAP
+// -------------------------------------------------------
+
+
+// Introduction Title
+Introduction_Title = "Introduction Map";
+
+
+// Introduction Instructions
+Introduction_Instructions = "Each room contains its own set of maps.\nTouch the pictures for details.\nPress the use key at a picture to go to that map.";
+
+
+// Category: Small size maps
+Introduction_CategorySmallMaps = "This room contains: Small sized maps";
+
+
+// Category: Medium size maps
+Introduction_CategoryMediumMaps = "This room contains: Medium sized maps";
+
+
+// Category: Large size maps
+Introduction_CategoryLargeMaps = "This room contains: Large sized maps";
+
+
+// Category: Special maps
+Introduction_CategorySpecialMaps = "This room contains: Special maps";
+
+
+// Category: TGRDM2 maps
+Introduction_CategoryTGRDM2Maps = "This room contains: TGRDM2 maps";
+
+
+// Category: Rejected maps
+Introduction_CategoryRejectMaps = "This room contains: Rejected maps";
+
+
+// Map Information: Acerbus
+Introduction_MapInfo_Acerbus = "Map: Acerbus\nGame: Deathmatch\nDomination Points: 3";
+
+
+// Map Information: Unfaithful
+Introduction_MapInfo_Unfaithful = "Map: Unfaithful\nGame: Deathmatch\nDomination Points: 4";
+
+
+//Map Information: Noir Lust
+Introduction_MapInfo_NoirLust = "Map: Noir Lust\nGame: Deathmatch\nDomination Points: 4";
+
+
+// Map Information: Abandoned Misery
+Introduction_MapInfo_AbandonedMisery = "Map: Abandoned Misery\nGame: Deathmatch\nDomination Points: 4";
+
+
+// Map Information: Dark Stone
+Introduction_MapInfo_DarkStone = "Map: Dark Stone\nGame: Deathmatch\nDomination Points: 4";
+
+
+// Map Information: Insomnium
+Introduction_MapInfo_Insomnium = "Map: Insomnium\nGame: Deathmatch\nDomination Points: 4";
+
+
+// Map Information: Malus
+Introduction_MapInfo_Malus = "Map: Malus\nGame: Deathmatch\nDomination Points: 4";
+
+
+// Map Information: Ailuropoda Melanoleuca
+Introduction_MapInfo_AiluropodaMelanoleuca = "Map: Ailuropoda Melanoleuca\nGame: Deathmatch\nDomination Points: 4";
+
+
+// Map Information: Adios
+Introduction_MapInfo_Adios = "Map: Adios\nGame: Deathmatch\nDomination Points: 2";
+
+
+// Map Information: The Testaments
+Introduction_MapInfo_Testaments = "Map: The Testaments\nGame: Duel\nDomination Points: 1";
+
+
+// Map Information: Royal
+Introduction_MapInfo_Royal = "Map: Royal\nGame: Deathmatch\nDomination Points: 1";
+
+
+// Map Information: Chambers
+Introduction_MapInfo_Chambers = "Map: Chambers\nGame: Deathmatch\nDomination Points: 1";
+
+
+// Map Information: The Stand
+Introduction_MapInfo_TheStand = "Map: The Stand\nGame: Deathmatch\nDomination Points: 1";
+
+
+// Map Information; Blood Stone
+Introduction_MapInfo_BloodStone = "Map: Blood Stone\nGame: Deathmatch\nDomination Points: 4";
+
+
+// Map Information: Direful
+Introduction_MapInfo_Direful = "Map: Direful\nGame: Deathmatch\nDomination Points: 4";
+
+
+// Map Information: Native Base
+Introduction_MapInfo_NativeBase = "Map: Native Base\nGame: Deathmatch\nDomination Points: 1";
+
+
+// Map Information: Abandoned Misery (Eye Candy)
+Introduction_MapInfo_AMISERY = "Map: Abandoned Misery (Eyecandy)\nGame: Deathmatch\nDomination Points: 4";
+
+
+// Map Information: Artis
+Introduction_MapInfo_Artis = "Map: Artis\nGame: Duel\nDomination Points: 1";
