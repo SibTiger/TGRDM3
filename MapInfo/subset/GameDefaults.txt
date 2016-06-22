@@ -1,6 +1,6 @@
 GameDefaults
 {
-    UsePlayerStartZ //If the PlayerStart is on a 3D Object, the player will now spawn ontop of it (depending on Z-Height specified)
+    UsePlayerStartZ //If the PlayerStart is on a 3D Object, the player will now spawn on top of it (depending on Z-Height specified)
     SpawnWithWeaponRaised
     SmoothLighting
     AllowRespawn

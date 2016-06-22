@@ -49,7 +49,7 @@ function bool Domination_Check (void)
 //  they will remain deactivated or will be deactivated upon change.
 // Despite currently the game mode can not easily be set on the fly, so this check may feel redundant
 //  upon checking within a loop.  However, the engine might be able to handle these techniques differently
-//  in the future.  So, this game must beable to cooperate with that expectency - if required.
+//  in the future.  So, this game must be able to cooperate with that expectancy - if required.
 //
 // NOTE: The Ring Spawners have a static THING tag of 9999997
 //  This makes activation and manipulation far easier.

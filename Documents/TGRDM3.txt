@@ -59,7 +59,7 @@ Description             : MAPS
                           -------------------------
                           Moreover, there is some notable features included in this project.
                           This project will try to determine if the player is using OpenGL
-                          and\or if that player is seeing Dynamic Lights.  If incase the
+                          and\or if that player is seeing Dynamic Lights.  If in case the
                           player is playing in Software Mode (VID_RENDERER 0) or if
                           Dynamic Lights (or point lights) is disabled, then this project
                           will try to brighten the maps for the player.  This will

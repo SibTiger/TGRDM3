@@ -9,7 +9,7 @@ ACTOR TGRRocket : Rocket REPLACES Rocket
     // =================================
         Projectile
         DamageType "RocketDamage"
-        Damage (30*2) // Adjust's the damage provided.
+        Damage (30*2) // Adjusts the damage provided.
         +SKYEXPLODE // When the projectile hits F_SKY1, the projectile will enter it's DEATH state.
         +RANDOMIZE // Randomized timing
         +DEHEXPLOSION // Draw the missile's state translucent

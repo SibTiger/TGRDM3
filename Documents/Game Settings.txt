@@ -4,7 +4,7 @@ Even though it is merely suggested, I have provided the default game settings as
 
 
 FragLimit = 50
-Give enough frags available for players to get into the game and competively.
+Give enough frags available for players to get into the game and competitively.
 
 
 TimeLimit = 5

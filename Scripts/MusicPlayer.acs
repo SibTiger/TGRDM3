@@ -255,7 +255,7 @@ SCRIPT "MusicFade" (int fadeType, int faderSpeed) CLIENTSIDE
             //  a value of '0.0', the function 'SetMusic()' will ignore the 'SetMusicVolume()' value and reset it.
             //  Topic: http://forum.zdoom.org/viewtopic.php?p=908222#p908222
             
-            // To be sure - if incase - there is changes with ZDoom's music functionality in the future,
+            // To be sure - if in case - there is changes with ZDoom's music functionality in the future,
             //  forcefully revert the SetMusicVolume() value.
                 fixedFader = 1.0;
                 SetMusicVolume(fixedFader);

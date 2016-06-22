@@ -7,7 +7,7 @@
 //  however, it is possible to increase this value to a higher integer to slow down the object per update.
 //  [NOTE: This was not possible with the original code]
 //
-// [NG] The documenation is reversed, so I revised the documenation.  So if you notice differences between the original
+// [NG] The documentation is reversed, so I revised the documentation.  So if you notice differences between the original
 //  code and this code, you now know why.
 // Second argument controls the size of the area. 32, for example, spawns in a 64x64 diameter circle.
 //

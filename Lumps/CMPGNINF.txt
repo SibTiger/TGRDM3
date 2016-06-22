@@ -1,8 +1,8 @@
-// Documenation
+// Documentation
 // ===============
 // DMFlags
 // ----
-// Incase if I ever need to revist this again and alter the DMFlags,
+// In case if I ever need to revisit this again and alter the DMFlags,
 //  instead of bringing out the pen and paper and make a bit-field
 //  switches - here is a list of what is used:
 //

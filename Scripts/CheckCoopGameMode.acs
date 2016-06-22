@@ -3,7 +3,7 @@
 // This script is designed to warn the user if they are playing within the Cooperative game mode.
 //  The warning provided is merely a small message reminding the user to switch game modes.
 //  The message shouldn't be 'In Your Face' nor penalize the user, as they could be inspecting the maps.
-//  This script is mainly intended for new players and reminding the user to switch the game mode if incase they forgot to do so (mistakes happen!).
+//  This script is mainly intended for new players and reminding the user to switch the game mode if in case they forgot to do so (mistakes happen!).
 //  This script will only run once - and terminates if anything other than Coop is selected.
 // ----
 
