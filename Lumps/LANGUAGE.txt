@@ -49,6 +49,11 @@ Action_ForceChangeMap = "!ACT!: Forcibly changing the map. . .";
 IncompatibleVideoRenderer_MSG = "ATTENTION: OpenGL Required!\nPlease switch renderers via Video Settings!";
 
 
+// Check Cooperative Game Mode
+//  This string will be displayed if the user is playing the Cooperative GameMode.
+WarnGameMode_Coop_MSG = "Don't forget to switch over to the Deathmatch game mode!";
+
+
 
 // =======================================================
 // -------------------------------------------------------

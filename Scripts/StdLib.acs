@@ -27,3 +27,6 @@
 
 // Check Video Renderer
     #include "CheckVidRenderer.acs"
+
+// Check Cooperative Game Mode
+    #include "CheckCoopGameMode.acs"
