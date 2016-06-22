@@ -5,7 +5,7 @@ Primary purpose         : Deathmatch
 ===========================================================================
 Title                   : Morgenstern
 Filename                : TGRDM3
-Release date            : xx.June.2016
+Release date            : xx.August.2016
 Author                  : Nicholas "Tiger" Gautier
 Email Address           : SibTiger_And_Life@Hotmail.com
 Other Files By Author   : TGRDM1
