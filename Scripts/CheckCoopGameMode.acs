@@ -15,7 +15,7 @@
 //  This script will routinely warn the user, if needed, about the game mode.
 //  This script will terminate if Deathmatch or TeamGame is running, but will
 //  always loop if Coop is detected.
-SCRIPT "CheckCoopGameMode" OPEN
+SCRIPT "CheckCoopGameMode" OPEN CLIENTSIDE
 {
     // Check to see if Coop is selected, if true, print message.
     if (CheckCoopGameMode_Report())
