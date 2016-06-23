@@ -221,11 +221,74 @@ Additional Credits to   : RESOURCES AND ASSETS
                           
                           TEXTURES
                           -------------------------
-                          All the authors of the textures I used for
-                           for this project are in a centralized texture database,
-                           I placed all the documentation in the /documents/
-                           section within the .pk3 archive.
-                           Please view that directory for more information.
+                          This a brief list of credits, for more information
+                          and links to the resources, please see the Credits.txt
+                          located in the /documents/ of this .pk3 archive.
+                          Too Much Brown (Build 1) [2mbrown]
+                            http://www.doomworld.com/idgames/?file=graphics/2mbrown.zip
+                          Skulltag Community Domination Project [STDOM]
+                            https://www.doomworld.com/idgames/deathmatch/skulltag/stdom
+                          Requiem [REQUIEM]
+                            https://www.doomworld.com/idgames/levels/doom2/megawads/requiem
+                          Doom Textures For Doom II [d1gfxd2]
+                            http://www.doomworld.com/idgames/?file=graphics/d1gfxd2.zip
+                          deConstruct Industrial Textures [decontex]
+                            http://www.doomworld.com/afterglow/textures/zips/decontex.zip
+                          DarkBase Texture Wad (dgdbtxtr.wad) [DGDBTXTR]
+                            http://www.doomworld.com/afterglow/textures/zips/dgdbtxtr.zip
+                          Erratic Texture Pack 1 [erattex1]
+                            http://www.doomworld.com/afterglow/textures/zips/erattex1.zip
+                          Gothic DeathMatch (II) Graphical Resource PWAD [GOTHICTX]
+                            http://www.doomworld.com/afterglow/textures/zips/gothictx.zip
+                          Graphtallica Texture Pack for Doom2 #1 [graphtx1]
+                            http://www.doomworld.com/afterglow/textures/zips/graphtx1.zip
+                          Celtic Shrine Texture Set for Doom2 [celticsh]
+                            http://www.doomworld.com/afterglow/textures/zips/celticsh.zip
+                          Graphtallica Texture Pack for Doom2 #3 [graphtx3]
+                            http://www.doomworld.com/afterglow/textures/zips/graphtx3.zip
+                          mortres [mortres]
+                            http://www.doomworld.com/metabolist/ftp/doom2/mortres.zip
+                          Recoloured Doom and Doom 2 textures v2 [nb_recol]
+                            http://doomworld.com/idgames/?id=14675
+                          5th Episode textures (Doom 2 version) [nb5texd2]
+                            http://www.doomworld.com/afterglow/textures/zips/nb5texd2.zip
+                          Parallel Phobos Texture Pack [pptex]
+                            https://www.doomworld.com/idgames/graphics/pptex
+                          Crucified Dreams [crudream]
+                            https://www.doomworld.com/idgames/levels/doom2/deathmatch/Ports/megawads/crudream
+                          5th Episode textures (Doom 2 version) [nb5texd2]
+                            http://www.doomworld.com/afterglow/textures/zips/nb5texd2.zip
+                          Doom Noir [doomnoir]
+                            https://www.doomworld.com/idgames/graphics/doomnoir
+                          NMN Corporation Texture Set Part 1 [NmnCorp1]
+                            http://www.doomworld.com/idgames/?file=graphics/nmncorp1.zip
+                          Nmn Corporation Texture Set Part 2 [Nmncorp2]
+                            http://doomworld.com/idgames/?id=14345
+                          Sabbat Martyr Deathmatch [smdm]
+                            http://www.doomworld.com/idgames/?file=levels/doom2/deathmatch/Ports/megawads/smdm.zip
+                          Minigunner's Bucket of Hands (among other things) [ZDOOM FORUM TOPIC]
+                            http://forum.zdoom.org/viewtopic.php?p=720059#p720059
+                          printz @ Custom Texture Thread
+                            http://forum.zdoom.org/viewtopic.php?p=825787#p825787
+                          Duel32f [duel32f]
+                            https://www.doomworld.com/vb/post/1549742
+                          Ogro Texture Pack for Doom2 [ogrodtex]
+                            http://www.doomworld.com/afterglow/textures/zips/ogrodtex.zip
+                          psyren textures [psytex]
+                            http://www.doomworld.com/afterglow/textures/zips/psytex.zip
+                          The Return [RETRES]
+                            http://www.doomworld.com/idgames/?file=themes/TeamTNT/return/retres.zip
+                          doompotp [doompotp]
+                            http://realm667.com/index.php/repository/texture-stock-mainmenu-152/1107-doom-potpourri-texs?catid=55%3Adoom-style
+                          
+                           drdrtextures [drdrtextures]
+                           http://realm667.com/index.php/repository/texture-stock-mainmenu-152/1353-drdoctor-texture-pack?catid=55%3Adoom-style
+                          Dusk's Texture Packv [dtexpak]
+                            http://realm667.com/index.php/repository/texture-stock-mainmenu-152/1436-dusks-texture-pack?catid=55%3Adoom-style
+                          Baker's Legacy Texture Pack [BAK_LEG]
+                            http://realm667.com/index.php/repository/texture-stock-mainmenu-152/752-bakers-legacy-texture-pack?catid=56%3Aheretic--hexen-style
+                          GZDoom Builder [ZDOOM FORUM TOPIC\APPLICATION]
+                            http://forum.zdoom.org/viewtopic.php?p=613830#p613830
                           
                           
                           
