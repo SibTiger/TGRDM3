@@ -175,6 +175,7 @@ MAP TITLEMAP "Title"
     // The Music Player will _NOT_ play in this map during the Title Screen.
     //  So we must provide a song that fits.
     Music = "TITLE"
+    NoIntermission
 } // Title Map
 
 
@@ -188,4 +189,5 @@ MAP START "Introduction"
     Music = "Lobby"
     IsLobby
     NoBotNodes
+    NoIntermission
 } // START
