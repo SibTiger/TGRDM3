@@ -76,8 +76,14 @@ Credits_MapDesign = "Map Designs";
 Credits_Graphics = "Graphics";
 
 
+// Textures Packs
+Credits_Textures = "Textures";
+Credits_TexturesCont = "Textures Continued";
+
+
 // Sounds
 Credits_Sounds = "Sounds";
+Credits_SoundsCont = "Sounds Continued";
 
 
 // Music
