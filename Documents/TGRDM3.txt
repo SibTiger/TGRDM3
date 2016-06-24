@@ -256,8 +256,6 @@ Additional Credits to   : RESOURCES AND ASSETS
                             https://www.doomworld.com/idgames/graphics/pptex
                           Crucified Dreams [crudream]
                             https://www.doomworld.com/idgames/levels/doom2/deathmatch/Ports/megawads/crudream
-                          5th Episode textures (Doom 2 version) [nb5texd2]
-                            http://www.doomworld.com/afterglow/textures/zips/nb5texd2.zip
                           Doom Noir [doomnoir]
                             https://www.doomworld.com/idgames/graphics/doomnoir
                           NMN Corporation Texture Set Part 1 [NmnCorp1]
@@ -280,7 +278,6 @@ Additional Credits to   : RESOURCES AND ASSETS
                             http://www.doomworld.com/idgames/?file=themes/TeamTNT/return/retres.zip
                           doompotp [doompotp]
                             http://realm667.com/index.php/repository/texture-stock-mainmenu-152/1107-doom-potpourri-texs?catid=55%3Adoom-style
-                          
                            drdrtextures [drdrtextures]
                            http://realm667.com/index.php/repository/texture-stock-mainmenu-152/1353-drdoctor-texture-pack?catid=55%3Adoom-style
                           Dusk's Texture Packv [dtexpak]
