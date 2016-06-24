@@ -1,7 +1,7 @@
 ===========================================================================
 Archive Maintainer      : ATT: THIS IS NOT TO BE UPLOADED: BETA BUILD ONLY
 Advanced engine needed  : GZDoom 2.2 Recommended or later, Zandronum 3.0 Tested
-Primary purpose         : Deathmatch
+Primary purpose         : Deathmatch and Domination
 ===========================================================================
 Title                   : Morgenstern
 Filename                : TGRDM3
