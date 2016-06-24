@@ -140,7 +140,7 @@ Additional Credits to   : RESOURCES AND ASSETS
                           -------------------------
                           This a brief list of credits, for more information
                           and links to the resources, please see the Credits.txt
-                          located in the /documents/ of this .pk3 archive.
+                          located in the /documents/ in this .pk3 archive.
                           Affliction
                             Created a script to detect duplicate files.
                           Mazter
@@ -221,9 +221,9 @@ Additional Credits to   : RESOURCES AND ASSETS
                           
                           TEXTURES
                           -------------------------
-                          This a brief list of credits, for more information
-                          and links to the resources, please see the Credits.txt
-                          located in the /documents/ of this .pk3 archive.
+                          This a brief list of texture credits, for more information
+                          and links to the resources, please see the texture documentation
+                          located in the /documents/textures/ in this .pk3 archive.
                           Too Much Brown (Build 1) [2mbrown]
                             http://www.doomworld.com/idgames/?file=graphics/2mbrown.zip
                           Skulltag Community Domination Project [STDOM]
