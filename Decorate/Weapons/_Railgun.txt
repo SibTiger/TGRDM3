@@ -78,7 +78,12 @@ Actor TGRRailgun : DoomWeapon 5012
         RLGG D 12
         RLGG C 6
         RLGG B 6
-        Goto ReloadCheck
+        // ----
+        // Check for reload
+            //Goto ReloadCheck
+        // Ready to fire [Bypass the reload checking]
+            Goto ReadyToUse
+        // ----
     ReloadCheck:
         RLGG F 6 A_CheckForReload(4, "ReadyToUse")
         GOTO ReloadWeapon
