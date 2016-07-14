@@ -64,6 +64,6 @@ function void DisplayCoopGameModeMSG (VOID)
                 CR_LIGHTBLUE, // Colour of the message
                 1.0, // x value on the Cartesian plane
                 1.0, // y value on the Cartesian plane
-                9.0 // Hold time (seconds))
+                9.0 // Hold time (seconds)
                 );
 } // DisplayCoopGameModeMSG()

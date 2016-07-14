@@ -76,6 +76,6 @@ function void DisplayRendererMSG (VOID)
                 CR_LIGHTBLUE, // Colour of the message
                 0.5, // x value on the Cartesian plane
                 20.1, // y value on the Cartesian plane
-                9.0 // Hold time (seconds))
+                9.0 // Hold time (seconds)
                 );
 } // DisplayRendererMSG()
