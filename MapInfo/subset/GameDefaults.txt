@@ -13,9 +13,6 @@ GameDefaults
     Grinding_PolyObj
     SkyStretch //Enforce Sky stretching regardless of users settings
     LightMode = 0 //Standard Lighting - OpenGL
-    AirControl = 0.00390625 //Standard; this should _force_ child ports that differ in AirControl to use the ZDoom standard.
-    Gravity = 800 //Standard; this should _force_ child ports that differ in Gravity to use the ZDoom standard.
-    AirSupply = 20 //Standard; this should _force_ child ports that differ in AirSupply to use the ZDoom standard.
     ResetHealth // Reset the player's health; useful when entering the map from START.
     ResetInventory // Reset the player's inventory; useful when entering the map from START.
 }
