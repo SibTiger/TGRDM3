@@ -365,7 +365,7 @@ Difficulty Settings     : Not implemented
 
 Base                    : New from scratch
 Build Time              : 9 Years
-Editor(s) used          : GZDoom Builder, SLADE, Notepad++, MSPaint, and a
+Editor(s) used          : GZDoom Builder, SLADE, Notepad++, MSPaint, GIMP, and a
                           lot of Shell Scripts
 Known Bugs              : Zandronum 3.0 is advertised as 'tested', but that's
                           as far as it goes.
