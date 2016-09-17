@@ -1,4 +1,4 @@
 # TGRDM3
 A GZDoom Deathmatch project
 
-Using [GZDoom pre2.2](http://devbuilds.drdteam.org/gzdoom/) which is based on [ZDoom pre2.9](http://devbuilds.drdteam.org/zdoom/)
+Using [GZDoom 2.2](http://forum.drdteam.org/viewforum.php?f=23) which is based on _[ZDoom pre2.9](http://zdoom.org/News)_
