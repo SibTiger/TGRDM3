@@ -1,11 +1,10 @@
 ===========================================================================
-Archive Maintainer      : ATT: THIS IS NOT TO BE UPLOADED: BETA BUILD ONLY
 Advanced engine needed  : GZDoom 2.2 Recommended or later, Zandronum 3.0 Tested
 Primary purpose         : Deathmatch and Domination
 ===========================================================================
 Title                   : Morgenstern
 Filename                : TGRDM3
-Release date            : xx.September.2016
+Release date            : 17.September.2016
 Author                  : Nicholas "Tiger" Gautier
 Email Address           : SibTiger_And_Life@Hotmail.com
 Other Files By Author   : TGRDM1
