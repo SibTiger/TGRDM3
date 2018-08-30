@@ -1,10 +1,12 @@
 ===========================================================================
+Archive Maintainer      : Would you kindly replace 'tgrdm3.zip' with this version.
+Update to               : tgrdm3.zip [ /levels/doom2/deathmatch/Ports/megawads/tgrdm3.zip ]
 Advanced engine needed  : GZDoom 2.2 Recommended or later, Zandronum 3.0 Tested
 Primary purpose         : Deathmatch and Domination
 ===========================================================================
 Title                   : Morgenstern
 Filename                : TGRDM3
-Release date            : 17.September.2016
+Release date            : 31.August.2018
 Author                  : Nicholas "Tiger" Gautier
 Email Address           : SibTiger_And_Life@Hotmail.com
 Other Files By Author   : TGRDM1
@@ -19,7 +21,16 @@ Other Files By Author   : TGRDM1
                             https://www.doomworld.com/idgames/levels/doom2/deathmatch/Ports/a-c/amisery
 Misc. Author Info       : Ich liebe Siberian Tigers :)
 
-Description             : MAPS
+Description             : UPDATE HISTORY
+                          -------------------------
+                          31.August.2018
+                            - Fixed a texture alignment issue in MAP01 (Acerbus) that occurs in GZDoom [version: 3.5.x].
+                          17.September.2016
+                            - Original release
+                          
+                          
+                          
+                          MAPS
                           -------------------------
                           This project contains eleven deathmatch maps based
                           on the New School genre that are inspired by Quake
