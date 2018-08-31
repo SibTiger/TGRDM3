@@ -23,9 +23,9 @@ Misc. Author Info       : Ich liebe Siberian Tigers :)
 
 Description             : UPDATE HISTORY
                           -------------------------
-                          31.August.2018
+                          31.August.2018 [Version: 1.01]
                             - Fixed a texture alignment issue in MAP01 (Acerbus) that occurs in GZDoom [version: 3.5.x].
-                          17.September.2016
+                          17.September.2016 [Version: 1.0]
                             - Original release
                           
                           
